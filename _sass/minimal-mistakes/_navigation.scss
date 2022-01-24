@@ -122,7 +122,7 @@
   @include clearfix();
   float: left;
   width: 100%;
-  
+
   /* next/previous buttons */
   &--pager {
     margin-top: 0em;
@@ -142,7 +142,7 @@
 
     .prev_next {
       font-family: $cute;
-      color:#ffd861;
+      color:#61fff7;
     }
 
     &:hover {

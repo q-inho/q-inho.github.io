@@ -50,17 +50,17 @@
 {% if prev_post or next_post %}
   <nav class="pagination_prev_next">
     {% if prev_post %}
-      <a href="{{ prev_post.url }}" class="pagination_prev_next--pager"><span class="prev_next">Previous Post  &nbsp</span>{{ prev_post.title }}</a>
+      <a href="{{ prev_post.url }}" class="pagination_prev_next--pager"><span class="prev_next">Previous  &nbsp</span>{{ prev_post.title }}</a>
     {% else %}
-      <a href="#" class="pagination_prev_next--pager disabled-first-child">First Post</a>
+      <a href="#" class="pagination_prev_next--pager disabled-first-child">First</a>
     {% endif %}
     {% if next_post %}
-      <a href="{{ next_post.url }}" class="pagination_prev_next--pager"><span class="prev_next">Next Post  &nbsp  </span>{{ next_post.title }}</a>
+      <a href="{{ next_post.url }}" class="pagination_prev_next--pager"><span class="prev_next">Next  &nbsp  </span>{{ next_post.title }}</a>
     {% else %}
-      <a href="#" class="pagination_prev_next--pager disabled-last-child ">Recent Post</a>
+      <a href="#" class="pagination_prev_next--pager disabled-last-child ">Recent</a>
     {% endif %}
   </nav>
 {% else %}
-  <a href="#" class="pagination_prev_next--pager disabled-first-child">First Post</a>
-  <a href="#" class="pagination_prev_next--pager disabled-last-child ">Recent Post</a>
+  <a href="#" class="pagination_prev_next--pager disabled-first-child">First</a>
+  <a href="#" class="pagination_prev_next--pager disabled-last-child ">Recent</a>
 {% endif %}
