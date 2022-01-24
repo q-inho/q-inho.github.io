@@ -10,9 +10,22 @@
 -->
 <html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
   <head>
+
+
+    <!--Font : "Nanum Gothic Coding", "Coming Soon"-->
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Coming+Soon&family=Nanum+Gothic+Coding&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Coming+Soon&family=Nanum+Gothic+Coding&display=swap">
+    
+    <!--Font--> : "Iropke Batang"-->
+    <link rel="preload" as="style" href="https://cdn.jsdelivr.net/font-iropke-batang/1.2/font-iropke-batang.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/font-iropke-batang/1.2/font-iropke-batang.css">
+
+    
+
     {% include head.html %}
     {% include head/custom.html %}
 
+    <!--Customizing scroll bar-->
     <style> 
       ::-webkit-scrollbar{width: 16px;}
       <!-- ::-webkit-scrollbar-track {background-color:#4b4f52; border-radius: 16px;} -->
@@ -25,6 +38,8 @@
       {
           width:12px;height:12px;background:transparent;}
       } 
+
+      
 
 
       
