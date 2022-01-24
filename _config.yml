@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Q-archivum"
+title                    : "Q-Archivum"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Inho Choi"
@@ -102,10 +102,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Inho Choi"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  bio              : "Think as a physicist, and work as an engineer"
+  location         : "Daegu, Republic of Korea"
   email            :
   links:
     - label: "Email"
@@ -288,5 +288,6 @@ defaults:
       comments: # true
       share: true
       related: true
+      mathjax: true 
 
 repository: # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
