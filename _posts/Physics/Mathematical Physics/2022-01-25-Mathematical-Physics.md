@@ -3,7 +3,7 @@ title:  "Mathematical Physics - Category test"
 excerpt: "Third Posting test "
 
 categories:
-  - Mathematical_Physics
+  - Mathematical Physics
 tags:
   - [Physics]
 

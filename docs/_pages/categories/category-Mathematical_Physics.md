@@ -1,7 +1,7 @@
 ---
 title: "Mathematical_Physics"
 layout: archive
-permalink: categories/Mathematical_Physics
+permalink: categories/['Mathematical Physics']
 author_profile: true
 sidebar_main: true
 ---
