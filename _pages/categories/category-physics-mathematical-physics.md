@@ -1,7 +1,7 @@
 ---
 title: "Mathematical Physics"
 layout: archive
-permalink: categories/physics-mathematical-physics'
+permalink: categories/physics-mathematical-physics
 author_profile: true
 sidebar_main: true
 ---
