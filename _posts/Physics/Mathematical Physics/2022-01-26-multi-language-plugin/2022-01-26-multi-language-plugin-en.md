@@ -1,5 +1,4 @@
 ---
-layout: 'post'
 lang: 'en'
 title:  "Physics multi lang English"
 excerpt: "First post in Mathematical Physics "

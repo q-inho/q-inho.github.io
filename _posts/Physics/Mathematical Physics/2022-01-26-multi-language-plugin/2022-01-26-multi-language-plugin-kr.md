@@ -1,5 +1,4 @@
 ---
-layout: 'post'
 lang: 'ko'
 title:  "Physics multi lang Korean"
 excerpt: "First post in Mathematical Physics "
