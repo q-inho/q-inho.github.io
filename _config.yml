@@ -293,8 +293,3 @@ defaults:
       mathjax: true
       sidebar_main: true
 
-
-languages: ["en", "ko"]
-default_lang: "en"
-exclude_from_localization: ["image"]
-parallel_localizaion: false
