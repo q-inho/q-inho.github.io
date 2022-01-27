@@ -1,7 +1,7 @@
 ---
 title: "IBM Qiskit"
 layout: archive
-permalink: categories/categories/qc-ibm-qiskit
+permalink: categories/qc-ibm-qiskit
 author_profile: true
 sidebar_main: true
 ---
