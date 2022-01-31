@@ -10,6 +10,12 @@
       <li>
             📂 <span style="font-family:'Cafe24Oneprettynight';">Total Posts: </style> <span style="font-family:'Coming Soon';">{{sum}}</style> <span style="font-family:'Cafe24Oneprettynight';"></style> 
       </li>
+
+      <li>
+        🗄️ <a href="/year-archive/" class=""><span style="font-family:'Cafe24Oneprettynight';">Archive</style></a>
+      </li>
+
+
       <li>
         <!--span 태그로 카테고리들을 크게 분류 ex) C/C++/C#-->
         <span class="nav__sub-title">Physics</span>
@@ -40,10 +46,8 @@
                 {% endfor %}
             </ul> 
       </li>
-      <li>
-          <a href="/year-archive/" class="">Archive</a>
-      </li>
-      
+
+
       <li>
             
             <br>
