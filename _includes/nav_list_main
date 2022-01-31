@@ -8,11 +8,7 @@
   <ul class="nav__items" id="category_tag_menu">
       <!--Total number of posts-->
       <li>
-            📂 <span style="font-family:'Cafe24Oneprettynight';">Total Posts: </style> <span style="font-family:'Coming Soon';">{{sum}}</style> <span style="font-family:'Cafe24Oneprettynight';"></style> 
-      </li>
-
-      <li>
-        🗄️ <a href="/year-archive/" class=""><span style="font-family:'Cafe24Oneprettynight';">Archive</style></a>
+            📂 <span style="font-family:'Cafe24Oneprettynight';">Total Posts: </style> <a href="/year-archive/" class=""></a><span style="font-family:'Coming Soon';">{{sum}}</style> <span style="font-family:'Cafe24Oneprettynight';"></style></a>
       </li>
 
 
