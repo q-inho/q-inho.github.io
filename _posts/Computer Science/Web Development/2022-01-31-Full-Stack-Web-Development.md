@@ -69,25 +69,26 @@ The Data Access Layer is responsible for concerning and developing the storing a
 
 The Business Logic Layer communicate and interact with the persistent data that is stored in the relational database. Also, it renders information to the front side in form of the server-side. Nowadays, there are increasing trends of using a single language to implement the entire layers. Full Stack JavaScript Development is one example.
 
-1. Present layer commonly uses these for implementation:
-  - JavaScript Frameworks(libraries)
-      * Angular
-      * React
-  - UI Frameworks
-      * Bootstrap 4
-      * Angular Material
+- Present layer commonly uses these for implementation:
+  * JavaScript Frameworks(libraries)
+    + Angular
+    + React
+  * UI Frameworks
+    + Bootstrap 4
+    + Angular Material
 
-2. Business Logic Layer commonly uses these for implementation:
-  - NodeJS
-      * dependent on JavaScript
-  - NodeJS Modules
-  - BaaS
+- Business Logic Layer commonly uses these for implementation:
+  * NodeJS
+    + dependent on JavaScript
+  * NodeJS Modules
+  * BaaS
 
-3. Data Access Layer commonly uses these for implementation:
-  - MongoDB
-  - JSON documents
-      * This format is used for exchange between server-side and front-side.
+- Data Access Layer commonly uses these for implementation:
+  * MongoDB
+  * JSON documents
+    + This format is used for exchange between server-side and front-side.
 
 ##### Useful Link for Full Stack Web Development
-- https://codeburst.io/100-free-resources-to-learn-full-stack-web-development-5b40e0bdf5f2
+- [100+ FREE Resources to Learn Full Stack Web Development](https://codeburst.io/100-free-resources-to-learn-full-stack-web-development-5b40e0bdf5f2) by Brandon Morelli
+- [Web Developer Roadmap](https://codeburst.io/the-2018-web-developer-roadmap-826b1b806e8d) by Brandon Morelli
 
