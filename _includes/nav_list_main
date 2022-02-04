@@ -34,6 +34,13 @@
                 {% endfor %}
             </ul> 
         <span class="nav__sub-title">Computer Science</span>
+        <ul>
+            {% for category in site.categories %}
+                {% if category[0] == "AI" %}
+                    <li><a href="/categories/cs-AI" class="">Artificial Intelligence ({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>         
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Web Development" %}
