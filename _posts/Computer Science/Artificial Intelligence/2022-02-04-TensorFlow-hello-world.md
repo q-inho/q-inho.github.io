@@ -112,7 +112,7 @@ Epoch 499/500 <br>
 1/1 [==============================] - 0s 3ms/step - loss: 0.0047 <br>
 Epoch 500/500 <br>
 1/1 [==============================] - 0s 6ms/step - loss: 0.0047 <br>
-<keras.callbacks.History at 0x7f8a278b9e10> <br>
+\<keras.callbacks.History at 0x7f8a278b9e10> <br>
 ------------------------------------------- <br>
 Prediction when x=10:  [[27.780804]]
 
