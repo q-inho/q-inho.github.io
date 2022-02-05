@@ -1,7 +1,7 @@
 ---
 title: "AI"
 layout: archive
-permalink: categories/qc-AI
+permalink: categories/cs-AI
 author_profile: true
 sidebar_main: true
 ---
