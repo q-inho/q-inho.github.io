@@ -118,11 +118,11 @@ Prediction when x=10:  [[27.780804]]
 
 The data is provided to the system by defining `xs` and `ys`.
 
- <p align="center">
+<center>
 |:---:|---|---|---|---|---|
 |**X**|0.0|1.0|2.0|3.0|4.0|5.0|
 |**Y**|-2.0|1.0|4.0|7.0|10.0|13.0|
-</p>
+</center>
 
 By writing `dtype=float`, we define that the given data is `float`. `float` means it is a real number and written in decimal point. For detail about `float`, you may refer to this [document](https://www.geeksforgeeks.org/python-float-type-and-its-methods/).
 
