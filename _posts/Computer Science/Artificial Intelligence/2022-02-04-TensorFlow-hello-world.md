@@ -79,10 +79,10 @@ print("-------------------------------------------")
 print("Prediction when x=10: ",model.predict([10.0]))
 ```
 
-> Epoch 1/500
-1/1 [==============================] - 0s 401ms/step - loss: 16.7694
+> Epoch 1/500 <br>
+1/1 [==============================] - 0s 401ms/step - loss: 16.7694 <br>
 Epoch 2/500
-1/1 [==============================] - 0s 4ms/step - loss: 11.3999
+1/1 [==============================] - 0s 4ms/step - loss: 11.3999 <br>
 Epoch 3/500
 1/1 [==============================] - 0s 4ms/step - loss: 7.9341
 Epoch 4/500
@@ -168,4 +168,4 @@ When `epoch` is 1000 and the sample size is 12, the following prediction is made
 > Prediction when x=10:  [[27.997055]]
 
 ##### Reference
-* https://colab.research.google.com/github/https-deeplearning-ai/tensorflow-1-public/blob/master/C1/W1/ungraded_lab/C1_W1_Lab_1_hello_world_nn.ipynb
+* <https://colab.research.google.com/github/https-deeplearning-ai/tensorflow-1-public/blob/master/C1/W1/ungraded_lab/C1_W1_Lab_1_hello_world_nn.ipynb>
