@@ -28,6 +28,14 @@
         <span class="nav__sub-title">Quantum Computation/Information</span>
             <ul>
                 {% for category in site.categories %}
+                    {% if category[0] == "Quantum Computing Fundamentals" %}
+                        <li><a href="/categories/qc-quantum-computing-fundamentals" class="">Quantum Computing Fundamentals ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+             
+            <ul>
+                {% for category in site.categories %}
                     {% if category[0] == "IBM Qiskit" %}
                         <li><a href="/categories/qc-ibm-qiskit" class="">IBM Qiskit ({{category[1].size}})</a></li>
                     {% endif %}
