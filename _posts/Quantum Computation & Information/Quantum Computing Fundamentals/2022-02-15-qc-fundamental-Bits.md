@@ -95,7 +95,9 @@ $$
 
 Similar to Decimal, each integer in binary has meaning as below and can convert the binary number into a decimal number that we are familiar with.
 
-\\[\begin{align*} 10101 =& 1\cdot 2^4+0\cdot 2^3+1\cdot 2^2+0\cdot 2^1+1 \cdot 2^0 \\ =& 1\cdot 16+0\cdot 8+1\cdot 4+0\cdot 2+1 \cdot 1 \\ =& 21 \end{align*} \\]
+$$
+\begin{align*} 10101 =& 1\cdot 2^4+0\cdot 2^3+1\cdot 2^2+0\cdot 2^1+1 \cdot 2^0 \\ =& 1\cdot 16+0\cdot 8+1\cdot 4+0\cdot 2+1 \cdot 1 \\ =& 21 \end{align*}
+$$
 
 We can notice that the leftmost number contributes the largest number and we call it the most significant bit. Similarly, the rightmost number contributes the smallest number and we call it the least significant bit.
 
