@@ -28,7 +28,7 @@
         <span class="nav__sub-title">Quantum Computation/Information</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Quantum Computing Fundamentals" %}
+                    {% if category[0] == "QC Fundamentals" %}
                         <li><a href="/categories/qc-quantum-computing-fundamentals" class="">Quantum Computing Fundamentals ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
