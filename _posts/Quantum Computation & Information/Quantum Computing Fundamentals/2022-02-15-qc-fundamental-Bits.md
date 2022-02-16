@@ -48,7 +48,12 @@ The coin has two possible states, heads(H) and tails(T). If we assume that there
 
 The dice has 6 possible states, 1 through 6. If we assume that there are two dice, we can know that there are 36 possible states, since each dice has 6 possible states. We use simple calculation for the total number of states, \\(6\times6=6^2=36\\)
 
-\\[(1,1),(1,2),(1,3),(1,4),(1,5),(1,6) \\ (2,1),(2,2),(2,3),(2,4),(2,5),(2,6) \newline (3,1),(3,2),(3,3),(3,4),(3,5),(3,6) \\ (4,1),(4,2),(4,3),(4,4),(4,5),(4,6) \\ (5,1),(5,2),(5,3),(5,4),(5,5),(5,6) \\ (6,1),(6,2),(6,3),(6,4),(6,5),(6,6) \\]
+\\[(1,1),(1,2),(1,3),(1,4),(1,5),(1,6) \\]
+\\[(2,1),(2,2),(2,3),(2,4),(2,5),(2,6) \\]
+\\[(3,1),(3,2),(3,3),(3,4),(3,5),(3,6) \\]
+\\[(4,1),(4,2),(4,3),(4,4),(4,5),(4,6) \\]
+\\[(5,1),(5,2),(5,3),(5,4),(5,5),(5,6) \\]
+\\[(6,1),(6,2),(6,3),(6,4),(6,5),(6,6) \\]
 
 ## Encoding Information
 
@@ -84,7 +89,10 @@ On the other hand, we can note that the number is the decimal number by writing 
 
 From the decimal number that we commonly use in daily life, we know what does each integer means. For example, 8219 should mean as follow.
 
-\\[\begin{align*} 8219 =& 8\cdot 1000+2\cdot 100+1\cdot 10+9\cdot 1 \\ =& 8\cdot 10^3+2\cdot 10^2+1\cdot 10^1+9\cdot 10^0 \end{align*}\\]
+$$
+\begin{document}
+\begin{align*} 8219 =& 8\cdot 1000+2\cdot 100+1\cdot 10+9\cdot 1 \\ =& 8\cdot 10^3+2\cdot 10^2+1\cdot 10^1+9\cdot 10^0 \end{align*} \end{document}
+$$
 
 Similar to Decimal, each integer in binary has meaning as below and can convert the binary number into a decimal number that we are familiar with.
 
