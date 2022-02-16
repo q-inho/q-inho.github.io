@@ -90,8 +90,7 @@ On the other hand, we can note that the number is the decimal number by writing 
 From the decimal number that we commonly use in daily life, we know what does each integer means. For example, 8219 should mean as follow.
 
 $$
-\begin{document}
-\begin{align*} 8219 =& 8\cdot 1000+2\cdot 100+1\cdot 10+9\cdot 1 \\ =& 8\cdot 10^3+2\cdot 10^2+1\cdot 10^1+9\cdot 10^0 \end{align*} \end{document}
+\begin{align*} 8219 =& 8\cdot 1000+2\cdot 100+1\cdot 10+9\cdot 1 \\ =& 8\cdot 10^3+2\cdot 10^2+1\cdot 10^1+9\cdot 10^0 \end{align*}
 $$
 
 Similar to Decimal, each integer in binary has meaning as below and can convert the binary number into a decimal number that we are familiar with.
