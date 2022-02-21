@@ -56,7 +56,7 @@ The identity gate/buffer gate does not affect anything to the input bit of the g
 
 ## NOT gate
 
-NOT gate/inverter gate flip a bit. Its output is 1 when input is 0, while its output is 0 when input is 1. In the text, the output bit that is the negation of the input bit can be shown as $\overline{A}$ or $\neg{A}$.
+NOT gate/inverter gate flip a bit. Its output is 1 when input is 0, while its output is 0 when input is 1. In the text, the output bit that is the negation of the input bit can be shown as \\(\overline{A}\\) or \\(\neg{A}\\).
 
 #### Circuit Diagram
 
@@ -64,7 +64,7 @@ NOT gate/inverter gate flip a bit. Its output is 1 when input is 0, while its ou
 
 #### Truth Table
 
-| $A$ | $\overline{A}$|
+| \(A\\) | \\(\overline{A}\\)|
 |-------|-------|
 | 0     | 1     |
 | 1     | 0     |
