@@ -18,7 +18,7 @@ last_modified_at: 2022-02-21
 
 We can control the bits by changing the outputs using the logic gates. For comparing the concepts between a classical computer and quantum computing we can refer back to the table from our previous [post](https://q-inho.github.io/qc%20fundamentals/qc-fundamental-Bits/).
 
-<center>
+
 
 | **Concept**                     | **Classical**   | **Quantum**       |
 |---------------------------------|-----------------|-------------------|
@@ -31,7 +31,7 @@ We can control the bits by changing the outputs using the logic gates. For compa
 | Error Correcting Code (Example) | Repetition Code | Shor Code         |
 | Complexity Class                | P               | BQP               |
 | Strong Church-Turing Thesis     | Supports        | Possibly Violates |
-</center>
+
 
 # Single-Bit Gates
 
