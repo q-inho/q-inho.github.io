@@ -49,7 +49,7 @@ The identity gate/buffer gate does not affect anything to the input bit of the g
 
 ### Truth Table
 
-| $A$ | $A$ |
+| \\(A\\) | \\(A\\) |
 |-------|-------|
 | 0     | 0     |
 | 1     | 1     |
@@ -64,14 +64,14 @@ NOT gate/inverter gate flip a bit. Its output is 1 when input is 0, while its ou
 
 #### Truth Table
 
-| \(A\\) | \\(\overline{A}\\)|
+| \\(A\\) | \\(\overline{A}\\)|
 |-------|-------|
 | 0     | 1     |
 | 1     | 0     |
 
 # Two-Bit Gates
 
-A two-bit gate has two input bits and one output bit. Since there are two input bits, there are 4 possibilities $(00,01,10,11)$ in a two-bit gate.
+A two-bit gate has two input bits and one output bit. Since there are two input bits, there are 4 possibilities \\((00,01,10,11)\\) in a two-bit gate.
 
 ## AND gate
 
@@ -94,7 +94,7 @@ In the text, the output bit can be written as $AB$ or $A\wedge B$.
 
 #### Truth Table
 
-| $A$ | $B$ | $AB$ |
+| \\(A\\) | \\(B\\) | \\(AB\\) |
 |-------|-------|--------|
 | 0     | 0     | 0      |
 | 0     | 1     | 0      |
@@ -103,7 +103,7 @@ In the text, the output bit can be written as $AB$ or $A\wedge B$.
 
 ## OR gate
 
-The OR gate outputs 1 when at least one of the input bits is 1. So, it will output 1 except for the case when input bit A is 0 and input bit B is also 0. In the text, the output bit can be written as $A+B$ or $A \vee B$. Since this is not actual addition, it gives out the result as the following equation. 
+The OR gate outputs 1 when at least one of the input bits is 1. So, it will output 1 except for the case when input bit A is 0 and input bit B is also 0. In the text, the output bit can be written as \\(A+B\\) or \\(A \vee B\\). Since this is not actual addition, it gives out the result as the following equation. 
 
 $$
 \begin{align*}
@@ -120,7 +120,7 @@ $$
 
 #### Truth Table
 
-| $A$ | $B$ | $A+B$ |
+| \\(A\\) | \\(B\\) | \\(A+B\\) |
 |-------|-------|--------|
 | 0     | 0     | 0      |
 | 0     | 1     | 1      |
@@ -129,7 +129,7 @@ $$
 
 ## Exclusive OR gate
 
-The Exclusive OR gate/XOR gate outputs 1 when only one of the input bits is 1. So it will output 0 when inputs signals are equal ($00$ or $11$). In the text, the output bit can be written as $A\bigoplus B$. This signal $+$ means addition modulo 2. It gives out the output by taking the remainder after dividing by 2. For example, when input signal A is 1 and output signal B is 1, we can use addition, $1+1=2$ and divide them by 2 to give out the result that the remainder from this division is 0.
+The Exclusive OR gate/XOR gate outputs 1 when only one of the input bits is 1. So it will output 0 when inputs signals are equal (\\(00\\) or \\(11\\)). In the text, the output bit can be written as \\(A\bigoplus B\\). This signal \\(+\\) means addition modulo 2. It gives out the output by taking the remainder after dividing by 2. For example, when input signal A is 1 and output signal B is 1, we can use addition, \\(1+1=2\\) and divide them by 2 to give out the result that the remainder from this division is 0.
 
 $$
 \begin{align*}
@@ -144,7 +144,7 @@ $$
 
 #### Truth Table
 
-| $A$ | $B$ | $A\bigoplus B$ |
+| \\(A\\) | \\(B\\) | \\(A\bigoplus B\\) |
 |-------|-------|--------|
 | 0     | 0     | 0      |
 | 0     | 1     | 1      |
@@ -153,7 +153,7 @@ $$
 
 ## NAND gate
 
-The NAND gate output is 0 when both inputs are 1. In other input signals, it outputs 1. NAND gate stands for NOT of AND and it shows flipped results of AND gate. In the text, the output bit can be written as $\overline{AB}$.
+The NAND gate output is 0 when both inputs are 1. In other input signals, it outputs 1. NAND gate stands for NOT of AND and it shows flipped results of AND gate. In the text, the output bit can be written as \\(\overline{AB}\\).
 
 #### Circuit Diagram
 
@@ -161,7 +161,7 @@ The NAND gate output is 0 when both inputs are 1. In other input signals, it out
 
 #### Truth Table
 
-| $A$ | $B$ | $\overline{AB}$ |
+| \\(A\\) | \\(B\\) | \\(\overline{AB}\\) |
 |-------|-------|--------|
 | 0     | 0     | 1      |
 | 0     | 1     | 1      |
@@ -171,7 +171,7 @@ The NAND gate output is 0 when both inputs are 1. In other input signals, it out
 
 ## NOR gate
 
-The NOR gate output is 0 when at least one of the input bits is 1. So, it will output 1 when both input signal A and input signal B is 0. NOR gate stands for NOT of OR gate and it shows flipped results of OR gate. In the text, the output bit can be written as $\overline{A+B}$.
+The NOR gate output is 0 when at least one of the input bits is 1. So, it will output 1 when both input signal A and input signal B is 0. NOR gate stands for NOT of OR gate and it shows flipped results of OR gate. In the text, the output bit can be written as \\(\overline{A+B}\\).
 
 #### Circuit Diagram
 
@@ -179,7 +179,7 @@ The NOR gate output is 0 when at least one of the input bits is 1. So, it will o
 
 #### Truth Table
 
-| $A$ | $B$ | $\overline{A+B}$ |
+| \\(A\\) | \\(B\\) | \\(\overline{A+B}\\) |
 |-------|-------|--------|
 | 0     | 0     | 1      |
 | 0     | 1     | 0      |
@@ -199,7 +199,7 @@ More complicated and interesting gates can be created by combining the logic gat
 
 #### Truth Table
 
-| $A$ | $B$ | $C$ | $AB$ | $ABC$ |
+| \\(A\\) | \\(B\\) | \\(C\\) | \\(AB\\) | \\(ABC\\) |
 |-------|-------|--------|--------|--------|
 | 0     | 0     | 0      | 0      | 0      |
 | 0     | 0     | 1      | 0      | 0      |
@@ -210,14 +210,14 @@ More complicated and interesting gates can be created by combining the logic gat
 | 1     | 1     | 0      | 1      | 0      |
 | 1     | 1     | 1      | 1      | 1      |
 
-We can notice that we can create the logic gates as we want. In summary, we can have $2^{2^n}$ possible $n$-bit logic gates when there are $n$ input bits.
+We can notice that we can create the logic gates as we want. In summary, we can have \\(2^{2^n}\\) possible $n$-bit logic gates when there are $n$ input bits.
 
 # Universal Gates
 
 According to the previous equation, we may notice that there should be 16 possible two-bit gates, but I only introduced 5 gates. However, these unlisted gates are not necessarily existed as separate gates since these can be reproduced using a few types of gates. A universal gate set is the set of gates that can perform all possible logic operations. {NOT, AND, OR} is a universal gate set and it can create the circuit to perform any truth table.
 
 #### Truth Table
-|$A$|$B$|$C$|**Output**|
+|\\(A\\)|\\(B\\)|\\(C\\)|**Output**|
 |---|---|---|--------|
 | 0 | 0 | 0 | 1      |
 | 0 | 0 | 1 | 0      |
@@ -229,7 +229,7 @@ According to the previous equation, we may notice that there should be 16 possib
 | 1 | 1 | 1 | 0      |
 
 #### Sum of Product (SOP)
-First we may notice from the truth table that the output signal will be 1 when input signal is `000`, `011`, `100` and `110`. For this set of signals, we use negation to show that signal is `0`. For example we can show that input signal A is 0 by writing $\overline{A}$. On the other hand, we can show taht the input signal is 1 by simply writing $A$. After the conversion, we product(multiply) the input signals for the sets that output `1`. From our truth table, we can get $\overline{A}\overline{B}C$, $\overline{A} BC$, $A \overline{B} \overline{C}$ and $A B \overline{C} $. After that we can get add them to get this expression of the circuit of the truth table.
+First we may notice from the truth table that the output signal will be 1 when input signal is `000`, `011`, `100` and `110`. For this set of signals, we use negation to show that signal is `0`. For example we can show that input signal A is 0 by writing \\(\overline{A}\\). On the other hand, we can show taht the input signal is 1 by simply writing \\(A\\). After the conversion, we product(multiply) the input signals for the sets that output `1`. From our truth table, we can get \\(\overline{A}\overline{B}C\\), \\(\overline{A} BC\\), \\(A \overline{B} \overline{C}\\) and \\(A B \overline{C} \\). After that we can get add them to get this expression of the circuit of the truth table.
 
 $$
 F = \overline{A}\overline{B}C + \overline{A} BC + A \overline{B} \overline{C} + A B \overline{C}
