@@ -230,6 +230,7 @@ According to the previous equation, we may notice that there should be 16 possib
 | 1 | 1 | 1 | 0      |
 
 #### Sum of Product (SOP)
+
 First we may notice from the truth table that the output signal will be 1 when input signal is `000`, `011`, `100` and `110`. For this set of signals, we use negation to show that signal is `0`. For example we can show that input signal A is 0 by writing \\(\overline{A}\\). On the other hand, we can show taht the input signal is 1 by simply writing \\(A\\). After the conversion, we product(multiply) the input signals for the sets that output `1`. From our truth table, we can get \\(\overline{A}\overline{B}C\\), \\(\overline{A} BC\\), \\(A \overline{B} \overline{C}\\) and \\(A B \overline{C} \\). After that we can get add them to get this expression of the circuit of the truth table.
 
 $$
