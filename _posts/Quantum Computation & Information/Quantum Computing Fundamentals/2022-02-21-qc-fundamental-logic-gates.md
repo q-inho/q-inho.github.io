@@ -217,6 +217,7 @@ We can notice that we can create the logic gates as we want. In summary, we can 
 According to the previous equation, we may notice that there should be 16 possible two-bit gates, but I only introduced 5 gates. However, these unlisted gates are not necessarily existed as separate gates since these can be reproduced using a few types of gates. A universal gate set is the set of gates that can perform all possible logic operations. {NOT, AND, OR} is a universal gate set and it can create the circuit to perform any truth table.
 
 #### Truth Table
+
 | \\(A\\) | \\(B\\) | \\(C\\) | \\(Output\\) |
 |------|------|------|--------|
 | 0 | 0 | 0 | 1      |
