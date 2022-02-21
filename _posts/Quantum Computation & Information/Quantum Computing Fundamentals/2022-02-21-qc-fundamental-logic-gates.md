@@ -218,7 +218,7 @@ According to the previous equation, we may notice that there should be 16 possib
 
 #### Truth Table
 | \\(A\\) | \\(B\\) | \\(C\\) | **Output** |
-|---|---|---|--------|
+|------|------|------|--------|
 | 0 | 0 | 0 | 1      |
 | 0 | 0 | 1 | 0      |
 | 0 | 1 | 0 | 0      |
