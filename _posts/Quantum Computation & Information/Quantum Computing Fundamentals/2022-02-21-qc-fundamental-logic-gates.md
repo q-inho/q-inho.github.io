@@ -6,8 +6,8 @@ categories:
 tags:
   - [Quantum Computing, Electrical Engineering]
 
-toc: true
-toc_sticky: true
+toc: false
+toc_sticky: false
  
 date: 2022-02-21
 last_modified_at: 2022-02-21
@@ -43,9 +43,10 @@ The identity gate/buffer gate does not affect anything to the input bit of the g
 
 ### Circuit Diagram
 
-![identity gate](https://user-images.githubusercontent.com/79438062/154897404-2c457a75-27ec-4ba4-be32-a90dd5937037.png) 
+![identity gate](https://user-images.githubusercontent.com/79438062/154921238-db3fa5f8-5e20-4e50-b905-4de7749c45dd.jpg)
 
-![wire](https://user-images.githubusercontent.com/79438062/154898240-459aa662-e105-4bb7-9f6c-e723738c4ae6.png)
+
+![wire](https://user-images.githubusercontent.com/79438062/154921265-8e078aa1-ea88-4d53-8724-934414a63dac.jpg)
 
 ### Truth Table
 
@@ -60,7 +61,7 @@ NOT gate/inverter gate flip a bit. Its output is 1 when input is 0, while its ou
 
 #### Circuit Diagram
 
-![NOT gate](https://user-images.githubusercontent.com/79438062/154899040-db5345ac-95dc-4867-8e91-98394ac4179d.png)
+![NOT gate](https://user-images.githubusercontent.com/79438062/154921318-7a74e024-5338-4d4c-ae9d-e97fb6f2817b.jpg)
 
 #### Truth Table
 
@@ -90,7 +91,7 @@ In the text, the output bit can be written as \\(AB\\) or \\(A\wedge B\\).
 
 #### Circuit Diagram
 
-![AND gate](https://user-images.githubusercontent.com/79438062/154900163-148e753c-118f-45fe-82a8-63610909bb78.png)
+![AND gate](https://user-images.githubusercontent.com/79438062/154921349-c44185bb-c9b3-440d-8786-ab54f31bbd41.jpg)
 
 #### Truth Table
 
@@ -116,7 +117,8 @@ $$
 
 #### Circuit Diagram
 
-![OR gate](https://user-images.githubusercontent.com/79438062/154901236-38f152f9-7082-49b5-85b8-f26d00958f06.png)
+![OR gate](https://user-images.githubusercontent.com/79438062/154921399-f12568d3-761f-4eb2-bfaa-7ad2390040ae.jpg)
+
 
 #### Truth Table
 
@@ -140,7 +142,9 @@ $$
 
 #### Circuit Diagram
 
-![XOR gate](https://user-images.githubusercontent.com/79438062/154902365-402ae207-7231-407d-a63e-d96d5b791944.png)
+![XOR gate](https://user-images.githubusercontent.com/79438062/154921441-7273b5ce-060b-4bc7-afc7-26a1e75ebec0.jpg)
+
+
 
 #### Truth Table
 
@@ -157,7 +161,7 @@ The NAND gate output is 0 when both inputs are 1. In other input signals, it out
 
 #### Circuit Diagram
 
-![NAND gate](https://user-images.githubusercontent.com/79438062/154903220-0bfee52f-eb7b-45e8-b7ac-4d782a1a7b7c.png)
+![NAND gate](https://user-images.githubusercontent.com/79438062/154921466-f6925b91-4887-43ec-9786-e6c30504a440.jpg)
 
 #### Truth Table
 
@@ -175,7 +179,8 @@ The NOR gate output is 0 when at least one of the input bits is 1. So, it will o
 
 #### Circuit Diagram
 
-![NOR gate](https://user-images.githubusercontent.com/79438062/154903574-930c2bd6-2a5e-4404-b8eb-c4811c1a7001.png)
+![NOR gate](https://user-images.githubusercontent.com/79438062/154921512-2be55cb0-50e6-4c86-9a30-b508045f783c.jpg)
+
 
 #### Truth Table
 
@@ -191,11 +196,11 @@ The NOR gate output is 0 when at least one of the input bits is 1. So, it will o
 More complicated and interesting gates can be created by combining the logic gates. For example, we can add 2 AND gates to form 3 inputs – 1 output AND gate.
 
 #### Circuit Design
-![circuit1](https://user-images.githubusercontent.com/79438062/154904575-85db1453-434a-4a11-ad29-814481da0466.png)
+![circuit1](https://user-images.githubusercontent.com/79438062/154921532-3207a541-f4d7-4c64-80ca-d94c07576f27.jpg)
 
 #### AND gate with 3 inputs
 
-![3-AND gate](https://user-images.githubusercontent.com/79438062/154904862-e1cc246e-180b-4379-b844-59070a8c4417.png)
+![3-AND gate](https://user-images.githubusercontent.com/79438062/154921566-39fae55a-4060-48b3-912f-cef8e1ce4aa1.jpg)
 
 #### Truth Table
 
@@ -239,7 +244,7 @@ $$
 
 By using this expression, we can draw the circuit diagram.
 
-![circuit3](https://user-images.githubusercontent.com/79438062/154914488-01c6d513-2108-44bc-9a85-fc7f3192b410.png)
+![circuit3](https://user-images.githubusercontent.com/79438062/154921691-2859b764-6574-4fd5-a800-0820e15521fd.jpg)
 
 
 ##### Reference
