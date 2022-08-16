@@ -115,10 +115,10 @@ author:
       icon: "fas fa-fw fa-link"
       url: "https://github.com/q-inho"
     - label: "Linkedin"
-      icon: "fab fa-linked-in"
+      icon: "fab fa-fw fa-linked-in"
       url: "https://www.linkedin.com/in/inho-choi01/"
     - label: "CV"
-      icon: "fa-solid fa-file-user"
+      icon: "fa-solid fa-fw fa-file-user"
       url: 
     #- label: "Twitter"
     #  icon: "fab fa-fw fa-twitter-square"
