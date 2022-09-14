@@ -352,7 +352,7 @@ body {
   border-radius: $border-radius;
   background-color: hsl(165, 59%, 63%);
   font-family: $serif;
-  color: mix(rgb(255, 247, 0), $primary-color, 40%);;
+  color: hsl(122, 76%, 39%);;
 
   &:hover {
     text-decoration: none;
