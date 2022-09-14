@@ -332,13 +332,13 @@ body {
   text-decoration: none;
   border: 1px solid $background-color;
   border-radius: $border-radius;
-  background-color: #ffad6a;
+  background-color: #E3C770;
   font-family: $serif;
   color: $primary-color;
 
   &:hover {
     text-decoration: none;
-    color: mix(#00adb5, $text-color, 40%); /* cursor */
+    color: mix(#00b5a6, $text-color, 40%); /* cursor */
   }
 }
   
@@ -350,7 +350,7 @@ body {
   text-decoration: none;
   border: 1px solid $background-color;
   border-radius: $border-radius;
-  background-color: #E3C770;
+  background-color: #ffad6a;
   font-family: $serif;
   color: mix(#fff, $primary-color, 2%);;
 
