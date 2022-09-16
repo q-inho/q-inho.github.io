@@ -1,6 +1,6 @@
 ---
 title:  "Study Roadmap for Physics"
-excerpt: "Physics - Classical Mechanics, Electricity and Magnetism, Quantum Mechanics, Thermodynamics and Statistical Physics, ..."
+excerpt: "Physics - Classical Mechanics, Quantum Mechanics, ..."
 
 categories:
   - phys-general
