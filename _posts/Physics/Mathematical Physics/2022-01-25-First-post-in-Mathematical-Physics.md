@@ -26,6 +26,7 @@ last_modified_at: 2022-09-16
 </div>
 
 <div class="mermaid"> 
+%%{init: {'theme': 'base', 'themeVariables': { 'fontSize': '13px', 'fontFamily': 'Inter'}}}%%
       graph LR
         PHYS2022[Modern Physics]
         MATH2023[Multivariable Calculus]
