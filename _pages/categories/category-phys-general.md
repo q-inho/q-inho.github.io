@@ -1,7 +1,7 @@
 ---
 title: "General"
 layout: archive
-permalink: categories/physics-general
+permalink: categories/phys-general
 author_profile: true
 sidebar_main: true
 ---
