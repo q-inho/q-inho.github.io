@@ -3,7 +3,7 @@ title:  "Study Roadmap for Physics"
 excerpt: "Physics - Classical Mechanics, Quantum Mechanics, ..."
 
 categories:
-  - phys-general
+  - Mathematical Physics
 tags:
   - [Physics]
 
