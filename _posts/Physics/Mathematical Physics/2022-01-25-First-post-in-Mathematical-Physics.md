@@ -16,10 +16,10 @@ last_modified_at: 2022-09-16
 
 ## First post in Mathematical Physics
 
-​```mermaid
+<div class="mermaid"> 
 graph TD;
     A-->B;
     A-->C;
     B-->D;
     C-->D;
-​```
+​</div>
