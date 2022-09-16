@@ -57,7 +57,7 @@ last_modified_at: 2022-09-16
         PHYS3033 & PHYS4050 --> PHYS5200[Electro and Magneto Statics]
         PHYS3033 --> PHYS5210[Electromagnetic Waves, Maxwell Equations, and Relativity]
         PHYS4051 --> PHYS5260[Advanced Quantum Mechanics]
-        PHYS4051 --> PHYS5280[Modern AMO (Atomic Molecular Optical) Physics with Atoms and Photons]
+        PHYS4051 --> PHYS5280[Modern AMO Physics with Atoms and Photons]
         PHYS4050 --> PHYS5310[Statistical Mechanics I]
         PHYS4050 & PHYS4051 --> PHYS5340[Introduction to Quantum Many-body Theory]
         PHYS5170 --> PHYS5370[Solid State Physics II]
