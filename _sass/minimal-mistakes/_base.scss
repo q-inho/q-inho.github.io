@@ -145,7 +145,6 @@ a {
   }
 
   &:hover {
-    text-decoration-color: currentColor;
     color: mix(#87f1ff, $link-color-hover, 70%);
     outline: 0;
   }
