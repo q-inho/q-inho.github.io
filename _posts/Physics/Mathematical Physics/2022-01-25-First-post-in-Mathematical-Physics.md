@@ -15,3 +15,11 @@ last_modified_at: 2022-01-25
 ---
 
 ## First post in Mathematical Physics
+
+​```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+​```
