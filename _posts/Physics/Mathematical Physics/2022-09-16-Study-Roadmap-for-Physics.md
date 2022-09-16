@@ -1,6 +1,6 @@
 ---
 title:  "Study Roadmap for Physics"
-excerpt: "Physics - Classical Mechanics, Quantum Mechanics, ..."
+excerpt: "Physics"
 
 categories:
   - Mathematical Physics
@@ -10,8 +10,8 @@ tags:
 toc: true
 toc_sticky: true
  
-date: 2022-09-17
-last_modified_at: 2022-09-17
+date: 2022-09-16
+last_modified_at: 2022-09-16
 ---
 
 # My Roadmap for Physics
