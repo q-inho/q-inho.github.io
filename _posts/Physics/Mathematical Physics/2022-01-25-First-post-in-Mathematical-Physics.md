@@ -16,16 +16,19 @@ last_modified_at: 2022-09-16
 
 ## First post in Mathematical Physics
 
-<div class="mermaid"> 
-    graph LR;
-        A[What] --> B;
-        A --> C;
-        B --> D;
-        C --> D;
+<div class="mermaid">
+    ```mermaid
+    graph LR
+        A[What] --> B
+        A --> C
+        B --> D
+        C --> D
+    ```
 </div>
 
 <div class="mermaid"> 
 
+    ```mermaid
     graph LR;
       PHYS2022[Modern Physics];
       MATH2023[Multivariable Calculus];
@@ -68,5 +71,6 @@ last_modified_at: 2022-09-16
       PHYS4052 --> PHYS5810[Modern Semiconductor Physics];
       PHYS4057 --> PHYS5820[Diffraction and Imaging Techniques in Materials Science];
       -->
+    ```
 
 </div>
