@@ -145,7 +145,8 @@ a {
   }
 
   &:hover {
-    color: $link-color-hover;
+    text-decoration: underline;
+    color: mix(#87f1ff, $link-color-hover, 40%);
     outline: 0;
   }
 }
