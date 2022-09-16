@@ -18,7 +18,7 @@ last_modified_at: 2022-09-16
 
 <div class="mermaid"> 
     graph LR;
-        A --> B;
+        A[What] --> B;
         A --> C;
         B --> D;
         C --> D;
@@ -51,6 +51,8 @@ last_modified_at: 2022-09-16
       PHYS4059[Physics of Management Science];
       PHYS3031 --- PHYS4060[Computational Physics];
       PHYS2022 & MATH2352 --> PHYS4071[Big Bang Cosmology and Inflation];
+
+      <!--
       PHYS3031 --> PHYS5110[Mathematical Methods in Physics];
       PHYS4051 --> PHYS5120[Computational Energy Materials and Electronic Structure Simulations];
       PHYS4051 --> PHYS5170[Solid State Physics I];
@@ -65,5 +67,6 @@ last_modified_at: 2022-09-16
       PHYS3032 & PHYS3033 & PHYS3031 --> PHYS5530[Introduction to General Relativity];
       PHYS4052 --> PHYS5810[Modern Semiconductor Physics];
       PHYS4057 --> PHYS5820[Diffraction and Imaging Techniques in Materials Science];
+      -->
 
 </div>
