@@ -18,11 +18,11 @@ last_modified_at: 2022-09-16
 
 <div class="mermaid">
     ```mermaid
-    graph LR
-        A[What] --> B
-        A --> C
-        B --> D
-        C --> D
+    graph LR;
+        A[What] --> B;
+        A --> C;
+        B --> D;
+        C --> D;
     ```
 </div>
 
