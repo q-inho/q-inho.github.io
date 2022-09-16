@@ -1,5 +1,5 @@
 ---
-title: "General"
+title: "phys-general"
 layout: archive
 permalink: categories/phys-general
 author_profile: true

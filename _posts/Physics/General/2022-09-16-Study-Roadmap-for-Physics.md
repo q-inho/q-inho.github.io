@@ -3,7 +3,7 @@ title:  "Study Roadmap for Physics"
 excerpt: "Physics"
 
 categories:
-  - Mathematical Physics
+  - phys-general
 tags:
   - [Physics]
 
