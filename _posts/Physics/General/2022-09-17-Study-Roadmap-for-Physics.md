@@ -1,32 +1,23 @@
 ---
-title:  "Mathematical Physics - Category"
-excerpt: "First post in Mathematical Physics "
+title:  "Study Roadmap for Physics"
+excerpt: "Physics - Classical Mechanics, Electricity and Magnetism, Quantum Mechanics, Thermodynamics and Statistical Physics, ..."
 
 categories:
-  - Mathematical Physics
+  - phys-general
 tags:
   - [Physics]
 
 toc: true
 toc_sticky: true
  
-date: 2022-01-25
-last_modified_at: 2022-09-16
+date: 2022-09-17
+last_modified_at: 2022-09-17
 ---
 
-## First post in Mathematical Physics
+## My Roadmap for Physics
 
-<div class="mermaid">
-    graph LR
-        A[What] --> B
-        A --> C
-        B --> D
-        C --> D
-        E
-</div>
 
 <div class="mermaid"> 
-%%{init: {'theme': 'base', 'themeVariables': { 'fontSize': '13px', 'fontFamily': 'Inter'}}}%%
       graph LR
         PHYS2022[Modern Physics]
         MATH2023[Multivariable Calculus]
