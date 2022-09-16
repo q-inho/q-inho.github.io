@@ -22,6 +22,9 @@ last_modified_at: 2022-09-16
         A --> C;
         B --> D;
         C --> D;
+</div>
+
+<div class="mermaid"> 
 
     graph TD;
     PHYS2022[Modern Physics];
