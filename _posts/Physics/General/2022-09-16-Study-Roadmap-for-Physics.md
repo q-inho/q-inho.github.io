@@ -89,7 +89,7 @@ last_modified_at: 2022-09-18
 <details>
 <summary>Study material</summary>
 <div markdown="1">
-- __Mathematical Methods in The Physical Sciences__ by Mary L. Boas
+- ***Mathematical Methods in The Physical Sciences*** by Mary L. Boas
 </div>
 </details>
 >Physical applications of analytic and numerical methods are studied in such topics as differential equations, Fourier series, Laplace transforms, matrices and vectors.
@@ -99,8 +99,8 @@ last_modified_at: 2022-09-18
 <details>
 <summary>Study material</summary>
 <div markdown="1">
-- Classical Dynamics of Particles and Systems by Thornton & Marion
-- Analytic Mechanics by Fowles & Cassiday
+- *Classical Dynamics of Particles and Systems* by Thornton & Marion
+- **Analytic Mechanics** by Fowles & Cassiday
 </div>
 </details>
 >Newtonian mechanics, including rigid bodies; oscillating systems; gravitation and planetary motion; Lagrange equations; Hamilton's equations; normal modes and small oscillations.
