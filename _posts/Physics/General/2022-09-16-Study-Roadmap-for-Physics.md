@@ -82,7 +82,6 @@ last_modified_at: 2022-09-17
 3. [Understanding Modern Physics III: Simplicity and Complexity](https://www.coursera.org/learn/understanding-modern-physics-3-simplicity-and-complexity)
 </div>
 </details>
-
 >Introduction to relativity; introduction to quantum theory: particle-wave duality and Schrodinger equation; atoms, molecules; and statistical physics: Maxwell, Bose and Fermi distributions.
 
 ## Mathematical Methods in Physics
@@ -93,10 +92,17 @@ last_modified_at: 2022-09-17
 - Mathematical Methods in The Physical Sciences by Mary L. Boas
 </div>
 </details>
-
 >Physical applications of analytic and numerical methods are studied in such topics as differential equations, Fourier series, Laplace transforms, matrices and vectors.
 
+## Classical Mechanics
 
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- Classical Dynamics of Particles and Systems by Thornton & Marion
+</div>
+</details>
+>Newtonian mechanics, including rigid bodies; oscillating systems; gravitation and planetary motion; Lagrange equations; Hamilton's equations; normal modes and small oscillations.
 
 #### Reference
 
