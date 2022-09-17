@@ -75,6 +75,7 @@ last_modified_at: 2022-09-17
 ## Modern Physics
 
 >Introduction to relativity; introduction to quantum theory: particle-wave duality and Schrodinger equation; atoms, molecules; and statistical physics: Maxwell, Bose and Fermi distributions.
+
 MOOC:
 1. [Understanding Modern Physics I: Relativity and Cosmology](https://www.coursera.org/learn/understanding-modern-physics-1-relativity-and-cosmology)
 2. [Understanding Modern Physics II: Quantum Mechanics and Atoms](https://www.coursera.org/learn/understanding-modern-physics-2-quantum-mechanics-and-atoms)
@@ -83,6 +84,7 @@ MOOC:
 ## Mathematical Methods in Physics
 
 >Physical applications of analytic and numerical methods are studied in such topics as differential equations, Fourier series, Laplace transforms, matrices and vectors.
+
 Resource:
 - Mathematical Methods in The Physical Sciences by Mary L. Boas
 
