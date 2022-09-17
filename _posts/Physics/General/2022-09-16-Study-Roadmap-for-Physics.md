@@ -10,8 +10,8 @@ tags:
 toc: true
 toc_sticky: true
  
-date: 2022-09-16
-last_modified_at: 2022-09-16
+date: 2022-09-17
+last_modified_at: 2022-09-17
 ---
 
 # My Roadmap for Physics
@@ -57,6 +57,27 @@ last_modified_at: 2022-09-16
         PHYS3032 & PHYS3033 & PHYS3031 --> PHYS5530[Introduction to General Relativity]
         PHYS4052 --> PHYS5810[Modern Semiconductor Physics]
         PHYS4057 --> PHYS5820[Diffraction and Imaging Techniques in Materials Science]
+        MATH2033[Mathematical Analysis]
+        MATH2023 & MATH2033 -->   MATH4023[Complex Analysis]
+        MATH2023 & MATH2121 & MATH2352 --> MATH4052[Partial Differential Equations]
+        MATH2023 & MATH2033 & MATH2121 --> MATH3033[Real Analysis]
+        MATH2121 --> MATH3121[Abstract Algebra]
+        MATH2023 & MATH2121 --> MATH4223[Differential Geometry]
+
 
 
 </div>
+
+---
+
+# Undergraduate Study
+
+## Modern Physics
+
+>Introduction to relativity; introduction to quantum theory: particle-wave duality and Schrodinger equation; atoms, molecules; and statistical physics: Maxwell, Bose and Fermi distributions.
+
+## 
+
+#### Reference
+
+- https://prog-crs.hkust.edu.hk/ugcourse
