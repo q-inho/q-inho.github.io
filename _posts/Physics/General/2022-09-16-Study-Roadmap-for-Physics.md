@@ -89,7 +89,7 @@ last_modified_at: 2022-09-18
 <details>
 <summary>Study material</summary>
 <div markdown="1">
-- Mathematical Methods in The Physical Sciences by Mary L. Boas
+- __Mathematical Methods in The Physical Sciences__ by Mary L. Boas
 </div>
 </details>
 >Physical applications of analytic and numerical methods are studied in such topics as differential equations, Fourier series, Laplace transforms, matrices and vectors.
