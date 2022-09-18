@@ -63,6 +63,11 @@ last_modified_at: 2022-09-18
         MATH2023 & MATH2033 & MATH2121 --> MATH3033[Real Analysis]
         MATH2121 --> MATH3121[Abstract Algebra]
         MATH2023 & MATH2121 --> MATH4223[Differential Geometry]
+        PHYS5170 --> PHYS6810H[Introduction of Topological Band Theory]
+        PHYS5410 --> PHYS6810I[Scientific Programming and Visualization]
+        PHYS5340 --> PHYS6810J[Many-particle Physics]
+        PHYS5520 --> PHYS6810K[Advanced Quantum Field Theory]
+
 
 
 
@@ -415,6 +420,20 @@ last_modified_at: 2022-09-18
 
 ## Diffraction and Imaging Techniques in Materials Science
 >Fundamental crystallography; crystalline structure and defects; X-ray and electron diffractions; imaging contrast mechanisms; structure determination; analytical electron microscopy. The instructor's approval is required for taking this course.
+
+## Introduction of Topological Band Theory
+>The course will mainly cover the most recent development in the band theory, which introduces the concept of topology. Topics include Bloch theorem, energy band, Berry’s curvature, Spin Hall effect and quantum spin Hall effect, topological invariance, Chern number and Z2 index, Z2 topological insulator, topological crystalline insulator, topological semimetal and Weyl semimetal.
+
+## Scientific Programming and Visualization
+>This course will contain the basic skills of scientific programming in different languages, e.g. Python, Matlab and Mathematica, and various methods to visualize data in different forms. The instructor's approval is required for taking this course.
+
+## Many-particle Physics
+>Green's function method; density functional theory; interacting electron gas; linear response theory and Kubo formula; Kondo effect; superconductivity and superfluidity.
+
+## Advanced Quantum Field Theory
+>Effective Field Theory; Spontaneous Symmetry Breaking; Finite Temperature Field Theory; Abelian Higgs Model; Non-Abelian Gauge Theory; Quantum Chromodynamics (QCD); Non-linear Sigma Model; Electroweak Theory and the Standard Model; Nonperturbative Methods; Grand Unification.
+
+
 
 
 #### Reference

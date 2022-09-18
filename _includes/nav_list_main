@@ -35,6 +35,8 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+
+            
         <span class="nav__sub-title">Quantum Computation/Information</span>
             <ul>
                 {% for category in site.categories %}
@@ -52,6 +54,13 @@
                 {% endfor %}
             </ul> 
         <span class="nav__sub-title">Computer Science</span>
+        <ul>
+            {% for category in site.categories %}
+                {% if category[0] == "comp-general" %}
+                    <li><a href="/categories/comp-general" class="">General ({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
         <ul>
             {% for category in site.categories %}
                 {% if category[0] == "AI" %}
