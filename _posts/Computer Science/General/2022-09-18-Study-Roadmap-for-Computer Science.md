@@ -132,7 +132,7 @@ last_modified_at: 2022-09-18
 <details>
 <summary>Study material</summary>
 <div markdown="1">
-- #Big C++: Late Objects# by Cay Horstmann
+- *Big C++: Late Objects* by Cay Horstmann
 </div>
 </details>
 >This course covers programming and data structures using C++. In addition to basic programming concepts such as variables and control statements, students will learn about arrays, pointers, dynamic data allocation, linked lists, stacks, queues, binary trees, recursion, and the basics of object oriented programming.
