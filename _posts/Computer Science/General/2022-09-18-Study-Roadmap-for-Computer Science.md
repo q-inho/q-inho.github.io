@@ -138,12 +138,24 @@ last_modified_at: 2022-09-18
 >This course covers programming and data structures using C++. In addition to basic programming concepts such as variables and control statements, students will learn about arrays, pointers, dynamic data allocation, linked lists, stacks, queues, binary trees, recursion, and the basics of object oriented programming.
 
 ## Object-Oriented Programming and Data Structures
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- *C++ How to Program* by Paul Deitel, Harvey Deitel
+</div>
+</details>
 >To learn the fundamental concepts and techniques behind object-oriented programming. They include: abstract data types; creation, initialization, and destruction of objects; class hierarchies; polymorphism, inheritance and dynamic binding; generic programming using templates. To learn the object-oriented view of data structures: linked lists, stacks, queues, binary trees, and algorithms such as searching and hashing.
 
 ## Computer Organization
 >Inner workings of modern digital computer systems and tradeoffs at the hardware-software interface. Topics include: instructions set design, memory systems, input-output systems, interrupts and exceptions, pipelining, performance and cost analysis, assembly language programming, and a survey of advanced architectures.
 
 ## Discrete Mathematical Tools for Computer Science
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- *Discrete Mathematics and Its Applications* by Kenneth Rosen
+</div>
+</details>
 >Basic concepts in discrete mathematics needed for the study of computer science: enumeration techniques, basic number theory, logic and proofs, recursion and recurrences, probability theory and graph theory. The approach of this course is specifically computer science application oriented.
 
 ## Java Programming
@@ -328,6 +340,13 @@ last_modified_at: 2022-09-18
 >Introduction to the relational model and SQL. System architectures and implementation techniques of database management systems: disk and memory management, access methods, implementation of relational operators, query processing and optimization, transaction management and recovery. Hands on experience with building the components of a small DBMS.
 
 ## Knowledge Discovery in Databases
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- *Data Mining: Concepts and Techniques* by Jiawei Han
+- *Introduction to Data Mining* by Pang-Ning Tan
+</div>
+</details>
 >An introduction to knowledge discovery in databases. Different discovery and learning techniques are presented and compared. Automatic generation of query language expressions is discussed in depth. Potential applications are shown.
 
 ## Advanced Computer Graphics
