@@ -11,7 +11,7 @@ toc: false
 toc_sticky: false
  
 date: 2022-09-18
-last_modified_at: 2022-09-18
+last_modified_at: 2022-09-21
 ---
 
 # My Roadmap for Computer Science
@@ -34,6 +34,7 @@ last_modified_at: 2022-09-18
         COMP2012 & MATH2411[Applied Statistics] --> COMP4211[Machine Learning]
         MATH2411 --> COMP4221[Introduction to Natural Language Processing]
         COMP2011 & COMP2711 & MATH2121 --> COMP4222[Machine Learning with Structured Data]
+        COMP3311 --> COMP4311[Principles of Database Design]
         COMP2011 --> COMP4321[Search Engines for Web and Enterprise Data]
         MATH2411 --> COMP4331[Data Mining]
         COMP4221 --> COMP4332[Big Data Mining and Management]
@@ -159,33 +160,78 @@ last_modified_at: 2022-09-18
 >Basic concepts in discrete mathematics needed for the study of computer science: enumeration techniques, basic number theory, logic and proofs, recursion and recurrences, probability theory and graph theory. The approach of this course is specifically computer science application oriented.
 
 ## Java Programming
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- *Introduction to Java Programming and Data Structures* by Y. Daniel Liang
+</div>
+</details>
 >Introduction to Java programming. Fundamentals include language syntax, object-oriented programming, inheritance, polymorphism, exception handling, multithreading and lambdas. Standard libraries for input/output, graphics programming, built-in data structures. Programming for events, generics and higher-order functions.
 
 ## Principles of Programming Languages
 >Comparative studies of programming languages, programming language concepts and constructs. Non-imperative programming paradigms: object-oriented, functional, logic, concurrent programming. Basic concepts of program translation and interpretation. Storage allocation and run-time organization.
 
 ## Software Engineering
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- *Object-Oriented Software Engineering using UML, Patterns, and JAVA* by Bernd Bruegge, Allen H. Dutoit
+</div>
+</details>
 >Methods and tools for planning, designing, implementing, validating, and maintaining large software systems. Project work to build a software system as a team, using appropriate software engineering tools and techniques.
 
 ## Fundamentals of Artificial Intelligence
 >Foundations underlying design of intelligent systems. Relations between logical, statistical, cognitive, biological paradigms; basic techniques for heuristic search, theorem proving, knowledge representation, adaptation; applications in vision, language, planning, expert systems.
 
 ## Database Management Systems
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- *Database System Concepts* by Abraham Silberschatz
+- *Principles of Database Management* by Wilfred Lemahieu
+</div>
+</details>
 >Principles of database systems; conceptual modeling and data models; logical and physical database design; query languages and query processing; database services including concurrency, crash recovery, security and integrity. Hands-on DBMS experience.
 
 ## Operating Systems
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- *Operating System Concepts* by Abraham Silberschatz, Peter Baer Galvin, Greg Gagne
+</div>
+</details>
 >Principles, purpose and structure of operating systems; processes, threads, and multi-threaded programming; CPU scheduling; synchronization, mutual exclusion; memory management and virtual memory; device management; file systems, security and protection.
 
 ## Principles of Cybersecurity
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- *Introduction to Computer Security* by Michael Goodrich, Roberto Tamassia
+- *Information Security Principles and Practice* by Mark Stamp
+</div>
+</details>
 >This course is an introduction to the principles of cybersecurity. Cybersecurity, also called computer security or IT security, refers to the study of techniques to protect computing systems from attacks that threaten data confidentiality, system integrity and availability. By modeling, analyzing, and evaluating the security of computer systems, students will learn to find weaknesses in software, hardware, networks, data storage systems, mobile applications, and the Internet, and identify current security practices and defenses to protect these systems.
 
 ## Design and Analysis of Algorithms
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- *Introduction to Algorithms* by Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein
+- *Algorithm Design* by Jon Kleinberg, Eva Tardos
+</div>
+</details>
 >Techniques for designing algorithms, proving their correctness, and analyzing their running times. Topics covered include: sorting, selection, heaps, balanced search trees, divide-and-conquer, greedy algorithms, dynamic programming, and graph algorithms.
 
 ## Theory of Computation
 >This course is an introduction to the foundation of computation. Topics covered include set theory and countability, formal languages, finite automata and regular languages, pushdown automata and context-free languages, Turing machines, undecidability, P and NP, NP completeness.
 
 ## Internet Computing
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- *Internet & World Wide Web How To Program* by P. J. Deitel, H. M. Deitel
+</div>
+</details>
 >Technologies and standards for World Wide Web (WWW), user interfaces and Browsers, authoring tools, Internet protocols, Internet servers, database connectivity, Robots, Search engines, server-side programming, client-side programming, security and privacy, recent advances.
 
 ## Software Engineering Practices
@@ -200,16 +246,37 @@ last_modified_at: 2022-09-18
 ## Machine Learning with Structured Data
 >This course provides an introduction to statistical machine learning algorithms for structured data such as text sequences, taxonomy trees, relational databases (such as knowledge bases), and graphs (including graph databases such as biomedical graphs and large heterogeneous information networks such as knowledge graphs), and using programming tools such as Python to implement them for real problems. It will use some of the following practical problems such as text and graph classification, statistical relational learning, information extraction, sequence modeling, graph modeling, protein 3D structure prediction, QA system, etc. as illustrations to demonstrate the power of the statistical learning algorithms.
 
+## Principles of Database Design
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- *Database Modeling and Design: Logical Design* by Toby Teorey
+</div>
+</details>
+>Data modeling concepts; conceptual, logical and physical design; analyzing, evaluating and improving schemas; schema documentation and maintenance; functional analysis; design tools; schema mappings; database tuning; distributed database design.
+
 ## Search Engines for Web and Enterprise Data
 >Text retrieval models, vector space model, document ranking, performance evaluation; indexing, pattern matching, relevance feedback, clustering; web search engines, authority-based ranking; enterprise data management, content creation, meta data, taxonomy, ontology; semantic web, digital libraries and knowledge management applications.
 
 ## Data Mining
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- *Data Mining Concepts and Techniques* by Jiawei Han, Micheline Kamber, Jian Pei
+</div>
+</details>
 >This course will provide an introduction to concepts and techniques in the field of data mining. Materials include an introduction to data warehousing and OLAP, data preprocessing and the techniques used to explore the large quantities of data for the discovery of predictive models and knowledge. The course will include techniques such as nearest neighbor, decision tress, neural networks, Bayesian networks and Naive Bayes, rule-based methods, association analysis and clustering, as well as social networks and data mining applications in business and finance applications, and other emerging data mining subareas. Students learn the materials by attending lectures and implementing and applying different data analysis and mining techniques to large datasets throughout the semester.
 
 ## Big Data Mining and Management
 >This course will expose students to new and practical issues of real world mining and managing big data. Data mining and management is to effectively support storage, retrieval, and extracting implicit, previously unknown, and potentially useful knowledge from data. This course will place emphasis on two parts. The first part is big data issues such as mining and managing on distributed data, sampling on big data and using some cloud computing techniques on big data. The second part is applications of the techniques learnt on areas such as business intelligence, science and engineering, which aims to uncover facts and patterns in large volumes of data for decision support. This course builds on basic knowledge gained in the introductory data-mining course, and explores how to more effectively mine and manage large volumes of real-world data and to tap into large quantities of data. Working on real world data sets, students will experience all steps of a data-mining and management project, beginning with problem definition and data selection, and continuing through data management, data exploration, data transformation, sampling, portioning, modeling, and assessment.
 
 ## Computer Graphics
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- *Computer Graphics Principles and Practice* by John F. Hughes, Andrie Van Dam, Morgan Mcguire, David F. Sklar, James D. Foley, Steven K. Feiner, Kurt Akeley
+</div>
+</details>
 >Display technologies; scan conversion; clipping; affine transformations; homogeneous coordinates and projection; viewing transformations; hidden surface removal; reflectance and shading models; ray tracing; spline curves and surfaces; hierarchical modeling; texture mapping; color models.
 
 ## Image Processing
@@ -225,15 +292,34 @@ last_modified_at: 2022-09-18
 >Computer game development touches on many facets of computer science, including computer graphics, artificial intelligence, algorithms, networking, human-computer interaction, music, and sound. This course will cover all of these aspects, with special emphasis on real-time graphics rendering. Students will get hands-on experience on how to design and implement real-world computer games, which will help improve their skills in programming, teamwork, management, and communication.
 
 ## Human-Computer Interaction
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- *Interaction Design Beyond Human-Computer Interaction* by Sharp, Rogers, Preece
+- *The UX Book Process and Guidelines for Ensuring a Quality User Experience* by Rex Hartson, Pardha S. Pyla
+</div>
+</details>
 >This course is a broad introduction to Human-Computer Interaction (HCI), with an emphasis on techniques, models, theories, and applications for designing, prototyping, and evaluating current and future interactive systems for human use. HCI is an interesting and important area of study, providing the human perspective to computing. Besides technology and innovation, it also touches on issues like ethics and social responsibilities related to technologies in the real world. Selected topics include multimodal interaction design, usability evaluation, computer-supported cooperative work, assistive technologies, social computing, crowd computing, ubiquitous/mobile computing, virtual/augmented reality and gaming, agents and robots, and HCI applications in various domains such as education, health, urban sustainability, scientific discoveries, etc.
 
 ## Data Visualization
 >This course will introduce visualization techniques for data from everyday life, social media, business, scientific computing, medical imaging, etc. The topics include human visual system and perception, visual design principles, open- source visualization tools and systems, visualization techniques for CT/MRI data, computational fluid dynamics, graphs and networks, time-series data, text and documents, Twitter data, and spatio-temporal data. The labs and the course project will give students hands-on experience to turn their data into beautiful visualizations.
 
 ## Deep Learning in Computer Vision
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- *Deep Learning* by Ian Goodfellow, Yoshua Bengio, Aaron Courville
+</div>
+</details>
 >Deep learning has significantly advanced the performance of computer vision system from object recognition to image processing. This course covers the basics and various applications of deep learning in computer vision. Students will study the details of convolutional neural networks as well as recurrent neural networks and train deep networks with end-to-end optimization, and learn deep learning based approaches for both high-level and low-level computer vision tasks such as image recognition and image enhancement. Through programming projects, students will implement, train, and test deep neural networks on cutting-edge computer vision research. Students would be required to study or do research in a final course project related to deep learning and computer vision and present their work by the end of the course.
 
 ## System and Kernel Programming in Linux
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- *Linux Kernel Development* by Rovert Love
+</div>
+</details>
 >This course is designed to equip students, who have a particular interest in becoming practitioners, with substantial hands-on experience in solving concrete problems in a computer operating system, via programming, in a laboratory intensive course. Students will notably experiment with many topics in the areas of operating systems and network protocols, such as: boot loaders, shell, process management, system calls, process scheduler, file system, virtual memory, network protocols and packet filtering, system modules and device drivers. For students of the Department of Computer Science and Engineering only.
 
 ## Mobile Application Development
@@ -243,6 +329,12 @@ last_modified_at: 2022-09-18
 >Analysis, synthesis and evaluation of different computer architectures. Emphasis on computer design with respect to price/performance and its relation to architectural choices such as pipelining, memory hierarchy, input/output, instruction set design, vector processing, and multiprocessing.
 
 ## Computer Communication Networks I, II
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- *Computer Networking: A Top-Down Approach* by James Kurose
+</div>
+</details>
 >Principles of computer network architectures and communication protocols; the OSI reference model; switching and multiplexing techniques; data link, network, transport and application layers; LAN and medium access protocols; network programming.
 
 >Principles, design and implementation of computer communication networks; network architecture and protocols, OSI reference model and TCP/IP networking architecture; Internet applications and requirements; transport protocols, TCP and UDP; network layer protocols, IP, routing, multicasting and broadcasting; local area networks; data link and physical layer issues; TCP congestion control, quality of service, emerging trends in networking.
@@ -254,9 +346,23 @@ last_modified_at: 2022-09-18
 >This course equips students with cybersecurity knowledge and current IT practices on security risk management. Through hands-on laboratory sessions, students will understand existing IT security issues, learn how to assess IT security risks, and conduct experiments on ethical hacking. They will practice system attack and defense strategies using security tools, so as to gain practical experience to become a cybersecurity professional. The course covers current security trends, industrial practices on IT security, design requirements for secure web and mobile applications, security assessment, risk analysis and risk management. Knowledge in web programming and database administration is not essential but a plus.
 
 ## Social Information Network Analysis and Engineering
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- *Networks, Crowds, and Markets Reasoning about a Highly Connected World* by David Easley, Jon Kleinberg
+</div>
+</details>
 >This course is an introduction to social information network analysis and engineering. Students will learn both mathematical and programming knowledge for analyzing the structures and dynamics of typical social information networks (e.g. Facebook, Twitter, and MSN). They will also learn how social metrics can be used to improve computer system design as people are the networks. It will cover topics such as small world phenomenon; contagion, tipping and influence in networks; models of network formation and evolution; the web graph and PageRank; social graphs and community detection; measuring centrality; greedy routing and navigations in networks; introduction to game theory and strategic behavior; social engineering; and principles of computer system design. Students who do not have the prerequisites but with equivalent background may seek approval from the instructor for enrollment in the course.
 
 ## Cloud Computing and Big Data Systems
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- *Hadoop: The Definitive Guide* by Tom White
+- *Spark: The Definitive Guide Big Data Processing Made Simple* by Bill Chambers, Matei Zaharia
+- *Learning Spark* by Holden Karau, Andy Konwinski, Patrick Wendell, Matei Zaharia
+</div>
+</details>
 >Big data systems, including Cloud Computing and parallel data processing frameworks, emerge as enabling technologies in managing and mining the massive amount of data across hundreds or even thousands of commodity servers in datacenters. This course exposes students to both the theory and hands-on experience of this new technology. The course will cover the following topics. (1) Basic concepts of Cloud Computing and production Cloud services; (2) MapReduce - the de facto datacenter-scale programming abstraction - and its open source implementation of Hadoop. (3) Apache Spark - a new generation parallel processing framework - and its infrastructure, programming model, cluster deployment, tuning and debugging, as well as a number of specialized data processing systems built on top of Spark. By walking through a number of hands-on labs and assignments, students are expected to gain first-hand experience programming on real world clusters in production datacenters.
 
 ## Heterogeneous Parallel Programming
@@ -269,6 +375,12 @@ last_modified_at: 2022-09-18
 >This course provides a comprehensive introduction to computer vision. Major topics include image processing, detection and recognition, geometry-based and physics-based vision and video analysis. Instructor's approval is required for enrollment in the course.
 
 ## Artificial Intelligence Ethics
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- *Ethically Aligned Design* by The IEEE Global Initiative on Ethics of Autonomous and Intelligent Systems
+</div>
+</details>
 >This course critically surveys the fast moving, urgent, emerging area of AI ethics. AI is explosively disrupting every sphere of our work and lives. Cambridge Analytica and fake news bots. AI driven social media displacing traditional journalism. Drone warfare. Elimination of traditional jobs. Privacy-violating advertising. Biased AI decision/recognition algorithms. Deepfakes. Autonomous vehicles. Automated hedge fund trading. No area remains untouched. Policy think tanks, governments, and tech companies around the world have started paying serious attention to AI ethics. How will human civilization survive the rise of AI? What are the new rules? What are the ethical frameworks needed to avoid extinction? What are engineers’ and entrepreneurs’ ethical responsibilities?
 
 ## High Performance Computing
@@ -316,15 +428,38 @@ last_modified_at: 2022-09-18
 >Introduction to parallel computer architectures; principles of parallel algorithm design; shared-memory programming models; message passing programming models used for cluster computing; data-parallel programming models for GPUs; case studies of parallel algorithms, systems, and applications; hands-on experience with writing parallel programs for tasks of interest.
 
 ## Advanced Artificial Intelligence
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- *Artificial Intelligence A Modern Approach* by Stuart Russel, Peter Norvig
+</div>
+</details>
 >This advanced AI course will cover advanced concepts and techniques in AI. The major topics will be: problem solving, knowledge and reasoning, planning, uncertain knowledge and reasoning, learning, and robotics.
 
 ## Advanced Machine Learning
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- *Deep Learning* by Ian Goodfellow, Yoshua Bengio, Aaron Courville
+- *Machine Learning A Probabilistic Perspective* by Kevin P. Murphy
+- *Introduction to Machine Learning* by Ethem Alpaydin
+- *Pattern Recognition and Machine Learning* by Christopher M. Bishop
+- *Reinforcement Learning An Introduction* by Richard S. Sutton, Andrew G. Barto
+</div>
+</details>
 >Introduction to major learning paradigms and techniques, basic applied statistics and information theory, decision trees, neural networks, Bayesian classification, kernel methods, clustering, density estimation, feature selection and extraction, hidden Markov models, reinforcement learning, case-based learning, model selection and various applications.
 
 ## Introduction to Bayesian Networks
 >Bayesian networks and probabilistic modeling of complex domains; conditional independence and graph separation; variable elimination, clique tree propagation, and other inference algorithms; parameter learning; structure learning; latent structure models; recent developments.
 
 ## Advanced Deep Learning Architectures
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- *Deep Learning* by Ian Goodfellow, Yoshua Bengio, Aaron Courville
+- *Dive into Deep Learning* by Aston Zhang, Zachary C. Lipton, Mu Li, Alexander J. Smola
+</div>
+</details>
 >This course focuses on advanced deep learning architectures and their applications in various areas. Specifically, the topics include various deep neural network architectures with applications in computer vision, signal processing, graph analysis, and natural language processing. Different state-of-the-art neural network models will be introduced, including graph neural networks, normalizing flows, point cloud models, sparse convolutions,and neural architecture search. The students have the opportunities to implement deep learning models for some AI-related tasks such as visual perception, image processing and generation, graph processing, speech enhancement, sentiment classification, and novel view synthesis.
 
 ## Natural Language Processing
@@ -334,6 +469,13 @@ last_modified_at: 2022-09-18
 >This course will introduce a number of important statistical methods and modeling principles for analyzing large-scale data sets, with a focus on complex data structures such as text and graph data. Topics covered include sequential models, structure prediction models, deep learning attention models, reinforcement learning models etc., as well as open research problems in this area.
 
 ## Perception and Information Processing for Robotics
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- *Probabilistic Robotics* by Sebastian Thrun, Wolfram Burgard, Dieter Fox
+- *Pattern Reconition and Machine Learning* by Christopher M. Bishop
+</div>
+</details>
 >This course introduces the essential theoretical frameworks, methods, concepts, tools and techniques used to enable robotic perception and behavior, with particular emphasis on applications in autonomous mobile robots. The course starts from Bayesian programming and probabilistic methods, and then moves on to cover generic machine learning, especially deep learning. For each knowledge point, practical examples will be discussed with guidance to selection of methods. It also covers reinforcement learning with the application in complex system control. Important libraries for hands-on experiments for mobile robotic systems will be introduced. The students will have the opportunity to test their algorithms and implementations on real platforms.
 
 ## Database Architecture and Implementation
@@ -345,6 +487,7 @@ last_modified_at: 2022-09-18
 <div markdown="1">
 - *Data Mining: Concepts and Techniques* by Jiawei Han
 - *Introduction to Data Mining* by Pang-Ning Tan
+- *Data Mining: Practical Machine Learning Tools and Techniques* by Ian H. Witten
 </div>
 </details>
 >An introduction to knowledge discovery in databases. Different discovery and learning techniques are presented and compared. Automatic generation of query language expressions is discussed in depth. Potential applications are shown.
@@ -353,6 +496,12 @@ last_modified_at: 2022-09-18
 >The first part of this course covers an introduction to mathematical tools and computational techniques for image synthesis and manipulation of 3D models. The second part covers more advanced topics which may include digital geometry processing, image processing, visualization, GPU computing, numerical optimization methods.
 
 ## Computer Vision
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- *Computer Vision Algorithms and Applications* by Richard Szeliski
+</div>
+</details>
 >Introduction to techniques for automatically describing visual data and tools for image analysis; perception of spatial organization; models of general purpose vision systems; computational and psychological models of perception.
 
 ## Advanced Computer Communications and Networking
@@ -365,21 +514,49 @@ last_modified_at: 2022-09-18
 >This is an introductory graduate course in algorithmic techniques. Topics include: advanced data structures; graph algorithms; amortization; approximation algorithms; on-line algorithms; randomized and probabilistic analysis.
 
 ## Introduction to Combinatorial Optimization
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- *Approximation Algorithms* by Vijay V. Vazirani
+- *Combinatorial Optimization: Exact and Approximate Algorithms* by Luca Trevisan
+- *The Design of Approximation Algorithms* by David P. Williamson, David B. Shmoys
+</div>
+</details>
 >An introduction to the basic tools of combinatorial optimization, including network flow and the max-flow min-cut theorem, linear programming, matching, spanning trees and matroids, dynamic programming, algorithms and data structures, graph algorithms.
 
 ## Computational Geometry
 >An introductory course in Computational Geometry. Algorithms for manipulating geometric objects. Topics include Convex Hulls, Voronoi Diagrams, Point Location, Triangulations, Randomized Algorithms, Point-Line Duality.
 
 ## Optimization for Machine Learning
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- *Convex Optimization: Algorithms and Complexity* by Sebastien Bubeck
+- *Convex Optimization* by Stephan Boyd, Lieven Vandenberghe
+</div>
+</details>
 >This course covers modern optimization methods for machine learning applications. We will discuss both theory and implementation of common optimization algorithms in the context of machine learning applications. The topics covered include convex optimization, stochastic optimization, nonconvex optimization, and distributed optimization. Knowledge with calculus, linear algebra, and probability, basic machine learning are required.
 
 ## Mathematical Analysis of Machine Learning Algorithms
 >This is an advanced graduate course for students who are already familiar with basic machine learning algorithms such as support vector machines, decision trees, boosting, neural networks etc, and has learned the basic mathematical tools such as calculus, linear algebra, and probability. This is mainly a mathematical class, and the goal is to introduce the basic techniques in the theoretical analysis of machine learning algorithms, with motivations and applications.
 
 ## Federated Learning
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- *Federated Learning Privacy and Incentive* by Qiang Yang, Lixin Fan, Han Yu
+
+</div>
+</details>
 >This course introduces the basic concepts, frameworks, applications and open problems in the emerging field federated learning. It includes discussions on important topics such as privacy, communication efficiency and incentives.
 
 ## Deep Learning in Medical Image Analysis
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- *Guide to Medical Image Analysis: Methods and Algorithms* by Klaus Toennies
+</div>
+</details>
 >Nowadays medical image analysis is rapidly growing and plays an indispensable role in healthcare. Recent advances of deep learning techniques have made significant breakthroughs in medical image analysis applications. This course will cover fundamental knowledge of medical imaging and various medical image analysis tasks, including computer-aided detection, segmentation, diagnosis and prognosis. Deep learning methods for solving these tasks will be introduced and state-of-the-art methods will be discussed. The remaining significant challenges and limitations will also be presented, including limited amount of labeled data, deep learning with interpretation and generalization issues, etc. This course will equip students with practical knowledge of medical imaging and analysis with deep learning techniques. Instructor’s approval is required.
 
 ## Blockchain and Cryptocurrency Technologies
@@ -389,6 +566,12 @@ last_modified_at: 2022-09-18
 >Visual scene understanding is an important and fundamental field for advanced application scenarios such as autonomous driving and robotics. This course majorly focuses on delivering deep learning-based visual scene understanding techniques in both 2D and 3D perspectives. In the 2D part, it introduces topics including image and scene classification, semantic segmentation, and object detection. In the 3D part, it shows how 3D scene understanding can be performed through learning from 2D inputs, involving topics such as scene depth estimation, camera pose prediction, 3D scene reconstruction, and visual SLAM. Several representative deep scene understanding architectures and frameworks in supervised or self-supervised settings together with the 2D/3D tasks are also presented in the course.
 
 ## Theory of Types and Programming Languages
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- *Types and Programming Languages* by  Benjamin Pierce
+</div>
+</details>
 >This course studies types and programming languages from a type-theoretic perspective. Starting from lambda calculus, the foundation of functional programming languages, we see how to design gradually more advanced type systems following the motto “Well-typed programs do not go wrong”, meaning that types should guard us, at compilation time, from wide classes of runtime errors. Taking this principle to the extreme, we see how dependent type systems let us prove nontrivial properties of our programs, and how they relate to mathematical logic in a fundamental way. The knowledge acquired in this course has many practical applications in software engineering and computer science. It will sharpen the student’s understanding of static types in modern programming languages, as well as their ability to construct correct and reliable programs. Topics covered include lambda calculus, operational semantics, type systems, programming language theory and metatheory.
 
 
