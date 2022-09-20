@@ -5,7 +5,7 @@ excerpt: "Software Engineering, Network, AI and others.."
 categories:
   - comp-general
 tags:
-  - [Physics]
+  - [Computer Science]
 
 toc: false
 toc_sticky: false
