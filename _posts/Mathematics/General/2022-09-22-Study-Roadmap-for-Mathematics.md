@@ -213,6 +213,129 @@ last_modified_at: 2022-09-23
 ---
 
 # Undergraduate Mathematics
+- Multivariable Calculus
+- Mathematical Analysis
+- Linear Algebra
+- Discrete Structures
+- Differential Equations
+- Applied Statistics
+- Probability
+- Fundamentals of Actuarial Mathematics
+- Geometric Constructions
+- Real Analysis
+- Abstract Algebra
+- Numerical Analysis
+- Matrix Computation
+- Data Analytic Tools
+- Combinatorial Analysis
+- Statistical Inference
+- Regression Analysis
+- Stochastic Modeling
+- Sampling
+- Bayesian Statistics
+- Complex Analysis
+- Calculus on Manifolds
+- Theory of Ordinary Differential Equations
+- Partial Differential Equations
+- Topics in Modern Analysis
+- Functional Analysis
+- Number Theory and Applications
+- Introduction to Lie Groups
+- Euclidean and Non-Euclidean Geometries
+- Differential Geometry
+- Topology
+- Game Theory
+- Introduction to Fluid Dynamics
+- Mathematical Biology
+- Introduction to Optimization
+- Introduction to Mathematics of Image Processing
+- Introduction to Graph Theory
+- Numerical Solutions of Partial Differential Equations
+- Nonparametric Statistics
+- Multivariate Analysis
+- Introductory Time Series
+- Survival Analysis
+- Loss Models and their Applications
+- Bayesian Analysis and Credibility Theory
+- Statistical Machine Learning
+- Quantitative Methods for Fixed Income Derivatives
+- Fundamentals of Mathematical Finance
+- Life Contingencies Models and Insurance Risk
+- Financial Economics in Actuarial Science
+
+# Undergraduate Computer Science
+- Programming with C++
+- Object-Oriented Programming and Data Structures
+- Computer Organization
+- Principles of Programming Languages
+- Software Engineering
+- Fundamentals of Artificial Intelligence
+- Database Management Systems
+- Operating Systems
+- Principles of Cybersecurity
+- Design and Analysis of Algorithms
+- Internet Computing
+- Machine Learning
+- Introduction to Natural Language Processing
+- Machine Learning with Structured Data
+- Data Mining
+- Big Data Mining and Management
+- Image Processing
+- Computer and Communication Security
+- Social Information Network Analysis and Engineering
+- Cloud Computing and Big Data Systems
+
+# Undergraduate Economics
+- Principles of Accounting I
+- Fundamentals of Business Finance
+- Microeconomics
+- Microeconomic Theory I
+- Macroeconomic Theory I
+- Microeconomic Theory II
+- Macroeconomic Theory II
+- Introduction to Econometrics
+
+# Undergraduate Physics
+- Modern Physics
+- Classical Mechanics
+- Electricity and Magnetism I, II
+- Quantum Mechanics I
+- Quantum Mechanics II
+- Thermodynamics and Statistical Physics
+
+# Postgraduate Mathematics
+- Advanced Real Analysis I
+- Complex Function Theory
+- Advanced Algebra I
+- Advanced Algebra II
+- Introduction to Lie Algebras
+- Lie Groups
+- Differential Topology
+- Algebraic Topology
+- Algebraic Geometry I
+- Algebraic Geometry II
+- Advanced Partial Differential Equations
+- Applied Analysis
+- Advanced Numerical Methods I
+- Advanced Numerical Methods II
+- Computational Fluid Dynamics for Inviscid Flows
+- Mathematical Methods in Science and Engineering I
+- Mathematical Methods in Science and Engineering II
+- Multiscale Modeling and Computation for Non-equilibrium Flows
+- Combinatorics
+- Advanced Probability Theory I
+- Advanced Probability Theory II
+- Advanced Mathematical Statistics I
+- Advanced Mathematical Statistics II
+- Stochastic Processes
+- Time Series Analysis
+- Advanced Statistical Machine Learning
+- Statistical Learning Models for Text and Graph Data
+- Computer Age Statistical Inference with Applications
+- Topological and Geometric Data Reduction and Visualization
+- Interest Rate Models
+
+# Details
 ## Multivariable Calculus
 <details>
 <summary>Study material</summary>
