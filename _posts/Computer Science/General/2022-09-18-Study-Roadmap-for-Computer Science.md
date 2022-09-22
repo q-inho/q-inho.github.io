@@ -579,3 +579,4 @@ last_modified_at: 2022-09-21
 
 - https://prog-crs.hkust.edu.hk/ugcourse
 - https://prog-crs.hkust.edu.hk/pgcourse
+- http://stellar.mit.edu/index.html
