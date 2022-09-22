@@ -77,6 +77,9 @@ last_modified_at: 2022-09-18
 
 # Undergraduate Physics
 
+<details>
+<summary>Study material</summary>
+<div markdown="2">
 ## Modern Physics
 
 <details>
@@ -88,6 +91,8 @@ last_modified_at: 2022-09-18
 </div>
 </details>
 >Introduction to relativity; introduction to quantum theory: particle-wave duality and Schrodinger equation; atoms, molecules; and statistical physics: Maxwell, Bose and Fermi distributions.
+</div>
+</details>
 
 ## Mathematical Methods in Physics
 
