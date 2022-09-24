@@ -51,7 +51,7 @@ last_modified_at: 2022-09-24
         CENG5210[Advanced Separation Processes]
         CENG5220[Numerical Methods for Chemical Engineering]
         CENG5230[Advanced Control and Data Science]
-        CNEG5300[Advanced Chemical Engineering Thermodynamics]
+        CENG5300[Advanced Chemical Engineering Thermodynamics]
         CENG5520[Polymer and Materials Characterization Techniques]
         CENG5530[Physical and Rheological Behavior of Polymers]
         CENG5550[Polymer Physics and Advanced Applications]
@@ -80,7 +80,7 @@ last_modified_at: 2022-09-24
 
         ENVR3210 --> CIVL4450
         CENG2210 --> ENEG4320
-        ENVR2010 & ENVR3010 --> ENVR3210
+        ENVR2010 & ENVR2030 --> ENVR3210
 
 
 </div>
