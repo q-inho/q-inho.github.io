@@ -28,10 +28,11 @@ last_modified_at: 2022-09-24
         
         MECH2020[Statics and Dynamics]
         MECH2020 --> MECH2040[Solid Mechanics I]
-        MECH2023 & MECH2310 --> MECH2210[Fluid Mechanics]
+        MATH2023 & MECH2310 --> MECH2210[Fluid Mechanics]
         MECH2310[Thermodynamics]
         MECH2410[Engineering Materials I]
         MECH2520[Design and Manufacturing I]
+        MECH2020 --> MECH3010[Solid Mechanics I]
         MECH2040 --> MECH3020[Solid Mechanics II]
         MECH2020 --> MECH3030[Mechanisms of Machinery]
         MECH3110[Materials for Energy Technologies]
@@ -95,7 +96,7 @@ last_modified_at: 2022-09-24
         MECH3310 --> MECH5230
         MECH5210 --> MECH5320
         MECH3420 --> MECH5410
-        MECh3310 --> MECH5430
+        MECH3310 --> MECH5430
         MECH3510 --> MECH5520
         MECH4720 --> MECH5540
         MECH4720 --> MECH5550
@@ -104,7 +105,7 @@ last_modified_at: 2022-09-24
         MECH2040 & MECH5010 --> MECH5931
         MECH3020 --> MECH5940
         MECH3640 --> MECH5961
-        MECH3010 & MECH3410 & MECH3241 & MECH3520 --> MECH5980
+        MECH3010 & MECH3520 --> MECH5980
 
         subgraph Aeronautical Engineering
         CIVL3310[Structural Analysis]
