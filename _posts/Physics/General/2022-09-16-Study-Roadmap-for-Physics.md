@@ -53,6 +53,7 @@ last_modified_at: 2022-09-18
         PHYS4050 --> PHYS5310[Statistical Mechanics I]
         PHYS4050 & PHYS4051 --> PHYS5340[Introduction to Quantum Many-body Theory]
         PHYS5170 --> PHYS5370[Solid State Physics II]
+        PHYS4060 --> PHYS5410[Numeric Modeling in Physics]
         PHYS3032 & PHYS3033 & PHYS4051 --> PHYS5520[Introduction to Quantum Field Theory]
         PHYS3032 & PHYS3033 & PHYS3031 --> PHYS5530[Introduction to General Relativity]
         PHYS4052 --> PHYS5810[Modern Semiconductor Physics]

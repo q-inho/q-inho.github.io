@@ -134,7 +134,7 @@ last_modified_at: 2022-09-22
         end
 
         COMP2012 & ELEC2600 --> COMP4211
-        ELEC2600 --> COMP4221
+        COMP2011 & MATH2121 --> COMP4421
         MECH2520 --> MECH3907
         MECH2020 --> MECH4710
 
