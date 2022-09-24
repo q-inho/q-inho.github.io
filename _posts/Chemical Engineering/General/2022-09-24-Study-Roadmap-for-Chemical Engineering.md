@@ -10,8 +10,8 @@ tags:
 toc: false
 toc_sticky: false
  
-date: 2022-09-23
-last_modified_at: 2022-09-23
+date: 2022-09-24
+last_modified_at: 2022-09-24
 ---
 
 # My Roadmap for Chemical Engineering
@@ -27,7 +27,7 @@ last_modified_at: 2022-09-23
         CENG2110 --> CNEG3150[Integrated Chemical Process and Product Design]
         CENG2110 & CENG2210 --> CENG3210[Separation Processes]
         CENG2220 --> CENG3220[Transport Phenomena II]
-        CNEG3230[Chemical and Biological Reaction Engineering]
+        CENG3230[Chemical and Biological Reaction Engineering]
         CENG2310 --> CENG3300[Data Science for Molecular Engineering]
         CENG2110 --> CENG4130[Plant Design and Economics]
         CENG2210 --> CENG4140[Energy Resources, Conversion and Technologies]
