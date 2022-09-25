@@ -120,7 +120,7 @@
                 {% endfor %}
             </ul>
         
-        <details>
+        
             <summary>Study material</summary>
             <div markdown="1">    
 
@@ -134,9 +134,9 @@
                     </ul>
 
             </div>
-        </details>
+       
 
-        
+
         </li>  
 
       <li>
