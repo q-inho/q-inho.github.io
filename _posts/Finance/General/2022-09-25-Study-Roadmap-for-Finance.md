@@ -136,6 +136,7 @@ last_modified_at: 2022-09-26
 
         subgraph Advanced Study
         FINA5110[Central Bank Operations]
+        FINA5120[Corporate Finance]
         FINA5140[Advanced Topics in Financial Management]
         FINA5150[Corporate Risk Management]
         FINA5160[Private Equity Investing]
@@ -298,6 +299,7 @@ last_modified_at: 2022-09-26
 
 # Postgraduate Finance
 - Financial Accounting Foundations
+- Corporate Finance
 - Central Bank Operations
 - Advanced Topics in Financial Management
 - Corporate Risk Management
