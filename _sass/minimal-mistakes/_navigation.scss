@@ -520,8 +520,9 @@
   font-weight: bold;
 }
 
+
 .nav__sub-title {
-  color: rgb(33, 131, 210);
+  color: rgb(62, 2, 166);
   display: block;
   margin: 0.5rem 0;
   padding: 0.25rem 0;
@@ -531,6 +532,21 @@
   text-transform: uppercase;
   border-bottom: 1px solid $border-color;
 }
+
+
+.nav__sub-title2 {
+  color: rgb(0, 140, 255);
+  display: block;
+  margin: 0.5rem 0;
+  padding: 0.25rem 0;
+  font-family: $sans-serif-narrow;
+  font-size: $type-size-6;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: 1px solid $border-color;
+}
+
+
 
 /*
      Table of contents navigation

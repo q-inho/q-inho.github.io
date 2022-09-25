@@ -31,27 +31,6 @@
                     {% endif %}
                 {% endfor %}
             </ul> 
-        
-        <span class="nav__sub-title">Chemistry</span>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "chem-general" %}
-                        <li><a href="/categories/chem-general" class="">General ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-
-
-
-
-        <span class="nav__sub-title">Mathematics</span>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "math-general" %}
-                        <li><a href="/categories/math-general" class="">General ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
 
 
 
@@ -76,18 +55,7 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-        
 
-        <span class="nav__sub-title">Chemical Engineering</span>
-            <ul>
-            {% for category in site.categories %}
-                {% if category[0] == "ceng-general" %}
-                    <li><a href="/categories/ceng-general" class="">General ({{category[1].size}})</a></li>
-                {% endif %}
-            {% endfor %}
-            </ul>  
-        
-        
         <span class="nav__sub-title">Computer Science</span>
             <ul>
             {% for category in site.categories %}
@@ -118,11 +86,45 @@
                         <li><a href="/categories/elec-general" class="">General ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
-            </ul>
-       
-              
+            </ul>            
 
-        <span class="nav__sub-title">Mechanical Engineering</span>
+
+
+        <span class="nav__sub-title">Mathematics</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "math-general" %}
+                        <li><a href="/categories/math-general" class="">General ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
+        
+
+
+
+        <span class="nav__sub-title2">Chemistry</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "chem-general" %}
+                        <li><a href="/categories/chem-general" class="">General ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
+
+
+        <span class="nav__sub-title2">Chemical Engineering</span>
+            <ul>
+            {% for category in site.categories %}
+                {% if category[0] == "ceng-general" %}
+                    <li><a href="/categories/ceng-general" class="">General ({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+            </ul>  
+
+
+        <span class="nav__sub-title2">Mechanical Engineering</span>
             <ul>
             {% for category in site.categories %}
                 {% if category[0] == "mech-general" %}
