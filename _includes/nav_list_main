@@ -15,7 +15,7 @@
       <li>
         <!--span 태그로 카테고리들을 크게 분류 ex) C/C++/C#-->
 
-        <span class="nav__sub-title">Quantum Computation/Information</span>
+        <span class="nav__sub-title">*Quantum Computation/Information*</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "QC Fundamentals" %}
