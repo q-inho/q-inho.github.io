@@ -119,7 +119,7 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-        </li>
+        
 
         <span class="nav__sub-title">Mechanical Engineering</span>
             <ul>
@@ -128,7 +128,8 @@
                     <li><a href="/categories/mech-general" class="">General ({{category[1].size}})</a></li>
                 {% endif %}
             {% endfor %}
-            </ul>  
+            </ul>
+        </li>  
 
       <li>
             
