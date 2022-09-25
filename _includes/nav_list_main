@@ -120,9 +120,9 @@
                 {% endfor %}
             </ul>
         
-        
+        <details>
             <summary>Study material</summary>
-            <div markdown="1">    
+              
 
                 <span class="nav__sub-title">Mechanical Engineering</span>
                     <ul>
@@ -133,10 +133,10 @@
                     {% endfor %}
                     </ul>
 
-            </div>
-       
+            
+        </details>
 
-
+        
         </li>  
 
       <li>
