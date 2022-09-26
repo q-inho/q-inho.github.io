@@ -546,7 +546,17 @@
   border-bottom: 1px solid $border-color;
 }
 
-
+.nav__sub-title3 {
+  color: rgb(255, 183, 0);
+  display: block;
+  margin: 0.5rem 0;
+  padding: 0.25rem 0;
+  font-family: $sans-serif-narrow;
+  font-size: $type-size-55;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: 1px solid $border-color;
+}
 
 /*
      Table of contents navigation

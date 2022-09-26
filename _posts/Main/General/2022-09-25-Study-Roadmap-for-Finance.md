@@ -3,7 +3,7 @@ title:  "Study Roadmap for Finance"
 excerpt: "Banking, Securities markets, Venture capital and private equity, Fintech and financial innovation, Green finance and others.."
 
 categories:
-  - fina-general
+  - General
 tags:
   - [Finance]
 

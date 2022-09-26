@@ -3,7 +3,7 @@ title:  "Study Roadmap for Mathematics"
 excerpt: "Algebra, Number Theory, Analysis, Differential Equations, Geometry, Topology, Applied Mathematics, Financial Mathematics and others.."
 
 categories:
-  - math-general
+  - General
 tags:
   - [Mathematics]
 

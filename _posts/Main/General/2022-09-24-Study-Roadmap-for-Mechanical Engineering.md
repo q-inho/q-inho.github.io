@@ -3,7 +3,7 @@ title:  "Study Roadmap for Mechanical Engieering"
 excerpt: "Energy, Engineering Design, Materials, Aerospace Engineering and others.."
 
 categories:
-  - mech-general
+  - General
 tags:
   - [Mechanical Engineering]
 

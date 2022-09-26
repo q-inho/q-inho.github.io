@@ -15,7 +15,27 @@
       <li>
         <!--span 태그로 카테고리들을 크게 분류 ex) C/C++/C#-->
 
+        <span class="nav__sub-title3">Main</span>
+
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "General" %}
+                        <li><a href="/categories/general" class="">General ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Study/Research/Paper" %}
+                        <li><a href="/categories/study-research-paper" class="">Study/Research/Paper ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
         <span class="nav__sub-title">Quantum Computation/Information</span>
+            
+        
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "QC Fundamentals" %}

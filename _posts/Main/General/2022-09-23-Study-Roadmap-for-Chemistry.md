@@ -3,7 +3,7 @@ title:  "Study Roadmap for Chemistry"
 excerpt: "Biomolecular Chemistry, Environmental and Analytical Chemistry, Materials Chemistry, Pure Chemistry and others"
 
 categories:
-  - chem-general
+  - General
 tags:
   - [Chemistry]
 

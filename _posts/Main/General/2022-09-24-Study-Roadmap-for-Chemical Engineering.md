@@ -3,7 +3,7 @@ title:  "Study Roadmap for Chemical Engineering"
 excerpt: "Chemical Process Design, Chemical Product Design, Environmental Engineering and others.."
 
 categories:
-  - ceng-general
+  - General
 tags:
   - [Chemical Engineering]
 

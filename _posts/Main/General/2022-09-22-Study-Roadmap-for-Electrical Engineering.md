@@ -3,7 +3,7 @@ title:  "Study Roadmap for Electrical Engineering"
 excerpt: "Bioelectronics, Electromagnetics, Embedded Systems, Integrated Circuits and Systems and others.."
 
 categories:
-  - elec-general
+  - General
 tags:
   - [Electrical Engineering]
 

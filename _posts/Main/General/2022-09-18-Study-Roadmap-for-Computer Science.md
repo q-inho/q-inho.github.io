@@ -3,7 +3,7 @@ title:  "Study Roadmap for Computer Science"
 excerpt: "Software Engineering, Network, AI and others.."
 
 categories:
-  - comp-general
+  - General
 tags:
   - [Computer Science]
 
