@@ -4,8 +4,8 @@ layout: archive
 
 {{ content }}
 
-<h3 class="archive__subtitle">{{ default: "Progress of Study" }}</h3>
-
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].progress_of_study | default: "Progress of Study" }}</h3>
+{% assign posts = paginator.posts %}
 
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
 
