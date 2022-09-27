@@ -1,6 +1,6 @@
 ---
 title:  "Progress of Study"
-excerpt: "Study in Quantum Computing, Science, Engineering and Finance. I am writing the blog after reading the paper and book. This self-development project started from 1th Oct 2022. This page is updating periodically."
+excerpt: "Study in Quantum Computing, Science, Engineering and Finance. List of studied papers and books with my blog. This self-development project started from 1th Oct 2022. This page is updating periodically."
 header:
   overlay_image: /assets/images/background.jpeg
 
