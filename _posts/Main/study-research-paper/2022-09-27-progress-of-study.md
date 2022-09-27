@@ -21,8 +21,8 @@ last_modified_at: 2022-09-27
 # Papers
 ## Quantum Computing
 ### 2019
-- [Arute, F. et al. Quantum supremacy using a programmable superconducting processor. Nature 574, 505-510 (2019).](https://www.nature.com/articles/s41586-019-1666-5) `(In Progress)`
+- [Arute, F. et al. Quantum supremacy using a programmable superconducting processor. Nature 574, 505-510 (2019).](https://www.nature.com/articles/s41586-019-1666-5)  <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
 
 # Book
 ## Quantum Computing
-- ***Quantum Computation and Quantum Information*** by Michael A. Nielsen and Isaac L. Chuang `(In Progress)`
+- ***Quantum Computation and Quantum Information*** by Michael A. Nielsen and Isaac L. Chuang  <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
