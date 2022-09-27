@@ -105,7 +105,7 @@ analytics:
 author:
   name             : "Inho Choi"
   avatar           : "/assets/images/profile.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Think as a physicist, and work as an engineer"
+  bio              : #"Think as a physicist, and work as an engineer"
   location         : "Daegu, Republic of Korea"
   email            :
   links:
