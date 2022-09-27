@@ -6,20 +6,9 @@ layout: archive
 
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].progress_of_study | default: "Progress of Study" }}</h3>
 
-{% if page.image.feature %}
-  <div class="image-wrap">
-  <img src=
-    {% if page.image.feature contains 'http' %}
-      "{{ page.image.feature }}"
-    {% else %}
-      "{{ site.url }}/images/{{ page.image.feature }}"
-    {% endif %}
-  alt="{{ page.title }} feature image">
-  {% if page.image.credit %}
-    <span class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></span>
-  {% endif %}
-  </div><!-- /.image-wrap -->
-{% endif %}
+<a href="https://q-inho.github.io/study/research/paper/Main/">
+<img src="https://user-images.githubusercontent.com/79438062/192475384-231cb66a-5774-4319-b740-764335660d88.gif">
+</a>
 
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
 
