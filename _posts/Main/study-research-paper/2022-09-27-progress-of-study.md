@@ -24,4 +24,4 @@ last_modified_at: 2022-09-27
 
 # Book
 ## Quantum Computing
-- *Quantum Computation and Quantum Information* by Michael A. Nielsen and Isaac L. Chuang `(In Progress)`
+- ***Quantum Computation and Quantum Information*** by Michael A. Nielsen and Isaac L. Chuang `(In Progress)`
