@@ -233,7 +233,7 @@ last_modified_at: 2022-09-24
 
 
 
-
+---
 
 # Details
 ## Statics and Dynamics

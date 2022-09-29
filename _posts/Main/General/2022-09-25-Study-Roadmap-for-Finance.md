@@ -335,7 +335,7 @@ last_modified_at: 2022-09-26
 - Financial Modeling
 - Big Data in Finance
 
-
+---
 
 # Details
 ## Bloomberg Market Concepts Certification

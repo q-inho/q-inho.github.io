@@ -335,6 +335,8 @@ last_modified_at: 2022-09-23
 - Topological and Geometric Data Reduction and Visualization
 - Interest Rate Models
 
+---
+
 # Details
 ## Multivariable Calculus
 <details>

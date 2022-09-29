@@ -78,6 +78,8 @@ last_modified_at: 2022-09-28
 
 # Undergraduate Physics
 
+---
+# Details
 ## Modern Physics
 
 <details>

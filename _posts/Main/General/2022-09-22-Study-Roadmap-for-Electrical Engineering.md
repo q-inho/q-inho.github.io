@@ -160,6 +160,9 @@ last_modified_at: 2022-09-22
 ---
 
 # Undergraduate Elecetrical Engineering
+
+---
+# Details
 ## Signals and Systems
 <details>
 <summary>Study material</summary>

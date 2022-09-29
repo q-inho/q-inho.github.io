@@ -129,6 +129,9 @@ last_modified_at: 2022-09-21
 
 # Undergraduate Computer Science
 
+---
+
+# Details
 ## Programming with C++
 <details>
 <summary>Study material</summary>
