@@ -160,6 +160,109 @@ last_modified_at: 2022-09-22
 ---
 
 # Undergraduate Elecetrical Engineering
+- Signals and Systems
+- Introduction to Computer Organization and Design
+- Electronic Circuits
+- Probability and Random Processes in Engineering
+- Signal Processing and Communications
+- Computer Communication Networks
+- Data-Driven Portfolio Optimization
+- System Modeling, Analysis and Control
+- Machine Learning and Information Processing for Robotics
+- Introduction to Embedded Systems
+- Digital Fundamentals and System Design
+- Introduction to Integrated Circuits and Systems
+- Introduction to Smart Electric Power Systems
+- Microelectronic Devices and Technology
+- Electromagnetics: From Wireless to Photonic Applications
+- Digital Communications and Wireless Systems
+- Machine Learning on Images
+- Information Theory and Error-Correcting Codes
+- Control System Design
+- Introduction to Robotics: From Mobile Robots to Manipulators
+- Deep Learning for Natural Language Processing
+- Deep Learning in Computer Vision
+- Robotic Manipulation and Mobility
+- Embedded System Design
+- FPGA-based Design: From Theory to Practice
+- Mobile Embedded Systems: Hardware Platform, Software Development, and Applications
+- CMOS VLSI Design
+- Analogue Integrated Circuits Design and Analysis
+- Integrated Power Electronics
+- Semiconductor Materials and Devices
+- Integrated Circuit Fabrication Technology
+- Fundamentals of Photovoltaic and Renewable Energy
+- Engineering Optics
+- Photonics and Optical Communications
+- Radio Frequency Engineering
+- Introduction to Biosensors and Bioinstrumentation
+- Medical Imaging
+- Statistical Signal Analysis and Applications in Neural Engineering
+
+# Undergraduate Chemistry
+- Fundamentals of Organic Chemistry
+- Chemistry for Advanced Solar Cell Technologies
+
+# Undergraduate Environment
+- Green Buildings and Energy Efficiency
+- Sustainable Development
+- Energy Sources and Usage
+
+# Undergraduate Mathematics
+- Multivariable Calculus
+- Linear Algebra
+- Differential Equations
+
+# Undergraduate Computer Science
+- Programming with C++
+- Object-Oriented Programming and Data Structures
+- Machine Learning
+- Introduction to Natural Language Processing
+
+# Undergraduate Mechanical Engineering
+- Statics and Dynamics
+- Thermodynamics
+- Design and Manufacturing I
+- Energy Conversion
+- Control Principles
+- Electrical Technology
+- Mechatronic Design and Prototyping
+- Introduction to Robotics
+
+# Postgraduate Electrical Engineering
+- Introduction to the Design & Implementation of Micro-Systems
+- Advanced Analog IC Analysis and Design
+- Advanced CMOS Devices
+- Microelectronics Fabrication Technology
+- Advanced Photonics Technologies
+- Nanoelectronic Materials for Energy Technologies
+- Semiconductor Power and Energy Conversion Technologies
+- Advanced Computer Architecture
+- Digital VLSI System Design and Design Automation
+- RF/Microwave Circuit Design and Measurement
+- Solid State and Semiconductor Electronics
+- Advanced Topics in Nanoelectronics
+- Novel Liquid Crystal Devices for Photonics and Displays
+- Advanced Display Technologies
+- High Frequency Circuit Design
+- Stochastic Processes
+- Principles of Digital Communications
+- Random Matrix Theory and Applications
+- Advanced Stochastic Optimization for Wireless Systems
+- Convex Optimization
+- Switch Mode Power Converters
+- Power Management Integrated Circuit Design
+- Mixed-Signal Integrated Bio-Sensory Circuit Design
+- High Tech Innovation and Entrepreneurship
+- Linear-System Theory
+- Robot Manipulation
+- Introduction to Networked Sensing, Estimation and Control
+- Introduction to Aerial Robotics
+- Robot Perception and Learning
+- Advanced Deep Learning Architectures
+- Introduction to Bioinformatics Algorithms
+- Microfluidics and Biosensors
+
 
 ---
 # Details
@@ -283,16 +386,12 @@ last_modified_at: 2022-09-22
 ## Statistical Signal Analysis and Applications in Neural Engineering
 >This is an introductory course on statistical signal processing and its applications in neural engineering. The course introduces the fundamentals of statistical signal processing, principles of neuroscience, and the technologies and implementations of neural engineering. The topics include probability, random variables, vectors and process, expectation, cellular mechanisms and neuroanatomy of the brain, neural coding theory, neural network models, plasticity and learning, neural interfaces and rehabilitation.
 
-
-# Undergraduate Chemistry
 ## Fundamentals of Organic Chemistry
 >Various classes of organic compounds, emphasizing organic chemical reactions and mechanisms of major functionalities and their importance in the area of biological chemistry. 
 
 ## Chemistry for Advanced Solar Cell Technologies
 >Solar Cells are considered as one of the most promising renewable energy technologies. Conventional solar cells are based inorganic materials such as Si. In the past decade, however, several new solar cell technologies based organic materials are emerging as promising alternatives to conventional solar cells. In many of these advanced solar cell technologies, chemistry has been playing an important role. For example, in Polymer Solar Cells, it is critical to design and synthesize organic and polymer materials with unique photovoltaic and charge-transporting properties. This course will give an overview of several important solar cell technologies including Si cells, polymer solar cells, and dye-sensitized cells. The chemistry components of this course include how to design chemical structures to achieve photovoltaic and charge-transporting properties, and how to apply chemistry principles to understand the structures and properties of solar cell technologies. 
 
-
-# Undergraduate Environment
 ## Green Buildings and Energy Efficiency
 >This is an introduction to Green Buildings and their Energy Management. The course will consider Green Building attributes together with their economic, social and environmental impacts. Emphasis will be given to their energy conservation and resulting Carbon Dioxide emission reductions.
 
@@ -302,10 +401,6 @@ last_modified_at: 2022-09-22
 ## Energy Sources and Usage
 >This course provides students the opportunity to enhance their interdisciplinary understanding of different types of energy resources and their local, regional, and global use. While the focus is on specific fuels and their respective technologies and systems, the course also includes topics on energy transition, energy efficiency, and sustainable consumption. The course also embeds a critical evaluation of energy sources and use with respect to longer-range energy security concerns and contemporary environmental concerns across scales especially the climate emergency.
 
-
-
-
-# Undergraduate Mathematics
 ## Multivariable Calculus
 >Sequences, series, gradients, chain rule. Extrema, Lagrange multipliers, line integrals, multiple integrals. Green's theorem, Stoke's theorem, divergence theorem, change of variables.
 
@@ -315,7 +410,6 @@ last_modified_at: 2022-09-22
 ## Differential Equations
 >First and second order differential equations, initial value problems, series solutions, Laplace transform, numerical methods, boundary value problems, eigenvalues and eigenfunctions, Sturm-Liouville theory.
 
-# Undergraduate Computer Science
 ## Programming with C++
 >This course covers programming and data structures using C++. In addition to basic programming concepts such as variables and control statements, students will learn about arrays, pointers, dynamic data allocation, linked lists, stacks, queues, binary trees, recursion, and the basics of object oriented programming.
 
@@ -328,7 +422,6 @@ last_modified_at: 2022-09-22
 ## Introduction to Natural Language Processing
 >Human language technology for text and spoken language. Machine learning, syntactic parsing, semantic interpretation, and context-based approaches to machine translation, text mining, and web search.
 
-# Undergraduate Mechanical Engineering
 ## Statics and Dynamics
 >Fundamental course on the analysis of the equilibrium and dynamic behavior of mechanical systems. Statics: equilibrium of particles and of rigid bodies; distributed forces; analysis of structures, including, trusses, frames, cables and beams. Dynamics: kinematics of particles; kinetics of particles, Newton's second law, energy, momenta, impact dynamics; systems of particles; kinematics of rigid bodies; kinetics of rigid bodies in two and three dimensions. 
 
@@ -353,9 +446,6 @@ last_modified_at: 2022-09-22
 ## Introduction to Robotics
 >Rigid body motion, forward and inverse kinematics, manipulator Jacobians, force relation, dynamics and position control robot manipulators, force control and trajectory generation, collision avoidance and motion planning, robot programming languages.
 
-
-
-# Postgraduate Electrical Engineering
 ## Introduction to the Design & Implementation of Micro-Systems
 >Introduction to the concept of micro-systems. Dimensional scaling and its implications. Multi-physics modeling. Micro-fabrication techniques. Introduction to Coventor, a numerical simulation package for micro-systems. The design, implementation and testing of a micro-device.
 
