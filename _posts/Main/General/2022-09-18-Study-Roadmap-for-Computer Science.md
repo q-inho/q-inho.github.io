@@ -128,6 +128,89 @@ last_modified_at: 2022-09-21
 ---
 
 # Undergraduate Computer Science
+- Programming with C++
+- Object-Oriented Programming and Data Structures
+- Computer Organization
+- Discrete Mathematical Tools for Computer Science
+- Java Programming
+- Principles of Programming Languages
+- Software Engineering
+- Fundamentals of Artificial Intelligence
+- Database Management Systems
+- Operating Systems
+- Principles of Cybersecurity
+- Design and Analysis of Algorithms
+- Theory of Computation
+- Internet Computing
+- Software Engineering Practices
+- Machine Learning
+- Introduction to Natural Language Processing
+- Machine Learning with Structured Data
+- Principles of Database Design
+- Search Engines for Web and Enterprise Data
+- Data Mining
+- Big Data Mining and Management
+- Computer Graphics
+- Image Processing
+- Multimedia Computing
+- Computer Music
+- Game Programming
+- Human-Computer Interaction
+- Data Visualization
+- Deep Learning in Computer Vision
+- System and Kernel Programming in Linux
+- Mobile Application Development
+- Design and Analysis of Computer Architectures
+- Computer Communication Networks I, II
+- Computer and Communication Security
+- Practicing Cybersecurity: Attacks and Counter-measures
+- Social Information Network Analysis and Engineering
+- Cloud Computing and Big Data Systems
+- Heterogeneous Parallel Programming
+- Building Interactive Intelligent Systems
+- Foundations of Computer Vision
+- Artificial Intelligence Ethics
+- High Performance Computing
+- Algorithmic Game Theory
+- IoT and Mobile Sensing
+- Computer Language Processing
+- Database Technologies for Scalable Data Science
+- Introduction to Blockchain, Cryptocurrencies and Smart Contracts
+- IT Entrepreneurship
+
+# Undergraduate Mathematics
+- Multivariable Calculus
+- Linear Algebra
+- Applied Statistics
+- Probability
+- Statistical Machine Learning
+
+# Postgraduate Computer Science
+- Fundamentals of Software Testing and Analysis
+- Parallel Programming
+- Advanced Artificial Intelligence
+- Advanced Machine Learning
+- Introduction to Bayesian Networks
+- Advanced Deep Learning Architectures
+- Natural Language Processing
+- Statistical Learning Models for Text and Graph Data
+- Perception and Information Processing for Robotics
+- Database Architecture and Implementation
+- Knowledge Discovery in Databases
+- Advanced Computer Graphics
+- Computer Vision
+- Advanced Computer Communications and Networking
+- Cryptography and Security
+- Introduction to Advanced Algorithmic Techniques
+- Introduction to Combinatorial Optimization
+- Computational Geometry
+- Optimization for Machine Learning
+- Mathematical Analysis of Machine Learning Algorithms
+- Federated Learning
+- Deep Learning in Medical Image Analysis
+- Blockchain and Cryptocurrency Technologies
+- Advanced Topics in 2D and 3D Deep Visual Scene Understanding
+- Theory of Types and Programming Languages
 
 ---
 
@@ -407,7 +490,6 @@ last_modified_at: 2022-09-21
 ## IT Entrepreneurship
 >Basic elements of starting a new business in information technology; exploiting an "unfair" advantage; preparing a business plan; arranging financial support; accounting and legal requirements; exit strategy.
 
-# Undergraduate Mathematics
 ## Multivariable Calculus
 >Sequences, series, gradients, chain rule. Extrema, Lagrange multipliers, line integrals, multiple integrals. Green's theorem, Stoke's theorem, divergence theorem, change of variables.
 
@@ -423,7 +505,6 @@ last_modified_at: 2022-09-21
 ## Statistical Machine Learning
 >This course provides students with an extensive exposure to the elements of statistical machine learning in supervised and unsupervised learning with real world datasets. Topics include regression, classification, resampling methods, model assessment, model selection, regularization, nonparametric models, boosting, ensemble methods, random forests, kernel methods, support vector machines, neural networks, and some standard techniques in unsupervised learning such as clustering and dimensionally reduction. Lab sessions on using R or Python in data analysis with machine learning methods will be conducted in class. Scientific reports and/or poster presentations are required for project evaluations.
 
-# Postgraduate Computer Science
 ## Fundamentals of Software Testing and Analysis
 >The goal of this course is to introduce how various analysis techniques can be used to manage the quality of a software application. Students will acquire fundamental knowledge of program abstraction, features, verification, testing, refactoring, concurrency, reliability, aspect orientation, and fault analysis. The course will also discuss how to carry out the empirical experimentation for program analysis. Wherever applicable, concepts will be complemented by tools developed in academia and industry. This enables students to understand the maturity and limitations of various analysis techniques.
 
