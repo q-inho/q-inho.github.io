@@ -77,6 +77,55 @@ last_modified_at: 2022-09-28
 ---
 
 # Undergraduate Physics
+- Modern Physics
+- Mathematical Methods in Physics
+- Classical Mechanics
+- Electricity and Magnetism I, II
+- Quantum Mechanics I
+- Optics
+- Introduction to Materials Science
+- Introduction to Materials Processing
+- Structure and Properties of Crystalline Solids
+- Introduction to Stellar Astrophysics
+- Computational Methods in Physics
+- Thermodynamics and Statistical Physics
+- Quantum Mechanics II
+- Lasers and Optical Electronics
+- Particle Physics and the Universe
+- Information Physics
+- Physics of Management Science
+- Big Bang Cosmology and Inflation
+
+# Undergraduate Mathematics
+- Multivariable Calculus
+- Mathematical Analysis
+- Linear Algebra
+- Differential Equations
+- Real Analysis
+- Abstract Algebra
+- Complex Analysis
+- Partial Differential Equations
+- Differential Geometry
+
+# Postgraduate Physics
+- Mathematical Methods in Physics
+- Computational Energy Materials and Electronic Structure Simulations
+- Solid State Physics I
+- Electro and Magneto Statics
+- Electromagnetic Waves, Maxwell Equations, and Relativity
+- Advanced Quantum Mechanics
+- Modern AMO (Atomic Molecular Optical) Physics with Atoms and Photons
+- Statistical Mechanics I
+- Introduction to Quantum Many-body Theory
+- Solid State Physics II
+- Introduction to Quantum Field Theory
+- Introduction to General Relativity
+- Modern Semiconductor Physics
+- Diffraction and Imaging Techniques in Materials Science
+- Introduction of Topological Band Theory
+- Scientific Programming and Visualization
+- Many-particle Physics
+- Advanced Quantum Field Theory
 
 ---
 # Details
