@@ -9,13 +9,13 @@ header:
 categories:
   - Study/Research/Paper
 tags:
-  - [Quantum Computing]
+  - [Quantum Computing, Physics]
 
 toc: true
 toc_sticky: true
  
 date: 2022-09-26
-last_modified_at: 2022-09-27
+last_modified_at: 2022-10-03
 ---
 
 # Papers
@@ -26,3 +26,6 @@ last_modified_at: 2022-09-27
 # Book
 ## Quantum Computing
 - ***Quantum Computation and Quantum Information*** by Michael A. Nielsen and Isaac L. Chuang  <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
+
+## Physics
+- ***Introduction to Quantum Mechanics*** by David J. Griffiths and Darrell F. Schroeter <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
