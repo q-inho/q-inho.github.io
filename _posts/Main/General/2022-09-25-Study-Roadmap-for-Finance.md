@@ -40,7 +40,7 @@ last_modified_at: 2022-10-04
         ISOM2700[Operations Management]
 
         MGMT2010[Business Ethics and the Individual]
-        MGMT2110[Oprganizational Behavior]
+        MGMT2110[Organizational Behavior]
         MGMT2130[Business Ethics and Social Responsiblity]
 
         MARK2120[Marketing Management]
