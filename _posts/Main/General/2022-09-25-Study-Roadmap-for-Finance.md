@@ -272,7 +272,7 @@ last_modified_at: 2022-09-26
 
 # Undergraduate Management
 - Business Ethics and the Individual
-- Oprganizational Behavior
+- Organizational Behavior
 - Business Ethics and Social Responsiblity
 
 # Undergraduate Marketing
