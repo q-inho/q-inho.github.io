@@ -11,7 +11,7 @@ toc: false
 toc_sticky: false
  
 date: 2022-09-25
-last_modified_at: 2022-09-26
+last_modified_at: 2022-10-04
 ---
 
 # My Roadmap for Finance
@@ -53,18 +53,50 @@ last_modified_at: 2022-09-26
         MGMT2010 --> MGMT2130
 
 
-        subgraph Economics and Finance
+        subgraph Economics
         ECON2174[Mathematics for Economists]
         ECON3113[Microeconomic Theory I]
         ECON3133[Microeconomic Theory II]
         ECON3143[Macroeconomic Theory II]
         ECON3334[Introduction to Econometrics]
+        ECON4114[Industrial Organization and Competitive Strategy]
+        ECON4124[Applied Game Theory]
+        ECON4134[Economics of Uncertainty and Information]
+        ECON4234[Labor Economics and Human Resources]
+        ECON4244[Economics of Human Behavior]
+        ECON4254[Law and Economics]
+        ECON4264[Economics of Innovation and Entreprenurship]
+        ECON4274[Programming Econometrics with R]
+        ECON4284[Econometrics for Cross-Section and Panel Data]
+        ECON4334[Money and Banking]
+        ECON4364[International Trade and Investment]
+        ECON4374[International Macroeconomics and Finance]
+        ECON4434[Economic Development and Growth]
+        ECON4464[Urban and Environment Economics]
+        ECON4474[Hong Kong's Economy]
         end
+
+
 
         ECON2113 --> ECON3113
         ECON3113 --> ECON3133
         ECON3113 & ECON3123 --> ECON3143
         ISOM2500 --> ECON3334
+        ECON3113 & ECON3133 --> ECON4114
+        ECON2113 --> ECON4124
+        ECON3113 & ECON3133 --> ECON4134
+        ECON3113 --> ECON4234
+        ECON3113 & ECON3334 --> ECON4244
+        ECON3133 --> ECON4254
+        ECON2113 --> ECON4264
+        ECON3334 --> ECON4274
+        ECON3334 --> ECON4284
+        ECON3113 & ECON3123 --> ECON4334
+        ECON3113 & ECON3123 --> ECON4364
+        ECON3113 & ECON3123 --> ECON4374
+        ECON3133 --> ECON4434
+        ECON2113 --> ECON4464
+        ECON3113 & ECON3123 --> ECON4474
 
 
         subgraph Quantitative Finance
@@ -133,6 +165,139 @@ last_modified_at: 2022-09-26
         FINA3103 & FINA3203 --> FINA4513[Risk Management]
         FINA3303 --> FINA4603[Venture Capital Financing]
         FINA3103 --> FINA4703[ESG Investing]
+
+
+        subgraph Information Systems
+        ISOM2030[Business Protections for Innovations]
+        ISOM2040[Business Simulation and Strategic Decisions]
+        ISOM2310[Fundamentals of E-Commerce: Business, Technology, and the Society]
+        ISOM2400[Global Information Infrastructure and Policy]
+        ISOM3010[Information Systems Project Management]
+        ISOM3180[Telecommunications and Computer Networking Management]
+        ISOM3210[Information Systems Analysis and Design]
+        ISOM3260[Database Design and Administration]
+        ISOM3310[e-Business Management and Web Analytics]
+        ISOM3320[Internet Applications Development]
+        ISOM3330[Data Visualization and Visual Analytics]
+        ISOM3340[Developing AI Applications]
+        ISOM3350[FinTech and Cryptoventures]
+        ISOM3380[Advanced Network Management]
+        ISOM3390[Business Programming in R]
+        ISOM3400[Business Applications Development in Python]
+        ISOM3530[Business Data Analytics]
+        ISOM3710[Business Modeling and Optimization]
+        ISOM3730[Quality and Process Management]
+        ISOM3760[Logistics Management]
+        ISOM3770[Global Supply Chain Management]
+        ISOM3900[Decision Analytics]
+        ISOM4010[Digital Business Strategy: Harnessing Platform, Crowd, and Machine]
+        ISOM4020[Innovation Management and Technology Entreprenurship]
+        ISOM4100[Information Systems Auditing]
+        ISOM4200[Information and Cyber Security Management]
+        ISOM4300[Information Systems Control and Assurance]
+        ISOM4720[Simulation in Business and Management]
+        ISOM4740[Enterprise Resource Management]
+        ISOM4750[Business Project Management]
+        ISOM4780[Integrated Planning and Execution]
+        ISOM4830[Analytics for Service Operations]
+        ISOM4840[Financial Service Operations Management]
+        
+        end
+
+        ISOM2010 --> ISOM3210
+        ISOM3230 --> ISOM3260
+        ISOM2010 & ISOM2500 --> ISOM3350
+        ISOM3180 --> ISOM3390
+        ISOM3230 & ISOM3360 --> ISOM3390
+        ISOM2020 --> ISOM3400
+        ISOM2500 --> ISOM3530
+        ISOM2700 --> ISOM3760
+        ISOM2700 & ISOM3710 --> ISOM3770
+        ISOM2500 & ISOM2700 --> ISOM3900
+        ACCT2010 & ISOM2010 --> ISOM4100
+        ISOM2010 --> ISOM4300
+        ISOM2500 --> ISOM4720
+        ISOM2700 --> ISOM4740
+        ISOM2700 --> ISOM4750
+        ISOM2700 --> ISOM4780
+        ISOM2700 & ISOM3710 --> ISOM4830
+        ISOM2500 & ISOM2700 --> ISOM4840
+
+        subgraph Marketing
+        MARK3220[Marketing Research]
+        MARK3410[Promotion and Advertising Management]
+        MARK3420[Consumer Behavior]
+        MARK3430[Global Marketing]
+        MARK3460[Retailing]
+        MARK3470[Service Marketing]
+        MARK3480[Pricing Strategy]
+        MARK3510[Business to Business Marketing]
+        MARK3520[Competitive Positioning]
+        MARK3610[Digital Marketing]
+        MARK3620[Marketing Analytics]
+        MARK4210[Strategic Marketing]
+        MARK4450[Brand Management]
+        end
+
+        MARK2120 --> MARK3220
+        MARK2120 --> MARK3410
+        MARK2120 --> MARK3420
+        MARK2120 --> MARK3430
+        MARK2120 --> MARK3460
+        MARK2120 --> MARK3470
+        MARK2120 --> MARK3480
+        MARK2120 --> MARK3510
+        MARK2120 --> MARK3520
+        MARK2120 --> MARK3610
+        MARK2120 & ISOM2500 --> MARK3620
+        MARK3220 & MARK3420 --> MARK4210
+        MARK2120 --> MARK4450
+
+        subgraph Management
+        MGMT3110[Human Resources Management]
+        MGMT3120[Managerial Leadership]
+        MGMT3130[Judgement and Decision Making in Organizations]
+        MGMT3140[Negotiation]
+        MGMT3160[Environmental Business Strategies]
+        MGMT3170[Managing CSR]
+        MGMT4210[Corporate Strategy]
+        MGMT4220[Entrepreneurship and Innovation]
+        MGMT4230[International Management]
+        MGMT4240[Strategic Management in China]
+        MGMT4250[Management Consulting]
+        MGMT4270[Training and Development]
+        MGMT4280[Transnational Legal Issues and Dispute Settlement]
+        MGMT4290[HR Analytics]
+        MGMT4300[Knowing and Managing Your Social Networs for Careers and Business]
+        end
+
+        MGMT2110 --> MGMT3110
+        MGMT2110 --> MGMT3120
+        MGMT2110 --> MGMT3130
+        MGMT2110 --> MGMT3160
+        MGMT2110 --> MGMT4210
+        MGMT2110 --> MGMT4250
+        MGMT3110 --> MGMT4270
+        MGMT3110 --> MGMT4290
+        MGMT2110 --> MGMT4300
+
+        subgraph Risk Management and Business Intelligence
+        RMBI3010[Data Analytics with R]
+        RMBI3020[Practicing Risk Management using Case Studies]
+        RMBI3110[Introduction to Risk Management and Business Intelligence]
+        RMBI4110[Financial Service Operations Management]
+        RMBI4210[Quantitative Methods for Risk Management]
+        RMBI4220[Life Contingencies Models and Insurance Risk]
+        RMBI4310[Advanced Data Mining for Risk Management and Business Intelligence]
+        end
+
+        RMBI3110 --> RMBI3010
+        ISOM2500 --> RMBI3110
+        ISOM2500 & ISOM2700 --> RMBI4110
+        ISOM3540 --> RMBI4210
+        ISOM3540 --> RMBI4220
+        ISOM3360 --> RMBI4310
+
 
         subgraph Advanced Study
         FINA5110[Central Bank Operations]
@@ -249,34 +414,120 @@ last_modified_at: 2022-09-26
 # Undergraduate Economics
 - Microeconomics
 - Mathematics for Economists
+- Introductory Environmental and Health Economics
 - Microeconomic Theory I
 - Macroeconomic Theory I
 - Microeconomic Theory II
 - Macroeconomic Theory II
 - Introduction to Econometrics
+- Industrial Organization and Competitive Strategy
+- Applied Game Theory
+- Economics of Uncertainty and Information
+- Labor Economics and Human Resources
+- Economics of Human Behavior
+- Law and Economics
+- Economics of Innovtion and Entrepreneurship
+- Programming Econometrics with R
+- Econometrics for Cross-Section and Panel Data
 - Time Series Econometrics and Business Forecasting
+- Money and Banking
+- International Trade and Investment
+- International Macroeconomics and Finance
+- Economic Development and Growth
+- Urban and Environment Economics
+- Hong Kong's Economy
 
-# Undergraduate Information Systems
+# Undergraduate Information System
 - Introduction to Information Systems
 - Coding for Business
+- Business Protections for Innovations
+- Business Simulation and Strategic Decisions
+- Fundamentals of E-Commerce: Business, Technology, and the Society
+- Global Information Infrastructure and Policy
 - Business Statistics
 - Introduction to Business Analytics
 - Operations Management
+- Information Systems Project Management
+- Telecommunications and Computer Networking Management
+- Information Systems Analysis and Design
 - Business Applications Programming
+- Database Design and Administration
+- e-Business Management and Web Analytics
+- Internet Applications Development
+- Data Visualization and Visual Analytics
+- Developing AI Applications
+- FinTech and Cryptoventures
 - Data Mining for Business Analytics
 - Big Data Technologies
+- Advanced Network Management (CISCO - ICND)
+- Business Programming in R
+- Business Applications Development in Python
+- Business Data Analytics
 - Introduction to Probability Models
+- Business Modeling and Optimization
+- Quality and Process Management
+- Logistics Management
+- Global Supply Chain Management
+- Decision Analytics
+- Digital Business Strategy: Harnessing Platform, Crowd, and Machine
+- Innovation Management and Technology Entrepreneurship
+- Information Systems Auditing
+- Information and Cyber Security Management
+- Information Systems Control and Assurance
 - Statistics for Financial Risk Management
 - Statistical Analysis of Financial Data in R/S-plus
 - Time Series Analysis and Forecasting
+- Simulation in Business and Management
+- Enterprise Resource Management
+- Business Project Management
+- Integrated Planning and Execution
+- Analytics for Service Operations
+- Financial Service Operations Management
 
 # Undergraduate Management
 - Business Ethics and the Individual
 - Organizational Behavior
 - Business Ethics and Social Responsiblity
+- Human Resources Management
+- Managerial Leadership
+- Judgement and Decision Making in Organizations
+- Negotiation
+- Environmental Business Strategies
+- Managing CSR (Corporate Social Responsibility)
+- Corporate Strategy
+- Entrepreneurship and Innovation
+- International Management
+- Strategic Management in China
+- Management Consulting
+- Training and Development
+- Transnational Legal Issues and Dispute Settlement
+- HR Analytics
+- Knowing and Managing Your Social Networks for Careers and Business
 
 # Undergraduate Marketing
 - Marketing Management
+- Marketing Research
+- Promotion and Advertising Management
+- Consumer Behavior
+- Global Marketing
+- Retailing
+- Services Marketing
+- Pricing Strategy
+- Business to Business Marketing
+- Competitive Positioning
+- Digital Marketing
+- Marketing Analytics
+- Strategic Marketing
+- Brand Management
+
+# Undergraduate Risk Management and Business Intelligence
+- Data Analytics with R
+- Practicing Risk Management using Case Studies
+- Introduction to Risk Management and Business Intelligence
+- Financial Service Operations Management
+- Quantitative Methods for Risk Management
+- Life Contingencies Models and Insurance Risk
+- Advanced Data Mining for Risk Management and Business Intelligence
 
 # Undergraduate Computer Science
 - Programming with C++
