@@ -11,7 +11,7 @@ toc: false
 toc_sticky: false
  
 date: 2022-09-23
-last_modified_at: 2022-10-02
+last_modified_at: 2022-10-03
 ---
 
 # My Roadmap for Chemistry
@@ -47,6 +47,67 @@ last_modified_at: 2022-10-02
         CHEM2110 & CHEM2210 & CHEM2410 --> CHEM4430[Symmetry in Chemistry and Spectroscopy]
         CHEM3220 --> CHEM4620[Organometallic Chemistry]
         CHEM2110 & CHEM2410 --> CHEM4640[Chemistry for Advanced Solar Cell Technologies]
+
+        subgraph Biochemistry
+        LIFS2010[Modern Approaches to Biochemical and Cell Biological Research]
+        LIFS2040[Cell Biology]
+        LIFS2060[Biodiversity]
+        LIFS2070[Introduction to Biotechnology]
+        LIFS2080[Plant Biology]
+        LIFS2210[Biochemistry I]
+        LIFS2220[Biochemistry II]
+        LIFS3010[Molecular and Cellular Biology I]
+        LIFS3020[Molecular and Cellular Biology II]
+        LIFS3040[Animal Physiology]
+        LIFS3060[Microbiology]
+        LIFS3070[Introduction to Biophysical Instrumentation]
+        LIFS3110[Biotechnological Application of Recombinant DNA Techniques]
+        LIFS3140[General Genetics]
+        LIFS3150[Biostatistics]
+        LIFS3240[Introduction to Neurobiology]
+        LIFS3580[Bioinformatics]
+        LIFS4060[Immunobiology]
+        LIFS4090[Developmental Biology]
+        LIFS4140[Cancer Biology]
+        LIFS4190[Cellular Signaling]
+        LIFS4320[Data Science for Biology and Medicine]
+        LIFS4370[Human Genetics and Personalized Medicine]
+        LIFS4540[Structure and Function of Proteins]
+        LIFS4620[Advanced Biological Chemistry]
+        LIFS4760[Biochemistry of Diseases]
+        LIFS4800[Epigenetics and Chromosomes Biology]
+        LIFS4950[Neurochemistry]
+        BIPH2010[Introductory Biological Physics]
+        BIPH3010[Advanced Biological Physics]
+        BIPH4010[Principles of Quantitative Instrumentation]
+        COMP2011[Programming with C++]
+        end
+
+        LIFS2040 --> LIFS2080
+        LIFS2210 & LIFS2220 --> LIFS3010
+        LIFS2040 & LIFS2210 & LIFS2220 --> LIFS3020
+        LIFS2040 --> LIFS3040
+        LIFS2060 --> LIFS3060
+        LIFS2040 --> LIFS3070
+        LIFS2040 & LIFS2210 --> LIFS3110
+        LIFS2040 --> LIFS3140
+        LIFS2040 --> LIFS3240
+        LIFS3140 --> LIFS3580
+        LIFS3140 --> LIFS4060
+        LIFS2040 --> LIFS4090
+        LIFS3140 --> LIFS4140
+        LIFS3020 --> LIFS4190
+        COMP2011 & LIFS3150 & LIFS3140 --> LIFS4320
+        LIFS3140 --> LIFS4370
+        LIFS2210 --> LIFS4540
+        LIFS2210 --> LIFS4620
+        LIFS2040 --> LIFS4760
+        LIFS2210 --> LIFS4800
+        LIFS2040 --> LIFS4950
+        BIPH2010 & LIFS2040 --> BIPH3010
+        BIPH3010 --> BIPH4010
+
+
 
         subgraph Advanced Study
         CHEM5110[Advanced Organic Chemistry I]
@@ -113,6 +174,45 @@ last_modified_at: 2022-10-02
 - Symmetry in Chemistry and Spectroscopy
 - Organometallic Chemistry
 - Chemistry for Advanced Solar Cell Technologies
+
+# Undergraduate Life Science
+- Modern Approaches to Biochemical and Cell Biological Research
+- Cell Biology
+- Biodiversity
+- Introduction to Biotechnology
+- Plant Biology
+- Biochemistry I
+- Biochemistry II
+- Molecular and Cellular Biology I
+- Molecular and Cellular Biology II
+- Animal Physiology
+- Microbiology
+- Introduction to Biophysical Instrumentation
+- Biotechnological Application of Recombinant DNA Techniques
+- General Genetics
+- Biostatistics
+- Introduction to Neurobiology
+- Bioinformatics
+- Immunobiology
+- Developmental Biology
+- Cancer Biology
+- Cellular Signaling
+- Data Science for Biology and Medicine
+- Human Genetics and Personalized Medicine
+- Structure and Function of Proteins
+- Advanced Biological Chemistry
+- Biochemistry of Diseases
+- Epigenetics and Chromosomes Biology
+- Neurochemistry
+
+# Undergraduate Biological Physics
+- Introductory Biological Physics
+- Advanced Biological Physics
+- Principles of Quantitative Instrumentation
+
+# Undergraduate Computer Science
+- Programming with C++
+
 
 # Postgraduate Chemistry
 - Advanced Organic Chemistry I
@@ -224,6 +324,107 @@ last_modified_at: 2022-10-02
 
 ## Chemistry for Advanced Solar Cell Technologies
 >Solar Cells are considered as one of the most promising renewable energy technologies. Conventional solar cells are based on inorganic materials such as silicon. In the past decade, however, several new solar cell technologies based on organic materials are emerging as promising alternatives to conventional solar cells. This is an exciting and highly interdisciplinary area involving Chemistry, Physics, Materials Science, and Electronic Engineering. The study on organic solar cells provides an excellent platform for Science and Engineering students to learn about how to do research in a multidisciplinary environment.
+
+## Modern Approaches to Biochemical and Cell Biological Research
+>Our current understanding of biochemical reactions and internal organization of a cell was progressively enriched by technological and conceptual breakthroughs in the 20th century. This course will use personal and scientific stories of six prominent scientists to highlight research areas that are still being actively pursued today. Topics to include are DNA and protein biochemistry, physical and chemical methods for biological research, and the use of model organisms.
+
+## Cell Biology
+>Structure and function of the cell and sub-cellular organelles; from genes to proteins; membrane and cytoskeleton; cell communication and cell signaling; cell cycle and programmed cell death.
+
+## Biodiversity
+>This course introduces students to the diversity of life and habitats; the evolution and extinction of species; the values of biodiversity; challenges to the biodiversity and conservation approaches; the interrelationships between humans/biodiversity and the environment. Examples (local and global) and applications will be included to highlight the key concepts.
+
+## Introduction to Biotechnology
+>Advancement in science has enabled scientists to modify biological systems for specific purposes. Many of these technologies have been used to improve our daily life and this area of study is commonly referred to as biotechnology. This course is designed to introduce some of the major subjects in this field including the history of biotechnology, ethics in genetic modification and use of animals in experimental studies, molecular foundation of biotechnology, animal biotechnology, plant and agricultural biotechnology, and health-care applications. You will learn how different aspects of biotechnology affect our daily life and have impact on the society.
+
+## Plant Biology
+>Structure and life processes in plants; cellular structures; molecular and cellar mechanism; transport of water and nutrients; nutrition and soil; reproduction; photosynthesis; growth and development; biotechnology.
+
+## Biochemistry I
+>Major classes of biochemical compounds; primary, secondary, tertiary and quaternary structures of macromolecules; enzyme kinetics and mechanisms; biosynthesis of DNA and RNA; transfer RNA and protein synthesis.
+
+## Biochemistry II
+>Principles of bioenergetics and cellular structures; glycolysis, citric acid cycle, electron transport, oxidative phosphorylation and chemiosmosis; carbohydrate, lipid, amino acid and nucleotide metabolism; photosynthesis and nitrogen fixation.
+
+## Molecular and Cellular Biology I
+>Replication and roles of nucleic acids in cellular and viral systems; genome organization, vector-host systems, expression and regulation of genes; catalytic RNA, genetic code evolution, RNA modification and processing, and anti-sense systems.
+
+## Molecular and Cellular Biology II
+>Cell structure; the molecular biology of cell signaling and cell cycle control; oncogenes and tumor suppressor genes; the mechanism of cell division; cell junctions and adhesion; cytoskeleton; programmed cell death.
+
+## Animal Physiology
+>Structure and life processes in animals; neurophysiology; circulation; respiration; digestion and absorption; metabolism and energy regulation; muscle and movement; endocrinology.
+
+## Microbiology
+>Classification, identification, structure, physiology, and genetics of microorganisms; importance of microorganisms in health, environment, and biotechnology.
+
+## Introduction to Biophysical Instrumentation
+>The course offers an introduction to principles and applications of a variety of modern biophysical experimental techniques for the structural and functional study of biological systems at the cellular and molecular levels. It is designed for students who seek a basic understanding of modern biophysical experimental methods to meet future challenges in biological science, synthetic biology, biotechnology, bioengineering and molecular medicine.
+
+## Biotechnological Application of Recombinant DNA Techniques
+>Practical and theoretical consideration of recombinant DNA techniques, including plasmid construction, PCR, mutagenesis, transformation, sequencing, and bioinformatic analysis. The use of recombinant DNA for protein expression.
+
+## General Genetics
+>Principles and mechanisms of heredity and variation; genetic analysis in pro-and eukaryotic organisms.
+
+## Biostatics
+>Statistical reasoning relevant to biological, medical and agricultural research, statistical analyses and interpretation, statistical techniques applied under various research circumstances.
+
+## Introduction to Neurobiology
+>Principles of neuroscience with a focus on the systems/neural circuit level. Topics covered will include sensory and motor systems, genetic model organisms, optogenetics, and functional imaging.
+
+## Bioinformatics
+>An introduction to bioinformatic analysis in life science. Students will learn about the principles and approaches used in working with genetic, genomic and proteomic data. Applications to basic science and translational research will also be introduced. No experience in computer programing is required.
+
+## Immunobiology
+>Cellular, biochemical and genetic basis of immunity; cells in immune response, antigens and antigen recognition; antibodies and the generation of diversity; major histocompatibility complex; cell mediated immune response; regulation of immune response; autoimmunity, tissue transplantation and rejection.
+
+## Developmental Biology
+>Processes of cellular and tissue differentiation, early and late embryonic development spanning from molecular, cellular, organ to organismal levels; reproduction, fertilization, gastrulation, neurulation, axis formation, body patterning, cellular communication, short and long range signaling, sex determination, aging, environmental influence and evolutionary significance of different regulatory mechanisms.
+
+## Cancer Biology
+>Fundamentals in the epidemiology, etiology and treatment of cancers; basic mechanisms of carcinogenesis. 
+
+## Cellular Signaling
+>Recent advances in the study of the molecular mechanisms of cell function, with an emphasis on the structure and function of signaling components that control cell growth, differentiation, and integrated responses in eukaryotic cells.
+
+## Data Science for Biology and Medicine
+>This is a course for the application of data science in biology and medicine. The course will introduce the fundamental principles on data science, the technologies and implementations of data mining, as well as the modeling of several practical questions in biomedicine. The topics include introduction to biomedical data, data visualization, regression methods and classification methods.
+
+## Human Genetics and Personalized Medicine
+>Many variations in the human population such as hair thickness, tolerance to milk in adults, high blood cholesterol and susceptibility to certain types of cancer can be determined by genetic factors. This course will cover the principles and up to date technologies for the discovery and analysis of human genetic variation. The application of basic scientific knowledge in a clinical setting will be discussed.
+
+## Structure and Function of Proteins
+>Determination of protein sequences and three-dimensional structures; relationship between structure and function; principles of protein design and engineering; molecular, biochemical and genetic approaches to study protein function and regulation.
+
+## Advanced Biological Chemistry
+>Advanced studies of biological macromolecules; functional genomics and proteomics; laboratory techniques in modern biochemistry; milestone discoveries in biochemistry.
+
+## Biochemistry of Diseases
+>This course covers the clinical manifestations, physiology, pathophysiology and treatment of common human diseases, with focus on the underlying biochemical basis of the diseases and treatment.
+
+## Epigenetics and Chromosome Biology
+>Chromosome biology and epigenetics is an important field highly relevant to human health. This course will cover recent advances in the fields of epigenetics and chromosome biology.
+
+## Neurochemistry
+>Introduction to the molecular understanding of brain function, building upon the basis of biochemistry and biology. Four specific themes are covered: (i) structural neurochemistry and neural membranes; (ii) synapses, transmitters and receptors; (iii) cellular and (iv) medical and behavioral neurochemistry.
+
+## Introductory Biological Physics
+>This course introduces the use of physical methods in the study of biological systems, including macromolecules, membranes, nerves, muscle, photosynthetic systems and visual systems. The biological systems to which the methods are applied will be surveyed and current interpretations of their structure and function will be discussed. The treatment of biological phenomena will be based on physical principles with appropriate mathematics when necessary. The emphasis will be on the applications of physics in biology.
+
+## Advanced Biological Physics
+>Biological physics involves the application of physics to achieve an understanding of life processes. This is the second of a two-course series that will prepare advanced undergraduates for research and technical work in Biological physics. It covers advanced biological physics such as molecular and cellular biological physics, photophysics, single-molecule biophysics, medical biophysics, membrane biological physics, neurobiophysics, biostatistics, biomathematics, bioinformatics, computational biology and protein engineering. At the conclusion of this course, students will be able to critically assess primary research literature written for a general scientific audience. They will also be prepared for mentored practical research investigations or professional job related to biological physics.
+
+## Principles of Quantitative Instrumentation
+>This course aims to provide a general understanding of modern instruments used in biological research with special emphasis on bright-field and fluorescence light microscopes, electron microscopy, X-ray crystallography, NMR, MRI, mass spectrometer, and electrophysiology. The approach is a practical one geared to students who are or will be using these instruments in research. The course consists of both lectures and demonstration. During the lectures, students learn basic principles of biological instrumentation and the performance of the instruments. In the demonstration, students apply the understanding gained during the lectures and learn how the instrumentation is used to address biological questions.
+
+## Programming with C++
+<summary>Study material</summary>
+<div markdown="1">
+- *Big C++: Late Objects* by Cay Horstmann
+</div>
+</details>
+>This course covers programming and data structures using C++. In addition to basic programming concepts such as variables and control statements, students will learn about arrays, pointers, dynamic data allocation, linked lists, stacks, queues, binary trees, recursion, and the basics of object oriented programming.
 
 ## Advanced Organic Chemistry I
 >Mechanism and theory in organic chemistry, molecular orbital theory, structure-activity relationships, isotope effects, solvent effects, neighboring group participation, and reactive intermediates.
