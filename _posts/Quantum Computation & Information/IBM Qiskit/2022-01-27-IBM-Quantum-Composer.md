@@ -5,7 +5,7 @@ excerpt: "IBM Quantum Circuit Composer"
 categories:
   - IBM Qiskit
 tags:
-  - [Quantum Computation]
+  - [Quantum Computating]
 
 toc: true
 toc_sticky: true
