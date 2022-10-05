@@ -10,11 +10,11 @@
         <a class="site-title" href="{{ '/' | relative_url }}">
           {{ site.masthead_title | default: site.title }}
           <!--{% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle }}</span>{% endif %}--> 
-          {% if site.subtitle &} test <span
+          {% if site.subtitle %} test <span
           class = "txt-rotate"
           data-period="2000"
           data-rotate='[ "nerdy.", "simple" ]'
-        ></span>{% endif %}
+          ></span>{% endif %}
         </a>
         <ul class="visible-links">
           {%- for link in site.data.navigation.main -%}
