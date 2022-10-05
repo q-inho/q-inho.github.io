@@ -17,7 +17,7 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 # Site Settings
 locale                   : "en-US"
 title                    : "Q-Archivum"
-title_separator          : "|"
+title_separator          : "-"
 subtitle                 : "Quantum Computing" # site tagline that appears below site title in masthead
 name                     : "Inho Choi"
 description              : "A blog that store knowledge"
