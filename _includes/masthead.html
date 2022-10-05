@@ -10,13 +10,14 @@
         <a class="site-title" href="{{ '/' | relative_url }}">
           {{ site.masthead_title | default: site.title }}
           <!--{% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle }}</span>{% endif %}--> 
+          <!--<link rel="stylesheet" href="style.css">-->
           {% if site.subtitle %}
-          test 
-          <span
+          test  <span class="site-subtitle">
+          {{<span
           class = "txt-rotate"
           data-period="2000"
           data-rotate='[ "nerdy.", "simple" ]'
-          ></span>
+          ></span>}}</span>
           {% endif %}
         </a>
         <script src="txt-rotate.js"></script>
