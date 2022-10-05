@@ -240,7 +240,7 @@ last_modified_at: 2022-10-02
 <details>
 <summary>Study material</summary>
 <div markdown="1">
-- *Textbook* by Author
+- ***Vector Mechanics for Engineers: Statics and Dynamics*** by Beer, Johnston, Mazurek, Cornwell, and Self
 </div>
 </details>
 >Fundamental course on the analysis of the equilibrium and dynamic behavior of mechanical systems. Statics: equilibrium of particles and of rigid bodies; distributed forces; analysis of structures, including, trusses, frames, cables and beams. Dynamics: kinematics of particles; kinetics of particles, Newton's second law, energy, momenta, impact dynamics; systems of particles; kinematics of rigid bodies; kinetics of rigid bodies in two and three dimensions.
