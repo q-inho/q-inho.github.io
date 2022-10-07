@@ -240,12 +240,18 @@ last_modified_at: 2022-10-02
 <details>
 <summary>Study material</summary>
 <div markdown="1">
-- ***Vector Mechanics for Engineers: Statics and Dynamics*** by Beer, Johnston, Mazurek, Cornwell, and Self
+- ***Vector Mechanics for Engineers: Statics and Dynamics*** by Beer, Johnson, Mazurek, Cornwell, and Self
 </div>
 </details>
 >Fundamental course on the analysis of the equilibrium and dynamic behavior of mechanical systems. Statics: equilibrium of particles and of rigid bodies; distributed forces; analysis of structures, including, trusses, frames, cables and beams. Dynamics: kinematics of particles; kinetics of particles, Newton's second law, energy, momenta, impact dynamics; systems of particles; kinematics of rigid bodies; kinetics of rigid bodies in two and three dimensions.
 
 ## Solid Mechanics I
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Mechanics of Materials*** by Beer, Johnson, and Mazurek
+</div>
+</details>
 >Forces, moments, equilibrium; principles of virtual work; analysis of structural members under axial load, torsion and bending; shear force and bending moment diagrams; statically indeterminate trusses; buckling and structural stability.
 
 ## Fluid Mechanics
