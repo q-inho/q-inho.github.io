@@ -11,7 +11,7 @@ toc: false
 toc_sticky: false
  
 date: 2022-09-24
-last_modified_at: 2022-10-02
+last_modified_at: 2022-10-09
 ---
 
 # My Roadmap for Mechanical Engieering
@@ -265,6 +265,12 @@ last_modified_at: 2022-10-02
 >Fundamental concepts; hydrostatics; integral and differential equations of fluid flows; conservation of mass, momentum and energy; dimensional analysis; pipe flow; channel flow and boundary layers.
 
 ## Thermodynamics
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Thermodynamics – An Engineering Approach*** by Y.A. Cengel and M.A. Boles
+</div>
+</details>
 >Fundamental concepts; pure substance; work and heat; control volume; Ideal and real gases. First and second laws of thermodynamics. Entropy. Elementary power and refrigeration cycles.
 
 ## Engineering Materials I
