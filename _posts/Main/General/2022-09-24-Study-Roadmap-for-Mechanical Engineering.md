@@ -255,6 +255,13 @@ last_modified_at: 2022-10-02
 >Forces, moments, equilibrium; principles of virtual work; analysis of structural members under axial load, torsion and bending; shear force and bending moment diagrams; statically indeterminate trusses; buckling and structural stability.
 
 ## Fluid Mechanics
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Munson's Fundamental of Fluid Mechanics*** by Gerhart et al.
+- ***Mechanics of Fluids*** by Potter et al.
+</div>
+</details>
 >Fundamental concepts; hydrostatics; integral and differential equations of fluid flows; conservation of mass, momentum and energy; dimensional analysis; pipe flow; channel flow and boundary layers.
 
 ## Thermodynamics
