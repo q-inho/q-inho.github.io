@@ -9,19 +9,19 @@ header:
 categories:
   - Study/Research/Paper
 tags:
-  - [Quantum Computing, Physics]
+  - [Quantum Computing, Physics, Electrical Engineering]
 
 toc: true
 toc_sticky: true
  
 date: 2022-10-03
-last_modified_at: 2022-10-03
+last_modified_at: 2022-10-10
 ---
 
 # Papers
 ## Quantum Computing
 ### 2019
-- [Arute, F. et al. ***Quantum supremacy using a programmable superconducting processor***. Nature 574, 505-510 (2019).](https://www.nature.com/articles/s41586-019-1666-5)  <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
+- [Arute, F. et al. ***Quantum supremacy using a programmable superconducting processor***. Nature 574, 505-510 (2019).](https://www.nature.com/articles/s41586-019-1666-5)  <img src="https://img.shields.io/badge/-Building-blue"/>
 
 # Book
 ## Quantum Computing
@@ -29,3 +29,5 @@ last_modified_at: 2022-10-03
 
 ## Physics
 - ***Introduction to Quantum Mechanics*** by David J. Griffiths and Darrell F. Schroeter <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
+
+
