@@ -11,7 +11,7 @@ toc: false
 toc_sticky: false
  
 date: 2022-09-24
-last_modified_at: 2022-10-09
+last_modified_at: 2022-10-10
 ---
 
 # My Roadmap for Mechanical Engieering
@@ -274,12 +274,33 @@ last_modified_at: 2022-10-09
 >Fundamental concepts; pure substance; work and heat; control volume; Ideal and real gases. First and second laws of thermodynamics. Entropy. Elementary power and refrigeration cycles.
 
 ## Engineering Materials I
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***MATERIALS SCIENCE AND ENGINEERING: An Introduction*** by Edition, William D. Callister, Jr.
+</div>
+</details>
 >Atomic bonding of materials; crystal structure and defects; mechanical properties of materials; phase diagrams and phase transformations; heat treatment of metals; processing and applications of metallic materials.
 
+
 ## Design and Manufacturing I
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Shigley's Mechanical Engineering Design*** by Budynas, Nisbett
+- ***Materials Selection in Mechanical Design*** by Michael F. ASHBY
+</div>
+</details>
 >Introduction to the engineering design process and engineering graphics; design specification, concept generation, and concept evaluation; geometric construction, sketching, orthographic projection, auxillary views, sectioning, dimensioning, tolerancing, and working drawing. 
 
+
 ## Solid Mechanics II
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Advanced Mechanics of Materials*** by Richard J. Schmidt, Arthur P. Boresi
+</div>
+</details>
 >Bi-axial stress state and failure criteria; thick-walled cylinders and spinning disks; bending of plates; elastic foundations; unsymmetric bending and torsion; curved beams; frame analysis; energy methods; plastic collapse and limit analysis.
 
 ## Mechanisms of Machinery
