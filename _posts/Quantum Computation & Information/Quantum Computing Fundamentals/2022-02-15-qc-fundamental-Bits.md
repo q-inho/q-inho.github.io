@@ -4,7 +4,7 @@ title:  "[Quantum Computing] What are Bits"
 categories:
   - QC Fundamentals
 tags:
-  - [Quantum Computing, Electrical Engineering]
+  - [Quantum Computing, Electronic Engineering]
 
 toc: true
 toc_sticky: true

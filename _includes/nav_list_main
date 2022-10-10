@@ -99,7 +99,7 @@
                 {% endfor %}
             </ul> 
 
-        <span class="nav__sub-title">Electrical Engineering</span>
+        <span class="nav__sub-title">Electronic Engineering</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "elec-general" %}

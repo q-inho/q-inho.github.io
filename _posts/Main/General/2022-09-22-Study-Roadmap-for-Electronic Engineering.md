@@ -1,11 +1,11 @@
 ---
-title:  "Study Roadmap for Electrical Engineering"
+title:  "Study Roadmap for Electronic Engineering"
 excerpt: "Bioelectronics, Electromagnetics, Embedded Systems, Integrated Circuits and Systems and others.."
 
 categories:
   - General
 tags:
-  - [Electrical Engineering]
+  - [Electronic Engineering]
 
 toc: false
 toc_sticky: false
@@ -159,7 +159,7 @@ last_modified_at: 2022-09-22
 
 ---
 
-# Undergraduate Elecetrical Engineering
+# Undergraduate Elecetronic Engineering
 - Signals and Systems
 - Introduction to Computer Organization and Design
 - Electronic Circuits
@@ -229,7 +229,7 @@ last_modified_at: 2022-09-22
 - Mechatronic Design and Prototyping
 - Introduction to Robotics
 
-# Postgraduate Electrical Engineering
+# Postgraduate Electronic Engineering
 - Introduction to the Design & Implementation of Micro-Systems
 - Advanced Analog IC Analysis and Design
 - Advanced CMOS Devices

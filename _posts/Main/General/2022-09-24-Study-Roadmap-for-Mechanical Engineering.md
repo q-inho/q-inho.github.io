@@ -194,7 +194,7 @@ last_modified_at: 2022-10-10
 - Software Engineering
 - Operating Systems
 
-# Undergraduate Electrical Engineering
+# Undergraduate Electronic Engineering
 - Signals and Systems
 - Basic Electronics
 - System Modeling, Analysis and Control

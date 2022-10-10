@@ -4,7 +4,7 @@ title:  "[Quantum Computing] Logic Gates"
 categories:
   - QC Fundamentals
 tags:
-  - [Quantum Computing, Electrical Engineering]
+  - [Quantum Computing, Electronic Engineering]
 
 toc: false
 toc_sticky: false
