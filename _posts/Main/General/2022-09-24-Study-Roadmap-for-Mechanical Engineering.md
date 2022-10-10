@@ -304,6 +304,12 @@ last_modified_at: 2022-10-10
 >Bi-axial stress state and failure criteria; thick-walled cylinders and spinning disks; bending of plates; elastic foundations; unsymmetric bending and torsion; curved beams; frame analysis; energy methods; plastic collapse and limit analysis.
 
 ## Mechanisms of Machinery
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Kinematics, Dynamics, and Design of Machinery*** by K. Waldron et al.
+</div>
+</details>
 >Application of kinematics and dynamics in the analysis, design and synthesis of mechanisms. Type and dimensional design of linkages, cams and gears based on motion requirements and force transmission, in contrast to the strength requirements. Graphical, analytical and computer methods in analysis and design of mechanisms. Design considerations in mechanism synthesis.
 
 ## Materials for Energy Technologies
