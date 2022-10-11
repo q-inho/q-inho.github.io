@@ -26,6 +26,9 @@ last_modified_at: 2022-10-10
 ### 2017
 - [Harrow, A. W. &amp; Montanaro, A. ***Quantum computational supremacy***. Nature 549, 203–209 (2017). ](https://www.nature.com/articles/nature23458) <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
 
+### 2000
+- [Bennett, C. H. &amp; DiVincenzo, D. P. Quantum Information and Computation. Nature 404, 247–255 (2000). ](https://www.nature.com/articles/35005001) <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
+
 # Book
 ## Quantum Computing
 - ***Quantum Computation and Quantum Information*** by Michael A. Nielsen and Isaac L. Chuang  <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
