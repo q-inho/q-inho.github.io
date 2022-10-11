@@ -316,6 +316,12 @@ last_modified_at: 2022-10-10
 >The societal energy transition from fossil fuels to renewable sources requires novel energy technologies, with material design and engineering at the center of the innovation process. In this course, we will explain the enabling materials science and engineering behind advanced energy technologies by answering questions such as why lithium powers our batteries and why it takes silicon to make a solar panel. Major material challenges of emerging energy technologies will also be discussed. During the course, the students will be exposed to 1) the knowledge of material structure-property correlations used in energy technologies, 2) materials synthesis and fabrication techniques for their incorporation into energy devices, and 3) material evaluation principles in energy applications. After taking the course, students will be able to identify desirable material properties and potentially propose new materials and manufacturing methods for specific energy technologies.
 
 ## Energy Conversion
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Thermodynamics – An Engineering Approach*** by Y.A. Cengel and M.A. Boles
+</div>
+</details>
 >Thermodynamics of combustion, chemical equilibrium, refrigeration and mixtures of gases. Analysis of power generation, propulsion systems. Performance of modern steam plants, gas turbines, internal combustion engines and refrigeration plants.
 
 ## Heat Transfer
