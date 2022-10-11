@@ -11,7 +11,7 @@ toc: false
 toc_sticky: false
  
 date: 2022-09-24
-last_modified_at: 2022-10-10
+last_modified_at: 2022-10-12
 ---
 
 # My Roadmap for Mechanical Engieering
@@ -325,6 +325,12 @@ last_modified_at: 2022-10-10
 >Thermodynamics of combustion, chemical equilibrium, refrigeration and mixtures of gases. Analysis of power generation, propulsion systems. Performance of modern steam plants, gas turbines, internal combustion engines and refrigeration plants.
 
 ## Heat Transfer
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Principles of Heat and Mass Transfer*** by Frank P. Incropera, David P. DeWitt, Theodore L. Bergman, Adrienne S. Lavine
+</div>
+</details>
 >Transient and steady heat conduction. Natural and forced convection. Radiative exchange. Introduction to computational methods.
 
 ## Introduction to Composite Materials
