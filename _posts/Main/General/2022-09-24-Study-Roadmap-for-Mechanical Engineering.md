@@ -11,7 +11,7 @@ toc: false
 toc_sticky: false
  
 date: 2022-09-24
-last_modified_at: 2022-10-12
+last_modified_at: 2022-10-13
 ---
 
 # My Roadmap for Mechanical Engieering
@@ -334,6 +334,12 @@ last_modified_at: 2022-10-12
 >Transient and steady heat conduction. Natural and forced convection. Radiative exchange. Introduction to computational methods.
 
 ## Introduction to Composite Materials
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Engineering Mechanics of Composite Materials*** by IM Daniel & O Ishai
+</div>
+</details>
 >This course introduces fundamentals of composite materials, which will cover the definitions of composites, their classifications and characteristics, the basic mechanics of their reinforcement mechanisms and common applications in science and engineering, especially in aerospace engineering. One important objective of the course is to underlie the concepts of rule of mixtures and laws of solid mechanics, by which the composite materials can be designed with desirable characteristics for engineering applications.
 
 ## Engineering Materials II
