@@ -11,7 +11,7 @@ toc: false
 toc_sticky: false
  
 date: 2022-09-24
-last_modified_at: 2022-10-13
+last_modified_at: 2022-10-14
 ---
 
 # My Roadmap for Mechanical Engieering
@@ -343,6 +343,12 @@ last_modified_at: 2022-10-13
 >This course introduces fundamentals of composite materials, which will cover the definitions of composites, their classifications and characteristics, the basic mechanics of their reinforcement mechanisms and common applications in science and engineering, especially in aerospace engineering. One important objective of the course is to underlie the concepts of rule of mixtures and laws of solid mechanics, by which the composite materials can be designed with desirable characteristics for engineering applications.
 
 ## Engineering Materials II
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***MATERIALS SCIENCE AND ENGINEERING: An Introduction*** by Edition, William D. Callister, Jr.
+</div>
+</details>
 >It is an advanced course on materials science and engineering offered in this department. This course is composed of three modules, i.e. (1) electrical, thermal, magnetic, and optical properties of general engineering materials; (2) green and smart building materials including ceramics, polymers, advanced insulation and glazing materials; (3) aerospace engineering materials including application of Aluminum alloys, Magnesium alloys, Titanium alloys, as well as superalloys in aerospace structures and engines.
 
 ## CAD/CAM
