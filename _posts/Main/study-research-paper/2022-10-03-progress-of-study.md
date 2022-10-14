@@ -15,7 +15,7 @@ toc: true
 toc_sticky: true
  
 date: 2022-10-03
-last_modified_at: 2022-10-10
+last_modified_at: 2022-10-14
 ---
 
 # Papers
@@ -31,6 +31,7 @@ last_modified_at: 2022-10-10
 
 # Book
 ## Quantum Computing
+- ***Machine Learning with Quantum Computers*** by Maria Schuld and Francesco Petruccione  <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
 - ***Quantum Computation and Quantum Information*** by Michael A. Nielsen and Isaac L. Chuang  <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
 
 ## Physics
