@@ -11,7 +11,7 @@ toc: false
 toc_sticky: false
  
 date: 2022-09-24
-last_modified_at: 2022-10-14
+last_modified_at: 2022-10-15
 ---
 
 # My Roadmap for Mechanical Engieering
@@ -355,6 +355,12 @@ last_modified_at: 2022-10-14
 >Geometric modeling systems, data structures, NC technology, NC machining, project.
 
 ## Design and Manufacturing II
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Shigley's Mechanical Engineering Design*** by Budynas, Nisbett
+</div>
+</details>
 >Engineering specification, selection of materials, design criteria. Methods of joining and assembly. Engineering components design and applications: shafts and bearing, gearing, pulleys and belts, brakes and clutches. Design for manufacturing.
 
 ## Control Principles
