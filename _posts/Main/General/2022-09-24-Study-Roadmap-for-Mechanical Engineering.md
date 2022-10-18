@@ -11,7 +11,7 @@ toc: false
 toc_sticky: false
  
 date: 2022-09-24
-last_modified_at: 2022-10-15
+last_modified_at: 2022-10-19
 ---
 
 # My Roadmap for Mechanical Engieering
@@ -364,6 +364,12 @@ last_modified_at: 2022-10-15
 >Engineering specification, selection of materials, design criteria. Methods of joining and assembly. Engineering components design and applications: shafts and bearing, gearing, pulleys and belts, brakes and clutches. Design for manufacturing.
 
 ## Control Principles
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Modern Control Systems*** by Richard C. Dorf.
+</div>
+</details>
 >Introduction to system equations, block diagrams, signal flow graphs, state-space systems, transient response using convolution integral, root locus and frequency response methods. Design by root locus, frequency response and state space method. Nyquist stability test.
 
 ## Aircraft Design
