@@ -11,7 +11,7 @@ toc: false
 toc_sticky: false
  
 date: 2022-09-24
-last_modified_at: 2022-10-19
+last_modified_at: 2022-10-20
 ---
 
 # My Roadmap for Mechanical Engieering
@@ -373,6 +373,16 @@ last_modified_at: 2022-10-19
 >Introduction to system equations, block diagrams, signal flow graphs, state-space systems, transient response using convolution integral, root locus and frequency response methods. Design by root locus, frequency response and state space method. Nyquist stability test.
 
 ## Aircraft Design
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Aircraft Design: A Conceptual Approach*** by Daniel P. Raymer
+- ***Civil Jet Aircraft Design*** by Lloyd R. Jenkinson, Paul Simpkin, and Darren Rhodes
+- ***Fundamentals of Aircraft and Airship Design*** by Leland M. Nicolai and Grant E. Carichner
+- ***Advanced Aircraft Design: Conceptual Design, Analysis and Optimization of Subsonic Civil Airplanes*** by Egbert Torenbeek
+- ***General Aviation Aircraft Design: Applied Methods and Procedures*** by Snorri Gudmundsson
+</div>
+</details>
 >Students will work in teams to develop a conceptual design for a complete flight vehicle, using knowledge and skills acquired in the Aerospace Engineering Major curriculum. Specific considerations will include market conditions, mission requirements, aircraft size and layout, airfoil/wing geometry, aerodynamics, engine selection, airframe-engine integration, fuselage design, electrical and hydraulic systems, landing gear arrangement, flight stability and control, structures and materials, avionics and navigation systems, human factors, safety, manufacturing processes, and cost analysis. The teams will present their proposed designs via oral presentations and written reports.
 
 ## Electrical Technology
