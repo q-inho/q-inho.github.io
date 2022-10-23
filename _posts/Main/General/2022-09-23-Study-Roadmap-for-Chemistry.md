@@ -11,7 +11,7 @@ toc: false
 toc_sticky: false
  
 date: 2022-09-23
-last_modified_at: 2022-10-03
+last_modified_at: 2022-10-23
 ---
 
 # My Roadmap for Chemistry
@@ -248,9 +248,21 @@ last_modified_at: 2022-10-03
 >Fundamental and practical aspects of chemical analysis, including titrimetric, electrical and spectroscopic methods, analytical separations by GLC and HPLC.
 
 ## Mathematical Methods for Physical Chemistry
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Mathematics for Physical Chemistry*** by Robert G. Mortimer
+</div>
+</details>
 >This course covers mathematical and numerical methods for solving typical complex problems found in undergraduate-level physical chemistry courses. Topics include single variable integration, multivariate calculus, series and limits, ordinary and partial differential equations, determinants, matrices, vectors, and probability and statistics.
 
 ## Physical Chemistry I: Equillibrium Thermodynamics and Statistical Mechanics
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Atkin's Physical Chemistry*** by Peter Atkins, Julio de Paula, and James Keeler
+</div>
+</details>
 >The course consists of two parts. The first part teaches the equilibrium thermodynamics, covering the laws of thermodynamics and thermodynamics functions, with applications to various problems in phase equilibrium, chemical and electrochemical equilibrium. The second part teaches the equilibrium statistical thermodynamics, covering the Boltzmann distribution, the statistical ensembles and partition functions and their relations to thermodynamics functions.
 
 ## Great Ideas in Chemistry
@@ -269,6 +281,12 @@ last_modified_at: 2022-10-03
 >Topics covered include electrochemistry, mass spectrometry and separation sciences.
 
 ## Physical Chemistry II
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Atkin's Physical Chemistry*** by Peter Atkins, Julio de Paula, and James Keeler
+</div>
+</details>
 >Basic quantum theory, atomic and molecular structure, equilibrium statistical thermodynamics.
 
 ## Structural Elucidation in Organic Chemistry
@@ -445,6 +463,12 @@ last_modified_at: 2022-10-03
 >Classical statistical mechanics and its applications in complex chemical and biological systems.
 
 ## Quantum Chemistry
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Modern Quantum Chemistry*** by Attila Szabo and Neil S. Ostlund
+</div>
+</details>
 >Introduction to basic theories of Quantum Chemistry. Popular theories used in modern Quantum Chemistry such as Hantree-Fock theory, Density Functional theory. Perturbation Theories, and other quantum chemistry theories will be introduced in this course.
 
 ## Advanced Inorganic Chemistry I
