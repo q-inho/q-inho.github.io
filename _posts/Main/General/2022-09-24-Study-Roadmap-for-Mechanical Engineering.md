@@ -11,7 +11,7 @@ toc: false
 toc_sticky: false
  
 date: 2022-09-24
-last_modified_at: 2022-10-20
+last_modified_at: 2022-10-23
 ---
 
 # My Roadmap for Mechanical Engieering
@@ -386,6 +386,12 @@ last_modified_at: 2022-10-20
 >Students will work in teams to develop a conceptual design for a complete flight vehicle, using knowledge and skills acquired in the Aerospace Engineering Major curriculum. Specific considerations will include market conditions, mission requirements, aircraft size and layout, airfoil/wing geometry, aerodynamics, engine selection, airframe-engine integration, fuselage design, electrical and hydraulic systems, landing gear arrangement, flight stability and control, structures and materials, avionics and navigation systems, human factors, safety, manufacturing processes, and cost analysis. The teams will present their proposed designs via oral presentations and written reports.
 
 ## Electrical Technology
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Principles of Electric Machines and Power Electronics*** by P. C. Sen
+</div>
+</details>
 >Electromagnetic circuits, transformers, electromechanical energy conversion, DC machines, asynchronous and synchronous machines, special machines, transients and dynamics, three-phase circuits and power electronics, applications in electrical building services.
 
 ## Aerodynamics
