@@ -15,13 +15,13 @@ toc: true
 toc_sticky: true
  
 date: 2022-10-03
-last_modified_at: 2022-10-23
+last_modified_at: 2022-10-24
 ---
 
 # Papers
 ## Quantum Information
 ### 2022
-- [McArdle, S., et al. ***Exploiting fermion number in factorized decompositions of the electronic structure hamiltonian***. Physical Review A 105, (2022).](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.012403) <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
+- [McArdle, S., et al. ***Exploiting fermion number in factorized decompositions of the electronic structure hamiltonian***. Physical Review A 105, (2022).](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.012403)  <img src="https://img.shields.io/badge/-Building-blue"/>
 
 ### 2019
 - [Arute, F. et al. ***Quantum supremacy using a programmable superconducting processor***. Nature 574, 505-510 (2019).](https://www.nature.com/articles/s41586-019-1666-5)  <img src="https://img.shields.io/badge/-Building-blue"/>
@@ -36,6 +36,9 @@ last_modified_at: 2022-10-23
 ## Quantum Information
 - ***Machine Learning with Quantum Computers*** by Maria Schuld and Francesco Petruccione  <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
 - ***Quantum Computation and Quantum Information*** by Michael A. Nielsen and Isaac L. Chuang  <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
+
+## Chemistry
+- ***Mathematics for Physical Chemistry*** by Robert G. Mortimer <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
 
 ## Physics
 - ***Introduction to Quantum Mechanics*** by David J. Griffiths and Darrell F. Schroeter <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
