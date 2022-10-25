@@ -41,6 +41,9 @@ last_modified_at: 2022-10-25
 - ***Quantum Computation and Quantum Information*** by Michael A. Nielsen and Isaac L. Chuang  <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
 
 ## Chemistry
+
+- ***Atkin's Physical Chemistry*** by Peter Atkins, Julio de Paula & James Keeler <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
+
 - ***Mathematics for Physical Chemistry*** by Robert G. Mortimer <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
 
 ## Physics
