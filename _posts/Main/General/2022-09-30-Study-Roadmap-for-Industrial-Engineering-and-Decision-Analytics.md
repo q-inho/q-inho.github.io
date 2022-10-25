@@ -24,7 +24,7 @@ last_modified_at: 2022-10-04
         IEDA2200[Engineering Management]
         IEDA2410[Logistics and Freight Transportation Operations]
         IEDA2520[Probability for Engineers]
-        IEDA2540[Statisticas for Engineers]
+        IEDA2540[Statistics for Engineers]
         IEDA3010[Prescriptive Analytics]
         IEDA3130[Ergonomics and Safety Management]
         IEDA3150[Manufacturing Processes]
