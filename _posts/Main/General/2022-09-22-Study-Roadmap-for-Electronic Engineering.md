@@ -11,7 +11,7 @@ toc: false
 toc_sticky: false
  
 date: 2022-09-22
-last_modified_at: 2022-09-22
+last_modified_at: 2022-10-29
 ---
 
 # My Roadmap for Electrical Engineering
@@ -270,7 +270,7 @@ last_modified_at: 2022-09-22
 <details>
 <summary>Study material</summary>
 <div markdown="1">
-- *Signals and Systems* by Alan Oppenheim
+- ***Signals and Systems*** by Alan Oppenheim
 </div>
 </details>
 >This is an introductory course for signal and system analysis. The course covers signal analysis tools including continuous- and discrete-time Fourier series and Fourier transform, and Laplace Transform; interactions between signals and linear time invariant (LTI) systems, and differential and difference equations as LTI systems, sampling theorem; and application examples in communication and control systems. MATLAB introduced as an integral part of this course.
@@ -312,6 +312,12 @@ last_modified_at: 2022-09-22
 >This is an introductory course for electric power systems and smart grid. The course includes the following topics: power concepts for ac systems, generation, transmission, distribution, and utilization of electric power, system aspects of synchronous machines, transmission lines, transformers, and motors. Power flow and contingency states. Smart grid concepts, role of information technology in smart grid applications, smart metering, smart buildings and homes.
 
 ## Microelectronic Devices and Technology
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Modern Semiconductor Devices for Integrated Circuits*** by Chenming Calvin Hu
+</div>
+</details>
 >This is an introductory course for semiconductor device operation principles and technology in common electronic products such as integrated circuit (IC), digital camera, solar cell, memory elements, smartcard, etc. Topics covered include Semiconductor properties, IC fabrication technology, PN junctions, Bipolar Junction Transistors (BJT), MOSFETs, CCD and the future technology trend in the electronic industry.
 
 ## Electromagnetics: From Wireless to Photonic Applications
