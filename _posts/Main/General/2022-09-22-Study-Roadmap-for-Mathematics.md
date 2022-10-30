@@ -11,7 +11,7 @@ toc: false
 toc_sticky: false
  
 date: 2022-09-22
-last_modified_at: 2022-10-01
+last_modified_at: 2022-10-30
 ---
 
 # My Roadmap for Mathematics
@@ -348,6 +348,12 @@ last_modified_at: 2022-10-01
 >Sequences, series, gradients, chain rule. Extrema, Lagrange multipliers, line integrals, multiple integrals. Green's theorem, Stoke's theorem, divergence theorem, change of variables.
 
 ## Mathematical Analysis
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Introduction to Analysis*** by William R. Wade
+</div>
+</details>
 >Sets and functions, real numbers, limits of sequences and series, limits of functions, continuous functions, differentiation, Riemann integration, additional topics.
 
 ## Linear Algebra
