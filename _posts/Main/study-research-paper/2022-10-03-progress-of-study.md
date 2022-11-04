@@ -21,8 +21,10 @@ last_modified_at: 2022-11-05
 # Papers
 ## Quantum Information
 ### 2022
+- [Chen, Q.-M. et al. ***Tuning and amplifying the interactions in superconducting quantum circuits with Subradiant qubits***. Physical Review A 105, (2022).](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.012405) <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
 - [McArdle, S. et al. ***Exploiting fermion number in factorized decompositions of the electronic structure hamiltonian***. Physical Review A 105, (2022).](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.012403)  <img src="https://img.shields.io/badge/-Building-blue"/>
 - [Morachis Galindo, D. &amp; Maytorena, J. A. ***Entangling power of symmetric two-qubit quantum gates and three-level operations***. Physical Review A 105, (2022). ](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.012601) <img src="https://img.shields.io/badge/-Building-blue"/>
+- 
 
 ### 2020
 - [McArdle, S. et al. ***Quantum computational chemistry***. Reviews of Modern Physics 92, (2020).](https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.92.015003) <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
@@ -44,12 +46,10 @@ last_modified_at: 2022-11-05
 ## Chemistry
 
 - ***Atkin's Physical Chemistry*** by Peter Atkins, Julio de Paula & James Keeler <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
-
 - ***Mathematics for Physical Chemistry*** by Robert G. Mortimer <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
 
 ## Physics
 - ***Introduction to Quantum Mechanics*** by David J. Griffiths and Darrell F. Schroeter <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
-
 - ***Molecular Electronic-Structure Theory*** by T. Helgaker, P. Jorgensen, and J. Olsen <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
 
 ## Electronic Engineering
