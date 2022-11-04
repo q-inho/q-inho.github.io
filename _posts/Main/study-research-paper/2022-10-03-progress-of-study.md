@@ -50,6 +50,8 @@ last_modified_at: 2022-11-05
 ## Physics
 - ***Introduction to Quantum Mechanics*** by David J. Griffiths and Darrell F. Schroeter <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
 
+- ***Molecular Electronic-Structure Theory*** by T. Helgaker, P. Jorgensen, and J. Olsen <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
+
 ## Electronic Engineering
 - ***Signals and Systems*** by Alan V. Oppenheim, Alan S. Willsky, S. Hamid Nawab <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
 
