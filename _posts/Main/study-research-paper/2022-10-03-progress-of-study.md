@@ -15,13 +15,14 @@ toc: true
 toc_sticky: true
  
 date: 2022-10-03
-last_modified_at: 2022-10-25
+last_modified_at: 2022-11-04
 ---
 
 # Papers
 ## Quantum Information
 ### 2022
 - [McArdle, S. et al. ***Exploiting fermion number in factorized decompositions of the electronic structure hamiltonian***. Physical Review A 105, (2022).](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.012403)  <img src="https://img.shields.io/badge/-Building-blue"/>
+- [Morachis Galindo, D. &amp; Maytorena, J. A. ***Entangling power of symmetric two-qubit quantum gates and three-level operations***. Physical Review A 105, (2022). ](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.012601) <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
 
 ### 2020
 - [McArdle, S. et al. ***Quantum computational chemistry***. Reviews of Modern Physics 92, (2020).](https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.92.015003) <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
