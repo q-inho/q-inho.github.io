@@ -15,7 +15,7 @@ toc: true
 toc_sticky: true
  
 date: 2022-10-03
-last_modified_at: 2022-11-06
+last_modified_at: 2022-11-07
 ---
 
 # Papers
@@ -24,7 +24,7 @@ last_modified_at: 2022-11-06
 - [Asadian, A. &amp; Cabello, A. ***Bosonic indistinguishability-dependent contextuality***. Physical Review A 105, (2022). ](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.012404) <img src="https://img.shields.io/badge/-Building-blue"/>
 - [Chen, Q.-M. et al. ***Tuning and amplifying the interactions in superconducting quantum circuits with Subradiant qubits***. Physical Review A 105, (2022).](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.012405) <img src="https://img.shields.io/badge/-Building-blue"/>
 - [Dalgaard, M., Motzoi, F. &amp; Sherson, J. ***Predicting quantum dynamical cost landscapes with deep learning***. Physical Review A 105, (2022). ](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.012402) <img src="https://img.shields.io/badge/-Building-blue"/>
-- [Gumberidze, M., Kolář, M. &amp; Filip, R. ***Pairwise-measurement-induced synthesis of quantum coherence***. Physical Review A 105, (2022). ](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.012401) <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
+- [Gumberidze, M., Kolář, M. &amp; Filip, R. ***Pairwise-measurement-induced synthesis of quantum coherence***. Physical Review A 105, (2022). ](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.012401) <img src="https://img.shields.io/badge/-Building-blue"/>
 - [McArdle, S. et al. ***Exploiting fermion number in factorized decompositions of the electronic structure hamiltonian***. Physical Review A 105, (2022).](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.012403)  <img src="https://img.shields.io/badge/-Building-blue"/>
 - [Morachis Galindo, D. &amp; Maytorena, J. A. ***Entangling power of symmetric two-qubit quantum gates and three-level operations***. Physical Review A 105, (2022). ](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.012601) <img src="https://img.shields.io/badge/-Building-blue"/>
 
