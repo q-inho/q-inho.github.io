@@ -15,13 +15,14 @@ toc: true
 toc_sticky: true
  
 date: 2022-10-03
-last_modified_at: 2022-11-14
+last_modified_at: 2022-11-18
 ---
 
 # Papers
 ## Quantum Information
 ### 2022
 - [Asadian, A. &amp; Cabello, A. ***Bosonic indistinguishability-dependent contextuality***. Physical Review A 105, (2022). ](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.012404) <img src="https://img.shields.io/badge/-Building-blue"/>
+- [Bienias, P., Boettcher, I., Belyansky, R., Kollár, A. J. &amp; Gorshkov, A. V. ***Circuit quantum electrodynamics in hyperbolic space: From photon bound states to frustrated spin models.*** Physical Review Letters 128, (2022). ](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.128.013601)
 - [Chen, Q.-M. et al. ***Tuning and amplifying the interactions in superconducting quantum circuits with Subradiant qubits***. Physical Review A 105, (2022).](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.012405) <img src="https://img.shields.io/badge/-Building-blue"/>
 - [Dalgaard, M., Motzoi, F. &amp; Sherson, J. ***Predicting quantum dynamical cost landscapes with deep learning***. Physical Review A 105, (2022). ](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.012402) <img src="https://img.shields.io/badge/-Building-blue"/>
 - [Gumberidze, M., Kolář, M. &amp; Filip, R. ***Pairwise-measurement-induced synthesis of quantum coherence***. Physical Review A 105, (2022). ](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.012401) <img src="https://img.shields.io/badge/-Building-blue"/>
