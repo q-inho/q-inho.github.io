@@ -37,7 +37,7 @@ last_modified_at: 2022-11-21
 
 - Morachis Galindo, D. &amp; Maytorena, J. A. ***Entangling power of symmetric two-qubit quantum gates and three-level operations***. [Physical Review A 105, (2022). ](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.012601) <img src="https://img.shields.io/badge/-Building-blue"/>
 
-- Mugel, S. et al. ***Dynamic portfolio optimization with real datasets using quantum processors and quantum-inspired tensor networks***. [Physical Review Research 4, (2022). ](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.4.013006) <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
+- Mugel, S. et al. ***Dynamic portfolio optimization with real datasets using quantum processors and quantum-inspired tensor networks***. [Physical Review Research 4, (2022). ](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.4.013006) <img src="https://img.shields.io/badge/-Building-blue"/>
 
 - Singh, J., Arvind, aa &amp; Goyal, S. K. ***Implementation of discrete positive operator valued measures on linear optical systems using cosine-sine decomposition***. [Physical Review Research 4, (2022). ](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.4.013007) <img src="https://img.shields.io/badge/-Building-blue"/>
 
