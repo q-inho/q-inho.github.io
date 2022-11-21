@@ -21,43 +21,44 @@ last_modified_at: 2022-11-21
 # Papers
 ## Quantum Information
 ### 2022
-- [Asadian, A. &amp; Cabello, A. ***Bosonic indistinguishability-dependent contextuality***. Physical Review A 105, (2022). ](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.012404) <img src="https://img.shields.io/badge/-Building-blue"/>
+- Asadian, A. &amp; Cabello, A. ***Bosonic indistinguishability-dependent contextuality***. [Physical Review A 105, (2022). ](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.012404) <img src="https://img.shields.io/badge/-Building-blue"/>
 
-- [Bienias, P., Boettcher, I., Belyansky, R., Kollár, A. J. &amp; Gorshkov, A. V. ***Circuit quantum electrodynamics in hyperbolic space: From photon bound states to frustrated spin models.*** Physical Review Letters 128, (2022). ](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.128.013601) <img src="https://img.shields.io/badge/-Building-blue"/>
+- Bienias, P., Boettcher, I., Belyansky, R., Kollár, A. J. &amp; Gorshkov, A. V. ***Circuit quantum electrodynamics in hyperbolic space: From photon bound states to frustrated spin models.*** [Physical Review Letters 128, (2022). ](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.128.013601) <img src="https://img.shields.io/badge/-Building-blue"/>
 
-- [Chen, Q.-M. et al. ***Tuning and amplifying the interactions in superconducting quantum circuits with Subradiant qubits***. Physical Review A 105, (2022).](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.012405) <img src="https://img.shields.io/badge/-Building-blue"/>
+- Chen, Q.-M. et al. ***Tuning and amplifying the interactions in superconducting quantum circuits with Subradiant qubits***. [Physical Review A 105, (2022).](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.012405) <img src="https://img.shields.io/badge/-Building-blue"/>
 
-- [Dalgaard, M., Motzoi, F. &amp; Sherson, J. ***Predicting quantum dynamical cost landscapes with deep learning***. Physical Review A 105, (2022). ](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.012402) <img src="https://img.shields.io/badge/-Building-blue"/>
+- Dalgaard, M., Motzoi, F. &amp; Sherson, J. ***Predicting quantum dynamical cost landscapes with deep learning***. [Physical Review A 105, (2022). ](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.012402) <img src="https://img.shields.io/badge/-Building-blue"/>
 
-- [Gumberidze, M., Kolář, M. &amp; Filip, R. ***Pairwise-measurement-induced synthesis of quantum coherence***. Physical Review A 105, (2022). ](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.012401) <img src="https://img.shields.io/badge/-Building-blue"/>
+- Gumberidze, M., Kolář, M. &amp; Filip, R. ***Pairwise-measurement-induced synthesis of quantum coherence***. [Physical Review A 105, (2022). ](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.012401) <img src="https://img.shields.io/badge/-Building-blue"/>
 
-- [Liu, Y., Li, L. &amp; Ma, Y. Hybrid rydberg quantum gate for Quantum Network. Physical Review Research 4, (2022). ](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.4.013008) <img src="https://img.shields.io/badge/-Building-blue"/>
+- Liu, Y., Li, L. &amp; Ma, Y. Hybrid rydberg quantum gate for Quantum Network. [Physical Review Research 4, (2022). ](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.4.013008) <img src="https://img.shields.io/badge/-Building-blue"/>
 
-- [McArdle, S. et al. ***Exploiting fermion number in factorized decompositions of the electronic structure hamiltonian***. Physical Review A 105, (2022).](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.012403)  <img src="https://img.shields.io/badge/-Building-blue"/>
+- McArdle, S. et al. ***Exploiting fermion number in factorized decompositions of the electronic structure hamiltonian***. [Physical Review A 105, (2022).](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.012403)  <img src="https://img.shields.io/badge/-Building-blue"/>
 
-- [Morachis Galindo, D. &amp; Maytorena, J. A. ***Entangling power of symmetric two-qubit quantum gates and three-level operations***. Physical Review A 105, (2022). ](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.012601) <img src="https://img.shields.io/badge/-Building-blue"/>
+- Morachis Galindo, D. &amp; Maytorena, J. A. ***Entangling power of symmetric two-qubit quantum gates and three-level operations***. [Physical Review A 105, (2022). ](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.012601) <img src="https://img.shields.io/badge/-Building-blue"/>
 
-- [Singh, J., Arvind, aa &amp; Goyal, S. K. ***Implementation of discrete positive operator valued measures on linear optical systems using cosine-sine decomposition***. Physical Review Research 4, (2022). ](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.4.013007) <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
-- [Teh, R. Y., Gessner, M., Reid, M. D. &amp; Fadel, M. ***Full multipartite steering inseparability, genuine multipartite steering, and monogamy for continuous-variable systems***. Physical Review A 105, (2022). ](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.012202) <img src="https://img.shields.io/badge/-Building-blue"/>
+- Singh, J., Arvind, aa &amp; Goyal, S. K. ***Implementation of discrete positive operator valued measures on linear optical systems using cosine-sine decomposition***. [Physical Review Research 4, (2022). ](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.4.013007) <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
+
+- Teh, R. Y., Gessner, M., Reid, M. D. &amp; Fadel, M. ***Full multipartite steering inseparability, genuine multipartite steering, and monogamy for continuous-variable systems***. [Physical Review A 105, (2022). ](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.012202) <img src="https://img.shields.io/badge/-Building-blue"/>
 
 ### 2020
-- [McArdle, S. et al. ***Quantum computational chemistry***. Reviews of Modern Physics 92, (2020).](https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.92.015003) <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
+- McArdle, S. et al. ***Quantum computational chemistry***. [Reviews of Modern Physics 92, (2020).](https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.92.015003) <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
 
 ### 2019
-- [Arute, F. et al. ***Quantum supremacy using a programmable superconducting processor***. Nature 574, 505-510 (2019).](https://www.nature.com/articles/s41586-019-1666-5)  <img src="https://img.shields.io/badge/-Building-blue"/>
+- Arute, F. et al. ***Quantum supremacy using a programmable superconducting processor***. [Nature 574, 505-510 (2019).](https://www.nature.com/articles/s41586-019-1666-5)  <img src="https://img.shields.io/badge/-Building-blue"/>
 
 ### 2017
-- [Harrow, A. W. &amp; Montanaro, A. ***Quantum computational supremacy***. Nature 549, 203–209 (2017). ](https://www.nature.com/articles/nature23458) <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
+- Harrow, A. W. &amp; Montanaro, A. ***Quantum computational supremacy***. [Nature 549, 203–209 (2017). ](https://www.nature.com/articles/nature23458) <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
 
 ### 2016
-- [Cross, A. W., Magesan, E., Bishop, L. S., Smolin, J. A. &amp; Gambetta, J. M. ***Scalable randomised benchmarking of non-Clifford Gates***. npj Quantum Information 2, (2016).](https://www.nature.com/articles/npjqi201612) <img src="https://img.shields.io/badge/-Building-blue"/>
+- Cross, A. W., Magesan, E., Bishop, L. S., Smolin, J. A. &amp; Gambetta, J. M. ***Scalable randomised benchmarking of non-Clifford Gates***. [npj Quantum Information 2, (2016).](https://www.nature.com/articles/npjqi201612) <img src="https://img.shields.io/badge/-Building-blue"/>
 
 ### 2000
-- [Bennett, C. H. &amp; DiVincenzo, D. P. Quantum Information and Computation. Nature 404, 247–255 (2000). ](https://www.nature.com/articles/35005001) <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
+- Bennett, C. H. &amp; DiVincenzo, D. P. Quantum Information and Computation. [Nature 404, 247–255 (2000). ](https://www.nature.com/articles/35005001) <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
 
 ## Physics
 ### Particles & Fields
-- [Alishahiha, M., Banerjee, S., Kames-King, J. &amp; Loos, E. Complexity as a holographic probe of strong cosmic censorship. Physical Review D 105, (2022).](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.105.026001) <img src="https://img.shields.io/badge/-Building-blue"/>
+- Alishahiha, M., Banerjee, S., Kames-King, J. &amp; Loos, E. Complexity as a holographic probe of strong cosmic censorship. [Physical Review D 105, (2022).](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.105.026001) <img src="https://img.shields.io/badge/-Building-blue"/>
 
 # Book
 ## Quantum Information
