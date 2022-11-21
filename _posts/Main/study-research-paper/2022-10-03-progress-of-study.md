@@ -37,7 +37,7 @@ last_modified_at: 2022-11-21
 
 - Morachis Galindo, D. &amp; Maytorena, J. A. ***Entangling power of symmetric two-qubit quantum gates and three-level operations***. [Physical Review A 105, (2022). ](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.012601) <img src="https://img.shields.io/badge/-Building-blue"/>
 
-- Singh, J., Arvind, aa &amp; Goyal, S. K. ***Implementation of discrete positive operator valued measures on linear optical systems using cosine-sine decomposition***. [Physical Review Research 4, (2022). ](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.4.013007) <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
+- Singh, J., Arvind, aa &amp; Goyal, S. K. ***Implementation of discrete positive operator valued measures on linear optical systems using cosine-sine decomposition***. [Physical Review Research 4, (2022). ](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.4.013007) <img src="https://img.shields.io/badge/-Building-blue"/>
 
 - Teh, R. Y., Gessner, M., Reid, M. D. &amp; Fadel, M. ***Full multipartite steering inseparability, genuine multipartite steering, and monogamy for continuous-variable systems***. [Physical Review A 105, (2022). ](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.012202) <img src="https://img.shields.io/badge/-Building-blue"/>
 
