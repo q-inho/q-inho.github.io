@@ -41,6 +41,8 @@ last_modified_at: 2022-11-22
 
 - Mugel, S. et al. ***Dynamic portfolio optimization with real datasets using quantum processors and quantum-inspired tensor networks***. [Physical Review Research 4, (2022). ](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.4.013006) <img src="https://img.shields.io/badge/-Building-blue"/>
 
+- Sager, L. A. M. &amp; Mazziotti, D. A. ***Cooper-pair condensates with nonclassical long-range order on quantum devices.*** [Physical Review Research 4, (2022). ](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.4.013003) <img src="https://img.shields.io/badge/-Building-blue"/>
+
 - Singh, J., Arvind, aa &amp; Goyal, S. K. ***Implementation of discrete positive operator valued measures on linear optical systems using cosine-sine decomposition***. [Physical Review Research 4, (2022). ](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.4.013007) <img src="https://img.shields.io/badge/-Building-blue"/>
 
 - Teh, R. Y., Gessner, M., Reid, M. D. &amp; Fadel, M. ***Full multipartite steering inseparability, genuine multipartite steering, and monogamy for continuous-variable systems***. [Physical Review A 105, (2022). ](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.012202) <img src="https://img.shields.io/badge/-Building-blue"/>
