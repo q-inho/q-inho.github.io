@@ -15,12 +15,14 @@ toc: true
 toc_sticky: true
  
 date: 2022-10-03
-last_modified_at: 2022-11-21
+last_modified_at: 2022-11-22
 ---
 
 # Papers
 ## Quantum Information
 ### 2022
+- Ann, B.-moo, Kessels, W. &amp; Steele, G. A. ***Two-photon sideband interaction in a driven Quantum Rabi model: Quantitative discussions with derived longitudinal drives and beyond the rotating wave approximation.*** [Physical Review Research 4, (2022).](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.4.013005) <img src="https://img.shields.io/badge/-Building-blue"/>
+
 - Asadian, A. &amp; Cabello, A. ***Bosonic indistinguishability-dependent contextuality***. [Physical Review A 105, (2022). ](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.012404) <img src="https://img.shields.io/badge/-Building-blue"/>
 
 - Bienias, P., Boettcher, I., Belyansky, R., Kollár, A. J. &amp; Gorshkov, A. V. ***Circuit quantum electrodynamics in hyperbolic space: From photon bound states to frustrated spin models.*** [Physical Review Letters 128, (2022). ](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.128.013601) <img src="https://img.shields.io/badge/-Building-blue"/>
