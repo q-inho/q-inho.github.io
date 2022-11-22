@@ -47,7 +47,7 @@ last_modified_at: 2022-11-23
 
 - Teh, R. Y., Gessner, M., Reid, M. D. &amp; Fadel, M. ***Full multipartite steering inseparability, genuine multipartite steering, and monogamy for continuous-variable systems***. [Physical Review A 105, (2022). ](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.012202) <img src="https://img.shields.io/badge/-Building-blue"/>
 
-- Xu, L., Lee, J. T. &amp; Freericks, J. K. ***Decomposition of high-rank factorized unitary coupled-cluster operators using ancilla and multiqubit controlled low-rank counterparts.*** [Physical Review A 105, (2022). ](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.012406) <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
+- Xu, L., Lee, J. T. &amp; Freericks, J. K. ***Decomposition of high-rank factorized unitary coupled-cluster operators using ancilla and multiqubit controlled low-rank counterparts.*** [Physical Review A 105, (2022). ](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.012406)  <img src="https://img.shields.io/badge/-Building-blue"/>
 
 - Zapletal, P., Nunnenkamp, A. &amp; Brunelli, M. ***Stabilization of multimode Schrödinger Cat states via normal-mode dissipation engineering.*** [PRX Quantum 3, (2022).](https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.3.010301) <img src="https://img.shields.io/badge/-Building-blue"/>
 
