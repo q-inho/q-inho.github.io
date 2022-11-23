@@ -15,7 +15,7 @@ toc: true
 toc_sticky: true
  
 date: 2022-10-03
-last_modified_at: 2022-11-23
+last_modified_at: 2022-11-24
 ---
 
 # Papers
@@ -32,6 +32,8 @@ last_modified_at: 2022-11-23
 - Dalgaard, M., Motzoi, F. &amp; Sherson, J. ***Predicting quantum dynamical cost landscapes with deep learning***. [Physical Review A 105, (2022). ](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.012402) <img src="https://img.shields.io/badge/-Building-blue"/>
 
 - Gumberidze, M., Kolář, M. &amp; Filip, R. ***Pairwise-measurement-induced synthesis of quantum coherence***. [Physical Review A 105, (2022). ](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.012401) <img src="https://img.shields.io/badge/-Building-blue"/>
+
+- Harlender, T. &amp; Roszak, K. ***Transfer and teleportation of system-environment entanglement.*** [Physical Review A 105, (2022). ](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.012407) <img src="https://img.shields.io/badge/-Building-blue"/>
 
 - Liu, Y., Li, L. &amp; Ma, Y. Hybrid rydberg quantum gate for Quantum Network. [Physical Review Research 4, (2022). ](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.4.013008) <img src="https://img.shields.io/badge/-Building-blue"/>
 
