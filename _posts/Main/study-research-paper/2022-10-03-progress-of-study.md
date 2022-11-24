@@ -9,7 +9,7 @@ header:
 categories:
   - Study/Research/Paper
 tags:
-  - [Quantum Computing, Physics, Electronic Engineering]
+  - [Quantum Computing, Physics, Electronic Engineering, Chemistry]
 
 toc: true
 toc_sticky: true
