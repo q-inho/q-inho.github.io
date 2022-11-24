@@ -35,7 +35,9 @@ last_modified_at: 2022-11-24
 
 - Harlender, T. &amp; Roszak, K. ***Transfer and teleportation of system-environment entanglement.*** [Physical Review A 105, (2022). ](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.012407) <img src="https://img.shields.io/badge/-Building-blue"/>
 
-- Liu, Y., Li, L. &amp; Ma, Y. Hybrid rydberg quantum gate for Quantum Network. [Physical Review Research 4, (2022). ](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.4.013008) <img src="https://img.shields.io/badge/-Building-blue"/>
+- Kiktenko, E. O., Zelenetsky, A. S. &amp; Fedorov, A. K. Practical quantum multiparty signatures using quantum-key-distribution networks. [Physical Review A 105, (2022). ](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.012408) <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
+
+- Liu, Y., Li, L. &amp; Ma, Y. ***Hybrid rydberg quantum gate for Quantum Network.*** [Physical Review Research 4, (2022). ](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.4.013008) <img src="https://img.shields.io/badge/-Building-blue"/>
 
 - McArdle, S. et al. ***Exploiting fermion number in factorized decompositions of the electronic structure hamiltonian***. [Physical Review A 105, (2022).](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.012403)  <img src="https://img.shields.io/badge/-Building-blue"/>
 
@@ -68,11 +70,11 @@ last_modified_at: 2022-11-24
 - Cross, A. W., Magesan, E., Bishop, L. S., Smolin, J. A. &amp; Gambetta, J. M. ***Scalable randomised benchmarking of non-Clifford Gates***. [npj Quantum Information 2, (2016).](https://www.nature.com/articles/npjqi201612) <img src="https://img.shields.io/badge/-Building-blue"/>
 
 ### 2000
-- Bennett, C. H. &amp; DiVincenzo, D. P. Quantum Information and Computation. [Nature 404, 247–255 (2000). ](https://www.nature.com/articles/35005001) <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
+- Bennett, C. H. &amp; DiVincenzo, D. P. ***Quantum Information and Computation.*** [Nature 404, 247–255 (2000). ](https://www.nature.com/articles/35005001) <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
 
 ## Physics
 ### Particles & Fields
-- Alishahiha, M., Banerjee, S., Kames-King, J. &amp; Loos, E. Complexity as a holographic probe of strong cosmic censorship. [Physical Review D 105, (2022).](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.105.026001) <img src="https://img.shields.io/badge/-Building-blue"/>
+- Alishahiha, M., Banerjee, S., Kames-King, J. &amp; Loos, E. ***Complexity as a holographic probe of strong cosmic censorship.*** [Physical Review D 105, (2022).](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.105.026001) <img src="https://img.shields.io/badge/-Building-blue"/>
 
 # Book
 ## Quantum Information
