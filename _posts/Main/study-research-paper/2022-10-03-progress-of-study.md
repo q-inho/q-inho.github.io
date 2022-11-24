@@ -15,7 +15,7 @@ toc: true
 toc_sticky: true
  
 date: 2022-10-03
-last_modified_at: 2022-11-24
+last_modified_at: 2022-11-25
 ---
 
 # Papers
@@ -35,7 +35,7 @@ last_modified_at: 2022-11-24
 
 - Harlender, T. &amp; Roszak, K. ***Transfer and teleportation of system-environment entanglement.*** [Physical Review A 105, (2022). ](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.012407) <img src="https://img.shields.io/badge/-Building-blue"/>
 
-- Kiktenko, E. O., Zelenetsky, A. S. &amp; Fedorov, A. K. Practical quantum multiparty signatures using quantum-key-distribution networks. [Physical Review A 105, (2022). ](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.012408) <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
+- Kiktenko, E. O., Zelenetsky, A. S. &amp; Fedorov, A. K. ***Practical quantum multiparty signatures using quantum-key-distribution networks.*** [Physical Review A 105, (2022). ](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.012408) <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
 
 - Liu, Y., Li, L. &amp; Ma, Y. ***Hybrid rydberg quantum gate for Quantum Network.*** [Physical Review Research 4, (2022). ](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.4.013008) <img src="https://img.shields.io/badge/-Building-blue"/>
 
