@@ -78,6 +78,9 @@ last_modified_at: 2022-11-25
 ### Particles & Fields
 - Alishahiha, M., Banerjee, S., Kames-King, J. &amp; Loos, E. ***Complexity as a holographic probe of strong cosmic censorship.*** [Physical Review D 105, (2022).](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.105.026001) <img src="https://img.shields.io/badge/-Building-blue"/>
 
+### Atomistic models
+- Choudhary, K. et al. ***The Joint Automated Repository for various integrated simulations (Jarvis) for data-driven materials design.*** [npj Computational Materials 6, (2020). ](https://www.nature.com/articles/s41524-020-00440-1) <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
+
 # Book
 ## Quantum Information
 - ***Machine Learning with Quantum Computers*** by Maria Schuld and Francesco Petruccione  <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
