@@ -12,10 +12,10 @@ tags:
   - [Quantum Computing, Physics, Electronic Engineering, Chemistry]
 
 toc: true
-toc_sticky: true
+toc_sticky: false
  
 date: 2022-10-03
-last_modified_at: 2022-11-26
+last_modified_at: 2022-11-27
 ---
 
 # Papers
