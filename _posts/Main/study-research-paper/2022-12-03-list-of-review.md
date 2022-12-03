@@ -19,7 +19,7 @@ last_modified_at: 2022-12-03
 ---
 
 # Nature
-- Volume 612 Issue 7938, 1 December 2022 [<img src=https://img.shields.io/badge/Nature-Link-lightgrey>](https://www.nature.com/nature/volumes/612/issues/7938)<img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
+- Volume 612 Issue 7938, 1 December 2022 ![<img src=https://img.shields.io/badge/Nature-Link-lightgrey>](https://www.science.org/toc/science/378/6623) <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
 
 # Science
-- VOLUME 378|ISSUE 6623|2 DEC 2022 [<img src=https://img.shields.io/badge/Nature-Link-lightgrey>](https://www.science.org/toc/science/378/6623)<img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
+- VOLUME 378|ISSUE 6623|2 DEC 2022 [<img src=https://img.shields.io/badge/Science-Link-lightgrey>](https://www.science.org/toc/science/378/6623) <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
