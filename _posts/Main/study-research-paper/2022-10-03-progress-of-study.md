@@ -73,7 +73,7 @@ last_modified_at: 2022-11-30
 - Harrow, A. W. &amp; Montanaro, A. ***Quantum computational supremacy***. [Nature 549, 203–209 (2017). ](https://www.nature.com/articles/nature23458) <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
 - Cross, A. W., Magesan, E., Bishop, L. S., Smolin, J. A. &amp; Gambetta, J. M. ***Scalable randomised benchmarking of non-Clifford Gates***. [npj Quantum Information 2, (2016).](https://www.nature.com/articles/npjqi201612) <img src="https://img.shields.io/badge/-Building-blue"/>
 - Bennett, C. H. &amp; DiVincenzo, D. P. ***Quantum Information and Computation.*** [Nature 404, 247–255 (2000). ](https://www.nature.com/articles/35005001) <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
-- Cha, J., Kim, H., Kim, J., Shim, S.-B. &amp; Suh, J. ***Superconducting nanoelectromechanical transducer resilient to magnetic fields.*** [Nano Letters 21, 1800–1806 (2021).](https://pubs.acs.org/doi/10.1021/acs.nanolett.0c04845) <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
+- Cha, J., Kim, H., Kim, J., Shim, S.-B. &amp; Suh, J. ***Superconducting nanoelectromechanical transducer resilient to magnetic fields.*** [Nano Letters 21, 1800–1806 (2021).](https://pubs.acs.org/doi/10.1021/acs.nanolett.0c04845) <img src="https://img.shields.io/badge/-Building-blue"/>
 
 ## Physics
 ### Particles & Fields
