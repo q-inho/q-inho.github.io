@@ -447,6 +447,13 @@ last_modified_at: 2022-12-31
 >Introduction to manifolds, metric spaces, multi-linear Algebra, differential forms, Stokes theorem on manifolds, cohomology.
 
 ## Theory of Ordinary Differential Equations
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Differential Equations and Dynamical Systems*** by Lawrence Perko
+- ***Differential Equations, Dynamical Systems, and an Introduction to Chaos*** by M. Hirsch, S. Smale, and R. Devaney
+</div>
+</details>
 >Existence and uniqueness theorems of ordinary differential equations, theory of linear systems, stability theory, study of singularities, boundary value problems.
 
 ## Partial Differential Equations
