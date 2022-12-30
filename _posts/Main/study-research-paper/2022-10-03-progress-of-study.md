@@ -32,6 +32,7 @@ last_modified_at: 2022-11-30
 
 #### Machine learning
 - Dalgaard, M., Motzoi, F. &amp; Sherson, J. ***Predicting quantum dynamical cost landscapes with deep learning***. [Physical Review A 105, (2022). ](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.012402) <img src="https://img.shields.io/badge/-Building-blue"/>
+- Havlíček, V. et al. ***Supervised learning with quantum-enhanced feature spaces***. [Nature 567, 209–212 (2019).](https://www.nature.com/articles/s41586-019-0980-2) <img src="https://img.shields.io/badge/-Building-blue"/>
 
 #### Quantum algorithms
 - Xu, L., Lee, J. T. &amp; Freericks, J. K. ***Decomposition of high-rank factorized unitary coupled-cluster operators using ancilla and multiqubit controlled low-rank counterparts.*** [Physical Review A 105, (2022). ](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.012406)  <img src="https://img.shields.io/badge/-Building-blue"/>
