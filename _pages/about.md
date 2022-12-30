@@ -6,4 +6,6 @@ author_profile: true
 sidebar_main: true
 ---
 
-Test
+# Inho Choi
+## Research Interest
+## Experience
