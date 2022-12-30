@@ -11,7 +11,7 @@ toc: false
 toc_sticky: false
  
 date: 2022-09-22
-last_modified_at: 2022-10-30
+last_modified_at: 2022-12-31
 ---
 
 # My Roadmap for Mathematics
@@ -342,7 +342,7 @@ last_modified_at: 2022-10-30
 <details>
 <summary>Study material</summary>
 <div markdown="1">
-- *Textbook* by Author
+- ***Calculus: Early Transcendentals*** by James Stewart
 </div>
 </details>
 >Sequences, series, gradients, chain rule. Extrema, Lagrange multipliers, line integrals, multiple integrals. Green's theorem, Stoke's theorem, divergence theorem, change of variables.
@@ -363,6 +363,12 @@ last_modified_at: 2022-10-30
 >Logic: propositions, axiomatization of propositional calculus, deduction theorem, completeness and soundness. Combinatorics: permutations and combinations, generating functions. Set theory: basic operations on sets, relations, countable and uncountable sets. Third year and fourth year students require instructor's approval to take the course.
 
 ## Differential Equations
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Boyce's Elementary Differential Equations and Boundary Value Problems*** by William E. Boyce
+</div>
+</details>
 >First and second order differential equations, initial value problems, series solutions, Laplace transform, numerical methods, boundary value problems, eigenvalues and eigenfunctions, Sturm-Liouville theory.
 
 ## Applied Statistics
@@ -378,12 +384,30 @@ last_modified_at: 2022-10-30
 >This course is intended for students with some mathematical maturity. This course teaches geometric constructions using tools like straightedge and compass. Moreover, geometric constructions will be associated with algebraic fields of numbers and hence related to various famous constructability problems. Topics covered by the course include Euclidean constructions, compass-only constructions, straightedge-only constructions, constructability, three classical problems and regular polygons.
 
 ## Real Analysis
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Principles of Mathematical Analysis*** by Walter Rudin
+</div>
+</details>
 >Functions of several variables, implicit and inverse function theorem, uniform convergence measure and integral on the real line.
 
 ## Abstract Algebra
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***First Course in Abstract Algebra*** by John B. Fraleigh
+</div>
+</details>
 >Polynomials; Jordan canonical form, minimal polynomials, rational canonical form; equivalence relation; group, coset, group action; introduction to rings and fields.
 
 ## Numerical Analysis
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Numerical Analysis*** by Richard Burden
+</div>
+</details>
 >Basic numerical analysis, including stability of computation, linear systems, eigenvalues and eigenvectors, nonlinear equations, interpolation and approximation, numerical integration and solution of ordinary differential equations, optimization.
 
 ## Matrix Computation
@@ -399,6 +423,12 @@ last_modified_at: 2022-10-30
 >Sampling theory, order statistics, limiting distributions, point estimation, confidence intervals, hypothesis testing, non-parametric methods.
 
 ## Regression Analysis
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Regression Analysis by Example*** by Samprit Chatterjee
+</div>
+</details>
 >Estimation and hypothesis testing in linear regression, residual analysis, multicollinearity, indicator variables, variable selection, nonlinear regression.
 
 ## Stochasit Modeling
@@ -426,18 +456,36 @@ last_modified_at: 2022-10-30
 >Examples and properties of metric spaces. Contractive mapping theorem, Baire category theorem, Stone-Weierstrass theorem, Arzela-Ascoli theorem. Properties of normed spaces and Hibert spaces. Riesz theorem. Completeness of Lp functions, continuous functions and functions of bounded variations. Best approximation theorem on Hilbert space.
 
 ## Functional Analysis
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Functional Analysis, Sobolev Spaces and Partial Differential Equations*** by Haim Brezis
+</div>
+</details>
 >Topological vector spaces. Hahn-Banach theorem, open mapping theorem, closed graph theorem, uniform boundedness theorem, separation theorem, Krein-Milman theorem. Weak topologies and reflexivity. Adjoints and duality. Compact and Fredholm operators with index. Normal operators. Spectral theorem for compact normal operators.
 
 ## Number Theory and Applications
 >Prime numbers, unique factorization, modular arithmetic, quadratic number fields, finite fields, p-adic numbers, coding theory, computational complexity.
 
 ## Introduction to Lie Groups
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Introduction to Lie Algebras and Representation Theory*** by James E. Humphreys
+</div>
+</details>
 >General linear groups, orthogonal groups, unitary groups, symplectic groups, exponential maps, maximal tori, Clifford algebra, spin groups.
 
 ## Euclidean and Non-Euclidean Geometries
 >Axioms and models, Euclidean geometry, Hilbert axioms, neutral (absolute) geometry, hyperbolic geometry, Poincare model, independence of parallel postulate.
 
 ## Differential Geometry
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Differential Geometry of Curves and Surfaces: Revised and Updated*** by Manfredo P. do Carmo
+</div>
+</details>
 >Curve theory; curvature and torsion, Frenet-Serret frame; surface theory: Weingarten map, first and second fundamental forms, curvatures, Gaussian map, ruled surface, minimal surface; instrinsic geometry: Theorema Egregium, Coddazi-Mainardi equations, parallel transport, geodesics, exponential map, Gauss-Bonnet theorem.
 
 ## Topology
@@ -483,6 +531,12 @@ last_modified_at: 2022-10-30
 >This course provides a rigorous mathematical treatment of Bayesian analysis and its applications to credibility theory. The first part covers basic concepts and principles of Bayesian statistics such as prior and posterior distributions, conjugate priors, Bayesian estimates, credibility intervals, and Bayesian hypothesis testing. The second part introduces credibility theory and its development using a Bayesian analysis. Topics include limited fluctuation credibility theory, greatest accuracy credibility theory, credibility premium, Buhlmann models, Buhlmann-Straub models, empirical Bayesian methods in nonparametric and semiparametric cases, and the insurance problem.
 
 ## Statistical Machine Learning
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***The Elements of Statistical Learning: Data Mining, Inference, and Prediction*** by Trevor Hastie
+</div>
+</details>
 >This course provides students with an extensive exposure to the elements of statistical machine learning in supervised and unsupervised learning with real world datasets. Topics include regression, classification, resampling methods, model assessment, model selection, regularization, nonparametric models, boosting, ensemble methods, random forests, kernel methods, support vector machines, neural networks, and some standard techniques in unsupervised learning such as clustering and dimensionally reduction. Lab sessions on using R or Python in data analysis with machine learning methods will be conducted in class.
 
 ## Quantitative Methods for Fixed Income Derivatives
@@ -608,6 +662,12 @@ last_modified_at: 2022-10-30
 >Review of basic properties of analytic functions. Phragmen-Lindelof principle, normal family, Riemann mapping theorem. Weierstrass factorization theorem, Schwarz reflection principle, analytic continuation, harmonic function, entire function, Hadamard factorization theorem, Picard theorem.
 
 ## Advanced Algebra I
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Algebra*** by Serge Lang
+</div>
+</details>
 >Advanced theory of groups, linear algebra, rings, modules, and fields, including Galois theory.
 
 ## Advanced Algebra II
@@ -626,6 +686,12 @@ last_modified_at: 2022-10-30
 >Fundamental group, covering space, Van Kampen theorem, (relative) homology, exact sequences of homology, Mayer-Vietoris sequence, excision theorem, Betti numbers and Euler characteristic.
 
 ## Algebraic Geometry I
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Algebraic Geometry*** by Robin Hartshorne
+</div>
+</details>
 >Projective spaces, algebraic curves, divisors, line bundles, algebraic varieties, coherent sheaves, schemes. Some commumative algebra and homological algebra such as notherian ring, regular ring, valuation ring, kahler differentials.
 
 ## Algebraic Geomtery II
@@ -638,12 +704,24 @@ last_modified_at: 2022-10-30
 >Contraction mapping theorem, Fourier series, Fourier transforms, Basics of Hilbert Space theory, Operator theory in Hilbert Spaces, Basics of Banach space theory, Convex analysis.
 
 ## Advanced Numerical Methods I
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Numerical Solution of Partial Differential Equations*** by K. W. Morton
+</div>
+</details>
 >Numerical solution of differential equations, finite difference method, finite element methods, spectral methods and boundary integral methods. Basic theory of convergence, stability and error estimates.
 
 ## Advanced Numerical Methods II
 >Direct and iterative methods. Programming techniques and softwares libraries. Sparse solvers, Fast algorithms, multi-grid and domain decomposition techniques.
 
 ## Computational Fluid Dynamics for Inviscid Flows
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Numerical Methods for Conservation Laws*** by Randall J. LeVeque
+</div>
+</details>
 >Derivation of the Navier-Strokes equations; the Euler equations; Lagriangian vs. Eulerian methods of description; nonlinear hyperbolic conservation laws; characteristics and Riemann invariants; classification of discontinuity; weak solutions and entropy condition; Riemann problem; CFL condition; Godunov method; artificial dissipation; TVD methods; and random choice method.
 
 ## Mathematical Methods in Science and Engineering I
