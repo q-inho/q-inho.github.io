@@ -437,9 +437,10 @@ last_modified_at: 2022-10-23
 >This course aims to provide a general understanding of modern instruments used in biological research with special emphasis on bright-field and fluorescence light microscopes, electron microscopy, X-ray crystallography, NMR, MRI, mass spectrometer, and electrophysiology. The approach is a practical one geared to students who are or will be using these instruments in research. The course consists of both lectures and demonstration. During the lectures, students learn basic principles of biological instrumentation and the performance of the instruments. In the demonstration, students apply the understanding gained during the lectures and learn how the instrumentation is used to address biological questions.
 
 ## Programming with C++
+<details>
 <summary>Study material</summary>
 <div markdown="1">
-- *Big C++: Late Objects* by Cay Horstmann
+- ***Big C++: Late Objects*** by Cay Horstmann
 </div>
 </details>
 >This course covers programming and data structures using C++. In addition to basic programming concepts such as variables and control statements, students will learn about arrays, pointers, dynamic data allocation, linked lists, stacks, queues, binary trees, recursion, and the basics of object oriented programming.
