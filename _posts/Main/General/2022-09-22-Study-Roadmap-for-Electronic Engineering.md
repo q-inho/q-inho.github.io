@@ -282,6 +282,12 @@ last_modified_at: 2022-10-29
 >Fundamental electronic concepts for DC and AC circuits, KVL and KCL, Thevenin and Norton Theroems, linearity and superposition, nodal and mesh analyses, sinusoidal steady state and phasor, transient analysis, transfer functions and Bode plots, op-amps, diodes, MOS transistors and related circuits.
 
 ## Probability and Random Processes in Engineering
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Probability, Statistics, and Random Processes for Electrical Engineering*** by Alberto Leon-Garcia
+</div>
+</details>
 >An introduction to statistical inference and random processes in electrical engineering, including the necessary probabilistic background. Random variables, distribution and density functions, characteristic functions, conditional statistics, expectation, moments, stochastic processes.
 
 ## Signal Processing and Communications
