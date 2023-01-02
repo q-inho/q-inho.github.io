@@ -366,7 +366,7 @@ last_modified_at: 2022-12-31
 <details>
 <summary>Study material</summary>
 <div markdown="1">
-- ***Boyce's Elementary Differential Equations and Boundary Value Problems*** by William E. Boyce
+- ***Elementary Differential Equations and Boundary Value Problems*** by William E. Boyce
 </div>
 </details>
 >First and second order differential equations, initial value problems, series solutions, Laplace transform, numerical methods, boundary value problems, eigenvalues and eigenfunctions, Sturm-Liouville theory.
@@ -496,6 +496,12 @@ last_modified_at: 2022-12-31
 >Curve theory; curvature and torsion, Frenet-Serret frame; surface theory: Weingarten map, first and second fundamental forms, curvatures, Gaussian map, ruled surface, minimal surface; instrinsic geometry: Theorema Egregium, Coddazi-Mainardi equations, parallel transport, geodesics, exponential map, Gauss-Bonnet theorem.
 
 ## Topology
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Topology*** by James Munkres
+</div>
+</details>
 >Metric, topology, continuous map, Hausdorff, connected, compact, graph, Euler number, CW-complex, classification of surfaces.
 
 ## Game Theory
