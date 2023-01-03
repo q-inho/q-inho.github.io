@@ -232,7 +232,7 @@ last_modified_at: 2023-01-03
 ---
 
 # Details
-## Organic Chemistry
+## Organic Chemistry I
 <details>
 <summary>Study material</summary>
 <div markdown="1">
