@@ -11,7 +11,7 @@ toc: false
 toc_sticky: false
  
 date: 2022-09-23
-last_modified_at: 2022-10-23
+last_modified_at: 2023-01-03
 ---
 
 # My Roadmap for Chemistry
@@ -347,6 +347,12 @@ last_modified_at: 2022-10-23
 >Our current understanding of biochemical reactions and internal organization of a cell was progressively enriched by technological and conceptual breakthroughs in the 20th century. This course will use personal and scientific stories of six prominent scientists to highlight research areas that are still being actively pursued today. Topics to include are DNA and protein biochemistry, physical and chemical methods for biological research, and the use of model organisms.
 
 ## Cell Biology
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Essential Cell Biology*** by Bruce Alberts, Karen Hopkin, Alexander Johnson, David Morgan, Martin Raff, Keith Roberts and Peter Walter
+</div>
+</details>
 >Structure and function of the cell and sub-cellular organelles; from genes to proteins; membrane and cytoskeleton; cell communication and cell signaling; cell cycle and programmed cell death.
 
 ## Biodiversity
