@@ -80,6 +80,9 @@ last_modified_at: 2022-11-30
 ### Particles & Fields
 - Alishahiha, M., Banerjee, S., Kames-King, J. &amp; Loos, E. ***Complexity as a holographic probe of strong cosmic censorship.*** [Physical Review D 105, (2022).](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.105.026001) <img src="https://img.shields.io/badge/-Building-blue"/>
 
+### Topological Materials
+- Ma, A. et al. ***Topogivity: A machine-learned chemical rule for discovering topological materials.*** [Nano Letters 23, 772–778 (2023). ](https://pubs.acs.org/doi/10.1021/acs.nanolett.2c03307) <img src="https://img.shields.io/badge/-Building-blue"/>
+
 # Book
 ## Quantum Information
 - ***Machine Learning with Quantum Computers*** by Maria Schuld and Francesco Petruccione  <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
