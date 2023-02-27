@@ -24,7 +24,7 @@ last_modified_at: 2022-11-30
 
 |Course Code|Course Title|Instructor(s)|Note|
 |----|-------------------|-------------|-----|
-| |<span style="color:orange;font-weight:bold;">**Computer Science**</span>| | |
+| |<b><span style="color:orange">**Computer Science**</span></b>| | |
 |COMP 1029J|Java Programming Bridging Course|Prof. Gibson LAM||
 |COMP 1029P|Python Programming Bridging Course|Prof. Gibson LAM||
 |COMP 1029V|Excel VBA Programming Bridging Course|Prof. Gibson LAM||
