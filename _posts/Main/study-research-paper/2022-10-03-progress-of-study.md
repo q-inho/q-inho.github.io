@@ -24,7 +24,7 @@ last_modified_at: 2022-11-30
 
 |Course Code|Course Title|Instructor(s)|Note|
 |----|-------------------|-------------|-----|
-| |<span style="color:orange";font-weight:bold;>Computer Science</span>| | |
+| |<span style="color:orange;font-weight:bold;">Computer Science</span>| | |
 
 
 
