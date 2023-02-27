@@ -18,6 +18,36 @@ date: 2022-10-03
 last_modified_at: 2022-11-30
 ---
 
+# Class
+## Hong Kong University of Science and Technology
+|Course Code|Course Title|Instructor(s)|Note|
+|----|-------------------|-------------|-----|
+||**Computer Science**|||
+## Summer School
+
+## MOOC
+
+
+
+# Book
+## Quantum Information
+- ***Machine Learning with Quantum Computers*** by Maria Schuld and Francesco Petruccione  <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
+- ***Quantum Computation and Quantum Information*** by Michael A. Nielsen and Isaac L. Chuang  <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
+
+## Chemistry
+
+- ***Atkin's Physical Chemistry*** by Peter Atkins, Julio de Paula & James Keeler <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
+- ***Mathematics for Physical Chemistry*** by Robert G. Mortimer <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
+
+## Physics
+- ***Introduction to Quantum Mechanics*** by David J. Griffiths and Darrell F. Schroeter <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
+- ***Molecular Electronic-Structure Theory*** by T. Helgaker, P. Jorgensen, and J. Olsen <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
+- ***Quantum Theory of the Electron Liquid*** by Gabriel F. Giuliani and Giovanni Vignale <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
+
+## Electronic Engineering
+- ***Signals and Systems*** by Alan V. Oppenheim, Alan S. Willsky, S. Hamid Nawab <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
+
+
 # Papers
 ## Quantum Information
 ### Quantum communication
@@ -83,21 +113,5 @@ last_modified_at: 2022-11-30
 ### Topological Materials
 - Ma, A. et al. ***Topogivity: A machine-learned chemical rule for discovering topological materials.*** [Nano Letters 23, 772–778 (2023). ](https://pubs.acs.org/doi/10.1021/acs.nanolett.2c03307) <img src="https://img.shields.io/badge/-Building-blue"/>
 
-# Book
-## Quantum Information
-- ***Machine Learning with Quantum Computers*** by Maria Schuld and Francesco Petruccione  <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
-- ***Quantum Computation and Quantum Information*** by Michael A. Nielsen and Isaac L. Chuang  <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
 
-## Chemistry
-
-- ***Atkin's Physical Chemistry*** by Peter Atkins, Julio de Paula & James Keeler <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
-- ***Mathematics for Physical Chemistry*** by Robert G. Mortimer <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
-
-## Physics
-- ***Introduction to Quantum Mechanics*** by David J. Griffiths and Darrell F. Schroeter <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
-- ***Molecular Electronic-Structure Theory*** by T. Helgaker, P. Jorgensen, and J. Olsen <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
-- ***Quantum Theory of the Electron Liquid*** by Gabriel F. Giuliani and Giovanni Vignale <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
-
-## Electronic Engineering
-- ***Signals and Systems*** by Alan V. Oppenheim, Alan S. Willsky, S. Hamid Nawab <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
 
