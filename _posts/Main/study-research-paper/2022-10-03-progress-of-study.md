@@ -23,7 +23,7 @@ last_modified_at: 2022-11-30
 
 |Course Code|Course Title|Instructor(s)|Note|
 |----|-------------------|-------------|-----|
-| |**Computer Science**| | |
+| |<span style="color:orange">**Computer Science**</span>| | |
 
 ## Summer School
 
