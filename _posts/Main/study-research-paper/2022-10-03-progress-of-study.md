@@ -21,11 +21,12 @@ last_modified_at: 2022-11-30
 # Class
 ## Hong Kong University of Science and Technology
 
-<div class="foo">
+
 |Course Code|Course Title|Instructor(s)|Note|
 |----|-------------------|-------------|-----|
-| |<span style="color:orange">**Computer Science**</span>| | |
-</div>
+| |<span style="color:orange";font-weight:bold;>Computer Science</span>| | |
+
+
 
 ## Summer School
 
