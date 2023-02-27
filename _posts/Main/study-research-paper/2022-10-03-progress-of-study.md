@@ -24,7 +24,7 @@ last_modified_at: 2022-11-30
 
 |Course Code|Course Title|Instructor(s)|Note|
 |----|-------------------|-------------|-----|
-| |<b><span style="color:orange">**Computer Science**</span></b>| | |
+| |<span style="color:darkorange">**Computer Science**</span>| | |
 |COMP 1029J|Java Programming Bridging Course|Prof. Gibson LAM||
 |COMP 1029P|Python Programming Bridging Course|Prof. Gibson LAM||
 |COMP 1029V|Excel VBA Programming Bridging Course|Prof. Gibson LAM||
@@ -40,7 +40,7 @@ last_modified_at: 2022-11-30
 |COMP 4621|Computer Communication Networks I|Prof. Kai CHEN||
 |COMP 5421|Computer Vision|Prof. Chi Keung TANG||
 |COMP 5631|Cryptography and Security|Prof. Cunsheng DING||
-| |<span style="color:orange;font-weight:bold;">**Electronic Engineering**</span>| | |
+| |<span style="color:darkorange;font-weight:bold;">**Electronic Engineering**</span>| | |
 |ELEC 1200|A System View of Communications: from Signals to Packets|Prof. Ross MURCH||
 |ELEC 2100|Signals and Systems|Dr. Kai Sun Albert WONG||
 |ELEC 2400|Electronic Circuits|Prof. Kevin Jing CHEN||
@@ -60,7 +60,7 @@ last_modified_at: 2022-11-30
 |ELEC 5820|Microfluidics and Biosensors|Prof. Levent YOBAS||
 |ELEC 6910V|Advance Display Technologies|Prof. Abhishek Kumar SRIVASTAVA||
 |ELEC 6910Y|Topics in Deep NLP|Prof. Pascale FUNG||
-| |<span style="color:orange;font-weight:bold;">**Physics**</span>| | |
+| |<span style="color:darkorange;font-weight:bold;">**Physics**</span>| | |
 |PHYS 1006|Astronomy for Beginners|Prof. Tian Wen CHEN||
 |PHYS 2022|Modern Physics|Prof. Yi WANG||
 |PHYS 2023|Modern Physics Laboratory|Prof. Yi WANG||
@@ -80,7 +80,7 @@ last_modified_at: 2022-11-30
 |PHYS 4812|Contemporary Applications of Physics: Quantum Information Technology|Prof. Gyu Boong JO||
 |PHYS 5170|Solid State Physics I|Prof. Kam Tuen LAW||
 |PHYS 6810F|Modern AMO (Atomic Molecular Optical) Physics with Atoms and Photons|Prof. Gyu Boong JO||
-| |<span style="color:orange;font-weight:bold;">**Mathematics**</span>| | |
+| |<span style="color:darkorange;font-weight:bold;">**Mathematics**</span>| | |
 |MATH 2023|Multivariable Calculus|Dr. Kam Hang Henry CHENG||
 |MATH 2043|Honors Mathematical Analysis|Prof. Maosheng XIONG||
 |MATH 2121|Linear Algebra|Prof. Jian-Shu LI||
@@ -90,7 +90,7 @@ last_modified_at: 2022-11-30
 |MATH 4033|Calculus on Manifolds|Prof. Min YAN||
 |MATH 5143|Introduction to Lie Algebras|Prof. Eric Paul MARBERG||
 |MATH 5312|Advanced Numerical Methods II|Prof. Jianfeng CAI||
-| |<span style="color:orange;font-weight:bold;">**Miscellaneous**</span>| | |
+| |<span style="color:darkorange;font-weight:bold;">**Miscellaneous**</span>| | |
 |BIPH 2010|Introductory Biological Physics|Prof. Hyo Keun PARK||
 |BIPH 4010|Principles of Quantitative Instrumentation|Prof. Hyo Keun PARK||
 |CHEM 2311|Analytical Chemistry|Prof. He YAN||
