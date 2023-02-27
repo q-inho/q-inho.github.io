@@ -22,7 +22,7 @@ last_modified_at: 2022-11-30
 ## Hong Kong University of Science and Technology
 |Course Code|Course Title|Instructor(s)|Note|
 |----|-------------------|-------------|-----|
-||**Computer Science**|||
+| |**Computer Science**| | |
 ## Summer School
 
 ## MOOC
