@@ -332,7 +332,8 @@ body {
   text-decoration: none;
   border: 1px solid $background-color;
   border-radius: $border-radius;
-  background-color: hsla(278, 95%, 32%, 0.52);
+  background-color: hsla(243, 51%, 54%, 0.507);
+
   font-family: $serif;
   color: hsl(0, 0%, 100%);
 
@@ -350,9 +351,9 @@ body {
   text-decoration: none;
   border: 1px solid $background-color;
   border-radius: $border-radius;
-  background-color: hsla(278, 51%, 54%, 0.507);
+  background-color: hsla(242, 95%, 32%, 0.52);
   font-family: $serif;
-  color: hsl(0, 3%, 88%);;
+  color: hsl(0, 0%, 100%);;
 
   &:hover {
     text-decoration: none;
