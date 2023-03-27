@@ -1,7 +1,7 @@
 ---
 title: "Semiconductor"
 layout: archive
-permalink: categories/semiconductor
+permalink: categories/elec-semiconductor
 author_profile: true
 sidebar_main: true
 ---
