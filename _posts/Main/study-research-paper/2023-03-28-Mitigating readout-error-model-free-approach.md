@@ -5,11 +5,15 @@ excerpt: "In the paper, 'Model-free readout-error mitigation for quantum expecta
 categories:
   - Study/Research/Paper
 tags:
-  - [Quantum Computing]
+  - [Quantum Computing, Error mitigation]
 
 toc: true
 toc_sticky: true
  
-date: 2023-03-29
-last_modified_at: 2023-03-29
+date: 2023-03-28
+last_modified_at: 2023-03-28
 ---
+# Background
+
+##### References
+- van den Berg, E., Minev, Z. K. &amp; Temme, K. Model-free readout-error mitigation for quantum expectation values. Physical Review A 105, (2022). 
