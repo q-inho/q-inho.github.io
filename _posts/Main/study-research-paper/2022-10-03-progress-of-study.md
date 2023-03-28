@@ -146,6 +146,9 @@ last_modified_at: 2022-11-30
 - Mugel, S. et al. ***Dynamic portfolio optimization with real datasets using quantum processors and quantum-inspired tensor networks***. [Physical Review Research 4, (2022). ](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.4.013006) <img src="https://img.shields.io/badge/-Building-blue"/>
 - Arute, F. et al. ***Quantum supremacy using a programmable superconducting processor***. [Nature 574, 505-510 (2019).](https://www.nature.com/articles/s41586-019-1666-5)  <img src="https://img.shields.io/badge/-Building-blue"/>
 
+#### Error mitigation
+- van den Berg, E., Minev, Z. K. &amp; Temme, K. ***Model-free readout-error mitigation for quantum expectation values***. [Physical Review A 105, (2022). ](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.032620) <object src="https://img.shields.io/badge/-Blog-brightgreen"/>
+
 #### Machine learning
 - Dalgaard, M., Motzoi, F. &amp; Sherson, J. ***Predicting quantum dynamical cost landscapes with deep learning***. [Physical Review A 105, (2022). ](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.012402) <img src="https://img.shields.io/badge/-Building-blue"/>
 - Havlíček, V. et al. ***Supervised learning with quantum-enhanced feature spaces***. [Nature 567, 209–212 (2019).](https://www.nature.com/articles/s41586-019-0980-2) <img src="https://img.shields.io/badge/-Building-blue"/>
