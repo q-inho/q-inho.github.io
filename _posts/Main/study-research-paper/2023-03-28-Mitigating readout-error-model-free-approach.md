@@ -44,12 +44,54 @@ If there are no readout errors, the measurement output of $n$ qubits can be repr
 0.1 & 0.2 & 0.7 \\
 \end{pmatrix}
 $$
-In this matrix, each row sums to one, and all entries are non-negative probabilities of transitioning from one state to another. For example, the entry in the first row and second column represents the probability of transitioning from state 1 to state 2, which is 0.3 in this case.
+>
+>In this matrix, each row sums to one, and all entries are non-negative probabilities of transitioning from one state to another. For example, the entry in the first row and second column represents the probability of transitioning from state 1 to state 2, which is 0.3 in this case.
 
 
-A common method to mitigate the impact of readout errors involves estimating the columns of the readout map $A$ by measuring the output frequencies \\(\hat{r}_x\\) for different bit strings \\(x\\), and then applying the matrix \\(A^{-1}\\) for correction. To elaborate, we perform measurements on a quantum system and keep track of the frequency with which each computational basis state is observed. These frequency measurements enable us to estimate the columns of the readout map \\(A\\), which describe the likelihood of measuring each computational basis state correctly or incorrectly due to readout errors. Once we have obtained these column estimates, we can invert the matrix \\(A\\) using its inverse \\(A^{-1}\\) to correct for the errors.
+A common method to mitigate the impact of readout errors involves estimating the columns of the readout map \\(A\\) by measuring the output frequencies \\(\hat{r}_x\\) for different bit strings \\(x\\), and then applying the matrix \\(A^{-1}\\) for correction. To elaborate, we perform measurements on a quantum system and keep track of the frequency with which each computational basis state is observed. These frequency measurements enable us to estimate the columns of the readout map \\(A\\), which describe the likelihood of measuring each computational basis state correctly or incorrectly due to readout errors. Once we have obtained these column estimates, we can invert the matrix \\(A\\) using its inverse \\(A^{-1}\\) to correct for the errors.
 
 The inverse of a matrix reverses its impact on vectors, so applying \\(A^{-1}\\) after measuring a vector corrects any errors introduced by \\(A\\). In this context, applying \\(A^{-1}\\) after measuring a quantum state corrects for any readout errors that may have occurred during the measurement process.
+
+> **Example**
+>Suppose we have a quantum system with two qubits, and we want to measure the expectation value of the Pauli observable \\(Z_1 \cdot Z_2\\) (i.e., the product of the $Z$ Pauli matrices on qubits 1 and 2). To do this, we first prepare the system in some initial state (e.g., \\(\|00\rangle\\)), then apply a quantum circuit that implements the desired operation (in this case, a CNOT gate followed by two Hadamard gates). After applying the circuit, we measure the system in the computational basis and record the frequency with which each computational basis state is observed. Suppose we obtain the following measurement results:
+>
+> \\(\|00\rangle\\): 1000 counts
+>
+>\\(\|01\rangle\\): 200 counts
+>
+>\\(\|10\rangle\\): 150 counts
+>
+>\\(\|11\rangle\\): 650 counts
+>
+>Using these frequency measurements, we can estimate the columns of the readout map $A$. For example, to estimate column 1 of \\(A\\) (which corresponds to measuring \\(\|00\rangle\\)), we would divide the number of counts for \\(\|00\rangle\\) by the total number of counts:
+>
+>\\(A_{1,1} = 1000 / (1000 + 200 + 150 + 650) = 0.571\\)
+>
+>Similarly, to estimate column 2 of \\(A\\) (which corresponds to measuring \\(\|01\rangle\\)), we would divide the number of counts for \\(\|01\rangle\\) by the total number of counts:
+>
+\\(A_{2,1} = 200 / (1000 + 200 + 150 + 650) = 0.114\\)
+>
+>We can repeat this process for all four columns of \\(A\\) to obtain estimates for each entry.
+>
+>Once we have estimated these columns, we can invert \\(A\\) using its inverse \\(A^{-1}\\) to correct for readout errors. In this case, since \\(A\\) is a left-stochastic matrix, its inverse is also left-stochastic, so we can simply apply \\(A^{-1}\\) to the measurement results to correct for errors. For example, suppose we measured the state \\(\|01\rangle\\) but incorrectly read it as \\(\|00\rangle\\). To correct for this error, we would apply the first column of \\(A^{-1}\\) (which corresponds to measuring \\(\|00\rangle\\)) to the measurement result:
+>
+>\\(A^{-1} \cdot \begin{bmatrix}1 \ 0 \ 0 \ 0\end{bmatrix} = \begin{bmatrix}0.571 \ -0.114 \ -0.086 \ -0.371\end{bmatrix}\\)
+>
+>The corrected measurement result is then given by the probabilities in the resulting vector, which sum to 1. In this case, we can see that the corrected probability of measuring \\(|01\rangle\\) is:
+>
+>\\(\|01\rangle\\): \\(0.114 / (0.571 - 0.114 - 0.086 - 0.371) = 0.25\\)
+>
+>This corrected probability is higher than the original probability of measuring \\(\|01\rangle\\), which was only \\(200 / (1000 + 200 + 150 + 650) = 0.114\\). By correcting for readout errors using \\(A^{-1}\\), we can obtain more accurate measurement results and improve the overall performance of our quantum system.
+
+Explicitly representing and inverting the readout map \\(A\\) is only feasible for small system sizes or when the noise can be assumed to factorize, such that noise on individual or small groups of qubits can be modeled and inverted independently. The readout map \\(A\\) is a \\(2^n \times 2^n\\) matrix, where \\(n\\) is the number of qubits in the quantum system. As \\(n\\) increases, the size of \\(A\\) grows exponentially, making it increasingly difficult to represent and invert explicitly. For example, if we have a system with just 10 qubits, then \\(A\\) will be a \\(1024 \times 1024\\) matrix. If we have a system with 20 qubits, then \\(A\\) will be a \\(1,048,576 \times 1,048,576\\) matrix. In general, the size of \\(A\\) grows as \\(2^{2n}\\), which quickly becomes infeasible to work with for large values of \\(n\\).
+
+Furthermore, the readout map \\(A\\) is a tensor product of individual qubit readout maps, so noise is assumed to factorize. In other words, the probability of measuring a particular bit string in the computational basis depends only on the probabilities of measuring each qubit in that bit string independently. This means that if we can model and invert the noise on each qubit independently, then we can also model and invert the noise on the entire system. For example, suppose we have a system with two qubits, and we want to measure the expectation value of the Pauli observable \\(Z_1 \cdot Z_2\\). If we assume that noise on each qubit is independent and identically distributed, then we can model each qubit's readout error using a single-qubit readout map \\(A_i\\) for \\(i=1,2\\). The overall readout map $A$ for the two-qubit system is then given by \\(A = A_1 \otimes A_2\\), where \\(\otimes\\) denotes the tensor product. We can estimate columns of \\(A\\) by measuring output frequencies for different bit strings as described earlier and then apply its inverse to correct for readout errors.
+
+However, if noise does not factorize in this way (e.g., if there are correlations between errors on different qubits), then modeling and inverting noise becomes much more difficult.
+
+Experiments have revealed that noise tends to be correlated, making the use of product approximations to the stochastic matrix unreliable. A recent blog post describes a readout-error-mitigation method that can handle correlated noise, with a formal guarantee of performance based on the strength of the noise. This method was both proposed and experimentally implemented in the blog post. It avoids the need to explicitly invert the noise map, and the model can be represented concisely using \\(O(poly(n))\\) parameters.
+
+The twirled-readout method is a technique that adds uniform random Pauli bit flips prior to measurement to randomize the output channel. This randomness can help counteract biases caused by hardware imperfections by effectively "averaging out" these biases. The random bit flips are tracked and used in subsequent analysis to correct for these biases and obtain more accurate measurements. The Pauli bit flips transform the effect of any arbitrary noise map into a single multiplicative factor per Pauli observable, which diagonalizes the measurement channel and simplifies bias correction. The method can be applied to a wide range of quantum systems beyond single-qubit models, and it requires no prior assumptions or models of the readout-error process other than the ability to initialize the circuit in the zero state. The shot-noise variance of the mitigated estimate is inversely proportional to the magnitude of the noise factor, and the necessary number of measurement samples for a desired estimation accuracy can be analyzed based on the underlying noise strength.
 
 ##### References
 - van den Berg, E., Minev, Z. K. &amp; Temme, K. Model-free readout-error mitigation for quantum expectation values. Physical Review A 105, (2022). 
