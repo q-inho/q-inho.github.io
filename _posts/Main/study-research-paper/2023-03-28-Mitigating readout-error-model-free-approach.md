@@ -103,5 +103,15 @@ Experiments have revealed that noise tends to be correlated, making the use of p
 
 The twirled-readout method is a technique that adds uniform random Pauli bit flips prior to measurement to randomize the output channel. This randomness can help counteract biases caused by hardware imperfections by effectively "averaging out" these biases. The random bit flips are tracked and used in subsequent analysis to correct for these biases and obtain more accurate measurements. The Pauli bit flips transform the effect of any arbitrary noise map into a single multiplicative factor per Pauli observable, which diagonalizes the measurement channel and simplifies bias correction. The method can be applied to a wide range of quantum systems beyond single-qubit models, and it requires no prior assumptions or models of the readout-error process other than the ability to initialize the circuit in the zero state. The shot-noise variance of the mitigated estimate is inversely proportional to the magnitude of the noise factor, and the necessary number of measurement samples for a desired estimation accuracy can be analyzed based on the underlying noise strength.
 
+# Method
+
+# Derivation
+
+# Analysis
+
+# Simulation
+
+# Conclusion
+
 # References
 - van den Berg, E., Minev, Z. K. &amp; Temme, K. Model-free readout-error mitigation for quantum expectation values. Physical Review A 105, (2022). 
