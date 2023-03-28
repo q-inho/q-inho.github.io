@@ -31,12 +31,13 @@ In this study, the author investigates the reduction of readout errors that aris
 >
 >The single-qubit Clifford gates used in step 2 are a specific set of quantum gates that can be used to transform any Pauli observable into another Pauli observable or into the identity matrix. These gates are important because they allow us to perform measurements in a standard basis, which is easier to implement experimentally than measurements in other bases. After measuring the qubits in step 3, we obtain a string of 0s and 1s that corresponds to a particular computational basis state. By repeating this process many times and averaging over the results, we can estimate the probability distribution over all possible computational basis states. From this probability distribution, we can compute an estimate of the expectation value of the Pauli observable using some basic classical postprocessing techniques.
 
-If there are no readout errors, the measurement output of $n$ qubits can be represented by a probability distribution \\(p\\) over the \\(2^n\\) computational basis states. A classical noise map \\(A\\) is typically used to model readout errors, which maps the noise-free probability distribution $p$ to a noisy distribution \\(\tilde{p}=Ap\\). The readout map \\(A\\) is a left-stochastic matrix with dimensions of \\(2^n\times2^n\\), where the element \\(A_{i,j}\\) represents the probability of measuring the \\(i\\)th computational basis state instead of the \\(j\\)th computational basis state, for \\(i,j\in{0,1}^n\\). For example, if \\(n=2\\), there are four possible computational basis states: \\(\|00\rangle\\), \\(\|01\rangle\\), \\(\|10\rangle\\), and \\(\|11\rangle\\). The element \\(A_{00,01}\\) denotes the probability of measuring \\(\|00\rangle\\) but incorrectly reading it as \\(\|01\rangle\\). Similarly, \\(A_{10,11}\\) represents the probability of measuring \\(\|10\rangle\\) but incorrectly reading it as \\(\|11\rangle\\).
+If there are no readout errors, the measurement output of \\(n\\) qubits can be represented by a probability distribution \\(p\\) over the \\(2^n\\) computational basis states. A classical noise map \\(A\\) is typically used to model readout errors, which maps the noise-free probability distribution \\(p\\) to a noisy distribution \\(\tilde{p}=Ap\\). The readout map \\(A\\) is a left-stochastic matrix with dimensions of \\(2^n\times2^n\\), where the element \\(A_{i,j}\\) represents the probability of measuring the \\(i\\)th computational basis state instead of the \\(j\\)th computational basis state, for \\(i,j\in{0,1}^n\\). For example, if \\(n=2\\), there are four possible computational basis states: \\(\|00\rangle\\), \\(\|01\rangle\\), \\(\|10\rangle\\), and \\(\|11\rangle\\). The element \\(A_{00,01}\\) denotes the probability of measuring \\(\|00\rangle\\) but incorrectly reading it as \\(\|01\rangle\\). Similarly, \\(A_{10,11}\\) represents the probability of measuring \\(\|10\rangle\\) but incorrectly reading it as \\(\|11\rangle\\).
 
 >**Left-stochastic matrix**
 >
 >A left-stochastic matrix is a square matrix where each row sums to one and all its entries are non-negative. In other words, it is a matrix where the entries represent probabilities of transitioning from one state to another, and the sum of probabilities for each row is equal to one. In quantum computing, left-stochastic matrices can be used to model noise in quantum circuits, such as depolarizing noise or readout errors.
 >An example of a left-stochastic matrix is:
+>
 >$$
 \begin{pmatrix}
 0.4 & 0.3 & 0.3 \\
@@ -53,7 +54,7 @@ A common method to mitigate the impact of readout errors involves estimating the
 The inverse of a matrix reverses its impact on vectors, so applying \\(A^{-1}\\) after measuring a vector corrects any errors introduced by \\(A\\). In this context, applying \\(A^{-1}\\) after measuring a quantum state corrects for any readout errors that may have occurred during the measurement process.
 
 > **Example**
->Suppose we have a quantum system with two qubits, and we want to measure the expectation value of the Pauli observable \\(Z_1 \cdot Z_2\\) (i.e., the product of the $Z$ Pauli matrices on qubits 1 and 2). To do this, we first prepare the system in some initial state (e.g., \\(\|00\rangle\\)), then apply a quantum circuit that implements the desired operation (in this case, a CNOT gate followed by two Hadamard gates). After applying the circuit, we measure the system in the computational basis and record the frequency with which each computational basis state is observed. Suppose we obtain the following measurement results:
+>Suppose we have a quantum system with two qubits, and we want to measure the expectation value of the Pauli observable \\(Z_1 \cdot Z_2\\) (i.e., the product of the \\(Z\\) Pauli matrices on qubits 1 and 2). To do this, we first prepare the system in some initial state (e.g., \\(\|00\rangle\\)), then apply a quantum circuit that implements the desired operation (in this case, a CNOT gate followed by two Hadamard gates). After applying the circuit, we measure the system in the computational basis and record the frequency with which each computational basis state is observed. Suppose we obtain the following measurement results:
 >
 > \\(\|00\rangle\\): 1000 counts
 >
@@ -63,7 +64,7 @@ The inverse of a matrix reverses its impact on vectors, so applying \\(A^{-1}\\)
 >
 >\\(\|11\rangle\\): 650 counts
 >
->Using these frequency measurements, we can estimate the columns of the readout map $A$. For example, to estimate column 1 of \\(A\\) (which corresponds to measuring \\(\|00\rangle\\)), we would divide the number of counts for \\(\|00\rangle\\) by the total number of counts:
+>Using these frequency measurements, we can estimate the columns of the readout map \\(A\\). For example, to estimate column 1 of \\(A\\) (which corresponds to measuring \\(\|00\rangle\\)), we would divide the number of counts for \\(\|00\rangle\\) by the total number of counts:
 >
 >\\(A_{1,1} = 1000 / (1000 + 200 + 150 + 650) = 0.571\\)
 >
@@ -77,7 +78,7 @@ The inverse of a matrix reverses its impact on vectors, so applying \\(A^{-1}\\)
 >
 >\\(A^{-1} \cdot \begin{bmatrix}1 \ 0 \ 0 \ 0\end{bmatrix} = \begin{bmatrix}0.571 \ -0.114 \ -0.086 \ -0.371\end{bmatrix}\\)
 >
->The corrected measurement result is then given by the probabilities in the resulting vector, which sum to 1. In this case, we can see that the corrected probability of measuring \\(|01\rangle\\) is:
+>The corrected measurement result is then given by the probabilities in the resulting vector, which sum to 1. In this case, we can see that the corrected probability of measuring \\(\|01\rangle\\) is:
 >
 >\\(\|01\rangle\\): \\(0.114 / (0.571 - 0.114 - 0.086 - 0.371) = 0.25\\)
 >
@@ -85,7 +86,7 @@ The inverse of a matrix reverses its impact on vectors, so applying \\(A^{-1}\\)
 
 Explicitly representing and inverting the readout map \\(A\\) is only feasible for small system sizes or when the noise can be assumed to factorize, such that noise on individual or small groups of qubits can be modeled and inverted independently. The readout map \\(A\\) is a \\(2^n \times 2^n\\) matrix, where \\(n\\) is the number of qubits in the quantum system. As \\(n\\) increases, the size of \\(A\\) grows exponentially, making it increasingly difficult to represent and invert explicitly. For example, if we have a system with just 10 qubits, then \\(A\\) will be a \\(1024 \times 1024\\) matrix. If we have a system with 20 qubits, then \\(A\\) will be a \\(1,048,576 \times 1,048,576\\) matrix. In general, the size of \\(A\\) grows as \\(2^{2n}\\), which quickly becomes infeasible to work with for large values of \\(n\\).
 
-Furthermore, the readout map \\(A\\) is a tensor product of individual qubit readout maps, so noise is assumed to factorize. In other words, the probability of measuring a particular bit string in the computational basis depends only on the probabilities of measuring each qubit in that bit string independently. This means that if we can model and invert the noise on each qubit independently, then we can also model and invert the noise on the entire system. For example, suppose we have a system with two qubits, and we want to measure the expectation value of the Pauli observable \\(Z_1 \cdot Z_2\\). If we assume that noise on each qubit is independent and identically distributed, then we can model each qubit's readout error using a single-qubit readout map \\(A_i\\) for \\(i=1,2\\). The overall readout map $A$ for the two-qubit system is then given by \\(A = A_1 \otimes A_2\\), where \\(\otimes\\) denotes the tensor product. We can estimate columns of \\(A\\) by measuring output frequencies for different bit strings as described earlier and then apply its inverse to correct for readout errors.
+Furthermore, the readout map \\(A\\) is a tensor product of individual qubit readout maps, so noise is assumed to factorize. In other words, the probability of measuring a particular bit string in the computational basis depends only on the probabilities of measuring each qubit in that bit string independently. This means that if we can model and invert the noise on each qubit independently, then we can also model and invert the noise on the entire system. For example, suppose we have a system with two qubits, and we want to measure the expectation value of the Pauli observable \\(Z_1 \cdot Z_2\\). If we assume that noise on each qubit is independent and identically distributed, then we can model each qubit's readout error using a single-qubit readout map \\(A_i\\) for \\(i=1,2\\). The overall readout map \\(A\\) for the two-qubit system is then given by \\(A = A_1 \otimes A_2\\), where \\(\otimes\\) denotes the tensor product. We can estimate columns of \\(A\\) by measuring output frequencies for different bit strings as described earlier and then apply its inverse to correct for readout errors.
 
 However, if noise does not factorize in this way (e.g., if there are correlations between errors on different qubits), then modeling and inverting noise becomes much more difficult.
 
