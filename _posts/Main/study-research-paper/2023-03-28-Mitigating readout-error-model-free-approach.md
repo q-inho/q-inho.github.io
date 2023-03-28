@@ -77,7 +77,13 @@ The inverse of a matrix reverses its impact on vectors, so applying \\(A^{-1}\\)
 >
 >Once we have estimated these columns, we can invert \\(A\\) using its inverse \\(A^{-1}\\) to correct for readout errors. In this case, since \\(A\\) is a left-stochastic matrix, its inverse is also left-stochastic, so we can simply apply \\(A^{-1}\\) to the measurement results to correct for errors. For example, suppose we measured the state \\(\|01\rangle\\) but incorrectly read it as \\(\|00\rangle\\). To correct for this error, we would apply the first column of \\(A^{-1}\\) (which corresponds to measuring \\(\|00\rangle\\)) to the measurement result:
 >
->\\(A^{-1} \cdot \begin{bmatrix}1 \ 0 \ 0 \ 0\end{bmatrix} = \begin{bmatrix}0.571 \ -0.114 \ -0.086 \ -0.371\end{bmatrix}\\)
+>\\(A^{-1} \cdot \begin{bmatrix}1 \\ 
+0 \\ 
+0 \\ 
+0\\ \end{bmatrix} = \begin{bmatrix}0.571 \\ 
+-0.114 \\ 
+-0.086 \\ 
+-0.371 \\ \end{bmatrix}\\)
 >
 >The corrected measurement result is then given by the probabilities in the resulting vector, which sum to 1. In this case, we can see that the corrected probability of measuring \\(\|01\rangle\\) is:
 >
