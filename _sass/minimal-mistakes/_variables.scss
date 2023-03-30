@@ -16,7 +16,7 @@ $indent-var: 1.3em !default;
 $serif: "Coming Soon", Georgia, Times, serif !default;
 $sans-serif: "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
   "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
-$monospace: "Nanum Gothic Coding", Monaco, Consolas, "Lucida Console", monospace !default;
+$monospace: "JetBrains Mono", Monaco, Consolas, "Lucida Console", monospace !default;
 $cute: "IBMPlexSansKR-Regular" !default;
 
 
@@ -66,8 +66,8 @@ $light-gray: mix(#fff, $gray, 50%) !default;
 $lighter-gray: mix(#fff, $gray, 90%) !default;
 
 $background-color: #fff !default;
-$code-background-color: #fcdd9a !default;
-$code-background-color-dark: $light-gray !default;
+$code-background-color: #0C1021 !default;
+$code-background-color-dark: #0C1021 /*$light-gray*/ !default;
 $text-color: $dark-gray !default;
 $muted-text-color: mix(#fff, $text-color, 20%) !default;
 $border-color: $lighter-gray !default;
