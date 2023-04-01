@@ -119,7 +119,7 @@ The method can be applied to a wide range of quantum systems beyond single-qubit
 
 # Method
 
-Consider a system composed of \\(n\\) qubits and a collection of Pauli operators denoted by \\(P\\). Each \\(P_q\\) corresponds to a unique Pauli operator indexed by \\(q\\) in the range \\([0, 4^n-1]\\). There are four types of Pauli matrices (\\(I\\), \\(X\\), \\(Y\\), and \\(Z\\)) that can be applied to each qubit, and the system contains \\(n\\) qubits. The indices for the Pauli-Z operators are given by \\(Z := [0, 2^n-1]\\), and the set of indices for the Pauli-X operators is represented by \\(\chi\\). For \\(r\\) and \\(s\\) belonging to the set \\(Z_2^n\\), the inner product is defined as 
+Consider a system composed of \\(n\\) qubits and a collection of Pauli operators denoted by \\(P\\). Each \\(P_q\\) corresponds to a unique Pauli operator indexed by \\(q\\) in the range \\([0, 4^n-1]\\). There are four types of Pauli matrices (\\(I\\), \\(X\\), \\(Y\\), and \\(Z\\)) that can be applied to each qubit, and the system contains \\(n\\) qubits. The indices for the Pauli-Z operators are given by \\(Z := [0, 2^n-1]\\), and the set of indices for the Pauli-X operators is represented by \\(\chi\\). For \\(r\\) and \\(s\\) belonging to the set \\(\mathbb{Z}_2^n\\), the inner product is defined as 
 
 $$
 \langle r, s\rangle = \sum_i r_s
@@ -133,7 +133,7 @@ In this system, we use binary vectors \\(r\\) and \\(s\\) of length \\(n\\), whe
 Given the initial state 
 
 $$
-\rho_0=|0\rangle\langle 0|=\frac{1}{2^n}(I+\sigma_z)^{\otimes n}=\frac{1}{2^n}\sum_{j\in Z}P_j
+\rho_0=(|0\rangle\langle 0|)^{\otimes n}=\frac{1}{2^n}(I+\sigma_z)^{\otimes n}=\frac{1}{2^n}\sum_{j\in Z}P_j
 $$
 
 we aim to approximate the Pauli-Z component \\(P_i\\) in the state
@@ -150,75 +150,96 @@ $$
 
 > **Initial state**
 >
-> The bra-ket notation \\(\|0\rangle\langle 0\|\\) represents an outer product between two copies of the \\(\|0\rangle\\) state. This results in a \\(2\times2\\) matrix with ones on the diagonal and zeros elsewhere:
+>The state $\|0\rangle$ represents the ground state of a single qubit, which is defined as the eigenstate of the Pauli-Z operator $\sigma_z$ with eigenvalue $+1$. Similarly, the state $\|1\rangle$ represents the excited state of a single qubit, which is defined as the eigenstate of $\sigma_z$ with eigenvalue $-1$. 
 >
->$$
->|0\rangle\langle 0| = \begin{bmatrix}1 & 0 \\
-> 0 & 0\end{bmatrix}
->$$
+>The projection operator onto the ground state $\|0\rangle$ is given by:
 >
->We can extend this to an \\(n\\)-qubit system by taking the tensor product (denoted by \\(\otimes\\)) of \\(n\\) copies of \\(\|0\rangle\langle 0\|\\). This results in an \\(n\\)-qubit state that is a product state, where each qubit is in the \\(\|0\rangle\\) state: \\(\rho_0 = \|0\rangle\langle 0\| \otimes \cdots \otimes \|0\rangle\langle 0\|\\).
-We can simplify this expression by using some properties of tensor products and outer products. Specifically, we have:
+>\begin{equation}
+>|0\rangle\langle 0|
+>\end{equation}
 >
-> - Distributivity: \\((A\otimes B)(C\otimes D) = AC \otimes BD\\)
-> - Orthogonality: \\(AA^\top = I\\) for any matrix \\(A\\)
->
-> Using these properties, we can write:
+>Therefore, $\|0\rangle\langle 0\|^{\otimes n}$ is a projection operator that projects onto the tensor product of $n$ ground states. 
+>This operator projects any quantum state onto the subspace spanned by $\|0\rangle$. We can express this projection operator in terms of Pauli matrices as follows:
 >
 >$$
 >\begin{align}
->\rho_0 = (|+><+| + |-><-|)^{\otimes n}/2^n &= [(I + \sigma_x)/\sqrt{2}]^{\otimes n} [(I - \sigma_x)/\sqrt{2}]^{\otimes n}/2^n  &= 2^{-n}(I + \sigma_z)^{\otimes n}
+>|0\rangle\langle 0| &= \begin{pmatrix} 1 \\ 0 \end{pmatrix} \begin{pmatrix} 1 & 0 \end{pmatrix} \\
+>&= \begin{pmatrix} 1 & 0 \\ 0 & 0 \end{pmatrix} \\
+>&= \frac{1}{2}\begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix} + \frac{1}{2}\begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix} \\
+>&= \frac{1}{2}(I + \sigma_z)
 >\end{align}
 >$$
 >
->The expression \\(\rho_0 = (\|+\rangle\langle+\| + \|-\rangle\langle-\|)^{\otimes n}/2^n\\) is derived from the fact that the state \\(\|0\rangle\\) can be written as a superposition of the two eigenstates of the Pauli-X operator \\(\sigma_x\\), which are given by \\(\|+\rangle = (\|0\rangle + \|1\rangle)/\sqrt{2}\\) and \\(\|-\rangle = (\|0\rangle - \|1\rangle)/\sqrt{2}\\). Specifically, we have:
+>Here, we have used the fact that $\sigma_z \|0\rangle = \|0\rangle$ and $\sigma_z \|1\rangle = -\|1\rangle$, so that $\sigma_z = \|0\rangle\langle 0\| - \|1\rangle\langle 1\|$. We have also used the fact >that $I = \|0\rangle\langle 0\| + \|1\rangle\langle 1\|$.
+>
+>Therefore, we can write the initial state as:
+>
+>\begin{equation}
+>\rho_0 = (|0\rangle\langle 0|)^{\otimes n} = \left(\frac{1}{2}(I + \sigma_z)\right)^{\otimes n}
+>\end{equation}
+>
+>The expression $(I + \sigma_z)^{\otimes n}$ represents the tensor product of $n$ copies of the operator $(I + \sigma_z)$, where $I$ is the identity matrix and $\sigma_z$ is the Pauli-Z operator. 
+>
+>Using the binomial theorem, we can expand this expression as follows:
 >
 >$$
->|0> = (|+> + |->)/\sqrt{2}
+>\begin{align}
+>(I + \sigma_z)^{\otimes n} &= (I + \sigma_z) \otimes (I + \sigma_z) \otimes ... \otimes (I + \sigma_z) \\
+>&= I^{\otimes n-1} \otimes (I + \sigma_z) + I^{\otimes n-2} \otimes (I + \sigma_z) \otimes I + ... \\
+>&\qquad ...+ (I + \sigma_z) \otimes I^{\otimes n-2}  \otimes ...  \otimes I^{\otimes 0}
+>\end{align}
 >$$
 >
->We can use this to write the outer product of two copies of the \\(\|0\rangle\\) state as:
+>>We can use the distributive property of tensor products. Specifically, we can write:
+>>
+>>$$
+>>\begin{align}
+>>(I + \sigma_z) \otimes (I + \sigma_z) &= I\otimes I + I\otimes\sigma_z + \sigma_z\otimes I + \sigma_z\otimes\sigma_z \\
+>>&= I^{\otimes 2} + (\sigma_z)^{\otimes 1} I^{\otimes 1}+ I^{\otimes 1} (\sigma_{z})^{\otimes 1}+ (\sigma_{z})^{\otimes 2}
+>>\end{align}
+>>$$
+>>
+>>Here, we have used the fact that $\sigma_{z}\,\cdot\,\sigma_{z}=I$, which follows from the definition of the Pauli-Z operator.
+>>
+>>We can now use this result to expand $(I+\sigma_{z})^{\otimes n}$ as follows:
+>>
+>>$$
+>>\begin{align}
+>>(I+\sigma_{z})^{\otimes n}&=(I+\sigma_{z})^{\otimes n-1}(I+\sigma_{z})\\
+>>&=[(I+\sigma_{z})^{\otimes n-2}(I+\sigma_{z})]\,(I+\sigma_{z})\\
+>>&=\cdots\\
+>>&=[(I+\,\underbrace{\cdots}_{n-2}\,+~\underbrace{(I+\,\underbrace{\cdots}_{n-3}\,+~\cdots~+\,(I+\sigma_{z}))}_{n-1\text{ terms}}]\,(I+\sigma_{z})\\
+>>&=I^{\otimes n-1}\otimes(I+\sigma_{z})+I^{\otimes n-2}\otimes(I+\sigma_{z})\otimes I + \cdots \\
+>>& \cdots + (I+\sigma_{z})\otimes I^{\otimes n-2} \otimes \cdots \otimes I^{\otimes 0}
+>>\end{align}
+>>$$
+>>This gives us the desired expansion of $(I+\sigma_{z})^{\otimes n}$ as a sum of tensor products of $I$ and $\sigma_z$. 
+>
+>Here, we have used the distributive property of tensor products to expand out each term in the product. 
+>
+>Now, notice that each term in this expansion has exactly $j$ factors of $\sigma_z$, where $j$ ranges from $0$ to $n$. We can group together all terms with $j$ factors of $\sigma_z$, and use the fact that $(\sigma_z)^2 = I$ to simplify:
 >
 >$$
->|0><0| = [(|+><+| + |-><-|)/2] [(|+><+| + |-><-|)/2] = (|+><+| + |-><-|)^{\otimes 2}/4
+>\begin{align}
+>(I + \sigma_z)^{\otimes n} &= I^{\otimes n} + {n\choose 1}\,\sigma_z^{1}\, I^{\otimes n-1}+ {n\choose 2}\,\sigma_{z}^{2}\, I^{\otimes n-2}+\cdots \\
+>& \cdots + {n\choose n-1}\,\sigma_{z}^{n-1}\, I^{\otimes 1}+ \sigma_{z}^{n}\\
+>&= \sum_{j=0}^n {n\choose j}\, \sigma_z^{j}\, I^{\otimes n-j}
+>\end{align}
 >$$
 >
->Here, we have used the fact that the outer product of two vectors can be written as a sum of outer products of their components. We can extend this to an $n$-qubit system by taking the tensor product of \\(n\\) copies of \\((\|+\rangle\langle+\| + \|-\rangle\langle-\|)/2\\). This gives us:
+>This gives us the desired expression $(I + \sigma_z)^{\otimes n} = \sum_{j=0}^n {n\choose j}\, \sigma_z^{j}\, I^{\otimes n-j}$, which we can use to simplify our definition of $\rho_0$. 
 >
->$$
->\rho_0 = (|+><+| + |-><-|)^{\otimes n}/2^n
->$$
+>Since $I^{n-j}$ is just the identity matrix acting on $n-j$ qubits, we can simplify this expression further:
 >
->The second line follows from the fact that \\(\sigma_x = \|+\rangle\langle+\| - \|-\rangle\langle-\|\\), and we can use this to expand the tensor product of $n$ copies of \\((\|+\rangle\langle+\| + \|-\rangle\langle-\|)/2\\). Specifically, we have:
+>\begin{equation}
+>(I + \sigma_z)^{\otimes n} = \sum_{j=0}^n {n \choose j} \sigma_z^j
+>\end{equation}
+>Now we can substitute this expression back into our definition of $\rho_0$:
 >
->$$
->\begin{align*}
->\bigg(\frac{|+\rangle\langle+| + |-\rangle\langle-|}{2}\bigg)^{\otimes n} &= \bigg(\frac{1}{2}(|+\rangle\langle+| - |-\rangle\langle-|)\bigg)^{\otimes n} \
->&= \bigg(\frac{\sigma_x}{2}\bigg)^{\otimes n} \
->&= \bigg(\frac{1}{2}\bigg)^{\otimes n} \sigma_x^{\otimes n} \
->&= \bigg(\frac{1}{2}\bigg)^{\otimes n} \bigg(\sum_{i=1}^n |+\rangle_i\langle+|i - |-\rangle_i\langle-|i\bigg) \
->&= \frac{1}{2^n}\sum{i=1}^n\frac{I_i+\sigma{x,i}}{2}
->\end{align*}
->$$
+>\begin{equation}
+>\rho_0 = \frac{1}{2^n}(I + \sigma_z)^{\otimes n} = \frac{1}{2^n}\sum_{j \in Z} P_j
+>\end{equation}
 >
->where \\(I_i\\) is the identity operator for qubit \\(i\\) and \\(\sigma_{x,i}\\) is the Pauli-X operator for qubit \\(i\\).
->
->The third line follows from the fact that \\((I+\sigma_x)/\sqrt{2}\\) and \\((I-\sigma_x)/\sqrt{2}\\) are the two eigenstates of the Pauli-Z operator \\(\sigma_z\\), which is given by \\(\sigma_z = \|0\rangle\langle 0\| - \|1\rangle\langle 1\|\\). Therefore, we can write \\((I+\sigma_z)/\sqrt{2}\\) as a linear combination of tensor products of Pauli-Z matrices on each qubit.
-Specifically, we have:
->
->$$
->\frac{1}{\sqrt{2}}(I + \sigma_x) = \frac{1}{\sqrt{2}}\bigg(\frac{1}{\sqrt{2}}(I+\sigma_z)\bigg) = \frac{1}{2}\bigg(\sum_{j=0}^{2^n-1}Z_j\bigg)
->$$
->
->where \\(Z_j\\) is the \\(j\\)-th Pauli-Z operator on \\(n\\) qubits, indexed by \\(j\\) in the range of \\([0,2^n-1]\\).
->
->Finally, we can write this expression in terms of a sum over all possible binary strings \\(j = j_1 ... j_n\\), where each \\(j_i\\) is either 0 or 1. Specifically, we have:
->
->$$
->\rho_0 = 2^{-n}\sum_{j\in Z}P_j
->$$
->
->Here, \\(P_j\\) represents a tensor product of Pauli-Z matrices on each qubit with binary representation \\(j\\). For example, if \\(n = 3\\) and \\(j = 101\\), then \\(P_j = \sigma_z \otimes I \otimes \sigma_z\\). This expression shows that the initial state is an equal superposition of all possible computational basis states.
 
 # Derivation
 
