@@ -241,6 +241,31 @@ $$
 >\end{equation}
 >
 
+> **Trace**
+>
+> Let's consider a general operator $A$ acting on an $n$-dimensional Hilbert space. We can write $A$ as a matrix in some basis, where the rows and columns of the matrix correspond to the basis states. For example, if we choose the computational basis $\{\|0\rangle, \|1\rangle, \ldots, \|n-1\rangle\}$, then we can write:
+>
+>$$
+>A = \begin{pmatrix} A_{00} & A_{01} & \cdots & A_{0,n-1} \\ A_{10} & A_{11} & \cdots & A_{1,n-1} \\ \vdots & \vdots & \ddots & \vdots \\ A_{n-1,0} & A_{n-1,1} & \cdots & A_{n-1,n-1}\end{pmatrix}
+>$$
+>
+>Here, $A_{ij}$ denotes the $(i,j)$th element of the matrix. The trace of $A$ is then given by:
+>
+>$$\mathrm{Tr}(A) = \sum_i A_{ii}$$
+>
+>In other words, we sum up all diagonal elements of the matrix.
+>
+>Note that the trace is independent of the choice of basis. If we choose a different basis $\{\|a\rangle\}$ with corresponding dual basis $\langle a\|$, then we can write:
+>
+>$$A = \sum_{a,b} |a\rangle\langle b| \langle b | A | a\rangle$$
+>
+>Using this expression and the fact that $\langle a \| b\rangle = \delta_{ab}$ for an orthonormal basis, it is straightforward to show that:
+>
+>$$\mathrm{Tr}(A) = \sum_a \langle a | A | a\rangle$$
+>
+>This expression shows that the trace is simply the sum of diagonal elements in any basis.
+
+
 # Derivation
 
 # Analysis
