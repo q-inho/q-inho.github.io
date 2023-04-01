@@ -314,6 +314,8 @@ The value of $\gamma_{a,b}$ is determined as follows: if the Pauli operators $P_
 >+1 & \text{if } \langle s,q\rangle = 0 \\
 >-1 & \text{if } \langle s,q\rangle = 1
 >\end{cases}
+>$$
+>
 >In other words, $\gamma_{s,q}$ depends on the inner product between $s$ and $q$, and takes on values $\pm 1$ depending on whether this inner product is even or odd.
 >
 >The expression $(-1)^{\langle s,x\rangle}$ in the summand corresponds to a phase factor that depends on both $s$ and $x$. This phase factor changes sign whenever the inner product $\langle s,x\rangle$ changes from even to odd or vice versa.
