@@ -2,6 +2,7 @@
 title:  "Mitigating Readout Errors: A Model-Free Approach (TREX)"
 excerpt: "In the paper, 'Model-free readout-error mitigation for quantum expectation values,' Ewout van den Berg, Zlatko K. Minev, and Kristan Temme propose a new approach to mitigating these errors using the twirled-readout method."
 
+
 categories:
   - Study/Research/Paper
 tags:
@@ -11,7 +12,7 @@ toc: true
 toc_sticky: true
  
 date: 2023-03-28
-last_modified_at: 2023-03-28
+last_modified_at: 2023-04-02
 ---
 # Background
 The execution of quantum algorithms on near-term devices often involves a shallow quantum circuit that is followed by **sampling** the measurement of an observable. When the circuit is executed, the output is a superposition of several possible states, and measuring an observable collapses this superposition into a single state. By repeating this process multiple times and gathering statistics on the outcomes, we can estimate the expectation value of the observable. This method is preferred for near-term devices because proper quantum error correction is not yet available, and noise parameters such as coherence time limit the depth of the circuit and thus determine the scale of the computation that can be carried out. 
@@ -119,7 +120,7 @@ The method can be applied to a wide range of quantum systems beyond single-qubit
 
 # Method
 
-Consider a system composed of \\(n\\) qubits and a collection of Pauli operators denoted by \\(P\\). Each \\(P_q\\) corresponds to a unique Pauli operator indexed by \\(q\\) in the range \\([0, 4^n-1]\\). There are four types of Pauli matrices (\\(I\\), \\(X\\), \\(Y\\), and \\(Z\\)) that can be applied to each qubit, and the system contains \\(n\\) qubits. The indices for the Pauli-Z operators are given by \\(Z := [0, 2^n-1]\\), and the set of indices for the Pauli-X operators is represented by \\(\chi\\). For \\(r\\) and \\(s\\) belonging to the set \\(\mathbb{Z}_2^n\\), the inner product is defined as 
+Consider a system composed of \\(n\\) qubits and a collection of Pauli operators denoted by \\(\mathcal{P}\\). Each \\(P_q\\) corresponds to a unique Pauli operator indexed by \\(q\\) in the range \\([0, 4^n-1]\\). There are four types of Pauli matrices (\\(I\\), \\(X\\), \\(Y\\), and \\(Z\\)) that can be applied to each qubit, and the system contains \\(n\\) qubits. The indices for the Pauli-Z operators are given by \\(\mathcal{Z} := [0, 2^n-1]\\), and the set of indices for the Pauli-X operators is represented by \\(\chi\\). For \\(r\\) and \\(s\\) belonging to the set \\(\mathbb{Z}_2^n\\), the inner product is defined as 
 
 $$
 \langle r, s\rangle = \sum_i r_s
@@ -265,6 +266,76 @@ $$
 >
 >This expression shows that the trace is simply the sum of diagonal elements in any basis.
 
+Assuming the initial state is $\rho_0$, and all measurements are performed in the computational basis, we can evaluate $\langle P_i\rangle_\rho=\operatorname{Tr}(P_i\rho)$ only for $P_i\in$ Pauli-Z. The Pauli-Z operator has non-zero expectation values only for states that have definite values of Z (either +1 or -1). Therefore, when measuring a qubit in state $\|\psi\rangle$ in the computational basis and getting outcome 0, we know that $\|\psi\rangle$ must be an equal superposition of $\|0\rangle$ and $\|1\rangle$, which implies that it does not have a definite value of Z. Thus, measuring $P_i$ on such a state will result in an outcome of 0 with a probability of 1/2, regardless of the actual value of $\|\psi\rangle$.
+
+As a result, to evaluate $\langle P_i\rangle_\rho=\operatorname{Tr}(P_i\rho)$, we need to consider only the states that have definite values of Z, which belong to the Pauli-Z group (also called the eigenstates of $P_i$). This group consists of all possible tensor products of Pauli-Z matrices on each qubit. Hence, when we say "only $P_i\in$ Pauli-Z," we mean that we can compute the expectation value of $P_i$ for any state that belongs to the Pauli-Z group, but not for any other states.
+
+We can obtain the expectation values for other Pauli operators by incorporating an appropriate basis change in the operator $U$. To estimate $\langle P_i\rangle_\rho=\operatorname{Tr}(P_i\rho)$, we run various instances of the given circuit.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/79438062/229305729-2fb789d9-8f7c-4a94-aad5-96c0c8154c43.png">
+</p> 
+
+The circuit is characterized by the Pauli index $q$ and unitary $C$ (or the circuit that realizes it). If we select $C$ to be the identity, the circuit simplifies.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/79438062/229306006-3a5e500b-0761-425b-9e31-9bd0eb5775ad.png">
+</p>
+
+The index set $S$ will determine the sampling of the Pauli index $q$. Its specific definition will be provided at a later point in this paper. Paper describes the procedure to obtain the measurement outcomes for $N$ circuit instances using the protocol presented in this work.
+
+**<U>Protocol 1. AcquireData($\mathcal{S}$,C,N)</U>**
+{% highlight go linenos %}
+Initialize an empty data set D
+  for i = 1,...,N do
+    Uniformly sample q from index set S
+    Execute the circuit with Pauli P_q and unitary C
+    Record the measurement outcome x and add tuple (q,x) to D
+return D 
+{% endhighlight %}
+
+The acquired data corresponds to measurement outcomes that can be expressed as elements $x \in Z_2^n$. Upon obtaining this data, a classical postprocessing step is performed using a function that will be further detailed.
+
+$$
+f(\mathcal{D},s)=\frac{1}{|\mathcal{D}|}\sum_{(q,x)\in D}\gamma_{s,q}(-1)^{\langle s, x \rangle}
+$$
+
+The value of $\gamma_{a,b}$ is determined as follows: if the Pauli operators $P_a$ and $P_b$ commute, then $\gamma_{a,b}$ equals 1. If they do not commute, then $\gamma_{a,b}$ equals -1. However, if we flip the measurement bits according to the sampled $q$ value, the sign changes can be omitted.
+
+> **Classiscal postprocessing of the acquired data**
+> The expression $f(\mathcal{D},s)=\frac{1}{\|\mathcal{D}\|}\sum_{(q,x)\in D}\gamma_{s,q}(-1)^{\langle s, x \rangle}$ used to estimate the expectation value of a certain observable on a quantum state.
+>
+> Here, $D$ is a set of pairs $(q,x)$, where $q$ is an $n$-tuple of integers from $\{0,1,2,3\}$ (i.e., a Pauli index) and $x$ is an $n$-tuple of binary values (i.e., either 0 or 1). The parameter $s$ is also an $n$-tuple of binary values. The notation $\langle s,x\rangle$ denotes the inner product of the two vectors modulo 2 (i.e., the sum of their element-wise product modulo 2).
+>
+>The function $\gamma_{s,q}$ is defined as follows:
+>$$
+>\gamma_{s,q} = \begin{cases}
+>+1 & \text{if } \langle s,q\rangle = 0 \\
+>-1 & \text{if } \langle s,q\rangle = 1
+>\end{cases}
+>In other words, $\gamma_{s,q}$ depends on the inner product between $s$ and $q$, and takes on values $\pm 1$ depending on whether this inner product is even or odd.
+>
+>The expression $(-1)^{\langle s,x\rangle}$ in the summand corresponds to a phase factor that depends on both $s$ and $x$. This phase factor changes sign whenever the inner product $\langle s,x\rangle$ changes from even to odd or vice versa.
+>
+>The function $f(D,s)$ computes an average over all pairs $(q,x)\in D$ of the product $\gamma_{s,q}(-1)^{\langle s,x\rangle}$. This average is normalized by the size of $D$, which is denoted by $|D|$. The resulting value is an estimate of the expectation value of a certain observable on a quantum state, where the observable is defined in terms of Pauli operators and depends on the choice of $s$.
+>
+> The specific choice of $D$ and $s$ depends on the problem being solved. In general, we want to choose $D$ and $s$ in such a way that the resulting estimate has low variance and is unbiased. One common choice is to take $D$ to be a set of $N$ pairs $(q,x)$ that are randomly sampled from some distribution, and to choose $s$ to be a random $n$-tuple of binary values. The distribution from which we sample the pairs $(q,x)$ depends on the specific problem being solved, but is often chosen to be uniform or close to uniform.
+> 
+> The function $f(\mathcal{D},s)$ can be efficiently computed using a quantum circuit that prepares the state $\frac{1}{\sqrt{\|\mathcal{D}\|}}\sum_{(q,x)\in \mathcal{D}}(-1)^{\langle s,x\rangle}\|q\rangle\|x\rangle$, where $\|q\rangle$ and $\|x\rangle$ denote the computational basis states corresponding to the Pauli index $q$ and binary tuple $x$, respectively. This state can be prepared using a combination of Hadamard gates, controlled-$Z$ gates, and single-qubit rotations.
+>
+>Once we have prepared this state, we can measure the expectation value of an observable by applying a sequence of Pauli operators (corresponding to the observable) to each qubit in turn, and measuring each qubit in the computational basis. The resulting bit string gives us an estimate of the expectation value, which can be used to compute various quantities of interest (e.g., gradients for optimization).
+
+
+The protocol for estimating <$Z^s \rho$> is then as in this protocol
+
+**<U> Prortocol 2 </U>**
+{% highlight go linenos %}
+D_0=AcquireData(Chi,I,N)
+D_1=AcquireData(Chi,U,N)
+Return estimate f(D_1,s)/f(D_0,s)
+{% endhighlight %}
+
+It is worth noting that the data obtained during steps 1 and 2 of Protocol 2 can be repurposed to evaluate the quantity in step 3 for different values of $s$. Additionally, the data acquired in step 1 is independent of $U$ and can therefore also be used. For convenience, we set the number of samples to $N$ for each of the two data sets. However, it is possible to use different sample sizes for each of these steps, as required.
 
 # Derivation
 
