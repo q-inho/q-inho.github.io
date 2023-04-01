@@ -303,6 +303,7 @@ $$
 The value of $\gamma_{a,b}$ is determined as follows: if the Pauli operators $P_a$ and $P_b$ commute, then $\gamma_{a,b}$ equals 1. If they do not commute, then $\gamma_{a,b}$ equals -1. However, if we flip the measurement bits according to the sampled $q$ value, the sign changes can be omitted.
 
 > **Classiscal postprocessing of the acquired data**
+>
 > The expression $f(\mathcal{D},s)=\frac{1}{\|\mathcal{D}\|}\sum_{(q,x)\in D}\gamma_{s,q}(-1)^{\langle s, x \rangle}$ used to estimate the expectation value of a certain observable on a quantum state.
 >
 > Here, $D$ is a set of pairs $(q,x)$, where $q$ is an $n$-tuple of integers from $\{0,1,2,3\}$ (i.e., a Pauli index) and $x$ is an $n$-tuple of binary values (i.e., either 0 or 1). The parameter $s$ is also an $n$-tuple of binary values. The notation $\langle s,x\rangle$ denotes the inner product of the two vectors modulo 2 (i.e., the sum of their element-wise product modulo 2).
