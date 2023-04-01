@@ -308,6 +308,7 @@ The value of $\gamma_{a,b}$ is determined as follows: if the Pauli operators $P_
 > Here, $D$ is a set of pairs $(q,x)$, where $q$ is an $n$-tuple of integers from $\{0,1,2,3\}$ (i.e., a Pauli index) and $x$ is an $n$-tuple of binary values (i.e., either 0 or 1). The parameter $s$ is also an $n$-tuple of binary values. The notation $\langle s,x\rangle$ denotes the inner product of the two vectors modulo 2 (i.e., the sum of their element-wise product modulo 2).
 >
 >The function $\gamma_{s,q}$ is defined as follows:
+>
 >$$
 >\gamma_{s,q} = \begin{cases}
 >+1 & \text{if } \langle s,q\rangle = 0 \\
@@ -317,7 +318,7 @@ The value of $\gamma_{a,b}$ is determined as follows: if the Pauli operators $P_
 >
 >The expression $(-1)^{\langle s,x\rangle}$ in the summand corresponds to a phase factor that depends on both $s$ and $x$. This phase factor changes sign whenever the inner product $\langle s,x\rangle$ changes from even to odd or vice versa.
 >
->The function $f(D,s)$ computes an average over all pairs $(q,x)\in D$ of the product $\gamma_{s,q}(-1)^{\langle s,x\rangle}$. This average is normalized by the size of $D$, which is denoted by $|D|$. The resulting value is an estimate of the expectation value of a certain observable on a quantum state, where the observable is defined in terms of Pauli operators and depends on the choice of $s$.
+>The function $f(D,s)$ computes an average over all pairs $(q,x)\in D$ of the product $\gamma_{s,q}(-1)^{\langle s,x\rangle}$. This average is normalized by the size of $D$, which is denoted by $\|D\|$. The resulting value is an estimate of the expectation value of a certain observable on a quantum state, where the observable is defined in terms of Pauli operators and depends on the choice of $s$.
 >
 > The specific choice of $D$ and $s$ depends on the problem being solved. In general, we want to choose $D$ and $s$ in such a way that the resulting estimate has low variance and is unbiased. One common choice is to take $D$ to be a set of $N$ pairs $(q,x)$ that are randomly sampled from some distribution, and to choose $s$ to be a random $n$-tuple of binary values. The distribution from which we sample the pairs $(q,x)$ depends on the specific problem being solved, but is often chosen to be uniform or close to uniform.
 > 
