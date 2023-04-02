@@ -19,9 +19,9 @@ This review is written by **non-expert** and used for **personal** study only.
 {: .notice--danger}
 
 # Determining the gluonic gravitational form factors of the proton
-- Experimental Particle Physics
+- **<U>Experimental Particle Physics</U>**
 
-The study focuses on understanding the gluonic gravitational form factors of the proton. To understand what this means, it's helpful to first understand some background information about particle physics.
+The study focuses on understanding the **gluonic gravitational** form factors of the proton. To understand what this means, it's helpful to first understand some background information about particle physics.
 
 The proton is a subatomic particle that is composed of smaller particles called quarks and gluons. Quarks are held together by gluons, which are the carriers of the strong nuclear force that binds protons and neutrons together in atomic nuclei.
 
@@ -40,9 +40,9 @@ To investigate this phenomenon, the researchers used a small color dipole and th
 
 By using these tools, the researchers were able to investigate the gravitational density of gluons. They then analyzed their data using various models and were able to determine the gluonic gravitational form factors of the proton from their measurements.
 
-One interesting finding from this study is that they determined a mass radius that is notably smaller than the electric charge radius. This means that there is more mass concentrated in a smaller volume than would be expected based on just looking at the electric charge distribution of the proton.
+One interesting finding from this study is that they determined a **mass radius** that is notably smaller than the electric charge radius. This means that there is more mass concentrated in a smaller volume than would be expected based on just looking at the electric charge distribution of the proton.
 
-The researchers used a variety of models to analyze their data, including vector meson dominance (VMD ), generalized vector dominance (GVD), and holographic QCD. VMD is a model that describes the interaction between photons and hadrons (particles made up of quarks and gluons). GVD is a more general version of VMD that includes additional mesons. Holographic QCD is a theoretical framework that uses string theory to describe the strong nuclear force.
+The researchers used a variety of models to analyze their data, including vector meson dominance (VMD), generalized vector dominance (GVD), and holographic QCD. VMD is a model that describes the interaction between photons and hadrons (particles made up of quarks and gluons). GVD is a more general version of VMD that includes additional mesons. Holographic QCD is a theoretical framework that uses string theory to describe the strong nuclear force.
 
 In all cases, the researchers found that their determined mass radius was smaller than the electric charge radius. This suggests that there is more mass concentrated in a smaller volume than would be expected based on just looking at the electric charge distribution of the proton.
 
