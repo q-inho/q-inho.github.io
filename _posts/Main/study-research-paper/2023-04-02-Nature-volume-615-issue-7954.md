@@ -54,7 +54,7 @@ One interesting aspect of this study is that it highlights some of the challenge
 
 Another challenge is that subatomic particles are subject to quantum mechanics, which means that their properties can be described by probability distributions rather than exact values. This can make it difficult to draw definitive conclusions from experimental data.
 
->**Further study material**
+>**Required Additional Study Materials**
 >
 > - [Particle Physics and Universe](https://q-inho.github.io/general/Study-Roadmap-for-Physics/#particle-physics-and-the-universe)
 > - “An Introduction to Quantum Field Theory” by Michael E. Peskin and Daniel V. Schroeder
