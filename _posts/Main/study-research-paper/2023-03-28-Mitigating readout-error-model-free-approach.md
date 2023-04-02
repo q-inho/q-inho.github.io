@@ -6,7 +6,7 @@ excerpt: "In the paper, 'Model-free readout-error mitigation for quantum expecta
 categories:
   - Study/Research/Paper
 tags:
-  - [Quantum Computing, Error mitigation]
+  - [Quantum Computing, Error Mitigation]
 
 toc: true
 toc_sticky: true
