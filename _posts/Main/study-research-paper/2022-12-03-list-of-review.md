@@ -19,7 +19,7 @@ last_modified_at: 2023-04-03
 ---
 
 # Nature
-- Volume 615 Issue 7954, 30 March 2023 <a href="https://www.nature.com/nature/volumes/615/issues/7954"> <img src="https://img.shields.io/badge/Nature-Link-lightgrey"> </a> <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
+- Volume 615 Issue 7954, 30 March 2023 <a href="https://www.nature.com/nature/volumes/615/issues/7954"> <img src="https://img.shields.io/badge/Nature-Link-lightgrey"> </a> <a href="https://q-inho.github.io/study/research/paper/Nature-volume-615-issue-7954/"> <img src="https://img.shields.io/badge/-Review%20Blog-181717?logo=GitHub"> </a>
 - Volume 612 Issue 7938, 1 December 2022 <a href="https://www.science.org/toc/science/378/6623"> <img src="https://img.shields.io/badge/Nature-Link-lightgrey"> </a> <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
 
 
