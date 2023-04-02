@@ -27,7 +27,7 @@ The proton is a subatomic particle that is composed of smaller particles called 
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/79438062/229382391-7b4b48cd-0cac-4974-b30b-a71e0ea2956f.png" alt="Source: Wikipedia">
-<br> <b>Gluon</b>, Source: Wikipedia
+<br> <b>Gluon, g</b>. In Feynman diagrams, emitted gluons are represented as helices. This diagram depicts the annihilation of an electron and positron. Source: Wikipedia
 </p>
 
 
@@ -54,7 +54,13 @@ One interesting aspect of this study is that it highlights some of the challenge
 
 Another challenge is that subatomic particles are subject to quantum mechanics, which means that their properties can be described by probability distributions rather than exact values. This can make it difficult to draw definitive conclusions from experimental data.
 
+>**Further study material**
+>
+> - [Particle Physics and Universe](https://q-inho.github.io/general/Study-Roadmap-for-Physics/#particle-physics-and-the-universe)
+> - “An Introduction to Quantum Field Theory” by Michael E. Peskin and Daniel V. Schroeder
+> - “Quantum Chromodynamics” by Walter Greiner and Stefan Schramm
+> - “Gauge Theories in Particle Physics: A Practical Introduction” by Ian J.R. Aitchison and Anthony J.G. Hey 
 
-- Duran, B., Meziani, ZE., Joosten, S. et al. Determining the gluonic gravitational form factors of the proton. [Nature 615, 813–816 (2023).](https://doi.org/10.1038/s41586-023-05730-4)
+**<U>Reference</U>**
 
-
+Duran, B., Meziani, ZE., Joosten, S. et al. Determining the gluonic gravitational form factors of the proton. [Nature 615, 813–816 (2023).](https://doi.org/10.1038/s41586-023-05730-4)
