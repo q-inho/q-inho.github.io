@@ -19,7 +19,7 @@ last_modified_at: 2022-11-30
 ---
 
 <a href="https://q-inho.github.io/study/research/paper/list-of-review/">
-  <img src="https://user-images.githubusercontent.com/79438062/229379632-bfe5a378-aabe-40d9-963f-339f0cf5b058.png">
+  <img src="https://user-images.githubusercontent.com/79438062/229379750-509f3fc1-161f-41bf-993a-352c3ac33b49.png">
 </a>
 
 # Class
@@ -151,7 +151,7 @@ last_modified_at: 2022-11-30
 - Arute, F. et al. ***Quantum supremacy using a programmable superconducting processor***. [Nature 574, 505-510 (2019).](https://www.nature.com/articles/s41586-019-1666-5)  <img src="https://img.shields.io/badge/-Building-blue"/>
 
 #### Error mitigation
-- van den Berg, E., Minev, Z. K. &amp; Temme, K. ***Model-free readout-error mitigation for quantum expectation values***. [Physical Review A 105, (2022). ](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.032620) <a href="https://q-inho.github.io/study/research/paper/Mitigating-readout-error-model-free-approach/"> <img src="https://img.shields.io/badge/-Review%20Blog-brightgreen"> </a> 
+- van den Berg, E., Minev, Z. K. &amp; Temme, K. ***Model-free readout-error mitigation for quantum expectation values***. [Physical Review A 105, (2022). ](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.032620) <a href="https://q-inho.github.io/study/research/paper/Mitigating-readout-error-model-free-approach/"> <img src="https://img.shields.io/badge/-Review%20Blog-181717?logo=GitHub"> </a> 
 
 #### Machine learning
 - Dalgaard, M., Motzoi, F. &amp; Sherson, J. ***Predicting quantum dynamical cost landscapes with deep learning***. [Physical Review A 105, (2022). ](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.012402) <img src="https://img.shields.io/badge/-Building-blue"/>
