@@ -65,7 +65,9 @@ Another challenge is that subatomic particles are subject to quantum mechanics, 
 
 Duran, B., Meziani, ZE., Joosten, S. et al. Determining the gluonic gravitational form factors of the proton. [Nature 615, 813–816 (2023).](https://doi.org/10.1038/s41586-023-05730-4)
 
-# Determining the gluonic gravitational form factors of the proton
+
+
+# Universal logic with encoded spin qubits in silicon
 - **<U>Quantum Information</U>**
 
 Fault tolerance is crucial for useful quantum hardware, requiring well-isolated qubits controlled with precision and high speed. Lithographically defined qubits, such as superconducting transmons or single electron spins in Si quantum dots, have made significant progress in scaling and control fidelity. However, achieving fault tolerance also depends on the structure and correlation of errors, which can be mitigated by using degenerate qubit states and coherent partial swap interactions. This alternative approach to quantum computation evokes classical conservative logic and allows for traversing the very large continuous special unitary group of $SU(2^n)$ for large n.
