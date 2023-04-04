@@ -12,7 +12,7 @@ toc: true
 toc_sticky: true
  
 date: 2023-04-02
-last_modified_at: 2023-04-03
+last_modified_at: 2023-04-05
 ---
 
 This review is written by **non-expert** and used for **personal** study only.
@@ -65,7 +65,7 @@ Another challenge is that subatomic particles are subject to quantum mechanics, 
 
 Duran, B., Meziani, ZE., Joosten, S. et al. Determining the gluonic gravitational form factors of the proton. [Nature 615, 813–816 (2023).](https://doi.org/10.1038/s41586-023-05730-4)
 
-
+-----
 
 # Universal logic with encoded spin qubits in silicon
 - **<U>Quantum Information</U>**
@@ -119,3 +119,55 @@ Researchers have successfully demonstrated encoded universal quantum logic opera
 **<U>Reference</U>**
 
 Weinstein, A.J., Reed, M.D., Jones, A.M. et al. Universal logic with encoded spin qubits in silicon. [Nature 615, 817–822 (2023).](https://doi.org/10.1038/s41586-023-05777-3)
+
+---
+
+# Bright and stable perovskite light-emitting diodes in the near-infrared range
+- **<U>Inorganic LEDS</U>**
+
+Metal halide perovskites are a promising material for high-performance LEDs due to their outstanding properties. However, ensuring efficiency and stability at high brightness levels remains a hurdle for commercialization. A versatile molecule known as MSPE enhances the crystallinity, photoluminescence efficiency (the conversion of electrical energy to light), and minimizes Joule heating (the heat generated due to electrical resistance), resulting in effective and operationally stable near-infrared perovskite LEDs with high brightness.
+
+>**Perovskite**
+>
+>Metal halide perovskites are a type of material that have a unique crystal structure, which allows them to exhibit exceptional optoelectronic properties. These materials are composed of a metal cation, a halide anion, and an organic cation. The combination of these components results in a crystal structure that is highly tunable and can be easily modified to achieve specific properties.
+
+Perovskite LEDs based on the compound $\text{FAPbI}_3$ were developed using a layered device structure. The performance of the device depends on the ratio of MSPE to $\text{PbI}_2$. MSPE-based LEDs demonstrate a peak external quantum efficiency (EQE, the ratio of emitted photons to injected electrons) of 23.8% at a high radiance level of 39 W sr−1 m−2, outperforming some earlier perovskite, organic, and quantum-dot LEDs. These near-infrared emitters are suitable for various applications, such as imaging, optogenetics, night-vision, communication, and lasing.
+
+MSPE devices showcase high energy conversion efficiency, reaching up to 16%. Pulsed voltages are employed to reduce Joule heating and extend the device's lifespan. MSPE-based LEDs display good reproducibility and the best stability among perovskite LEDs. MSPE devices have an estimated $T_{50}$ (time to reach 50% of initial brightness) of 5 × 10^4 hours at an initial radiance of 5 W sr−1 m−2, comparable to state-of-the-art organic and quantum-dot LEDs.
+
+The improved performance in MSPE-based devices is due to oriented crystallization and reduced disorder within the material. MSPE films exhibit increased photoluminescence quantum efficiency and less non-radiative recombination (when electron-hole pairs recombine without producing light). MSPE promotes denser, more regular island-shaped perovskite grains with better luminescence efficiency. MSPE reduces non-radiative recombination in perovskite grains, consistent with photoluminescence (PL) measurements.
+
+> **Photoluminescence quantum efficiency**
+>
+>Photoluminescence quantum efficiency (PLQE) is a measure of the efficiency of a material to convert absorbed photons into emitted photons. It is defined as the ratio of the number of photons emitted by a material to the number of photons absorbed by that material. In other words, it represents the percentage of absorbed photons that are re-emitted as light. A higher PLQE indicates a more efficient conversion of absorbed energy into emitted light
+
+>**Non-radiative recombination**
+>
+>Non-radiative recombination is a process in which an excited electron and hole pair in a material recombine without emitting a photon. In other words, the energy of the electron and hole is dissipated as heat or other non-radiative processes rather than being emitted as light. 
+>
+>In optoelectronic devices such as solar cells and LEDs, non-radiative recombination can be detrimental to device performance. This is because the energy lost through non-radiative recombination cannot be used to generate electrical power or light emission. Therefore, minimizing non-radiative recombination is important for improving device efficiency.
+>
+>Non-radiative recombination can occur through various mechanisms, including defects in the material that trap charge carriers and prevent them from contributing to light emission or electrical power generation. These defects can arise from impurities, crystal lattice imperfections, or other factors that disrupt the ideal structure of the material.
+>
+>Quantitative analysis of non-radiative recombination can be performed using techniques such as transient absorption measurements. By measuring the rate at which excited electrons and holes recombine through radiative and non-radiative processes, it is possible to evaluate the efficiency of a material for optoelectronic applications.
+
+MSPE improves perovskite film quality by **interacting with the compounds FAI and PbI2**, slowing down growth and passivating unsaturated lead (Pb) dangling bonds, which can cause defects. MSPE can also interact with other MSPE molecules through hydrogen bonding between amino and sulfonyl groups, resulting in a more ordered structure. These interactions were confirmed through various spectroscopic techniques, such as FTIR, XPS, NMR, and DFT simulations.
+
+> **Dangling bond**
+>
+>A dangling bond is an unsatisfied chemical bond on the surface of a material. It occurs when an atom on the surface of a material has fewer neighboring atoms than it would in the bulk of the material, leaving one or more unpaired electrons. These unpaired electrons can be highly reactive and can lead to unwanted chemical reactions or electronic properties.
+
+MSPE molecules enhance perovskite film quality by reducing defects and disorder, leading to better photoluminescence quantum efficiency (PLQE) and carrier lifetime (how long an electron or hole exists before recombining). MSPE also serves as a physical spacer between charge-transport layers, preventing non-radiative energy loss at interfaces. Confocal PL microscopy and transient absorption measurements confirm the reduction of defect density in MSPE films compared to control films.
+
+MSPE additives prevent the quenching (reduction) of luminescence in perovskites at charge-transport interfaces. Control devices show interfacial states with energies lower than the $\text{FAPbI}_3$ bandgap, leading to **non-radiative energy loss**. MSPE self-assembly between discontinuous perovskite grains eliminates these loss pathways in devices. Low-temperature solution-processable perovskite LEDs have the potential to achieve **high efficiency** at **high brightness levels** and surpass conventional LED technologies.
+
+>**Required Additional Study Materials**
+>
+> - Fakharuddin, A., Gangishetty, M.K., Abdi-Jalebi, M. et al. Perovskite light-emitting diodes. [Nat Electron 5, 203–216 (2022). ](https://doi.org/10.1038/s41928-022-00745-7)
+> - Veldhuis, S.A., Boix, P.P., Yantara, N., Li, M., Sum, T.C., Mathews, N. and Mhaisalkar, S.G. (2016), Perovskite Materials for Light-Emitting Diodes and Lasers. [Adv. Mater., 28: 6804-6834.]( https://doi.org/10.1002/adma.201600669)
+
+**<U>Reference</U>**
+
+Sun, Y., Ge, L., Dai, L. et al. Bright and stable perovskite light-emitting diodes in the near-infrared range. [Nature 615, 830–835 (2023). ](https://doi.org/10.1038/s41586-023-05792-4)
+
+---
