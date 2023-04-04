@@ -2,6 +2,9 @@
 title:  "Mitigating Readout Errors: A Model-Free Approach (TREX)"
 excerpt: "In the paper, 'Model-free readout-error mitigation for quantum expectation values,' Ewout van den Berg, Zlatko K. Minev, and Kristan Temme propose a new approach to mitigating these errors using the twirled-readout method."
 
+header:
+  overlay_image: /assets/images/quantum_error_mitigation.png
+  overlay_filter: rgba(4, 56, 115, 0.7)
 
 categories:
   - Study/Research/Paper
