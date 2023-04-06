@@ -1,12 +1,12 @@
 ---
 title: "[Brief Review] Nature, Volume 615 Issue 7954, 30 March 2023"
-excerpt: "Brief Review on 'Determining the gluonic gravitational form factors of the proton' and 'Universal logic with encoded spin qubits in silicon"
+excerpt: "Brief Review on 'Determining the gluonic gravitational form factors of the proton', 'Universal logic with encoded spin qubits in silicon', 'Bright and stable perovskite light-emitting diodes in the near-infrared range', and 'Thousands of conductance levels in memrisistors integrated on CMOS'"
 
 
 categories:
   - Study/Research/Paper
 tags:
-  - [Particle Physics, Quantum Computing, Inorganic LEDs. Information Storage]
+  - [Particle Physics, Quantum Computing, Inorganic LEDs, Information Storage]
 
 toc: true
 toc_sticky: true
