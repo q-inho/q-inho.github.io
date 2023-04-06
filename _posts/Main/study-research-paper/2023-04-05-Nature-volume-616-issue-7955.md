@@ -6,7 +6,7 @@ excerpt: "Brief Review on 'Real-time quantum error correction beyond break-even'
 categories:
   - Study/Research/Paper
 tags:
-  - [Quantum Information]
+  - [Quantum Information, Quantum Simulation, Two-dimensional Materials, Electrochemistry, Batteries]
 
 toc: true
 toc_sticky: true
@@ -140,3 +140,157 @@ Ni, Z., Li, S., Deng, X. et al. Beating the break-even point with a discrete-var
 
 -----
 
+# Gate-tunable heavy fermions in a moire Kondo lattice
+- **<U>Quantum Simulation</U>**
+
+Moiré superlattices, which are formed by overlapping two periodic lattices, have sparked interest due to their flat electronic bands that lead to correlated insulating, magnetic, and superconducting states. One particularly intriguing possibility is the creation of a moiré Kondo lattice, a complex electron system that could provide valuable insights into the behavior of electrons in these materials.
+
+In an experiment, researchers demonstrated a moiré Kondo lattice using AB-stacked $\text{MoTe}_2\text{/WSe}_2$ bilayers. These bilayers were doped with holes, or empty spaces for electrons, to create a triangular moiré pattern with a period of about $5 nm$. Holes in the $\text{MoTe}_2$ layer can be localized, meaning they remain stationary, while holes in the $\text{WSe}_2$ layer are mobile, free to move throughout the material.
+
+Dual-gated devices enable scientists to independently fine-tune the electrostatic doping density and electric field in bilayers, resulting in topological phase transitions at specific doping values (v=1 and v=2) when the electronic bands invert. The Kondo lattice becomes observable before the band inversion occurs within particular regions of the doping and electric field phase diagram.
+
+By separating local moments (localized electron spins) and conduction holes (mobile charge carriers) into distinct layers, researchers can achieve remarkable control over the system's properties. This separation enhances the Kondo coupling effect, an interaction between localized spins and mobile charge carriers, leading to a large Fermi surface with heavy quasi-particle masses. The onset temperature for Kondo screening, the point at which the Kondo effect becomes noticeable, increases with the strengthening of the Kondo coupling effect and conduction hole density.
+To identify the Kondo lattice region, scientists employed magneto-transport and optical spectroscopy measurements. They measured the resistance of the material as a function of doping and electric field under specific experimental conditions, such as an out-of-plane magnetic field and low temperature. By analyzing the data, they were able to estimate the size of various energy gaps, the quasi-particle mass, and other properties in different regions of the phase diagram.
+
+The coexistence of a significant energy gap in $\text{MoTe}_2$ and mobile holes in \text{WSe}_2 provides the necessary components for a Kondo lattice. This combination could lead to the emergence of a heavy-fermion liquid, an exotic state of matter characterized by strongly interacting electrons.
+
+The temperature dependence of resistance in different regions revealed interesting behavior, including the emergence of heavy fermions in one region. By measuring the Hall resistance, researchers could determine the size of the Fermi surface and the behavior of the charge carriers in the system under various conditions.
+
+Furthermore, the experiment demonstrated that the Kondo effect could be continuously tuned by **doping** and **electric field**. A more pronounced enhancement was observed when the $\text{WSe}_2$ band was close to the $\text{MoTe}_2$ lower Hubbard band. The observed asymmetry in the two Hubbard bands suggests that additional interaction mechanisms may be necessary to accurately describe the system.
+
+Scientists have observed a gate-tunable Kondo effect and heavy-fermion liquid with a large Fermi surface in $\text{MoTe}_2\text{/WSe}_2$ moiré bilayers under specific conditions. This discovery offers exciting opportunities for further research into the gate-controlled Kondo destruction transition, which could have important implications for our understanding of complex electronic systems and potential applications in next-generation electronic devices.
+
+>**Required Additional Study Materials**
+>
+> - “Many-Body Physics: From Kondo to Hubbard” by Eva Pavarini, Erik Koch and Piers Coleman
+> - “The Kondo Lattice Model” by M. Lavagna and C. P´epin, https://doi.org/10.48550/arXiv.cond-mat/9903093
+
+**<U>Reference</U>**
+
+Zhao, W., Shen, B., Tao, Z. et al. Gate-tunable heavy fermions in a moiré Kondo lattice. [Nature 616, 61–65 (2023). ](https://doi.org/10.1038/s41586-023-05800-7)
+
+-----
+
+# 2D fin field-effect  transistors integrated with epitaxial high-k gate oxide
+- **<U>Two-dimensional Materials</U>** 
+
+Advancements in integrated circuit technology depend on making transistors smaller, but traditional silicon-based structures face challenges when they reach sizes below 5 nanometers. High-mobility 2D layered semiconductors show potential to serve as the building blocks of next-generation ultra-small transistors, allowing for powerful electronic devices with intricate vertical designs.
+
+Researchers have developed a method to create extremely thin layers of a material called $\text{Bi}_2\text{O}_2\text{Se}$ integrated with another material, $\text{Bi}_2\text{SeO}_5$, on insulating substrates. These structures have atomically flat interfaces, allowing for the **fabrication of efficient transistors** known as FinFETs. $\text{Bi}_2\text{O}_2\text{Se}$ was chosen for its unique structure, high electron mobility, moderate bandgap, excellent stability, and compatibility with Bi2SeO5.
+
+These extremely thin $\text{Bi}_2\text{O}_2\text{Se}$  fins display remarkable mechanical strength and a high aspect ratio, which can be attributed to their anisotropic growth and the presence of dangling bonds on their surfaces. By adjusting the substrate's symmetry, researchers can control the growth of these thin fins on insulating oxide substrates. They've successfully grown fins on various surfaces, such as $\text{CaF}_2$, $\text{LaAlO}_3$, $\text{SrTiO}_3$, and $\text{KTaO}_3$.
+
+These structures maintain their shape after a native-oxide dielectric layer is integrated through a process involving UV-assisted **intercalative oxidation**. This native-oxide layer, $\text{Bi}_2\text{SeO}_5$, has a high dielectric constant (relative permittivity of approximately 21), making it ideal for electronic applications. Detailed microscopic investigations reveal the layered structure of $\text{Bi}_2\text{O}_2\text{Se}$ and $\text{Bi}_2\text{SeO}_5$, as well as their atomically flat interfaces.
+
+> **Intercalative oxidation**
+>
+>Intercalative oxidation is a chemical process in which an oxidizing agent penetrates between the layers of a layered material, causing a change in its chemical composition and structure. This process is particularly important in the context of two-dimensional (2D) layered materials, as it allows researchers to precisely control and modify the properties of these materials for various applications, such as in transistors and other electronic devices.
+>
+>In the case of 2D layered semiconductors, intercalative oxidation can be used to create ultrathin layers with specific properties. During this process, an oxidizing agent, such as oxygen or ozone, is introduced between the layers of the material. The oxidizing agent reacts with the material, altering its chemical composition and, in turn, its electronic properties.
+>
+>One key advantage of intercalative oxidation is that it allows for the controlled and precise modification of layered materials. By carefully controlling the conditions under which the oxidation process takes place (e.g., temperature, pressure, and concentration of the oxidizing agent), researchers can achieve a desired level of oxidation and the corresponding changes in material properties.
+
+High-resolution STEM images show extremely sharp interfaces in these structures on $\text{LaAlO}_3$ (100) substrate surfaces. By carefully controlling the oxidation process, researchers can create ultrathin 2D fins that enable the construction of advanced transistor devices such as FinFETs, VGAA transistors, and VTFETs. Lattice strain at the top interface of these structures does not impair performance due to the high-quality interfaces of the vertical sidewalls.
+
+For the future of integrated circuits, it is crucial to develop robust, wafer-scale 2D fin arrays and integrate them with high-k oxide dielectrics. Researchers achieved this by forming 2D $\text{Bi}_2\text{O}_2\text{Se/Bi}_2\text{SeO}_5$ fin-oxide arrays on a 1-inch $MgO$ (110) wafer, featuring vertically aligned structures. Site-specific and high-density growth of these arrays is essential for large-scale fabrication and compact integration. This approach allows for small spacing between the fins, meeting the requirements of advanced technology nodes.
+
+These 2D fin-oxide structures enhance the performance and reliability of FinFET devices. Researchers fabricated vertical 2D $\text{Bi}_2\text{O}_2\text{Se/Bi}_2\text{SeO}_5\text{/HfO}_2$ FinFETs with varying channel lengths, demonstrating excellent electrostatic control. The epitaxial high-k native-oxide $\text{Bi}_2\text{SeO}_5$ ensures high device reproducibility and improves various electronic properties. These FinFETs achieved a higher on-state current compared to other reported devices using 2D materials.
+
+The wafer-scale 2D $\text{Bi}_2\text{O}_2\text{Se}$ fin arrays integrated with high-k \text{Bi}_2\text{SeO}_5$ dielectric meet the requirements for advanced transistors and could potentially extend Moore's law with further optimization. This innovative approach to 2D fin-oxide structures promises to advance the development of integrated circuits and enable the next generation of high-performance and ultra-scaled transistors.
+
+>**Required Additional Study Materials**
+>
+> - Wang, S., Liu, X. & Zhou, P. The road for 2D semiconductors in the silicon age. Adv. Mater. 34, 2106886 (2022).
+> - Shen, Y. et al. The trend of 2D transistors toward integrated circuits: scaling down and new mechanisms. Adv. Mater. 34, 2201916 (2022).
+> - Liu, C. et al. Two-dimensional materials for next-generation computing technologies. Nat. Nanotechnol. 15, 545–557 (2020).
+> - Akinwande, D. et al. Graphene and two-dimensional materials for silicon technology. Nature 573, 507–518 (2019).
+> - Chhowalla, M., Jena, D. & Zhang, H. Two-dimensional semiconductors for transistors. Nat. Rev. Mater. 1, 16052 (2016).
+> - Illarionov, Y. Y. et al. Insulators for 2D nanoelectronics: the gap to bridge. Nat. Commun. 11, 3385 (2020).
+> - Das, S. et al. Transistors based on two-dimensional materials for future integrated circuits. Nat. Electron. 4, 786–799 (2021).
+
+**<U>Reference</U>**
+
+Tan, C., Yu, M., Tang, J. et al. 2D fin field-effect transistors integrated with epitaxial high-k gate oxide. [Nature 616, 66–72 (2023). ](https://doi.org/10.1038/s41586-023-05797-z)
+
+-----
+
+# Deforming lanthanum trihydride for superionic conduction
+- **<U>Electrochemistry</U>**
+
+Solid materials that conduct a variety of ions have important applications in devices like batteries, fuel cells, and sensors. Some of these materials can transition into what is called a superionic state, which is characterized by high conductivity and low barriers for ion movement. This makes them ideal for use as solid electrolytes. Researchers have been studying hydride ion conductors, a type of material that conducts negatively charged hydrogen ions ($\text{H-}$), for new battery and fuel cell technologies. However, none of these materials have shown superionic conduction at room temperature.
+
+This research focuses on a specific type of material called rare earth element trihydrides ($\text{REHx}$). These materials are interesting because they exhibit rapid movement of H- ions and strong conduction of electrons. To create samples of a rare earth hydride called $LaHx$, scientists used a technique called high-energy ball milling. This method produces numerous tiny grains and lattice defects, which can be used to change the material's **electronic conductivity**. The researchers used various imaging techniques to study the samples and found that they had many grain boundaries (regions where grains meet) and tiny areas with different crystal structures or no crystal structure at all.
+
+Lattice disorder, which refers to irregularities in the arrangement of atoms in a material, can negatively affect electron conduction in metals and semiconductors. This is because electrons can scatter at surfaces, grain boundaries, or areas where the crystal structure doesn't match up properly. The $\text{LaHx}$ samples created in this study have many grain boundaries and lattice disorder, which actually helps to scatter electrons and lower the material's electronic conductivity. By deforming the lattice of $REHx$ materials, the researchers were able to create samples with low electronic conductivity but still allowed H- ions to move easily.
+
+> **Grain boundaries**
+>Grain boundaries are the interfaces or regions that separate individual crystalline grains (also known as crystallites) within a polycrystalline material. In other words, grain boundaries are the areas where two or more crystals meet within a solid. Each grain has a specific orientation and crystal structure, and grain boundaries occur when these grains with different orientations come into contact with one another.
+>
+>Grain boundaries can have significant effects on the mechanical, electrical, and thermal properties of materials. This is because the atoms at the grain boundaries have different arrangements and bonding compared to those in the bulk of the grains. As a result, grain boundaries can act as barriers to the movement of atoms, electrons, and other particles within the material.
+>
+>Some of the effects of grain boundaries on material properties include:
+>
+>1.	**Mechanical properties**: Grain boundaries can influence a material's strength and ductility. Generally, smaller grain sizes lead to stronger materials because there are more grain boundaries that can impede the movement of dislocations, which are line defects in the crystal structure. This phenomenon is known as grain boundary strengthening or the Hall-Petch effect.
+>2.	**Electrical properties**: Grain boundaries can impact the electrical conductivity of materials. In metals, grain boundaries can scatter electrons, which may increase the electrical resistivity. In semiconductors, grain boundaries may trap charge carriers, which can lead to decreased electrical conductivity and increased recombination of electrons and holes.
+>3.	**Thermal properties**: The thermal conductivity of materials can also be affected by grain boundaries. Similar to the electrical properties, grain boundaries can scatter phonons, the primary heat carriers in materials, leading to reduced thermal conductivity.
+>4.	**Diffusion**: Grain boundaries can act as pathways for the diffusion of atoms or particles in a material. Diffusion can be faster along grain boundaries compared to the bulk of the grains because the atomic arrangement at the boundaries is less ordered, creating more available space for atoms to move.
+
+The ability of $LaHx$ to conduct H- ions depends on the extent to which its lattice is deformed. This property provides an opportunity to control both electron and H- ion conduction in these materials. The superionic behavior of $LaHx$, which is its ability to conduct ions very efficiently, is due to the small differences in energy needed for H- ions to move between different positions in the lattice and the short distances between these positions.
+
+This research has shown that deforming the lattice of $LaHx$ can enable the development of metal hydride batteries that work at room temperature or even lower. Several H- conductors have been created with high ionic conductivity over a wide temperature range. This opens up possibilities for investigating and using H- conductors in various applications related to energy storage and chemical conversion.
+
+Deforming the lattice of $REHx$ materials reduces electron conduction while allowing H- ions to move easily. This leads to a significant decrease in electronic conductivity, making these materials promising candidates for use in devices like batteries and fuel cells. By extending this approach to other hydride materials, researchers could discover a wider range of materials suitable for conducting H- ions.
+
+>**Required Additional Study Materials**
+>
+> - Bachman, J. C. et al. Inorganic solid-state electrolytes for lithium batteries: mechanisms and properties governing ion conduction. Chem. Rev. 116, 140–162 (2016).
+> - Zhang, Z. et al. New horizons for inorganic solid state ion conductors. Energy Environ. Sci. 11, 1945–1976 (2018).
+> - Munoz, R. C. & Arenas, C. Size effects and charge transport in metals: quantum theory of the resistivity of nanometric metallic structures arising from electron scattering by grain boundaries and by rough surfaces. Appl. Phys. Rev. 4, 011102 (2017).
+
+**<U>Reference</U>**
+
+Zhang, W., Cui, J., Wang, S. et al. Deforming lanthanum trihydride for superionic conduction. [Nature 616, 73–76 (2023). ](https://doi.org/10.1038/s41586-023-05815-0)
+
+-----
+
+# A LaCl3-based lithium superionic conductor compatible with lithium metal
+- **<U>Batteries</U>** 
+
+All-solid-state lithium metal batteries (ASSLMBs) are a type of battery that requires **solid electrolytes** (SEs) with specific characteristics. These SEs need to have high ionic conductivity, a flexible lattice, and a broad electrochemical window to ensure compatibility with the battery's electrodes. However, no single SE has been found to possess all these attributes, which has led to compatibility problems in earlier inorganic SEs. Researchers are actively seeking a lithium superionic conductor that possesses these essential properties for optimal ASSLMB performance.
+
+> **Ionic conductivity**
+>
+>Ionic conductivity refers to the ability of a material to transport charged particles, or ions, through its structure. This property is crucial in electrochemical devices such as batteries, fuel cells, and supercapacitors, where ions need to move between electrodes through the electrolyte to facilitate charge transfer and enable the device to function.
+>
+>In a material with high ionic conductivity, ions can move freely and quickly, resulting in efficient charge transfer and better performance of the electrochemical device. Conversely, low ionic conductivity can lead to slower charge transfer, reduced performance, and in some cases, device failure.
+
+Li+ conduction in inorganic solid electrolytes (SEs) is influenced by the lattice structure. Researchers proposed a $\text{LaCl}_3$ lattice, a unique arrangement of atoms, featuring a non-close-packed anion lattice and one-dimensional (1D) channels for Li+ conduction. By connecting 1D channels through vacancies in the La atoms, a 3D Li-diffusion lattice can be created. Advanced computational simulations called ab initio molecular dynamics showed fast Li+ conduction in the $\text{LaCl}_3$ lattice at room temperature.
+
+To further enhance the properties of the electrolyte, high-valence Ta5+ ions were introduced, creating vacancies in the lattice. The $\text{Li}_x\text{Ta}_y\text{La}z\text{Cl}_3$ composition was developed to maintain electrical neutrality within the doped lattice. The optimized $\text{Li}_{0.388}\text{Ta}_{0.238}\text{La}_{0.475}\text{Cl}_3$ SE demonstrated comparable room temperature ionic conductivity, but a lower activation energy (Ea), which is beneficial for ionic conductivity at low temperatures.
+
+To investigate the Li+ chemical environments in the SEs, solid-state nuclear magnetic resonance (NMR) was employed. Two distinct peaks in the NMR spectra revealed the presence of Li1 ions in the channels and Li2 ions near La-vacancy sites. Analysis of Li+ content showed that Li+ ions preferentially occupy La-vacancy sites, and ultrafast Li+ exchange between these two types of sites was observed.
+
+The structure of the $\text{Li}_{0.388}\text{Ta}_{0.238}\text{La}_{0.475}\text{Cl}_3$ electrolyte was determined using advanced X-ray and neutron diffraction techniques. Li+ ions were confirmed to occupy two types of sites in the lattice: Li1 in channels and Li2 near La sites. Using computational simulations, researchers found that the [Li1-Li2-Li1] chain was the most energetically favorable path for Li+ ions to move through the lattice. Doping with Ta5+ ions helped connect 1D channels in the $\text{LaCl}_3$ lattice, improving its overall performance.
+
+An electrolyte pellet made of $\text{Li}_{0.388}\text{Ta}_{0.238}\text{La}_{0.475}\text{Cl}_3$ with many nanocrystalline defects was found to enhance interfacial stability against Li metal. This chloride electrolyte outperformed previous inorganic SE-based batteries in terms of cycling duration and areal capacity, showing better interfacial stability against Li metal. The $\text{Li}_{0.388}\text{Ta}_{0.238}\text{La}_{0.475}\text{Cl}_3$ electrolyte displayed uniform Li plating/stripping at the Li/SE interface due to a homogeneous distribution of Li+ ions.
+
+The low electronic conductivity of $\text{Li}_{0.388}\text{Ta}_{0.238}\text{La}_{0.475}\text{Cl}_3$ prevented the growth of Li dendrites, ensuring a high critical current density. This electrolyte performed well in a full cell with a Li metal anode and an uncoated NCM523 cathode, cycling for over 100 cycles with 81.6% capacity retention. The LaCl3-based electrolyte enabled the development of ASSLMB without an additional buffer layer and achieved a charge voltage of up to 4.35 V, surpassing the stable electrochemical window of 4.27 V.
+
+LaCl3-based electrolytes can accommodate a wide range of ions with various valences, from +1 to +6, at a high doping ratio of 33.34%. This offers immense potential for enhancing the electrolyte's properties through the introduction of different doping ions. The design strategy can be extended to other lanthanide metal chlorides, and the resulting $\text{Li}_{0.388}\text{Ta}_{0.238}\text{La}_{0.475}\text{Cl}_3$ electrolytes still retain the desired lattice characteristics with rapid Li+ conduction.
+
+Researchers have reported a LaCl3-based lithium superionic conductor with exceptional ionic conductivity and electrode compatibility. This development enabled stable cycling of a $\text{Li/Li}_{0.388}\text{Ta}_{0.238}\text{La}_{0.475}\text{Cl}_3\text{/NCM523}$ full cell with an areal capacity of $1.16$ mAh cm−2. The work also inspired a new family of UCl3-type SE systems based on $\text{LnCl}_3$ lattice (Ln = La, Ce, Nd, Sm, and Gd) with multiple element-doping options. This research represents a significant step forward in understanding and developing advanced electrolytes for all-solid-state lithium metal batteries, making them more accessible and efficient for a wide range of applications.
+
+>**Required Additional Study Materials**
+>
+> - Famprikis, T., Canepa, P., Dawson, J. A., Islam, M. S. & Masquelier, C. Fundamentals of inorganic solid-state electrolytes for batteries. Nat. Mater. 18, 1278–1291 (2019).
+> - Manthiram, A., Yu, X. W. & Wang, S. F. Lithium battery chemistries enabled by solid-state electrolytes. Nat. Rev. Mater. 2, 16103 (2017).
+> - Tan, D. H. S., Banerjee, A., Chen, Z. & Meng, Y. S. From nanoscale interface characterization to sustainable energy storage using all-solid-state batteries. Nat. Nanotechnol. 15, 170–180 (2020).
+> - Bachman, J. C. et al. Inorganic solid-state electrolytes for lithium batteries: mechanisms and properties governing ion conduction. Chem. Rev. 116, 140–162 (2016).
+> - Lu, Y. et al. Critical current density in solid-state lithium metal batteries: mechanism, influences, and strategies. Adv. Funct. Mater. 31, 2009925 (2021).
+> - Chen, S. J. et al. Sulfide solid electrolytes for all-solid-state lithium batteries: structure, conductivity, stability and application. Energy Storage Mater. 14, 58–74 (2018).
+> - Wang, C. W. et al. Garnet-type solid-state electrolytes: materials, interfaces, and batteries. Chem. Rev. 120, 4257–4300 (2020).
+> - Wang, Y. et al. Doping strategy and mechanism for oxide and sulfide solid electrolytes with high ionic conductivity. J. Mater. Chem. A 10, 4517–4532 (2022).
+
+**<U>Reference</U>**
+
+Yin, YC., Yang, JT., Luo, JD. et al. A LaCl3-based lithium superionic conductor compatible with lithium metal. [Nature 616, 77–83 (2023). ](https://doi.org/10.1038/s41586-023-05899-8)
