@@ -6,7 +6,7 @@ excerpt: "Brief Review on 'Determining the gluonic gravitational form factors of
 categories:
   - Study/Research/Paper
 tags:
-  - [Particle Physics, Quantum Computing]
+  - [Particle Physics, Quantum Computing, Inorganic LEDs. Information Storage]
 
 toc: true
 toc_sticky: true
@@ -123,7 +123,7 @@ Weinstein, A.J., Reed, M.D., Jones, A.M. et al. Universal logic with encoded spi
 ---
 
 # Bright and stable perovskite light-emitting diodes in the near-infrared range
-- **<U>Inorganic LEDS</U>**
+- **<U>Inorganic LEDs</U>**
 
 Metal halide perovskites are a promising material for high-performance LEDs due to their outstanding properties. However, ensuring efficiency and stability at high brightness levels remains a hurdle for commercialization. A versatile molecule known as MSPE enhances the crystallinity, photoluminescence efficiency (the conversion of electrical energy to light), and minimizes Joule heating (the heat generated due to electrical resistance), resulting in effective and operationally stable near-infrared perovskite LEDs with high brightness.
 
@@ -171,3 +171,44 @@ MSPE additives prevent the quenching (reduction) of luminescence in perovskites 
 Sun, Y., Ge, L., Dai, L. et al. Bright and stable perovskite light-emitting diodes in the near-infrared range. [Nature 615, 830–835 (2023). ](https://doi.org/10.1038/s41586-023-05792-4)
 
 ---
+
+# Thousands of conductance levels in memrisistors integrated on CMOS
+- **<U>Information Storage</U>**
+
+Memristive devices have the potential to provide a virtually limitless number of conductance levels. However, fluctuations make it challenging to distinguish between these levels. By applying well-chosen electrical stimuli, we can control these fluctuations and achieve up to 2,048 distinct conductance levels. Incomplete conduction channels contribute to these fluctuations, but we can use denoising techniques to either strengthen or weaken them, which significantly enhances the memristor's accuracy.
+
+> **Memristor**
+>
+>A memristor is a type of electronic component that can "remember" the amount of charge that has flowed through it in the past. This means that its resistance can be changed by applying a voltage, and that change in resistance will persist even after the voltage is removed. 
+>
+>One of the key advantages of memristors is their ability to store information without using any power - this makes them very attractive for use in low-power devices like smartphones or Internet of Things (IoT) sensors. Additionally, because they can be used to perform both memory and computation functions, they have the potential to greatly improve the efficiency and speed of neural networks.
+
+A commercial company fabricated memristors on an eight-inch wafer. To minimize fluctuations in the initial memristors, they applied small voltage pulses with carefully optimized amplitude and width. As a result, a single memristor reached 2,048 conductance states, ranging from 50 to $4,144 \mu S$, with a $2\mu S$ interval between adjacent states. The denoising process is crucial for training memristive neural networks, as unstable readings can lead to inaccurate outputs from the networks.
+
+To achieve stable conductance states and memristive switching, it's essential to study how conduction channels develop during electrical operations. C-AFM, a type of atomic force microscopy, was used to identify active conduction channels and remove incomplete channels, which ultimately denoises the device. These incomplete channels are more sensitive to voltage stimuli and can be adjusted without affecting complete channels.
+
+Researchers investigated the denoising mechanism in memristors to determine if it was due to atomic or electronic effects. C-AFM scans consistently found incomplete channels when RTN (random telegraph noise) was observed, suggesting a connection between RTN and incomplete channels. The defects causing RTN might be oxygen atoms trapped between other atoms with large relaxation energies and long trapping or detrapping times. In memristors, RTN is mainly caused by electronic effects, not atomic ones.
+
+> **RTN**
+>
+> RTN stands for Random Telegraph Noise, which is a type of noise that can occur in electronic devices. It is characterized by sudden, random changes in the current or voltage of a device, which can be caused by the trapping and release of individual charge carriers (like electrons) in defects within the device.
+>
+> In the context of memristors, RTN can be a problem because it can cause fluctuations in the resistance of the device that are not related to any actual changes in the stored information. This can make it difficult to reliably read out the state of a memristor, particularly if there are many memristors operating together in a neural network.
+>
+> Researchers have been studying RTN in memristors to better understand its causes and effects, and to develop strategies for mitigating its impact on device performance. Some studies have suggested that RTN may be induced by electronic effects rather than atomic effects, meaning that it may be related to changes in charge carrier density rather than physical movement of atoms within the device.
+
+Blocking incomplete channels was modeled using C-AFM experiments and divided into three categories: **non-conductive**, **conductive**, and **intermediate conductance**. The Coulomb blockade mechanism, which describes how trapped charges can block electrical conduction, applies to nanoscale channels. Incomplete channels are easily blocked by trapped charges, making them the primary source of RTN. Denoising can be achieved by using a subthreshold voltage, which pushes the system towards equilibrium, reducing the high-energy boundary region and decreasing conductivity. Although the specific phases may vary for different materials, the approach and conclusions are broadly applicable.
+
+Researchers successfully achieved 2,048 conductance levels in memristors and denoised them for high-precision operations. They then applied this process to an entire 256x256 crossbar array using on-chip driving circuitry. These findings offer valuable insights into memristive switching and represent significant progress towards commercializing memristor technology for machine learning and AI applications, making them more accessible to a broader audience.
+
+>**Required Additional Study Materials**
+>
+> - “Handbook of Memristor Networks” by Chua, L., Sirakoulis, G. C., and Adamatzky, A.
+
+**<U>Reference</U>**
+
+Rao, M., Tang, H., Wu, J. et al. Thousands of conductance levels in memristors integrated on CMOS. [Nature 615, 823–829 (2023). ](https://doi.org/10.1038/s41586-023-05759-5)
+
+
+
+
