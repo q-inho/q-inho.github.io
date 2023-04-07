@@ -15,13 +15,13 @@ toc: true
 toc_sticky: true
  
 date: 2022-12-03
-last_modified_at: 2023-04-07
+last_modified_at: 2023-04-08
 ---
 
 # Nature
 - Volume 616 Issue 7955, 6 April 2023 <a href="https://www.nature.com/nature/volumes/616/issues/7955"> <img src="https://img.shields.io/badge/Nature-Link-lightgrey"> </a> <a href="https://q-inho.github.io/study/research/paper/Nature-volume-616-issue-7955/"> <img src="https://img.shields.io/badge/-Review%20Blog-181717?logo=GitHub"> </a>
 - Volume 615 Issue 7954, 30 March 2023 <a href="https://www.nature.com/nature/volumes/615/issues/7954"> <img src="https://img.shields.io/badge/Nature-Link-lightgrey"> </a> <a href="https://q-inho.github.io/study/research/paper/Nature-volume-615-issue-7954/"> <img src="https://img.shields.io/badge/-Review%20Blog-181717?logo=GitHub"> </a>
-- Volume 612 Issue 7938, 1 December 2022 <a href="https://www.science.org/toc/science/378/6623"> <img src="https://img.shields.io/badge/Nature-Link-lightgrey"> </a> <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
+- Volume 612 Issue 7938, 1 December 2022 <a href="https://www.nature.com/nature/volumes/612/issues/7938"> <img src="https://img.shields.io/badge/Nature-Link-lightgrey"> </a> <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
 
 
 # Science
