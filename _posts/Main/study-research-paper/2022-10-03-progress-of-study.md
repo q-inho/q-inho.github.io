@@ -141,7 +141,7 @@ last_modified_at: 2023-04-03
 # Papers
 ## Quantum Information
 ### Quantum communication
-- Kiktenko, E. O., Zelenetsky, A. S. &amp; Fedorov, A. K. ***Practical quantum multiparty signatures using quantum-key-distribution networks.*** [Physical Review A 105, (2022). ](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.012408) <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
+- Kiktenko, E. O., Zelenetsky, A. S. &amp; Fedorov, A. K. ***Practical quantum multiparty signatures using quantum-key-distribution networks.*** [Physical Review A 105, (2022). ](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.012408)
 
 
 ### Quantum computation
