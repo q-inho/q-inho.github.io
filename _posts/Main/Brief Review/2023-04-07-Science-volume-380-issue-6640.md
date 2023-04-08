@@ -4,7 +4,7 @@ excerpt: "Brief Review on 'Extreme ultraviolet metalens by vacuum guiding', 'Lea
 
 
 categories:
-  - Study/Research/Paper
+  - Brief Review
 tags:
   - [Metalenses, Piezoelectrics, Collision Dynamics]
 

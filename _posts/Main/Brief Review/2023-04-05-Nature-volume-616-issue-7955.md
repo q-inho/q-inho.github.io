@@ -4,7 +4,7 @@ excerpt: "Brief Review on 'Real-time quantum error correction beyond break-even'
 
 
 categories:
-  - Study/Research/Paper
+  - Brief Review
 tags:
   - [Quantum Information, Quantum Simulation, Two-dimensional Materials, Electrochemistry, Batteries]
 

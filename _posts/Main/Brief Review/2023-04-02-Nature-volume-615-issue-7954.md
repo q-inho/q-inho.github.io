@@ -4,7 +4,7 @@ excerpt: "Brief Review on 'Determining the gluonic gravitational form factors of
 
 
 categories:
-  - Study/Research/Paper
+  - Brief Review
 tags:
   - [Particle Physics, Quantum Computing, Inorganic LEDs, Information Storage]
 

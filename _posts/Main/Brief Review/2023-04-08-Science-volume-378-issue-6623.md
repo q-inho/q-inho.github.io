@@ -4,7 +4,7 @@ excerpt: "Brief Review on 'Creation of an ultracold gas of triatomic molecules f
 
 
 categories:
-  - Study/Research/Paper
+  - Brief Review
 tags:
   - [Metallurgy, Machine Learning, Ultracold Chemistry]
 

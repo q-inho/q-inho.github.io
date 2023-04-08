@@ -15,10 +15,10 @@ toc: true
 toc_sticky: false
  
 date: 2022-10-03
-last_modified_at: 2023-04-03
+last_modified_at: 2023-04-09
 ---
 
-<a href="https://q-inho.github.io/study/research/paper/list-of-review/">
+<a href="https://q-inho.github.io/brief%20review/list-of-review/">
   <img src="https://user-images.githubusercontent.com/79438062/229379750-509f3fc1-161f-41bf-993a-352c3ac33b49.png">
 </a>
 

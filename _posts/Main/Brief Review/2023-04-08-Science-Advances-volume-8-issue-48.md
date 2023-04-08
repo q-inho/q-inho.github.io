@@ -4,7 +4,7 @@ excerpt: "Brief Review on 'Enhanced quantum sensing with room-temperature solid-
 
 
 categories:
-  - Study/Research/Paper
+  - Brief Review
 tags:
   - [Quantum Sensing]
 
