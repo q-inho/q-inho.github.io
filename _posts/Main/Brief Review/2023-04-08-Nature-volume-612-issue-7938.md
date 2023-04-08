@@ -106,3 +106,96 @@ As quantum computing technology continues to evolve, further experimentation and
 **<U>Reference</U>**
 
 Jafferis, D., Zlokapa, A., Lykken, J.D. et al. Traversable wormhole dynamics on a quantum processor. [Nature 612, 51–55 (2022). ](https://doi.org/10.1038/s41586-022-05424-3)
+
+-----
+
+# A photonic integrated continuous-travelling-wave parametric amplifier
+- **<U>Integrated Optics</U>**
+
+Optical signal amplification is a key aspect of science and technology. **Erbium-doped fiber amplifiers** (EDFAs) have significantly improved optical communications by allowing signals to travel long distances and increasing communication bandwidth affordably. In simpler terms, EDFAs have enabled more efficient information transmission over vast distances through fiber-optic cables.
+
+Apart from EDFAs, there are parametric amplifiers, such as **travelling-wave parametric amplifiers** (TWPAs), developed for use in microwave technology. TWPAs are particularly useful in quantum information processing because they are quantum-limited, provide a wide range of gain, and enable precise measurements of quantum systems, like **superconducting qubits**.
+
+Parametric amplifiers have unique properties that allow them to **amplify signals** in wavelength ranges not accessible by conventional gain media. Operating close to the fundamental quantum noise limit, they produce minimal noise during amplification, resulting in clearer and more accurate signal transmission. Recently, researchers have explored new materials and techniques to create more efficient parametric amplifiers. However, challenges remain, including limitations in material properties and fabrication processes.
+
+To address these challenges, researchers have developed a new type of parametric amplifier based on a photonic integrated circuit that operates in a continuous-wave regime. This amplifier can provide gain even when there is a loss of connection between the fiber and the chip. The innovation uses a material called $Si_3N_4$, featuring unique properties that enable low-loss, tightly confined light and high power handling capabilities.
+
+Researchers used the **photonic Damascene reflow process** to fabricate ultralow-loss, dispersion-engineered, nonlinear $Si_3N_4$ integrated waveguides. These crack-free $Si_3N_4$ photonic integrated circuits exhibit tight optical confinement, high peak and average power-handling capabilities, low Brillouin gain, ultralow optical losses, and negligible nonlinear absorption in telecommunication bands, all of which contribute to the feasibility of continuous-net-gain TWPAs.
+
+In single-pump parametric amplification, a process called nonlinear degenerate four-wave mixing transfers power from a strong pump to a signal within an optical waveguide. This process enables the efficient transfer of energy from one light source to another. Waveguide-based TWOPA ( a photonic-integrated-circuit-based continuous-wave TWPA in the optical domain) systems can potentially provide a much broader range of amplification compared to EDFAs, with bandwidths exceeding 10 terahertz (THz).
+
+The $Si_3N_4$ photonic chip was tested for its ability to transmit light, its dispersion profile (how different wavelengths of light spread out), and how much light was lost during propagation. The chip performed well, transmitting up to $12\%$ of the light through a 2-meter-long spiral, with an average transmission of $10\%$ in a specific wavelength range.
+
+The experimental setup successfully measured the parametric gain and frequency-conversion efficiency of the system, achieving up to $2$ decibels (dB) of net gain on the photonic chip. The system maintained its performance without the need for any special techniques to counteract stimulated Brillouin scattering, which can degrade signal quality.
+
+Despite its anomalous group velocity dispersion (GVD), the $Si_3N_4$ waveguide's gain and frequency conversion bandwidths measured $20 nm$. The results align with numerical calculations using the full set of nonlinear equations in the frequency domain.
+
+In conclusion, researchers have developed a photonic-integrated-circuit-based continuous-net-gain travelling-wave parametric amplifier using a 2-meter-long $Si_3N_4$ integrated waveguide on a compact silicon chip. This innovation can be combined with various existing integrated photonic devices and applications. Advanced dispersion-engineering techniques and highly nonlinear photonic integrated materials have the potential to enable even more compact and higher gain TWPAs for future generations of optical communication systems and quantum information processing.
+
+
+>**Required Additional Study Materials**
+>
+> - Devoret, M. H. & Schoelkopf, R. J. Superconducting circuits for quantum information: an outlook. Science 339, 1169–1174 (2013).
+> - Marhic, M. E. et al. Fiber optical parametric amplifiers in optical communication systems. Laser Photonics Rev. 9, 50–74 (2015).
+> - Moss, D. J., Morandotti, R., Gaeta, A. L. & Lipson, M. New CMOS-compatible platforms based on silicon nitride and Hydex for nonlinear optics. Nat. Photon. 7, 597–607 (2013).
+> - Kippenberg, T. J., Gaeta, A. L., Lipson, M. & Gorodetsky, M. L. Dissipative Kerr solitons in optical microresonators. Science 361, eaan8083 (2018).
+> <details>
+> <summary>Introductory material</summary>
+> <div markdown="1">
+> - “**Principles of Photonic Integrated Circuits: Materials, Device Physics, Guided Wave Design**” by Richard Osgood jr. and Xiang Meng
+> </div>
+> </details>
+
+**<U>Reference</U>**
+
+Riemensberger, J., Kuznetsov, N., Liu, J. et al. A photonic integrated continuous-travelling-wave parametric amplifier. [Nature 612, 56–61 (2022). ](https://doi.org/10.1038/s41586-022-05329-1)
+
+-----
+
+# An integrated imaging sensor for aberration-correction 3D photography
+- **<U>Imaging Techniques</U>**
+
+Two-dimensional (2D) imaging sensors, commonly found in everyday cameras, face difficulties in creating detailed 3D images due to optical aberrations and limitations of light field freedoms. These issues make it challenging to obtain high-quality depth maps, which represent 3D structures. Traditionally, specially designed lenses have been used to correct these aberrations, but as the complexity of imaging systems increases, this method becomes less effective.
+
+Some alternative solutions, such as metalenses, free-form optics, and image deblurring algorithms, have been explored to address these issues. However, they come with their own set of limitations and require specific conditions and precise calculations.
+
+Adaptive optics is another method used to correct aberrations, which involves adjusting mirrors or using spatial light modulators to control the light path. Unfortunately, this approach has a narrow field of view and is expensive. A newly proposed meta-imaging sensor overcomes these challenges by using digital adaptive optics, allowing it to capture 3D images with a large space-bandwidth product (a measure of the imaging system's performance) at a lower cost.
+
+The meta-imaging sensor can produce high-quality, all-in-focus images up to gigapixel resolution using just one lens. It also offers significant improvements in resolution when faced with nonuniform aberrations, supports multisite aberration corrections on large telescopes, and generates high-quality depth maps quickly and accurately. These capabilities make it suitable for a variety of industrial applications.
+
+This innovative sensor combines a coded **microlens array** with a **conventional imaging sensor** to capture 4D spatial-angular information, which helps create images with high-frequency details. The sensor utilizes a circular aperture to minimize artifacts and employs high-speed periodic drifting of the microlens array to enhance the spatial sampling density, which increases the captured detail. The meta-imaging sensor can replace conventional sensors **without** needing additional hardware changes.
+
+A key advantage of the meta-imaging sensor over traditional 2D sensors is its ability to **generate complex**, **high-quality** images in post-processing without requiring extra optical devices. It is also more resistant to aberrations and can refocus blurry images during post-processing using a **digital adaptive optics** (DAO) framework. This sensor can correct multiple sites of aberrations without slowing down data acquisition and can apply different corrections across a wide **field of view** (FOV).
+
+As camera lenses become more advanced, their cost and size increase, making them challenging to use in lightweight or portable devices. The meta-imaging sensor provides a scalable solution to these problems, achieving effective $48$-megapixel imaging with consistent performance across the entire FOV, outperforming conventional 2D sensors. This development paves the way for high-resolution imaging in portable devices with compact, low-cost optical systems.
+
+In contrast to conventional 2D sensors, which have **limited depth** of field and are affected by environmental aberrations, the meta-imaging sensor is **more robust** and offers an extended depth of field. Experiments show that the meta-imaging sensor maintains resolution and consistent performance even with environmental aberrations, while 2D sensors experience severe degradation.
+
+An optical-flow-based algorithm is used to **correct nonuniform motion artifacts** in the meta-imaging sensor, preserving spatial resolution for static scenes and enabling **instantaneous synthetic aperture** (ISA) without motion artifacts or speed reduction. This is achieved by synthesizing high-resolution images using a sliding window without decreasing the rate at which images are captured.
+
+For large-scale optical astronomical surveys, atmospheric turbulence affects the spatial resolution of ground-based telescopes. Hardware adaptive optics techniques can help, but they are expensive and have a small effective FOV. The meta-imaging sensor provides a cost-effective solution for large telescopes, achieving better resolution and contrast than conventional 2D sensors. Its robustness to aberrations and consistent long-term performance make it a promising tool for astronomical research.
+
+Meta-imaging sensors offer an affordable solution for applications like autonomous driving and industrial inspections, as they deliver higher precision in both lateral and axial domains compared to traditional light-field cameras. The meta-imaging sensor produces higher resolution and a more **accurate depth map** than traditional light-field cameras, even capturing minute structures that are difficult to distinguish.
+
+Two essential features for the **instantaneous synthetic aperture** (ISA) with **digital adaptive optics** (DAO) in the meta-imaging sensor are the wave-optics model for high-resolution reconstruction with aberration correction and the integrated scanning process of the microlens array. Learning-based methods, like those used in artificial intelligence, can be employed with pre-trained models to further enhance the meta-imaging sensor's output using data priors. Additionally, more advanced algorithms with parallel computing devices can be designed to improve performance or reduce computational costs.
+
+The proposed meta-imaging sensor opens up new possibilities for computational imaging in a wide range of applications, achieving levels of image quality and detail that were previously unattainable with traditional 2D sensors. Its innovative design and capabilities make it a promising tool for various industries and research fields, especially for those requiring high-resolution imaging in portable devices or under challenging environmental conditions.
+
+
+
+>**Required Additional Study Materials**
+>
+> - Lichtman, J. W. & Conchello, J.-A. Fluorescence microscopy. Nat. Methods. 2, 910–919 (2005).
+> - Yun, S. H. & Kwok, S. J. J. Light in diagnosis, therapy and surgery. Nat. Biomed. Eng. 1, 0008 (2017).
+> - Hardy, J. W. Adaptive Optics for Astronomical Telescopes (Oxford Univ. Press, 1998).
+> - Sasián, J. Introduction to Aberrations in Optical Imaging Systems (Cambridge Univ. Press, 2013).
+> - Roggemann, M. C. & Welsh, B. M. Imaging through Turbulence (CRC, 2018).
+> - Conrady, A. E. Applied Optics and Optical Design, Part One (Courier, 2013).
+> - Wu, R. et al. Design of freeform illumination optics. Laser Photonics Rev. 12, 7 (2018).
+> - Booth, M. J. Adaptive optics in microscopy. Philos. Trans. R. Soc., A 365, 2829–2843 (2007).
+> - Booth, M. J. Adaptive optical microscopy: the ongoing quest for a perfect image. Light: Sci. Appl. 3, e165 (2014).
+> - Robertson, B. E. et al. Galaxy formation and evolution science in the era of the Large Synoptic Survey Telescope. Nat. Rev. Phys. 1, 450–462 (2019).
+
+**<U>Reference</U>**
+
+Wu, J., Guo, Y., Deng, C. et al. An integrated imaging sensor for aberration-corrected 3D photography. [Nature 612, 62–71 (2022). ](https://doi.org/10.1038/s41586-022-05306-8)
