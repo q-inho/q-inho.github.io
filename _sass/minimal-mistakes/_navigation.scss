@@ -137,12 +137,12 @@
     text-align: center;
     text-decoration: none;
     color: $muted-text-color;
-    border: 1px solid mix(#fff, $border-color, 60%);
+    border: 1px solid mix(#cdcdcd76, $border-color, 60%);
     border-radius: $border-radius;
 
     .prev_next {
       font-family: $cute;
-      color:#61fff7;
+      color:#eab802;
     }
 
     &:hover {
