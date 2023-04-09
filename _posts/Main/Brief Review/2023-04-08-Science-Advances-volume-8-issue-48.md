@@ -59,4 +59,4 @@ The study confirms that utilizing maser action in solid-state ensemble spin sens
 
 **<U>Reference</U>**
 
-Wu, Hao. et al. Enhanced quantum sensing with room-temperature solid-state masers. [Science Advances 8 (2023).](https://www.science.org/doi/10.1126/sciadv.ade1613)
+Wu, Hao. et al. Enhanced quantum sensing with room-temperature solid-state masers. [Science Advances 8 (2022).](https://www.science.org/doi/10.1126/sciadv.ade1613)

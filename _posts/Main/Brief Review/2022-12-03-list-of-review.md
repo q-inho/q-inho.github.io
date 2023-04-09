@@ -15,7 +15,7 @@ toc: true
 toc_sticky: true
  
 date: 2022-12-03
-last_modified_at: 2023-04-08
+last_modified_at: 2023-04-09
 ---
 
 # Nature
@@ -27,7 +27,9 @@ last_modified_at: 2023-04-08
 
 # Science
 - VOLUME 380\|ISSUE 6640\|7 APR 2023 <a href="https://www.science.org/toc/science/380/6640"> <img src="https://img.shields.io/badge/Science-Link-lightgrey"> </a> <a href="https://q-inho.github.io/brief%20review/Science-volume-380-issue-6640/"> <img src="https://img.shields.io/badge/-Review%20Blog-181717?logo=GitHub"> </a>
+- VOLUME 378\|ISSUE 6624\|9 DEC 2022 <a href="https://www.science.org/toc/science/378/6624"> <img src="https://img.shields.io/badge/Science-Link-lightgrey"> </a> <a href="https://q-inho.github.io/brief%20review/Science-volume-378-issue-6624/"> <img src="https://img.shields.io/badge/-Review%20Blog-181717?logo=GitHub"> </a>
 - VOLUME 378\|ISSUE 6623\|2 DEC 2022 <a href="https://www.science.org/toc/science/378/6623"> <img src="https://img.shields.io/badge/Science-Link-lightgrey"> </a> <a href="https://q-inho.github.io/brief%20review/Science-volume-378-issue-6623/"> <img src="https://img.shields.io/badge/-Review%20Blog-181717?logo=GitHub"> </a>
 
 ## Science Advances
+- VOLUME 8\|ISSUE 49\|9 DEC 2022 <a href="https://www.science.org/toc/sciadv/8/49"> <img src="https://img.shields.io/badge/Science%20Advances-Link-lightgrey"> </a> <a href="https://q-inho.github.io/brief%20review/Science-Advances-volume-8-issue-49/"> <img src="https://img.shields.io/badge/-Review%20Blog-181717?logo=GitHub"> </a>
 - VOLUME 8\|ISSUE 48\|2 DEC 2022 <a href="https://www.science.org/toc/sciadv/8/48"> <img src="https://img.shields.io/badge/Science%20Advances-Link-lightgrey"> </a> <a href="https://q-inho.github.io/brief%20review/Science-Advances-volume-8-issue-48/"> <img src="https://img.shields.io/badge/-Review%20Blog-181717?logo=GitHub"> </a>
