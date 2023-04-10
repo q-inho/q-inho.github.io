@@ -117,7 +117,7 @@
             </ul> 
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Web Development" %}
+                    {% if category[0] == "Semiconductor" %}
                         <li><a href="/categories/elec-semiconductor" class="">Semiconductor ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
