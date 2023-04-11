@@ -1,7 +1,10 @@
 ---
-title: "[Brief Review] Nature, Volume 616 Issue 7955, 6 April 2023"
+title: "Brief Reviews of Nature: Volume 616, Issue 7955 (April 6, 2023)"
 excerpt: "Brief Review on 'Real-time quantum error correction beyond break-even', 'Beating the break-even point with a discrete-variable-encoded logical qubit', 'Gate-tunable heavy fermions in a moire Kondo lattice', '2D fin field-effect transistors integrated with epitaxial high-k gate oxide', 'Deforming lanthanum trihydride for superionic conduction', and 'A LaCl3-based lithium superionic conductor compatible with lithium metal' "
 
+header:
+  overlay_image: /assets/images/Science_Journal.png
+  overlay_filter: rgba(2, 115, 94, 0.7)
 
 categories:
   - Brief Review

@@ -1,6 +1,11 @@
 ---
-title: "[Brief Review] Nature, Volume 615 Issue 7954, 30 March 2023"
+title: "Brief Reviews of Nature: Volume 615, Issue 7954 (March 30, 2023)"
 excerpt: "Brief Review on 'Determining the gluonic gravitational form factors of the proton', 'Universal logic with encoded spin qubits in silicon', 'Bright and stable perovskite light-emitting diodes in the near-infrared range', and 'Thousands of conductance levels in memrisistors integrated on CMOS'"
+
+header:
+  overlay_image: /assets/images/Science_Journal.png
+  overlay_filter: rgba(2, 115, 94, 0.7)
+
 
 
 categories:

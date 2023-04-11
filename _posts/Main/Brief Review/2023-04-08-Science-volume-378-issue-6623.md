@@ -1,7 +1,10 @@
 ---
-title: "[Brief Review] Science, Volume 378 Issue 6623, 2 DEC 2022"
+title: "Brief Reviews of Science: Volume 378, Issue 6623 (December 2, 2022)"
 excerpt: "Brief Review on 'Creation of an ultracold gas of triatomic molecules from an atom-diatomic molecule mixture', 'Mastering the game of Stratego with model-free multiagent reinforcement learning', and 'Exceptional fracture toughness of CrCoNi-based medium- and high-entropy alloys at 20 kelvin' "
 
+header:
+  overlay_image: /assets/images/Science_Journal.png
+  overlay_filter: rgba(4, 56, 115, 0.7)
 
 categories:
   - Brief Review

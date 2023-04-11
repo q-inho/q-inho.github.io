@@ -1,7 +1,10 @@
 ---
-title: "[Brief Review] Nature, Volume 612 Issue 7939, 8 December 2022"
+title: "Brief Reviews of Nature: Volume 612, Issue 7939 (December 8, 2022)"
 excerpt: "Brief Review on 'Formation of robust bound states of interacting microwave photons', 'Spin-orbit microlaswer emitting in a four-dimensional Hilbert space', 'Integrated femtosecond pulse generator on thin-film lithium niobate', 'Chiral assemblies of pinwheel superlattices on substrates' and 'Perovskite solar cells based on screen-printed thin films' "
 
+header:
+  overlay_image: /assets/images/Science_Journal.png
+  overlay_filter: rgba(2, 115, 94, 0.7)
 
 categories:
   - Brief Review

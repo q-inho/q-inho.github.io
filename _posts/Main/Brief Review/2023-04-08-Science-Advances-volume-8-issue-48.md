@@ -1,6 +1,10 @@
 ---
-title: "[Brief Review] Science Advances, Volume 8 Issue 48, 2 DEC 2022"
+title: "Brief Reviews of Science Advances: Volume 8, Issue 48 (December 2, 2022)"
 excerpt: "Brief Review on 'Enhanced quantum sensing with room-temperature solid-state masers' "
+
+header:
+  overlay_image: /assets/images/Science_Advances_Journal.png
+  overlay_filter: rgba(4, 56, 115, 0.7)
 
 
 categories:

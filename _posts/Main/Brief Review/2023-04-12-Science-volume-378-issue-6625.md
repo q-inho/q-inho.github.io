@@ -1,7 +1,10 @@
 ---
-title: "[Brief Review] Science, Volume 378 Issue 6625, 16 DEC 2022"
+title: "Brief Reviews of Science: Volume 378, Issue 6625 (December 16, 2022)"
 excerpt: "Brief Review on 'Hyperspectral imaging of exciton confinement within a moiré unit cell with a subnanometer electron probe', and 'Dynamical fractal and anomalous noise in a clean magnetic crystal' "
 
+header:
+  overlay_image: /assets/images/Science_Journal.png
+  overlay_filter: rgba(4, 56, 115, 0.7)
 
 categories:
   - Brief Review

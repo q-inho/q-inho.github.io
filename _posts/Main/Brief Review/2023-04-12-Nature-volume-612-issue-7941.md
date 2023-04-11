@@ -1,7 +1,10 @@
 ---
-title: "[Brief Review] Nature, Volume 612 Issue 7941, 22 December 2022"
+title: "Brief Reviews of Nature: Volume 612, Issue 7941 (December 22, 2022)"
 excerpt: "Brief Review on 'Distributed quantum sensing with mode-entangled spin-squeezed atomic states', 'Topological lattices realized in superconducting circuit optomechanics', 'A membrane-based seawater electrolyser for hydrogen generation', 'Synthesis-on-substrate of quantum dot solids', 'Additive manufacturing of micro-architected metals via hydrogel infusion', and 'Condensed-phase isomerization through tunnelling gateways' "
 
+header:
+  overlay_image: /assets/images/Science_Journal.png
+  overlay_filter: rgba(2, 115, 94, 0.7)
 
 categories:
   - Brief Review

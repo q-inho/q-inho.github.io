@@ -1,7 +1,10 @@
 ---
-title: "[Brief Review] Science, Volume 378 Issue 6624, 9 DEC 2022"
+title: "Brief Reviews of Science: Volume 378, Issue 6624 (December 9, 2022)"
 excerpt: "Brief Review on 'Giant electric field-induced strain in lead-free piezoceramics', 'Competition-level code generation with AlphaCode', and 'Human-level play the game of Diplomacy by combining language models with strategic reasoning' "
 
+header:
+  overlay_image: /assets/images/Science_Journal.png
+  overlay_filter: rgba(4, 56, 115, 0.7)
 
 categories:
   - Brief Review

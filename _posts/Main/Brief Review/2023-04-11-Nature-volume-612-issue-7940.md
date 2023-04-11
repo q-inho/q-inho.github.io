@@ -1,7 +1,10 @@
 ---
-title: "[Brief Review] Nature, Volume 612 Issue 7940, 15 December 2022"
+title: "Brief Reviews of Nature: Volume 612, Issue 7940 (December 15, 2022)"
 excerpt: "Brief Review on 'Disorder-assisted assembly of strongly correlated fluids of light', 'Majorana-like Coulomb spectroscopy in the absence of zero-bias peaks', 'Singlet and triplet Cooper pair splitting in hybrid superconducting nanowires', 'Spin cross-correlation experiments in an electron entangler', 'Anomalous thermal transport under high pressure in boron arsenide', 'Cumulative polarization in conductive interfacial ferroelectrics' and 'Enantioselective sensing by collective circular dichroism' "
 
+header:
+  overlay_image: /assets/images/Science_Journal.png
+  overlay_filter: rgba(2, 115, 94, 0.7)
 
 categories:
   - Brief Review

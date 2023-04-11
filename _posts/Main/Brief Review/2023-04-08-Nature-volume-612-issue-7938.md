@@ -1,7 +1,10 @@
 ---
-title: "[Brief Review] Nature, Volume 612 Issue 7938, 1 December 2022"
+title: "Brief Reviews of Nature: Volume 612, Issue 7938 (December 1, 2022)"
 excerpt: "Brief Review on 'Traversable wormhole dynamics on a quantum processor', 'A photonic integrated continuous-travelling-wave parametric amplifier', 'An integrated imaging sensor for aberration-corrected 3D photography', and 'Discovery of chalcogenides structures and composition using mixed fluxes' "
 
+header:
+  overlay_image: /assets/images/Science_Journal.png
+  overlay_filter: rgba(2, 115, 94, 0.7)
 
 categories:
   - Brief Review

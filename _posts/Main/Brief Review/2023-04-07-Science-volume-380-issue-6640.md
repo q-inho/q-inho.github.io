@@ -1,7 +1,10 @@
 ---
-title: "[Brief Review] Science, Volume 380 Issue 6640, 7 APR 2023"
+title: "Brief Reviews of Science: Volume 380, Issue 6640 (April 7, 2023)"
 excerpt: "Brief Review on 'Extreme ultraviolet metalens by vacuum guiding', 'Lead zirconate titanate ceramics with aligned crystallite grains', and 'Tomography of Feshbach resonance states' "
 
+header:
+  overlay_image: /assets/images/Science_Journal.png
+  overlay_filter: rgba(4, 56, 115, 0.7)
 
 categories:
   - Brief Review
