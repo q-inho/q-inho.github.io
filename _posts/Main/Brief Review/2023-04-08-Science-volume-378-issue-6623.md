@@ -1,6 +1,6 @@
 ---
 title: "Brief Reviews of Science: Volume 378, Issue 6623 (December 2, 2022)"
-excerpt: "Brief Review on 'Creation of an ultracold gas of triatomic molecules from an atom-diatomic molecule mixture', 'Mastering the game of Stratego with model-free multiagent reinforcement learning', and 'Exceptional fracture toughness of CrCoNi-based medium- and high-entropy alloys at 20 kelvin' "
+excerpt: "Brief Review on 'Creation of an ultracold gas of triatomic molecules from an atom-diatomic molecule mixture', 'Mastering the game of Stratego with model-free multiagent reinforcement learning', 'Exceptional fracture toughness of CrCoNi-based medium- and high-entropy alloys at 20 kelvin', and 'Observing the quantum topology of light' "
 
 header:
   overlay_image: /assets/images/Science_Journal.png
@@ -9,13 +9,13 @@ header:
 categories:
   - Brief Review
 tags:
-  - [Metallurgy, Machine Learning, Ultracold Chemistry]
+  - [Metallurgy, Machine Learning, Ultracold Chemistry, Quantum Simulation]
 
 toc: true
 toc_sticky: true
  
 date: 2023-04-07
-last_modified_at: 2023-04-07
+last_modified_at: 2023-04-13
 ---
 
 This review is written by **non-expert** and used for **personal** study only.
@@ -165,3 +165,34 @@ The game-theoretic method DeepNash enables AI to play Stratego from scratch in s
 **<U>Reference</U>**
 
 Perolat, J. et al. Mastering the game of Stratego with model-free multiagent reinforcement learning. [Science 378, 990-996 (2023).](https://www.science.org/doi/10.1126/science.add4679)
+
+-----
+# Observing the quantum topology of light
+- **<U>Quantum Simulation</U>**
+
+The quantum Hall effect uncovers new phases of matter, which are defined by unique properties of energy bands known as **topological invariants**. Chiral edge states found between Landau levels contribute to a special type of electrical conductivity that is not affected by local defects. The Haldane model forms the basis for materials called **topological insulators**, while optical simulation of these quantum Hall edge states leads to an emerging research area, topological photonics. Recent advancements in circuit quantum electrodynamics enable the development of intrinsic quantum topological states of light, which offer new possibilities in designing photonic topology and controlling bosonic quantum information processing.
+
+The Hamiltonian, which describes the energy of the system involving $R_j$'s and $Q_0$, is represented by a multimode JC model within an approximation called the **rotating-wave approximation**. This Hamiltonian conserves the total excitation number $N$ and includes various mathematical operators associated with transitions and energy levels. The SSH model, which consists of a bipartite tight-binding lattice and spin states, can exhibit two different topological phases. By gradually adjusting the parameters, the topological zero-energy state can be moved from one end of the lattice to the other. This zero-energy state is protected by the energy gap and maintains coherence during transport, as confirmed by a technique called **quantum state tomography**.
+
+Fock states in a subspace with $N$ excitations form a two-dimensional honeycomb lattice where the coupling strengths depend on the lattice sites, introducing a strain that results in something called **pseudo-Landau levels**. These Landau levels are characterized by their chiralities, which act as the lattice momentum in conventional lattices and correspond to the two corners of a region called the **Brillouin zone**, denoted as K and K' valleys. A Lifshitz topological edge separates the Fock-state lattice into two phases—a **semimetallic phase** within the incircle and a **band insulator phase** outside of it. The qubit remains in the ground state during the evolution, highlighting a fundamental difference between classical and quantum predictions.
+
+Valleys in FSLs can be identified by their chiralities, and a phenomenon called **VHE** can be used to transport the wave function between two valleys, controlling the chirality of the quantum states of multiple resonators. The Haldane model is an important model in topological physics. It introduces complex hopping between next-nearest-neighbor lattice sites in the Fock-state lattice, transforming flat Landau levels into a two-band structure with gapless chiral edge states. In the experiment, photons are directly excited to obtain an initial state, and the coupling strengths are periodically modulated to realize the Haldane Hamiltonian. The chiral rotating wave function moves toward the center of the Fock-state lattice due to decoherence, nonlinearity, and imperfect control pulses.
+
+This study demonstrates the coherent control of topological zero-energy states in 1D and 2D FSLs using small energy perturbations. The techniques developed here can be applied to investigate topological states of more complex systems involving qubits and resonators, paving the way for new control methods in quantum state engineering of bosonic modes.
+
+>**Required Additional Study Materials**
+> 
+> - L. Lu, J. D. Joannopoulos, M. Soljačić, Topological photonics. Nat. Photonics 8, 821–829 (2014).
+> - A. B. Khanikaev, G. Shvets, Two-dimensional topological photonics. Nat. Photonics 11, 763–773 (2017).
+> - T. Ozawa, H. M. Price, A. Amo, N. Goldman, M. Hafezi, L. Lu, M. C. Rechtsman, D. Schuster, J. Simon, O. Zilberberg, I. Carusotto, Topological photonics. Rev. Mod. Phys. 91, 015006 (2019).
+> - I. Carusotto, A. A. Houck, A. J. Kollár, P. Roushan, D. I. Schuster, J. Simon, Photonic materials in circuit quantum electrodynamics. Nat. Phys. 16, 268–279 (2020).
+> - W.-L. Ma, S. Puri, R. J. Schoelkopf, M. H. Devoret, S. M. Girvin, L. Jiang, Quantum control of bosonic modes with superconducting circuits. Sci. Bull. 66, 1789–1805 (2021).
+> - A. H. Castro Neto, F. Guinea, N. M. R. Peres, K. S. Novoselov, A. K. Geim, The electronic properties of graphene. Rev. Mod. Phys. 81, 109–162 (2009).
+> - M. O. Goerbig, Electronic properties of graphene in a strong magnetic field. Rev. Mod. Phys. 83, 1193–1243 (2011).
+> <details>
+> <summary>Introductory material</summary>
+> <div markdown="1">
+> - “**Topological Photonics**” by Tomoki Ozawa et al.
+> - “**Topological Photonics: Where do we go from here?**” by Mordechai Segev and Miguel A. Bandres
+> </div>
+> </details>
