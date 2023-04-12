@@ -2,6 +2,10 @@
 title: "Qubits and Quantum States"
 excerpt: "Quantum Bits and Multible Qubits"
 
+header:
+  overlay_image: /assets/images/quantum_computer_fundamental.png
+  overlay_filter: rgba(77, 80, 140, 0.5)
+
 categories:
   - QC Fundamental
 tags:
@@ -36,6 +40,54 @@ $$
 
 In theory, a qubit can store infinite information, but when measured, it collapses to either 0 or 1, yielding just one bit of information. Nature continuously maintains variables describing a qubit's state, even when unmeasured, harboring concealed information. Grasping this hidden quantum information is vital for leveraging quantum mechanics in information processing.
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/79438062/231553597-e7b011ff-3bc9-4313-976f-cc315989e6f9.png" width="500" height="500">
+  <br> <b>Bloch Sphere</b> <br>
+
+
+<details>
+<summary>Python code</summary>
+<div markdown="1">
+```python
+from qiskit.visualization import plot_bloch_vector
+from qiskit.quantum_info import Statevector
+from math import sin, cos
+from cmath import exp
+import matplotlib.pyplot as plt
+from IPython.display import Image
+import numpy as np
+
+# Define the angles phi and theta
+phi = np.pi / 2
+theta = np.pi /4
+
+# Convert the angles to Cartesian coordinates on the Bloch sphere
+x = sin(theta) * cos(phi)
+y = sin(theta) * sin(phi)
+z = cos(theta)
+
+# Create the statevector from the angles
+state = Statevector.from_label('0') * cos(theta / 2) + Statevector.from_label('1') * exp(1j * phi) * sin(theta / 2)
+
+# Plot the Bloch sphere
+bloch_fig = plot_bloch_vector([x, y, z], coord_type='cartesian')
+
+# Add custom labels for phi and theta
+ax = bloch_fig.gca()
+ax.text(x, y, z, f'$\\phi = {phi:.2f}, \\theta = {theta:.2f}$', fontsize=12)
+
+# Save the plot to a file
+bloch_fig.savefig("bloch_sphere.png", dpi=300)
+
+# Display the saved image in the notebook
+Image(filename="bloch_sphere.png")
+
+```
+</div>
+</details>
+
+</p>
+
 # Multiple qubits
 
 A two-qubit system possesses four computational basis states and can exist in superpositions of these states:
@@ -53,6 +105,40 @@ The Bell state, an entangled two-qubit state, can be written as:
 $$
 |\Psi^+ \rangle = \frac{1}{\sqrt{2}}(|00 \rangle + |11 \rangle)
 $$
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/79438062/231557170-7759bb49-4a76-4282-a332-9aaf19b887ca.png" height="500">
+  <br> <b>Bell State</b> <br>
+
+<details>
+<summary>Python code</summary>
+<div markdown="1">
+```python
+from qiskit import QuantumCircuit, QuantumRegister, ClassicalRegister
+from qiskit.circuit.library import CXGate
+from qiskit.visualization import circuit_drawer
+
+# Create a quantum circuit with two qubits and two classical bits
+qr = QuantumRegister(2)
+cr = ClassicalRegister(2)
+qc = QuantumCircuit(qr, cr)
+
+# Add gates to create a Bell state
+qc.h(qr[0])
+qc.cx(qr[0], qr[1])
+
+# Measure the qubits and store the results in the classical bits
+qc.measure(qr, cr)
+
+# Draw the circuit diagram
+qc.draw(output='mpl')
+```
+</div>
+</details>
+
+</p>
+
+
 
 Quantum systems comprising n qubits have $2^n$ amplitudes:
 
