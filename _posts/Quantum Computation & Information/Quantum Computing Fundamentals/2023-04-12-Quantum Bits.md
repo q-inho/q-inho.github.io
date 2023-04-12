@@ -7,7 +7,7 @@ header:
   overlay_filter: rgba(77, 80, 140, 0.5)
 
 categories:
-  - QC Fundamental
+  - QC Fundamentals
 tags:
   - [Quantum Computing]
 
