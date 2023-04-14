@@ -1,6 +1,6 @@
 ---
 title: "Brief Reviews of Science Advances: Volume 8, Issue 49 (December 9, 2022)"
-excerpt: "Brief Review on 'EAdaptive optimal control of entangled qubits' and 'Diamond-based microwave quantum amplifier "
+excerpt: "Brief Review on 'Adaptive optimal control of entangled qubits' and 'Diamond-based microwave quantum amplifier' "
 
 
 header:
