@@ -11,7 +11,7 @@ toc: false
 toc_sticky: false
  
 date: 2022-09-25
-last_modified_at: 2022-10-04
+last_modified_at: 2023-04-17
 ---
 
 # My Roadmap for Finance
@@ -589,6 +589,45 @@ last_modified_at: 2022-10-04
 ---
 
 # Details
+
+## Financial Management
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Corporate Finance: Core Principles and Applications*** by Stephen A. Ross, Randolph W. Westerfield,  Jeffrey F.  Jaffe, and Bradford D.  Jordan
+</div>
+</details>
+>This course provides an introduction to corporate finance. Topics include time value of money, bond and stock valuation, capital budgeting, risk and return concepts and cost of capital.
+
+
+## Intermediate Investments
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Investments*** by Z. Bodie, A. Kane, A.J. Marcus, and Ravi Jain 
+</div>
+</details>
+>This course studies the concepts and evidence relevant to the management of investment portfolios. Topics include diversification, asset allocation, portfolio optimization, factor models, the relation between risk and return, trading, passive (e.g., index-fund) and active (e.g., hedge-fund, long-short) strategies, mutual funds, performance evaluation, long-horizon investing and simulation.
+
+## Derivative Securities
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Options, Futures, & Other Derivatives*** by John C. Hull
+</div>
+</details>
+>This course covers options, forward contracts, futures contracts and swaps. By the end of this course, students will have a good knowledge of how derivative contracts work, how they are used and how they are priced.
+
+## Intermediate Corporate Finance
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Corporate Finance*** by Ross, Westerfield, Jaffe, and Jordan
+</div>
+</details>
+>The course provides an in-depth treatment of long-term financing decisions, including estimation of the cost of capital, financial leverage, corporate distress, raising financing, dividend policy, and working capital analysis.
+
+
 ## Bloomberg Market Concepts Certification
 <details>
 <summary>Study material</summary>
@@ -607,6 +646,81 @@ last_modified_at: 2022-10-04
 </details>
 >This course will enable students to learn more about market information and the functionality of a Refinitiv data product most commonly used by financial professionals. It begins with the first module of basic overview and is followed by four core modules on data, screen design, graphics, analysis tools of various instruments, which includes one module of data retrieval in Excel.
 
+## Wealth Management
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Investments*** by Bodie, Kane and Marcus
+- ***Investment Analysis and Portfolio Management*** by Reilly and Brown
+- ***Financial Planning and Wealth Management: An International Perspective*** by Cheng, Leung and Wong
+</div>
+</details>
+>This course focuses on a broad understanding of financial and investment issues arising in the context of personal wealth management. Students will gain an understanding of the nature and use of various financial products and legal instruments for developing a financial plan. It covers topics such as client financial status and expectations, portfolio management, securities trading, managed funds, insurance, and tax and estate planning.
+
+## Corporate Valuation
+
+>This course teaches students how to use financial information to value firms. By the end of this course, students will be able to value firms using discounted cash flow valuation, relative valuation, and real options.
+
+## Financial Markets Trading and Structure
+
+>This course examines liquidity, market structure and trading. The focus is on examining the efficiency of trading systems and markets, the impact of new algorithmic trading on markets, the role of intermediaries and regulatory actions on market structure issues. Students learn about a number of alternative market structures in terms of their economic and operational effectiveness.
+
+## Mergers, Acquisitions, and Corporate Restructuring
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Mergers, Acquisitions, and Other Restructuring Activities: An Integrated Approach to Process, Tools, Cases, and Solutions*** by Donald M. DePamphilis 
+- ***Mergers, Acquisitions, and Corporate Restructurings*** by Patrick A. Gaughan
+- ***Corporate Finance*** by Ross S, Westerfield RW, Jaffe J, Jordan B
+</div>
+</details>
+>This course analyzes mechanisms underlying the creation of value in mergers, acquisitions and corporate restructuring. Students will learn analytical techniques and tools to analyze (a) strategy behind corporate restructuring transactions, whether and what to acquire, (b) evaluation and financing of acquisitions, and (c) decisions and processes that impact value creation in mergers.
+
+## Fixed Income Securities
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Fixed Income Analysis*** by CFA Institute
+- ***Fixed Income Securities: Valuation. Risk and Risk Management*** by Veronesi
+</div>
+</details>
+>Pricing of bonds, term structure models, duration analysis and immunization techniques, valuation of interest rate options, convertible bonds, mortgage-backed securities, pricing credit derivatives, bond portfolio construction and management.
+
+## International Finance
+
+>An introduction to the fundamental principles of international financial management and investment. Topics include: international financial markets and instruments; foreign exchange markets; foreign currency derivatives and currency risk; international capital budgeting; international bond and equity markets.
+
+## Family Business
+
+>This course aims to provide students with comprehensive and practical understanding of Asian family business, which is the most prominent and significant business form in Asia. The course will specifically cover valuation and ownership design, financing and exit strategies, governance and succession practices of family businesses. The course is application oriented and draws on the faculty’s research experience and active interactions with family businesses in Asia. This course will benefit not only the students who will work in family businesses but also those likely to provide services to them in the future, such as private and investment bankers, family office professionals, private equity professionals, and other service professionals working closely with wealthy families in the region.
+
+## Banking and Financial Intermediation
+
+>This course examines financial intermediaries with a particular emphasis on banks. It introduces students to the nature, purpose, and management of these institutions. The course also brings together the upstream issues in risk measurement and the regulative environment surrounding banks. By the end of this course, students will be able to understand the role of banks in the economy and the effects of frictions such as information asymmetry and agency costs on bank behavior. The course will start with the review of basic game theory.
+
+## Risk Management
+
+>This course covers the role of risk management in supporting companies as they strive to balance the internal and external risk factors surrounding the operation of their business model against their various stakeholder obligations. Topics include a review of basic hedging strategies (knowledge of futures and options is pre-requisite), the theory and evidence on the value of corporate risk management, review of major surveys of risk management practices, business-case studies highlighting advanced derivatives and risk-management strategies, an illustrative model of integrated enterprise risk- management (featuring Monte-Carlo simulation), and student-led risk-management audits.
+
+## Venture Capital Financing
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Corporate Finance*** by Ross S, Westerfield RW, Jaffe J, Jordan B
+- ***International Private Equity and Venture Capital Valuation Guidelines*** by *IPEV
+- ***Venture Capital, Private Equity, and the Financing of Entrepreneurship*** by Lerner, J, Leamon, A & Hardymon, F
+- ***Venture Capitalist Screening Criteria and Its Associated Tools: Progressive Screening Matrix and Mean-IRR Index*** by *Lai, M
+</div>
+</details>
+>This course covers the application of financial tools and techniques to the funding and valuation of an entrepreneurial venture. The course seeks to provide students with a background on the venture capital industry, the economic intuition underlying its features, and the basic tools required to work in the industry.
+
+## ESG Investing
+
+>This course focuses on the relevance of sustainability factors on financial performance of firms and securities. Topics in this course include the market terminology, practices, usages and impact of environmental, social and governance (ESG) factors and climate risk. Students will learn to analyze complex financial problems, adapt investment strategies to meet business needs, propose solutions that maximize stakeholder value, and apply ESG related concepts to the process of investment management and valuation.
+
+## Quantitative Trading
+
+>Working in groups, the students will bring together all the knowledge learned in the program to develop and execute a quantitative trading strategy through a simulated platform. The instructor will guide the students through the following stages: (1) idea generation, (2) strategy backtesting, (3) risk management planning, (4) system development, (5) trade execution, and (6) performance evaluation. Students will also have the opportunity to develop their leadership and presentation skills.
 
 #### Reference
 
