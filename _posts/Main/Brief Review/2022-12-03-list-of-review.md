@@ -15,7 +15,7 @@ toc: true
 toc_sticky: true
  
 date: 2022-12-03
-last_modified_at: 2023-04-18
+last_modified_at: 2023-04-20
 ---
 
 # Nature
@@ -26,6 +26,9 @@ last_modified_at: 2023-04-18
 - Volume 612 Issue 7940, 15 December 2022 <a href="https://www.nature.com/nature/volumes/612/issues/7940"> <img src="https://img.shields.io/badge/Nature-Link-lightgrey"> </a>  <a href="https://q-inho.github.io/brief%20review/Nature-volume-612-issue-7940/"> <img src="https://img.shields.io/badge/-Review%20Blog-181717?logo=GitHub"> </a>
 - Volume 612 Issue 7939, 8 December 2022 <a href="https://www.nature.com/nature/volumes/612/issues/7939"> <img src="https://img.shields.io/badge/Nature-Link-lightgrey"> </a>  <a href="https://q-inho.github.io/brief%20review/Nature-volume-612-issue-7939/"> <img src="https://img.shields.io/badge/-Review%20Blog-181717?logo=GitHub"> </a>
 - Volume 612 Issue 7938, 1 December 2022 <a href="https://www.nature.com/nature/volumes/612/issues/7938"> <img src="https://img.shields.io/badge/Nature-Link-lightgrey"> </a>  <a href="https://q-inho.github.io/brief%20review/Nature-volume-612-issue-7938/"> <img src="https://img.shields.io/badge/-Review%20Blog-181717?logo=GitHub"> </a>
+
+## Nature Electronics
+- Volume 5 Issue 1, January 2022 <a href="https://www.nature.com/natelectron/volumes/5/issues/1"> <img src="https://img.shields.io/badge/Nature-Link-lightgrey"> </a> <a href="https://q-inho.github.io/brief%20review/Nature-Electronics-volume-5-issue-1/"> <img src="https://img.shields.io/badge/-Review%20Blog-181717?logo=GitHub"> </a>
 
 ## Nature Machine Intelligence
 - Volume 4 Issue 12, January 2022 <a href="https://www.nature.com/natmachintell/volumes/4/issues/12"> <img src="https://img.shields.io/badge/Nature-Link-lightgrey"> </a> <a href="https://q-inho.github.io/brief%20review/Nature-Machine-Intelligence-volume-4-issue-12/"> <img src="https://img.shields.io/badge/-Review%20Blog-181717?logo=GitHub"> </a>
