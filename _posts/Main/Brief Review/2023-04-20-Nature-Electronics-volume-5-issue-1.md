@@ -3,7 +3,7 @@ title: "Brief Reviews of Nature Electronics: Volume 5, Issue 1 (January, 2022)"
 excerpt: "Brief Review on 'A cryo-CMOS chip that integrates silicon quantum dots and multiplexed dispersive readout electronics' "
 
 header:
-  overlay_image: /assets/images/Nature_Machine_Intelligence_Journal.png
+  overlay_image: /assets/images/Nature_Electronics_Journal.png
   overlay_filter: rgba(2, 115, 94, 0.7)
 
 categories:
