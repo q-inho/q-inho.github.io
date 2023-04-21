@@ -15,7 +15,7 @@ toc: true
 toc_sticky: false
  
 date: 2022-10-03
-last_modified_at: 2023-04-09
+last_modified_at: 2023-04-22
 ---
 
 <a href="https://q-inho.github.io/brief%20review/list-of-review/">
@@ -156,6 +156,9 @@ last_modified_at: 2023-04-09
 #### Machine learning
 - Dalgaard, M., Motzoi, F. &amp; Sherson, J. ***Predicting quantum dynamical cost landscapes with deep learning***. [Physical Review A 105, (2022). ](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.012402) 
 - Havlíček, V. et al. ***Supervised learning with quantum-enhanced feature spaces***. [Nature 567, 209–212 (2019).](https://www.nature.com/articles/s41586-019-0980-2) 
+
+#### NV center
+- Jelezko, F. &amp; Wrachtrup, J. ***Single Defect Centres in diamond: A Review***. physica status solidi (a) [203, 3207–3225 (2006). ](https://onlinelibrary.wiley.com/doi/abs/10.1002/pssa.200671403)
 
 #### Quantum algorithms
 - Xu, L., Lee, J. T. &amp; Freericks, J. K. ***Decomposition of high-rank factorized unitary coupled-cluster operators using ancilla and multiqubit controlled low-rank counterparts.*** [Physical Review A 105, (2022). ](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.012406)  
