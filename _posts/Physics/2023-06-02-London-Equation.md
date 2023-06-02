@@ -66,5 +66,5 @@ And we can define $\lambda$ like this:
 
 So, equations (5) and (6) give us a way to define the **superconducting electron density $n_s$** in terms of something we can actually measure, $\lambda$.
 
-##### Reference
+# Reference
 - Tinkham, M. Introduction to superconductivity. (Dover Publications, 2015). 
