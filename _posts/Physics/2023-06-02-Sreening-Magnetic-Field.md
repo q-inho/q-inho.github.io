@@ -119,4 +119,4 @@ While this argument is based on the critical field, more general energetic argum
 For typical numerical values of $H_c = 500 Oe$ and $\lambda = 500 \unicode{xC5}$, the critical current density $J_c$ is found to be of the order of $10^8 A/cm^2$, a remarkably large value. This finding underscores the extraordinary electrical properties of superconducting wires and their potential for high-current applications.
 
 # Reference
-- Tinkham, M. Introduction to superconductivity. (Dover Publications, 2015). 
+- Tinkham, M. Introduction to superconductivity. (Dover Publications, 2015).  
