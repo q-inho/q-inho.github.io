@@ -51,6 +51,14 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "NV Center" %}
+                        <li><a href="/categories/qc-NV-Center" class="">NV Center ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
              
             <ul>
                 {% for category in site.categories %}
