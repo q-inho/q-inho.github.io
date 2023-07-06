@@ -26,7 +26,7 @@ The NV center’s energy states and permissible transitions are meticulously map
 
 <p align="center">
   <img width="610" src="https://github.com/q-inho/q-inho.github.io/assets/79438062/f36c0d4f-bbbf-4c79-ba19-6e1151d3e91f">
-<br> <b>Figure 1. Level structure of the NV$^−$ centre in diamond </b>. Source: (Bradley)
+<br> <b>Figure 1. Level structure of the NV$^−$ centre in diamond </b>. Source: (Bradley)$^{[1]}$
 </p>
 
 The ground-state electronic Hamiltonian is
