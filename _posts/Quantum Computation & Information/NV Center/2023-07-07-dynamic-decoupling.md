@@ -1,5 +1,5 @@
 ---
-title: "NV Center: Intricacies of Electron-Nuclear Gates"
+title: "NV Center: Interactions of Electron-Nuclear Gates"
 excerpt: "Interactions, specifically focusing on the role of dynamical decoupling (DD) sequences and the impact of external magnetic fields on the operation of electron-nuclear gates."
 
 header:
