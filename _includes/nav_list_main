@@ -67,6 +67,14 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Superconducting Qubit" %}
+                        <li><a href="/categories/qc-superconducting-qubit" class="">Superconducting Qubit ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
              
             <ul>
                 {% for category in site.categories %}
