@@ -64,7 +64,7 @@ The molecular explanation of Boyle's law posits that halving the volume of a gas
 
 The perfect gas law offers invaluable practical utility, aiding the calculation of gas properties under varying conditions. For instance, the molar volume of a perfect gas under standard ambient temperature and pressure (SATP) can be easily computed using the formula $V_m = RT/p$.
 
-$ Gas Mixture
+# Gas Mixture
 
 When dealing with mixtures of gases, it becomes crucial to assess the contribution of each constituent to the overall pressure. This can be achieved by determining the partial pressure, which can be defined using the mole fraction of each component.
 
