@@ -181,6 +181,14 @@
                 {% endfor %}
             </ul>
 
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Physical Chemistry" %}
+                        <li><a href="/categories/chem-physical-chemsitry" class="">Physical Chemistry ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
 
 
         <span class="nav__sub-title2">Chemical Engineering</span>
