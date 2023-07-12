@@ -181,4 +181,8 @@ last_modified_at: 2023-04-22
 
 ### Topological Materials
 
+## Computer Science
+### Deep Learning
+- LeCun, Y., Bengio, Y. &amp; Hinton, G. ***Deep learning***. [Nature 521, 436–444 (2015). ](https://www.nature.com/articles/nature14539) <a href="https://q-inho.github.io/brief%20review/Deep-learning/"> <img src="https://img.shields.io/badge/-Brief%20Review%20Blog-blue?logo=GitHub"> </a>
+
 
