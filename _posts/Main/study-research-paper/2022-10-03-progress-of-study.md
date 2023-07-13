@@ -9,7 +9,7 @@ header:
 categories:
   - Study/Research/Paper
 tags:
-  - [Quantum Computing, Physics, Electronic Engineering, Chemistry]
+  - [Quantum Computing, Physics, Electronic Engineering, Chemistry, Computer Science]
 
 toc: true
 toc_sticky: false
@@ -184,5 +184,8 @@ last_modified_at: 2023-07-13
 ## Computer Science
 ### Deep Learning
 - LeCun, Y., Bengio, Y. &amp; Hinton, G. ***Deep learning***. [Nature 521, 436–444 (2015). ](https://www.nature.com/articles/nature14539) <a href="https://q-inho.github.io/brief%20review/Deep-learning/"> <img src="https://img.shields.io/badge/-Brief%20Review%20Blog-blue?logo=GitHub"> </a>
+
+### Natural Language Processing
+- Brown, T. et al. **Language models are few-shot learners**. [Adv. Neur. Inf. Process Sys. 33, 1877–1901 (2020).](https://dl.acm.org/doi/abs/10.5555/3495724.3495883) <a href="https://q-inho.github.io/brief%20review/Language-Models-are-Few-Shot-Learners/"> <img src="https://img.shields.io/badge/-Brief%20Review%20Blog-blue?logo=GitHub"> </a>
 
 

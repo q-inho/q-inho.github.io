@@ -1,6 +1,6 @@
 ---
 title: "Brief Reviews on Deep Learning"
-excerpt: "Gas properties, specifically focusing on variables of state such as pressure and temperature, while elucidating how these variables play a pivotal role in defining a substance's physical state and determining the dynamics of gas behavior."
+excerpt: ""
 
 header:
   overlay_image: 
