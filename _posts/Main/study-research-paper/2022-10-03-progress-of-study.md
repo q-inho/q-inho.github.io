@@ -148,11 +148,13 @@ last_modified_at: 2023-07-13
 #### Error mitigation
 - van den Berg, E., Minev, Z. K. &amp; Temme, K. ***Model-free readout-error mitigation for quantum expectation values***. [Physical Review A 105, (2022). ](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.032620) <a href="https://q-inho.github.io/study/research/paper/Mitigating-readout-error-model-free-approach/"> <img src="https://img.shields.io/badge/-Review%20Blog-181717?logo=GitHub"> </a> 
 
-#### Machine learning
+#### Quantum Machine learning
+- Biamonte, J. et al. **Quantum Machine Learning**. [Nature 549, 195–202 (2017). ](https://www.nature.com/articles/nature23474)<a href="https://q-inho.github.io/brief%20review/Quantum-Machine-Learning/"> <img src="https://img.shields.io/badge/-Brief%20Review%20Blog-blue?logo=GitHub"> </a>
 
 #### NV center
 
 #### Quantum algorithms
+- Peruzzo, A. et al. **A variational eigenvalue solver on a photonic quantum processor**. [Nature Communications 5, (2014). ](http://127.0.0.1:4000/brief%20review/A-Variational-Eigenvalue-Solver-on-a-Photonic-Quantum-Processor/) <a href="https://q-inho.github.io/brief%20review/A-Variational-Eigenvalue-Solver-on-a-Photonic-Quantum-Processor/"> <img src="https://img.shields.io/badge/-Brief%20Review%20Blog-blue?logo=GitHub"> </a>
 
 #### Quantum gates
 
