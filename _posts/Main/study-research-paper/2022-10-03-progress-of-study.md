@@ -154,7 +154,9 @@ last_modified_at: 2023-07-13
 #### NV center
 
 #### Quantum algorithms
-- Peruzzo, A. et al. **A variational eigenvalue solver on a photonic quantum processor**. [Nature Communications 5, (2014). ](http://127.0.0.1:4000/brief%20review/A-Variational-Eigenvalue-Solver-on-a-Photonic-Quantum-Processor/) <a href="https://q-inho.github.io/brief%20review/A-Variational-Eigenvalue-Solver-on-a-Photonic-Quantum-Processor/"> <img src="https://img.shields.io/badge/-Brief%20Review%20Blog-blue?logo=GitHub"> </a>
+- McClean, J. R., Romero, J., Babbush, R. &amp; Aspuru-Guzik, A. **The theory of variational hybrid quantum-classical algorithms**. [New Journal of Physics 18, 023023 (2016). ](https://iopscience.iop.org/article/10.1088/1367-2630/18/2/023023)<a href="https://q-inho.github.io/brief%20review/The-Theory-of-Variational-Hybrid-Quantum-Classical-Algorithms/"> <img src="https://img.shields.io/badge/-Brief%20Review%20Blog-blue?logo=GitHub"> </a>
+
+- Peruzzo, A. et al. **A variational eigenvalue solver on a photonic quantum processor**. [Nature Communications 5, (2014). ](https://www.nature.com/articles/ncomms5213) <a href="https://q-inho.github.io/brief%20review/A-Variational-Eigenvalue-Solver-on-a-Photonic-Quantum-Processor/"> <img src="https://img.shields.io/badge/-Brief%20Review%20Blog-blue?logo=GitHub"> </a>
 
 #### Quantum gates
 
