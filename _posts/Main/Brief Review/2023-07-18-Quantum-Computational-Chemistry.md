@@ -9,7 +9,7 @@ header:
 categories:
   - Brief Review
 tags:
-  - [Quantum Chemistry]
+  - [Quantum Chemistry, Quantum Algorithm]
 
 toc: true
 toc_sticky: true

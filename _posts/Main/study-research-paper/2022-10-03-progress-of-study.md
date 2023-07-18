@@ -154,6 +154,8 @@ last_modified_at: 2023-07-13
 #### NV center
 
 #### Quantum algorithms
+- Cerezo, M. et al. **Variational quantum algorithms**. [Nature Reviews Physics 3, 625–644 (2021). ](https://www.nature.com/articles/s42254-021-00348-9)<a href="https://q-inho.github.io/brief%20review/Variational-Quantum-Algorithms/"> <img src="https://img.shields.io/badge/-Brief%20Review%20Blog-blue?logo=GitHub"> </a>
+
 - McArdle, S., Endo, S., Aspuru-Guzik, A., Benjamin, S. C. &amp; Yuan, X. **Quantum computational chemistry**. [Reviews of Modern Physics 92, (2020). ](https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.92.015003)<a href="https://q-inho.github.io/brief%20review/Quantum-Computational-Chemistry/"> <img src="https://img.shields.io/badge/-Brief%20Review%20Blog-blue?logo=GitHub"> </a>
 
 - McClean, J. R., Romero, J., Babbush, R. &amp; Aspuru-Guzik, A. **The theory of variational hybrid quantum-classical algorithms**. [New Journal of Physics 18, 023023 (2016). ](https://iopscience.iop.org/article/10.1088/1367-2630/18/2/023023)<a href="https://q-inho.github.io/brief%20review/The-Theory-of-Variational-Hybrid-Quantum-Classical-Algorithms/"> <img src="https://img.shields.io/badge/-Brief%20Review%20Blog-blue?logo=GitHub"> </a>
