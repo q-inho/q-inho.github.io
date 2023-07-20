@@ -149,9 +149,10 @@ last_modified_at: 2023-07-13
 - van den Berg, E., Minev, Z. K. &amp; Temme, K. ***Model-free readout-error mitigation for quantum expectation values***. [Physical Review A 105, (2022). ](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.032620) <a href="https://q-inho.github.io/study/research/paper/Mitigating-readout-error-model-free-approach/"> <img src="https://img.shields.io/badge/-Review%20Blog-181717?logo=GitHub"> </a> 
 
 #### Quantum Machine learning
-- Biamonte, J. et al. **Quantum Machine Learning**. [Nature 549, 195–202 (2017). ](https://www.nature.com/articles/nature23474)<a href="https://q-inho.github.io/brief%20review/Quantum-Machine-Learning/"> <img src="https://img.shields.io/badge/-Brief%20Review%20Blog-blue?logo=GitHub"> </a>
+- Biamonte, J. et al. **Quantum Machine Learning**. [Nature 549, 195–202 (2017). ](https://www.nature.com/articles/nature23474)<a href="https://q-inho.github.io/brief%20review/Quantum-Machine-Learning/"> <img src="https://img.shields.io/badge/-Brief%20Review%20Blog-blue?logo=GitHub"> </a><a href="https://q-inho.github.io/brief%20review/Atomic-scale-Imaging-of-a-27-nuclear-spin-Cluster-Using-a-Quantum-Sensor/"> <img src="https://img.shields.io/badge/-Brief%20Review%20Blog-blue?logo=GitHub"> </a>
 
 #### NV center
+- Abobeih, M. H. et al. **Atomic-scale imaging of a 27-nuclear-spin cluster using a quantum sensor**. [Nature 576, 411–415 (2019). ](https://www.nature.com/articles/s41586-019-1834-7)
 
 #### Quantum algorithms
 - Cerezo, M. et al. **Variational quantum algorithms**. [Nature Reviews Physics 3, 625–644 (2021). ](https://www.nature.com/articles/s42254-021-00348-9)<a href="https://q-inho.github.io/brief%20review/Variational-Quantum-Algorithms/"> <img src="https://img.shields.io/badge/-Brief%20Review%20Blog-blue?logo=GitHub"> </a>
