@@ -9,7 +9,7 @@ header:
 categories:
   - Brief Review
 tags:
-  - [Quantum Algorithm, Quantum Nneural Networks]
+  - [Quantum Algorithm, Quantum Neural Networks]
 
 toc: true
 toc_sticky: true

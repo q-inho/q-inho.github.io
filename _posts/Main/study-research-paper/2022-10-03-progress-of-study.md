@@ -153,6 +153,8 @@ last_modified_at: 2023-07-13
 
 - Farhi, E. & Neven, H. **Classification with quantum neural networks on near term processors** [(2018).](https://arxiv.org/abs/1802.06002)<a href="https://q-inho.github.io/brief%20review/Classification-With-Quantum-Neural-Networks-on-Near-Term-Processors/"> <img src="https://img.shields.io/badge/-Brief%20Review%20Blog-blue?logo=GitHub"> </a>
 
+- Havlíček, V. et al. **Supervised learning with quantum-enhanced feature spaces.** [Nature 567, 209–212 (2019). ](https://www.nature.com/articles/s41586-019-0980-2)<a href="https://q-inho.github.io/brief%20review/Supervised-Learning-with-Quantum-enhanced-Feature-Spaces/"> <img src="https://img.shields.io/badge/-Brief%20Review%20Blog-blue?logo=GitHub"> </a>
+
 #### NV center
 - Abobeih, M. H. et al. **Atomic-scale imaging of a 27-nuclear-spin cluster using a quantum sensor**. [Nature 576, 411–415 (2019). ](https://www.nature.com/articles/s41586-019-1834-7)<a href="https://q-inho.github.io/brief%20review/Atomic-scale-Imaging-of-a-27-nuclear-spin-Cluster-Using-a-Quantum-Sensor/"> <img src="https://img.shields.io/badge/-Brief%20Review%20Blog-blue?logo=GitHub"> </a>
 
@@ -162,6 +164,8 @@ last_modified_at: 2023-07-13
 - Ebadi, S. et al. **Quantum optimization of maximum independent set using Rydberg atom arrays**. [Science 376, 1209–1215 (2022). ](https://www.science.org/doi/10.1126/science.abo6587)<a href="https://q-inho.github.io/brief%20review/Quantum-Optimization-of-Maximum-Independent-Set-Using-Rydberg-Atom-Arrays/"> <img src="https://img.shields.io/badge/-Brief%20Review%20Blog-blue?logo=GitHub"> </a>
 
 - Farhi, E., Goldstone, J. & Gutmann, S. **A quantum approximate optimization algorithm** [(2014). ](https://arxiv.org/abs/1411.4028)<a href="https://q-inho.github.io/brief%20review/A-Quantum-Approximate-Optimization-Algorithm/"> <img src="https://img.shields.io/badge/-Brief%20Review%20Blog-blue?logo=GitHub"> </a>
+
+- Liu, J., Wilde, F., Mele, A. A., Jiang, L. & Eisert, J. **Stochastic noise can be helpful for variational quantum algorithms** [(2022).](https://arxiv.org/abs/2210.06723)
 
 - McArdle, S., Endo, S., Aspuru-Guzik, A., Benjamin, S. C. &amp; Yuan, X. **Quantum computational chemistry**. [Reviews of Modern Physics 92, (2020). ](https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.92.015003)<a href="https://q-inho.github.io/brief%20review/Quantum-Computational-Chemistry/"> <img src="https://img.shields.io/badge/-Brief%20Review%20Blog-blue?logo=GitHub"> </a>
 
