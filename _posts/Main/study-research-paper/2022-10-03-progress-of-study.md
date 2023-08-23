@@ -189,6 +189,9 @@ last_modified_at: 2023-07-13
 
 ### Quantum theory
 
+### Topological phase of matter
+- Tantivasadakarn, N., Verresen, R. &amp; Vishwanath, A. ***Shortest route to non-abelian topological order on a quantum processor***. [Physical Review Letters 131, (2023). ](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.131.060405)
+
 ### Two-level models
 
 ### In progress
