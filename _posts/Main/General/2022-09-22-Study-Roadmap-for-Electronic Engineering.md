@@ -11,7 +11,7 @@ toc: false
 toc_sticky: false
  
 date: 2022-09-22
-last_modified_at: 2022-10-29
+last_modified_at: 2024-01-16
 ---
 
 # My Roadmap for Electrical Engineering
@@ -297,6 +297,16 @@ last_modified_at: 2022-10-29
 >Overview of computer networks: network architecture and switching techniques. Introduction to the Internet, network programming, and layer architecture. Application layer: HTTP, FTP, SMTP, and CDN. Transport layer: TCP and UDP. Network layer: IP routing, NAT, and DHCP. Data link layer and local area networks: MAC protocols, Ethernet, and hubs/bridges/switches.
 
 ## Data-Driven Portfolio Optimization
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***A Signal Processing Perspective on Financial Engineering*** by Yiyong Feng and Daniel P. Palomar
+- ***Optimization Methods for Financial Index Tracking: From Theory to Practice. Foundations and Trends® in Optimization*** by Konstantinos Benidis, Yiyong Feng, and Daniel P. Palomar
+- ***Convex Optimization*** by S. Boyd and L. Vandenberghe
+- ***Optimization Methods in Finance*** by G. Cornuejols and R. Tutuncu
+- ***Robust Portfolio Optimization and Management*** by F. J. Fabozzi, P. N. Kolm, D. A. Pachamanova, and S. M. Focardi
+</div>
+</details>
 >Modern portfolio theory started with Harry Markowitz's 1952 seminal paper "Portfolio Selection." He put forth the idea that risk-adverse investors should optimize their portfolio based on a combination of two objectives: expected return and risk. Until today, that idea has remained central in portfolio optimization. However, the vanilla Markowitz portfolio formulation does not seem to behave as expected in practice and most practitioners tend to avoid it. During the past half century, researchers and practitioners have reconsidered the Markowitz portfolio formulation and have proposed countless of improvements and alternatives such as robust optimization methods, alternative measures of risk, regularization via sparsity, improved estimators of the covariance matrix, robust estimators for heavy tails, factor models, volatility clustering models, risk-parity formulations, index tracking, etc. This course will explore the Markowitz portfolio optimization in its many variations and extensions, with special emphasis on Python programming.
 
 ## System Modeling, Analysis and Control
