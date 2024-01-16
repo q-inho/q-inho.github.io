@@ -11,7 +11,7 @@ toc: false
 toc_sticky: false
  
 date: 2022-09-22
-last_modified_at: 2022-12-31
+last_modified_at: 2024-01-17
 ---
 
 # My Roadmap for Mathematics
@@ -514,6 +514,13 @@ last_modified_at: 2022-12-31
 >Population, ecology, infectious disease, genetic, and biochemistry models. Additional topics chosen by instructor.
 
 ## Introduction to Optimization
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Convex Optimization*** by S. Boyd and L. Vandenberghe
+- ***An Introduction to Optimization*** by Edwin K. P. Chong, Stanislaw H. Żak
+</div>
+</details>
 >This course introduces fundamental theory and techniques of optimization. Topics include linear programming, unconstrained optimization, and constrained optimization. Numerical implementations of optimization methods are also discussed.
 
 ## Introduction to Mathematics of Image Processing
