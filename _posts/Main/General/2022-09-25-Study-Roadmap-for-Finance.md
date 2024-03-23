@@ -11,7 +11,7 @@ toc: false
 toc_sticky: false
  
 date: 2022-09-25
-last_modified_at: 2023-04-21
+last_modified_at: 2024-03-24
 ---
 
 # My Roadmap for Finance
@@ -165,6 +165,7 @@ last_modified_at: 2023-04-21
         FINA3103 & FINA3203 --> FINA4513[Risk Management]
         FINA3303 --> FINA4603[Venture Capital Financing]
         FINA3103 --> FINA4703[ESG Investing]
+        FINA3103 --> FINA4713[Introduction to Artificial Intelligence and Big Data in Finance]
 
 
         subgraph Information Systems
@@ -404,6 +405,7 @@ last_modified_at: 2023-04-21
 - Venture Capital Financing
 - ESG Investing
 - Quantitative Trading
+- Introduction to Artificial Intelligence and Big Data in Finance
 
 # Undergraduate Accounting
 - Principles of Accounting I
@@ -663,7 +665,15 @@ last_modified_at: 2023-04-21
 >This course teaches students how to use financial information to value firms. By the end of this course, students will be able to value firms using discounted cash flow valuation, relative valuation, and real options.
 
 ### Financial Markets Trading and Structure
-
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Information Choice in Macroeconomics and Finance*** by Veldkamp, Laura
+- ***Empirical Market Microstructure*** by Hasbrouck, Joel
+- ***Market Liquidity: Theory, Evidence, and Policy*** by Foucault, Thierry; Marco Pagano; and Ailsa Roell
+- ***DeFi and the Future of Finance*** by Harvey, Campbell; Ashwin Ramachandran; Joey Santoro; Fred Ehrsam; and Vitalik Buterin
+</div>
+</details>
 >This course examines liquidity, market structure and trading. The focus is on examining the efficiency of trading systems and markets, the impact of new algorithmic trading on markets, the role of intermediaries and regulatory actions on market structure issues. Students learn about a number of alternative market structures in terms of their economic and operational effectiveness.
 
 ### Mergers, Acquisitions, and Corporate Restructuring
@@ -723,6 +733,16 @@ last_modified_at: 2023-04-21
 
 >Working in groups, the students will bring together all the knowledge learned in the program to develop and execute a quantitative trading strategy through a simulated platform. The instructor will guide the students through the following stages: (1) idea generation, (2) strategy backtesting, (3) risk management planning, (4) system development, (5) trade execution, and (6) performance evaluation. Students will also have the opportunity to develop their leadership and presentation skills.
 
+### Introduction to Artificial Intelligence and Big Data in Finance
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Fixed Income Analysis*** by CFA Institute
+- ***Fixed Income Securities: Valuation. Risk and Risk Management*** by Veronesi
+</div>
+</details>
+>This provides an overview of the main branches of AI and Big Data, and exposes students to real-world industry use cases to help them understand the impact that AI will have on the finance industry. Upon completion of this course, students will be able to identify and leverage AI and Big Data to enhance and/or disrupt business models, while keeping in mind social and ethical considerations.
+
 ## Undergraduate Accounting
 ### Principles of Accounting I
 <details>
@@ -760,6 +780,194 @@ last_modified_at: 2023-04-21
 </details>
 >Special problems in accounting for owner's equity and long-term liabilities including corporate bonds, leases, deferred taxation and pensions.
 
+## Undergraduate Economics
+### Microeconomics
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Microeconomics*** by M. Parkin
+</div>
+</details>
+>Theory of the firm in a free enterprise system; theory of consumer demand; market structures and resource allocation; selected topics on government regulation.
+
+### Macroeconomics
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Macroeconomics*** by Blanchard, Olivier
+</div>
+</details>
+>Theory of national income determination and business fluctuation; monetary and fiscal policies; selected topics in macroeconomic policies and open economy macroeconomics.
+
+## Undergraduate Information System
+### Introduction to Information Systems
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Information Systems: A Manager’s Guide to Harnessing Technology*** by John Gallaugher
+</div>
+</details>
+>Information systems (IS) is about managing the applications of IT to create business values. Topics include fundamental concepts of IS, e-commerce, digital and internet economy, web 2.0 and social networks, online advertising, personalization and privacy, digital rights management and piracy, business intelligence and decision-making, how organizations harness IS for innovative business strategies, and the socio-economic impact of IS on organizations and societies.
+
+### Business Statistics
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Statistics for Business Decision Making and Analysis*** by Robert Stine and Dean Foster
+</div>
+</details>
+>Collection, tabulation and presentation of numerical data; concepts of probability and probability distributions; sampling; statistical estimation and hypothesis testing; correlation and regression analysis.
+
+### Introduction to Business Analytics
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Python Data Science Handbook*** by Jake Vanderplas
+</div>
+</details>
+>This introduces students with the foundation needed to apply data analytics to real-world challenges they will confront in their future career. It covers statistical tools in descriptive analytics and predictive analytics, including multiple linear regression, logistic regression and clustering. Emphasis is placed on applications, concepts and interpretation of results, rather than theory and calculations. Students use a computer software for data analysis.
+
+### Operations Management
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Matching Supply with Demand*** by Cachon and Terwiesch
+- ***Operations and Supply Chain Management*** by Jacobs and Chase
+</div>
+</details>
+>Production and service operations viewed from the strategic, tactical and operational levels; capacity planning, process selection, impact of technology location and layout, material and resource requirements, scheduling and quality control.
+
+### Data Mining for Business Analytics
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Data Mining for Business Analytics: Concepts, Techniques, and Applications in R*** by Galit Shmueli, Peter C. Bruce, Inbal Yahav, Nitin R. Patel, Kenneth C. Lichtendahl
+- ***Data Science for Business: What you need to know about data mining and dataanalytic thinking*** by Foster Provost, Tom Fawcett
+- ***Learning Data Mining with Python*** by Robert Layton
+</div>
+</details>
+>This covers the fundamental concepts, technologies, and applications of business analytics to help firms gain a competitive advantage in the era of Big Data. Topics include text mining, predictive analytics, search engine strategy, social network analysis, cloud computing, etc. Students will gain hands-on experience with popular data analytical tools.
+
+### Big Data Technologies
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Hadoop: The Definitive Guide*** by Tom White
+- ***Learning Spark: Lightning-Fast Big Data Analysis*** by Holden Karau, Andy Konwinski, Patrick Wendell, and Matei Zaharia
+</div>
+</details>
+>In the era of "Big Data", organizations need a new infrastructure/platform to manage the storage and processing of large volume of data. This course introduces the emerging technological paradigm of big data management, as well as some common approaches that are used to gain insights from big data for business decision-making. In particular, it covers a range of big data technologies, including HDFS, MapReduce, Spark, Hive, Pig, etc., that allow for performing data-intensive analysis.
+
+### Introduction to Probability Models
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***A First Course in Probability*** by Sheldon Ross
+</div>
+</details>
+>Probabilities, random variables, distribution functions, densities, expected values, conditional distributions and densities, conditional expectations, moment generating functions, Chebyshev's inequality, central limit theorem, and Poisson processes.
+
+### Business Modeling and Optimization
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Practical Management Science*** by Albright and Winston
+</div>
+</details>
+>The science and technology of informed decision making with focus on optimizing business processes. Spreadsheet decision modeling in Excel will be used throughout. Emphasis on problem formulation, spreadsheet-based solution methods, and managerial insights. Applications to managerial decision problems in diverse industries and functional areas including finance and accounting, human resource, marketing, and operations.
+
+### Statistics for Financial Risk Management
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Elements of Financial Risk Management*** by Peter F. Christoffersen
+</div>
+</details>
+>This provides an introduction to financial risk management. Topics include how to measure market risks, statistical properties of returns and volatility, volatility modeling, Value at Risk (VaR), Risk Metrics, historical simulation, assessing VaR methods and stress testing. Theories will be illustrated by practical examples in financial markets.
+
+### Time Series Analysis and Forecasting
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Elements of Financial Risk Management*** by Peter F. Christoffersen
+</div>
+</details>
+>Review of regression and its application to forecasting problems; moving averages, exponential smoothing, Box-Jenkins, ARIMA models and transfer function models; forecasts of economic, financial and business time series.
+
+## Undergraduate Management
+### Business Ethics and the Individual
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Blind Spots: Why We Fail to Do What’s Right and What to Do About It*** by Max Bazerman and Ann Tenbrunsel
+</div>
+</details>
+>This presents and exemplifies three major traditions of ethical thought in East and West moral philosophy - namely utilitarianism, principle-based ethics and virtue-based ethics. Employing guest speakers, lectures, cases, contemporary readings, role-plays, fieldwork, reflective student writing, and discussion groups, the course engages students in a serious consideration of their own ethical standards as applied to their present academic environment and their future careers. Students come to understand through this course that while an ethical dilemma may be viewed in various ways depending on one's guiding assumptions, a decision and course of action nevertheless must be chosen in harmony with one's own moral convictions.
+
+### Business Ethics and Social Responsibility
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Business and Society: Stakeholders, Ethics, Public Policy*** by Lawrence, Anne T. and James Weber
+</div>
+</details>
+>This intermediate business ethics addresses issues of responsible decision-making at the business  level from a stakeholder management perspective.The key purpose of this is to raise awareness and understanding of a select set of complex and challenging ethical and social issues confronting the business leaders of today and tomorrow.Ultimately, this will encourage you to become positive influences in your personal and professional lives.
+
+## Undergraduate Risk Management and Business Intelligence
+### Data Analytics with R
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***R and Data Mining: Examples and Case Studies*** by Yanchang Zhao
+</div>
+</details>
+>This provides a hands-on introduction to R as a programming language and environment for data analytics and visualization. It will cover the basic syntax including functions and flow control, some commonly used data structures such as vectors, lists, matrices and data frames, as well as data importing and visualization in R. The course will also introduce a few primary data cleaning techniques in dealing with missing values, duplicates and inconsistency, and means to implement simple data transformation and normalization with R. Classic data mining models and the corresponding packages in R will also be presented, with the focus on model fine tuning and parameter calibration for practical applications.
+
+### Practicing Risk Management using Case Studies
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Risk Management and Financial Institutions*** by John C, Hull
+</div>
+</details>
+>This will examine various types of risks that many business enterprises face nowadays; for example, financial markets risks can be further divided into equity risk, foreign exchange risk, credit risk, interest rate risk and commodity risk. In addition, other non-financial risk factors such as operational risk, reputational risk, catastrophe risk (earthquake/typhoon), geopolitical risk, cybersecurity risk, counterparty risk and liquidity risk will also be discussed.
+
+### Introduction to Risk Management and Business Intelligence
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Risk Management and Financial Institutions*** by John C, Hull
+</div>
+</details>
+>This presents basic concepts and techniques for risk management and business intelligence. Various types of risk such as market risk, credit risk and operational risk are discussed with business applications and regulatory issues. Modern development of business intelligence, data management techniques and related applications like financial analysis, risk assessment, customer relationship management and human capital productivity analysis are also presented.
+
+### Life Contingencies Models and Insurance Risk
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Study Guide for the Society of Actuaries Exam LTAM*** by S. Broverman
+</div>
+</details>
+>The topics discussed in this course include survival models, life tables and selection, insurance benefits, annuities, premium calculation, and insurance policy values.
+
+### Advanced Data Mining for Risk Management and Business Intelligence
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Introduction to Data Mining*** by Pang-Ning Tan, Michael Steinbach and Vipin Kumar
+</div>
+</details>
+>Data mining is a process of extracting implicit, previously unknown, and potentially useful knowledge from data, and it is a critical task in many applications. This course will place emphasis on applications of data mining on areas such as business intelligence, which aims to uncover facts and patterns in large volumes of data for decision support. Application areas also include many other areas in science and engineering applications. This course builds on basic knowledge gained in the introductory data-mining, and explores how to more effectively mine large volumes of realworld data and to tap into large quantities of data. It will introduce new algorithms that can more effectively find hidden and profitable data patterns and knowledge. Working on real world data sets, students will experience all steps of a data-mining project. 
+
+## Undergraduate Mathematics
+### Applied Statistics
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Probability and Statistics for Engineers and Scientists*** by Ronald E. Walpole, Raymond H. Myers, Sharon L. Myers and Keying Ye. 
+</div>
+</details>
+>A systematic introduction to statistical inference, including the necessary probabilistic background, point and interval estimation, hypothesis testing.
 
 #### Reference
 
