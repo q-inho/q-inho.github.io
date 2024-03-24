@@ -11,7 +11,7 @@ toc: false
 toc_sticky: false
  
 date: 2022-09-18
-last_modified_at: 2022-09-21
+last_modified_at: 2024-03-25
 ---
 
 # My Roadmap for Computer Science
@@ -327,6 +327,15 @@ last_modified_at: 2022-09-21
 >Fundamentals of machine learning. Concept learning. Evaluating hypotheses. Supervised learning, unsupervised learning and reinforcement learning. Bayesian learning. Ensemble Methods. Deep learning.
 
 ## Introduction to Natural Language Processing
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Speech and Language Processing*** by Daniel Jurafsky and James H. Martin
+- ***Natural Language Processing: A Textbook with Python Implementation*** by Lee, Raymond ST
+- ***Foundations of statistical natural language processing*** by Manning, Christopher, and Hinrich Schutze
+- ***Speech & language processing*** by Jurafsky, Dan
+</div>
+</details>
 >Human language technology for text and spoken language. Machine learning, syntactic parsing, semantic interpretation, and context-based approaches to machine translation, text mining, and web search.
 
 ## Machine Learning with Structured Data
