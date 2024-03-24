@@ -11,7 +11,7 @@ toc: false
 toc_sticky: false
  
 date: 2022-09-30
-last_modified_at: 2024-01-17
+last_modified_at: 2024-03-25
 ---
 
 # My Roadmap for Industrial Engineering
@@ -199,6 +199,14 @@ last_modified_at: 2024-01-17
 >This is a systematic introduction to statistics for engineering, including descriptive statistics, point and interval estimation, hypothesis testing and linear regression analysis. In addition to theories, students will be taught a statistical language (R or Python) and have hands on experience of processing and analyzing data.
 
 ## Prescriptive Analytics
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Introduction to Operations Research*** by F.S. Hillier and G.J. Lieberman
+- ***Data, Models, and Decisions. The Fundamentals of Management Science*** by D. Bertsimas and R.M. Freund
+- ***Learning Python: Powerful Object-Oriented Programming*** by M. Lutz
+</div>
+</details>
 >Introduction to optimization methods. Topics include linear programming, integer programming, nonlinear programming, decision-making under uncertainty, and sequential decision-making. Software packages are used to solve data-driven decision-making problems in engineering and business.
 
 ## Ergonomics and Safety Management
