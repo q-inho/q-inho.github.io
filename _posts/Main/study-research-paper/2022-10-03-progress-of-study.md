@@ -78,11 +78,16 @@ last_modified_at: 2023-07-13
 |PHYS 3071|Introduction to Stellar Astrophysics|Dr. Yee Fai NG||
 |PHYS 3142|Computational Methods in Physics|Prof. Junwei LIU||
 |PHYS 3152|Methods of Experimental Physics I|Prof. Yilong HAN||
+|PHYS 3153|Methods of Experimental Physics II|Prof. Ophelia Kwan Chui TSUI||
 |PHYS 4050|Thermodynamics and Statistical Physics|Dr. Sai Kit CHEUNG||
 |PHYS 4051|Quantum Mechanics II|Prof. Kam Tuen LAW||
 |PHYS 4811|Contemporary Applications of Physics: Machine Learning in Physics|Prof. Tao LIU||
 |PHYS 4812|Contemporary Applications of Physics: Quantum Information Technology|Prof. Gyu Boong JO||
 |PHYS 5170|Solid State Physics I|Prof. Kam Tuen LAW||
+|PHYS 5260|Advanced quantum Mechanics|Prof. Xueyang SONG||
+|PHYS 5340|Introduction to Quantum Many-body Theory|Prof. Hoi Chun PO||
+|PHYS 5520|Introduction to Quantum Field Theory|Prof. Tao LIU||
+|PHYS 5820|Diffraction and Imaging Techniques in Materials Science|Prof. Ning WANG||
 |PHYS 6810F|Modern AMO (Atomic Molecular Optical) Physics with Atoms and Photons|Prof. Gyu Boong JO||
 | |<span style="color:darkorange;font-weight:bold;">**Mathematics**</span>| | |
 |MATH 2023|Multivariable Calculus|Dr. Kam Hang Henry CHENG||
@@ -116,101 +121,3 @@ last_modified_at: 2023-07-13
 ## Summer School
 
 ## MOOC
-
-
-
-# Book
-## Quantum Information
-- ***Machine Learning with Quantum Computers*** by Maria Schuld and Francesco Petruccione  <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
-- ***Quantum Computation and Quantum Information*** by Michael A. Nielsen and Isaac L. Chuang  <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
-
-## Chemistry
-
-- ***Atkin's Physical Chemistry*** by Peter Atkins, Julio de Paula & James Keeler <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
-- ***Mathematics for Physical Chemistry*** by Robert G. Mortimer <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
-
-## Physics
-- ***Introduction to Quantum Mechanics*** by David J. Griffiths and Darrell F. Schroeter <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
-- ***Molecular Electronic-Structure Theory*** by T. Helgaker, P. Jorgensen, and J. Olsen <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
-- ***Quantum Theory of the Electron Liquid*** by Gabriel F. Giuliani and Giovanni Vignale <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
-
-## Electronic Engineering
-- ***Signals and Systems*** by Alan V. Oppenheim, Alan S. Willsky, S. Hamid Nawab <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
-
-
-# Papers
-## Quantum Information
-### Quantum communication
-
-### Quantum computation
-#### General
-
-#### Error mitigation
-- van den Berg, E., Minev, Z. K. &amp; Temme, K. ***Model-free readout-error mitigation for quantum expectation values***. [Physical Review A 105, (2022). ](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.032620) <a href="https://q-inho.github.io/study/research/paper/Mitigating-readout-error-model-free-approach/"> <img src="https://img.shields.io/badge/-Review%20Blog-181717?logo=GitHub"> </a> 
-
-#### Quantum Machine learning
-- Biamonte, J. et al. **Quantum Machine Learning**. [Nature 549, 195–202 (2017). ](https://www.nature.com/articles/nature23474)<a href="https://q-inho.github.io/brief%20review/Quantum-Machine-Learning/"> <img src="https://img.shields.io/badge/-Brief%20Review%20Blog-blue?logo=GitHub"> </a>
-
-- Farhi, E. & Neven, H. **Classification with quantum neural networks on near term processors** [(2018).](https://arxiv.org/abs/1802.06002)<a href="https://q-inho.github.io/brief%20review/Classification-With-Quantum-Neural-Networks-on-Near-Term-Processors/"> <img src="https://img.shields.io/badge/-Brief%20Review%20Blog-blue?logo=GitHub"> </a>
-
-- Havlíček, V. et al. **Supervised learning with quantum-enhanced feature spaces.** [Nature 567, 209–212 (2019). ](https://www.nature.com/articles/s41586-019-0980-2)<a href="https://q-inho.github.io/brief%20review/Supervised-Learning-with-Quantum-enhanced-Feature-Spaces/"> <img src="https://img.shields.io/badge/-Brief%20Review%20Blog-blue?logo=GitHub"> </a>
-
-#### NV center
-- Abobeih, M. H. et al. **Atomic-scale imaging of a 27-nuclear-spin cluster using a quantum sensor**. [Nature 576, 411–415 (2019). ](https://www.nature.com/articles/s41586-019-1834-7)<a href="https://q-inho.github.io/brief%20review/Atomic-scale-Imaging-of-a-27-nuclear-spin-Cluster-Using-a-Quantum-Sensor/"> <img src="https://img.shields.io/badge/-Brief%20Review%20Blog-blue?logo=GitHub"> </a>
-
-#### Quantum algorithms
-- Cerezo, M. et al. **Variational quantum algorithms**. [Nature Reviews Physics 3, 625–644 (2021). ](https://www.nature.com/articles/s42254-021-00348-9)<a href="https://q-inho.github.io/brief%20review/Variational-Quantum-Algorithms/"> <img src="https://img.shields.io/badge/-Brief%20Review%20Blog-blue?logo=GitHub"> </a>
-
-- Ebadi, S. et al. **Quantum optimization of maximum independent set using Rydberg atom arrays**. [Science 376, 1209–1215 (2022). ](https://www.science.org/doi/10.1126/science.abo6587)<a href="https://q-inho.github.io/brief%20review/Quantum-Optimization-of-Maximum-Independent-Set-Using-Rydberg-Atom-Arrays/"> <img src="https://img.shields.io/badge/-Brief%20Review%20Blog-blue?logo=GitHub"> </a>
-
-- Farhi, E., Goldstone, J. & Gutmann, S. **A quantum approximate optimization algorithm** [(2014). ](https://arxiv.org/abs/1411.4028)<a href="https://q-inho.github.io/brief%20review/A-Quantum-Approximate-Optimization-Algorithm/"> <img src="https://img.shields.io/badge/-Brief%20Review%20Blog-blue?logo=GitHub"> </a>
-
-- Liu, J., Wilde, F., Mele, A. A., Jiang, L. & Eisert, J. **Stochastic noise can be helpful for variational quantum algorithms** [(2022).](https://arxiv.org/abs/2210.06723)
-
-- McArdle, S., Endo, S., Aspuru-Guzik, A., Benjamin, S. C. &amp; Yuan, X. **Quantum computational chemistry**. [Reviews of Modern Physics 92, (2020). ](https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.92.015003)<a href="https://q-inho.github.io/brief%20review/Quantum-Computational-Chemistry/"> <img src="https://img.shields.io/badge/-Brief%20Review%20Blog-blue?logo=GitHub"> </a>
-
-- McClean, J. R., Romero, J., Babbush, R. &amp; Aspuru-Guzik, A. **The theory of variational hybrid quantum-classical algorithms**. [New Journal of Physics 18, 023023 (2016). ](https://iopscience.iop.org/article/10.1088/1367-2630/18/2/023023)<a href="https://q-inho.github.io/brief%20review/The-Theory-of-Variational-Hybrid-Quantum-Classical-Algorithms/"> <img src="https://img.shields.io/badge/-Brief%20Review%20Blog-blue?logo=GitHub"> </a>
-
-- Peruzzo, A. et al. **A variational eigenvalue solver on a photonic quantum processor**. [Nature Communications 5, (2014). ](https://www.nature.com/articles/ncomms5213) <a href="https://q-inho.github.io/brief%20review/A-Variational-Eigenvalue-Solver-on-a-Photonic-Quantum-Processor/"> <img src="https://img.shields.io/badge/-Brief%20Review%20Blog-blue?logo=GitHub"> </a>
-
-#### Quantum gates
-
-### Quantum correlations in quantum information
-
-### Quantum information processing
-
-### Quantum metrology
-
-### Quantum optics
-
-### Quantum protocols
-
-### Quantum simulation
-
-### Quantum theory
-
-### Topological phase of matter
-- Tantivasadakarn, N., Verresen, R. &amp; Vishwanath, A. ***Shortest route to non-abelian topological order on a quantum processor***. [Physical Review Letters 131, (2023). ](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.131.060405)
-
-### Two-level models
-
-### In progress
-- Harrow, A. W. &amp; Montanaro, A. ***Quantum computational supremacy***. [Nature 549, 203–209 (2017). ](https://www.nature.com/articles/nature23458) <img src="https://img.shields.io/badge/-In%20Progress-yellow"/>
-
-
-## Physics
-### Particles & Fields 
-
-### Topological Materials
-
-## Computer Science
-### Deep Learning
-- LeCun, Y., Bengio, Y. &amp; Hinton, G. ***Deep learning***. [Nature 521, 436–444 (2015). ](https://www.nature.com/articles/nature14539) <a href="https://q-inho.github.io/brief%20review/Deep-learning/"> <img src="https://img.shields.io/badge/-Brief%20Review%20Blog-blue?logo=GitHub"> </a>
-
-### Natural Language Processing
-- Brown, T. et al. **Language models are few-shot learners**. [Adv. Neur. Inf. Process Sys. 33, 1877–1901 (2020).](https://dl.acm.org/doi/abs/10.5555/3495724.3495883) <a href="https://q-inho.github.io/brief%20review/Language-Models-are-Few-Shot-Learners/"> <img src="https://img.shields.io/badge/-Brief%20Review%20Blog-blue?logo=GitHub"> </a>
-
-- Lewkowycz, A. et al. **Solving quantitative reasoning problems with language models** [(2022).](https://arxiv.org/abs/2206.14858)<a href="https://q-inho.github.io/brief%20review/Solving-Quantitative-Reasoning-Problems-with-Language-Models/"> <img src="https://img.shields.io/badge/-Brief%20Review%20Blog-blue?logo=GitHub"> </a>
-
-### Carbon Emission
-- Patterson, D. et al. **Carbon emissions and large neural network training** [(2021).](https://arxiv.org/abs/2104.10350)<a href="https://q-inho.github.io/brief%20review/Solving-Quantitative-Reasoning-Problems-with-Language-Models/"> <img src="https://img.shields.io/badge/-Brief%20Review%20Blog-blue?logo=GitHub"> </a>
