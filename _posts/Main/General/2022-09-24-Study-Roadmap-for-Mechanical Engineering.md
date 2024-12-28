@@ -437,6 +437,12 @@ last_modified_at: 2022-10-23
 >Basic concepts of finite element methods, element equations for basic structural elements, implementation and application of FEMs in 1-D and 2-D structural analysis and heat conduction.
 
 ## Introduction to Robotics
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Introduction to Robotics*** by John J. Craig
+</div>
+</details>
 >Rigid body motion, forward and inverse kinematics, manipulator Jacobians, force relation, dynamics and position control robot manipulators, force control and trajectory generation, collision avoidance and motion planning, robot programming languages.
 
 ## Introduction to Precision Engineering

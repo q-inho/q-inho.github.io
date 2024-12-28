@@ -310,9 +310,22 @@ last_modified_at: 2024-01-16
 >Modern portfolio theory started with Harry Markowitz's 1952 seminal paper "Portfolio Selection." He put forth the idea that risk-adverse investors should optimize their portfolio based on a combination of two objectives: expected return and risk. Until today, that idea has remained central in portfolio optimization. However, the vanilla Markowitz portfolio formulation does not seem to behave as expected in practice and most practitioners tend to avoid it. During the past half century, researchers and practitioners have reconsidered the Markowitz portfolio formulation and have proposed countless of improvements and alternatives such as robust optimization methods, alternative measures of risk, regularization via sparsity, improved estimators of the covariance matrix, robust estimators for heavy tails, factor models, volatility clustering models, risk-parity formulations, index tracking, etc. This course will explore the Markowitz portfolio optimization in its many variations and extensions, with special emphasis on Python programming.
 
 ## System Modeling, Analysis and Control
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Introduction to Feedback Control*** by L. Qiu and K. Zhou
+</div>
+</details>
 >This course introduces basic concepts, tools and techniques for modeling, analysis, and control of dynamical systems. The course starts from the use of differential equations to model continuous time systems. Examples from a variety of Electronic and Computer Engineering disciplines will be given to illustrate the modeling process. Then, basic tools needed for analyzing the behavior of dynamical systems will be presented. Finally, techniques for controlling their behavior will be introduced. Throughout the course, laboratory experiments demonstrating the use of these analysis/design tools will be included.
 
 ## Machine Learning and Information Processing for Robotics
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Introduction to autonomous mobile robots*** by Siegwart, Roland, Illah Reza Nourbakhsh, and Davide Scaramuzza
+- ***Probabilistic robotics***, by Thrun, and Sebastian
+</div>
+</details>
 >The course is to introduce the basic concepts of information processing techniques used in robotics. Course content include Bayes theory, hidden Markov model, localization and mapping, kernel methods for regression, Gaussian process, classification, support-vector machine (SVM); common sensors, software platform and algorithms used in robotics research.
 
 ## Introduction to Embedded Systems
@@ -352,6 +365,13 @@ last_modified_at: 2024-01-16
 >In the lectures, the following topics will be covered: time-domain and frequency-domain system modeling and analysis, optimal control, robust control, computer aided control designs, digital control. In the experiments, the students will be asked to design and implement controllers for a magnetic suspension system, an inverted pendulum system, and a tower crane system.
 
 ## Introduction to Robotics: From Mobile Robots to Manipulators
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Robotics and Control: Fundamental Algorithms in MATLAB*** by Peter Corke
+- ***Introduction to Robotics: Mechanics, Planning, and Control***, by F.C. Park and K.M. Lynch
+</div>
+</details>
 >This course introduces basic building blocks of robots: actuators (DC and servo motors), sensors (proprioceptive/exteroceptive, passive/active); controller platforms as well as mechanical modules; and basic concepts of robotics: rigid motion and configuration space, kinematics, dynamics, trajectory generation and planning, locomotion, localization and mapping, navigation and control. Using these basic building blocks and robotic concepts, students will learn how to design and build a robot prototype that meets certain design specifications. Design examples include a mobile robot to engage in a competition, a robotic manipulator in a typical assembly task, an unmanned aerial vehicle (UAV) in a surveillance application, etc.
 
 ## Deep Learning for Natural Language Processing
@@ -445,6 +465,12 @@ last_modified_at: 2024-01-16
 >Human language technology for text and spoken language. Machine learning, syntactic parsing, semantic interpretation, and context-based approaches to machine translation, text mining, and web search.
 
 ## Statics and Dynamics
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Vector Mechanics for Engineers: Statics and Dynamics*** by Beer, Johnson, Mazurek, Cornwell, and Self
+</div>
+</details>
 >Fundamental course on the analysis of the equilibrium and dynamic behavior of mechanical systems. Statics: equilibrium of particles and of rigid bodies; distributed forces; analysis of structures, including, trusses, frames, cables and beams. Dynamics: kinematics of particles; kinetics of particles, Newton's second law, energy, momenta, impact dynamics; systems of particles; kinematics of rigid bodies; kinetics of rigid bodies in two and three dimensions. 
 
 ## Thermodynamics
@@ -466,6 +492,12 @@ last_modified_at: 2024-01-16
 >This course's aim is to broaden the professional and engineering interests of students by enhancing their practicum/team-based experience through initiatives different from those of traditional lectures and tutorials. This is a project-based course to develop the students' knowledge/experience in designing and building a practical mechatronics system (formerly called Industrial Training). Students will work in teams to identify the needs for their designed prototype. Also, students will be given the opportunity to design and build various mechatronics components including electronic circuits, motors, sensors, etc. from CAD drawings, and practise their engineering knowledge through all laboratory sessions. The main goal is to develop and nurture skills in problem-solving, communication, interpersonal interaction, project and time management, etc. via the entire project.
 
 ## Introduction to Robotics
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Introduction to Robotics*** by John J. Craig
+</div>
+</details>
 >Rigid body motion, forward and inverse kinematics, manipulator Jacobians, force relation, dynamics and position control robot manipulators, force control and trajectory generation, collision avoidance and motion planning, robot programming languages.
 
 ## Introduction to the Design & Implementation of Micro-Systems
