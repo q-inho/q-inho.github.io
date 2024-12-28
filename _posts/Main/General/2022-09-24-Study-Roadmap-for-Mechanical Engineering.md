@@ -509,7 +509,7 @@ last_modified_at: 2022-10-23
 >Methods and tools for planning, designing, implementing, validating, and maintaining large software systems. Project work to build a software system as a team, using appropriate software engineering tools and techniques.
 
 ## Operating Systems
-><details>
+<details>
 <summary>Study material</summary>
 <div markdown="1">
 - ***Operating System Concepts*** by Abraham Silberschatz, Peter Baer Galvin, Greg Gagne
