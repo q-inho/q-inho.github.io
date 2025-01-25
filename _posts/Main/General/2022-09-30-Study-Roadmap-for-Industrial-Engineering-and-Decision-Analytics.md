@@ -11,7 +11,7 @@ toc: false
 toc_sticky: false
  
 date: 2022-09-30
-last_modified_at: 2024-03-25
+last_modified_at: 2025-01-26
 ---
 
 # My Roadmap for Industrial Engineering
@@ -219,6 +219,7 @@ last_modified_at: 2024-03-25
 <details>
 <summary>Study material</summary>
 <div markdown="1">
+- ***Portfolio Optimization: Theory and Application*** by Daniel P. Palomar
 - ***A Signal Processing Perspective on Financial Engineering*** by Yiyong Feng and Daniel P. Palomar
 - ***Optimization Methods for Financial Index Tracking: From Theory to Practice. Foundations and Trends® in Optimization*** by Konstantinos Benidis, Yiyong Feng, and Daniel P. Palomar
 - ***Convex Optimization*** by S. Boyd and L. Vandenberghe
@@ -250,6 +251,12 @@ last_modified_at: 2024-03-25
 >Control charts and statistical on-line quality control methods, off-line quality control and parameter design, modern quality philosophy and Taguchi method.
 
 ## Industrial Data Systems
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Fundamentals of Database Systems*** by R. Elmasri and S. B. Navathe
+</div>
+</details>
 >Fundamental concepts on database, network, object-oriented methodology, and system integration; design and development of database systems for productions (e.g. MRP), manufacturing (e.g. CAPP), and management (e.g. BPR).
 
 ## E-Commerce Technology and Applications
@@ -272,15 +279,35 @@ last_modified_at: 2024-03-25
 >This course will introduce students to an array of tools to efficiently manage supply and demand networks. Topics include service and inventory trade offs, stock allocation, pricing, markdown management and contracts, timely product distribution to market while avoiding excess inventory, allocating adequate resources to the most profitable products and selling the right product to the right customer at the right price and at the right time.
 
 ## Predictive Analytics
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Machine Learning*** by Zhi-Hua Zhou.
+- ***The Elements of Statistical Learning*** by Trevor Hastie, Robert Tibshirani, and Jerome
+Friedman.
+</div>
+</details>
 >This course focuses on how companies identify, evaluate, and capture decision analytic opportunities to create value. Basic analytic methods as well as real corporate cases studies will be covered. The analytical methods include ways to use data to develop insights and predictive capabilities using machine learning, data mining, and forecasting techniques. Some aspects of the use of optimization methods to support decision-making in the presence of a large number of alternatives and business constraints will be covered. The concepts learned in this class should help students identify opportunities in which decision analytics can be used to improve performance and support important decisions.
 
 ## Transportation Systems
 >Introduction to transportation systems; characteristics of transportation models; traffic flow fundamentals; transportation economics; traffic demand forecasting including trip generation, trip distribution, modal split and trip assignment; interface between transportation systems and logistics planning/operations.
 
 ## Integrated Production Systems
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Production and Operations Analysis*** by Steven Nahmias.
+</div>
+</details>
 >Basic concepts and techniques in design and operational control of integrated production systems, including MRP, JIT, forecasting, production planning, inventory control, and shop floor control and scheduling.
 
 ## System Simulation
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Simulation*** by Sheldon Ross.
+</div>
+</details>
 >Basic concepts and algorithm of discrete-event simulation, generation of random variates, modeling input distributions, statistical analysis of simulation outputs, verification and validation of simulation models, comparisons and optimization via simulation, simple spreadsheet simulation, intermediate modeling and analysis with a commercial simulation package.
 
 ## Service Engineering and Management
@@ -293,6 +320,7 @@ last_modified_at: 2024-03-25
 <details>
 <summary>Study material</summary>
 <div markdown="1">
+- ***Options, Futures, and Other Derivatives*** by John Hull
 - ***Stochastic Calculus for Finance I: The Binomial Asset Pricing Model*** by S. Shreve
 - ***Stochastic Calculus for Finance II: Continuous-Time Models*** by S. Shreve
 </div>
@@ -328,7 +356,8 @@ last_modified_at: 2024-03-25
 <details>
 <summary>Study material</summary>
 <div markdown="1">
-- ***Options, Futures and other Derivatives*** by Hull, J
+- ***Monte Carlo Methods in Financial Engineering*** by Paul Glasserman
+- ***Statistical Learning*** by Gareth James, Daniela Witten, Trevor Hastie, and Robert Tibshirani
 </div>
 </details>
 >The course aims to introduce various important numerical methods that have been widely applied in financial engineering. More specifically, the topics consist primarily of lattice methods, Monte Carlo simulation, and finite difference methods. Furthermore, broad applications of these numerical methods in financial engineering are also covered.
