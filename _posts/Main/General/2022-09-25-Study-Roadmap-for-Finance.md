@@ -799,6 +799,15 @@ last_modified_at: 2024-03-24
 </details>
 >Theory of national income determination and business fluctuation; monetary and fiscal policies; selected topics in macroeconomic policies and open economy macroeconomics.
 
+### Introduction to Econometrics
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Introduction to Econometrics*** by Stock, James and Mark Watson
+</div>
+</details>
+>Topics on the use of statistical regression techniques in modeling and estimating economic and business relationships. Both theoretical and applied aspects are addressed.
+
 ## Undergraduate Information System
 ### Introduction to Information Systems
 <details>
@@ -893,6 +902,17 @@ last_modified_at: 2024-03-24
 </div>
 </details>
 >Review of regression and its application to forecasting problems; moving averages, exponential smoothing, Box-Jenkins, ARIMA models and transfer function models; forecasts of economic, financial and business time series.
+
+### Financial Service Operations Management
+<details>
+<summary>Study material</summary>
+<div markdown="1">
+- ***Options, Futures, and Other Derivatives*** by J. C. Hull
+- ***Investment Science*** by David G. Luenberger
+- ***The Elements of Statistical Learning*** by Trevor Hastie, Jerome Friedman, and Robert Tibshirani
+</div>
+</details>
+>This course focuses on the products, processes and delivery channels in the financial industries. It analyzes and evaluates the designs and performances of the internal operations and the different distribution channels of the financial institutions, and identifies opportunities for continuous improvement in productivity, efficiency and service quality. Issues like operational risk management, application of IT, automation, outsourcing and new trends in the financial service operations for both financial institutions and non-financial institutions will be explored.
 
 ## Undergraduate Management
 ### Business Ethics and the Individual
